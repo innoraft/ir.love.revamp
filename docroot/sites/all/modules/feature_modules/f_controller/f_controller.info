@@ -5,6 +5,7 @@ package = IR Features
 version = 7.x-1.0
 project = f_controller
 dependencies[] = admin_menu_toolbar
+dependencies[] = diff
 dependencies[] = f_home_page_layout
 dependencies[] = features
 dependencies[] = module_filter
