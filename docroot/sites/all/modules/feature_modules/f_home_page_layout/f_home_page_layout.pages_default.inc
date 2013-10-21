@@ -72,7 +72,7 @@ function f_home_page_layout_default_page_manager_pages() {
           0 => 'center',
         ),
         'parent' => 'main',
-        'class' => 'ir-main-idea',
+        'class' => 'pane-main-idea',
       ),
       'center' => array(
         'type' => 'region',
@@ -80,7 +80,7 @@ function f_home_page_layout_default_page_manager_pages() {
         'width' => 100,
         'width_type' => '%',
         'parent' => 'main-row',
-        'class' => 'ir-main-idea-commitment',
+        'class' => 'region-ir-main-idea idea-dedication',
       ),
       1 => array(
         'type' => 'row',
@@ -89,7 +89,7 @@ function f_home_page_layout_default_page_manager_pages() {
           0 => '_none_',
         ),
         'parent' => 'main',
-        'class' => 'ir-main-idea',
+        'class' => 'pane-main-idea',
       ),
       '_none_' => array(
         'type' => 'region',
@@ -97,7 +97,7 @@ function f_home_page_layout_default_page_manager_pages() {
         'width' => 100,
         'width_type' => '%',
         'parent' => '1',
-        'class' => 'ir-main-idea-love',
+        'class' => 'region-ir-main-idea idea-love',
       ),
       2 => array(
         'type' => 'row',
@@ -106,7 +106,7 @@ function f_home_page_layout_default_page_manager_pages() {
           0 => 'bottom_main_idea',
         ),
         'parent' => 'main',
-        'class' => 'ir-main-idea',
+        'class' => 'pane-main-idea',
       ),
       'bottom_main_idea' => array(
         'type' => 'region',
@@ -114,7 +114,7 @@ function f_home_page_layout_default_page_manager_pages() {
         'width' => 100,
         'width_type' => '%',
         'parent' => '2',
-        'class' => 'ir-main-idea-tech',
+        'class' => 'region-ir-main-idea idea-tech',
       ),
     ),
   );
@@ -138,9 +138,9 @@ function f_home_page_layout_default_page_manager_pages() {
     $pane->shown = TRUE;
     $pane->access = array();
     $pane->configuration = array(
-      'admin_title' => 'Technology',
+      'admin_title' => 'Drupal',
       'title' => '',
-      'body' => 'Technology',
+      'body' => 'Drupal',
       'format' => 'filtered_html',
       'substitute' => TRUE,
     );
@@ -148,7 +148,10 @@ function f_home_page_layout_default_page_manager_pages() {
     $pane->style = array(
       'settings' => NULL,
     );
-    $pane->css = array();
+    $pane->css = array(
+      'css_id' => 'ir-main-idea-tech',
+      'css_class' => 'ir-main-idea',
+    );
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
@@ -162,9 +165,9 @@ function f_home_page_layout_default_page_manager_pages() {
     $pane->shown = TRUE;
     $pane->access = array();
     $pane->configuration = array(
-      'admin_title' => 'Endeavour',
+      'admin_title' => 'Dedication',
       'title' => '',
-      'body' => 'Endeavour',
+      'body' => 'Dedication',
       'format' => 'filtered_html',
       'substitute' => TRUE,
     );
@@ -172,7 +175,10 @@ function f_home_page_layout_default_page_manager_pages() {
     $pane->style = array(
       'settings' => NULL,
     );
-    $pane->css = array();
+    $pane->css = array(
+      'css_id' => 'ir-main-idea-dedication',
+      'css_class' => 'ir-main-idea',
+    );
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
@@ -196,7 +202,10 @@ function f_home_page_layout_default_page_manager_pages() {
     $pane->style = array(
       'settings' => NULL,
     );
-    $pane->css = array();
+    $pane->css = array(
+      'css_id' => 'ir-main-idea-love',
+      'css_class' => 'ir-main-idea',
+    );
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
