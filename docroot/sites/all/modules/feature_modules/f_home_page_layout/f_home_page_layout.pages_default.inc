@@ -80,7 +80,7 @@ function f_home_page_layout_default_page_manager_pages() {
         'width' => 100,
         'width_type' => '%',
         'parent' => 'main-row',
-        'class' => 'region-ir-main-idea idea-dedication',
+        'class' => 'ir-main-idea ir-main-idea-dedication',
       ),
       1 => array(
         'type' => 'row',
@@ -97,7 +97,7 @@ function f_home_page_layout_default_page_manager_pages() {
         'width' => 100,
         'width_type' => '%',
         'parent' => '1',
-        'class' => 'region-ir-main-idea idea-love',
+        'class' => 'ir-main-idea ir-main-idea-love',
       ),
       2 => array(
         'type' => 'row',
@@ -114,7 +114,7 @@ function f_home_page_layout_default_page_manager_pages() {
         'width' => 100,
         'width_type' => '%',
         'parent' => '2',
-        'class' => 'region-ir-main-idea idea-tech',
+        'class' => 'ir-main-idea ir-main-idea-tech',
       ),
     ),
   );
@@ -149,8 +149,8 @@ function f_home_page_layout_default_page_manager_pages() {
       'settings' => NULL,
     );
     $pane->css = array(
-      'css_id' => 'ir-main-idea-tech',
-      'css_class' => 'ir-main-idea',
+      'css_id' => 'idea-tech',
+      'css_class' => 'content-ir-main-idea',
     );
     $pane->extras = array();
     $pane->position = 0;
@@ -176,8 +176,8 @@ function f_home_page_layout_default_page_manager_pages() {
       'settings' => NULL,
     );
     $pane->css = array(
-      'css_id' => 'ir-main-idea-dedication',
-      'css_class' => 'ir-main-idea',
+      'css_id' => 'idea-dedication',
+      'css_class' => 'content-ir-main-idea',
     );
     $pane->extras = array();
     $pane->position = 0;
@@ -203,8 +203,8 @@ function f_home_page_layout_default_page_manager_pages() {
       'settings' => NULL,
     );
     $pane->css = array(
-      'css_id' => 'ir-main-idea-love',
-      'css_class' => 'ir-main-idea',
+      'css_id' => 'idea-love',
+      'css_class' => 'content-ir-main-idea',
     );
     $pane->extras = array();
     $pane->position = 0;
