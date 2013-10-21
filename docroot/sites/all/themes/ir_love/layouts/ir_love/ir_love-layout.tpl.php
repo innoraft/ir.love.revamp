@@ -20,11 +20,11 @@
       <?php print render($page['branding']); ?>
     </div>
 
-    <?php print render($page['header']); ?>
+    <?php //print render($page['header']); ?>
     <?php //print render($page['navigation']); ?>
   </header>
 
-  <div class="l-main">
+  <div class="omega-content">
     <div class="l-content" role="main">
       <?php //print render($page['highlighted']); ?>
       <?php //print $breadcrumb; ?>
@@ -48,7 +48,7 @@
     <?php //print render($page['sidebar_second']); ?>
   </div>
 
-  <footer class="l-footer" role="contentinfo">
+  <footer class="omega-footer" role="contentinfo">
     <?php print render($page['footer']); ?>
   </footer>
 </div>
