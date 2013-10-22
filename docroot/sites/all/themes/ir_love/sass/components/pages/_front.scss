@@ -22,6 +22,10 @@
 				background: $image_background;
 				img {
 	  				//background: $image_background;
+	  				/*@media screen and (orientation: portrait) {
+	  				  height: 320px !important;
+	  				  width: 200px !important;
+	  				}*/
 				}
 			}			
 		}
