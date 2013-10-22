@@ -9,17 +9,22 @@
 }
 .ir-main-idea {
 	width:100%;
-	.content-ir-main-idea {
+	display:table;
+	.inside {
+		display:table-cell;
 		text-align: center;
-		//line-height:678px;
-		//height:100%;
-	}
-	#idea-dedication {
-	}
-	#idea-love {
-	}
-	#idea-tech {
-		
+		vertical-align: middle;
+		.content-ir-main-idea {
+			.main-idea-image-inner {
+				display:table;
+				margin: 0 auto;
+				padding: 5%;
+				background: $image_background;
+				img {
+	  				//background: $image_background;
+				}
+			}			
+		}
 	}
 }
 .ir-main-idea-love {

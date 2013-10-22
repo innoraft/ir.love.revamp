@@ -80,7 +80,7 @@ function f_home_page_layout_default_page_manager_pages() {
         'width' => 100,
         'width_type' => '%',
         'parent' => 'main-row',
-        'class' => 'ir-main-idea ir-main-idea-dedication',
+        'class' => 'ir-main-idea ir-main-idea-dedication middle-main-idea-container',
       ),
       1 => array(
         'type' => 'row',
@@ -97,7 +97,7 @@ function f_home_page_layout_default_page_manager_pages() {
         'width' => 100,
         'width_type' => '%',
         'parent' => '1',
-        'class' => 'ir-main-idea ir-main-idea-love',
+        'class' => 'ir-main-idea ir-main-idea-love top-main-idea-container',
       ),
       2 => array(
         'type' => 'row',
@@ -114,7 +114,7 @@ function f_home_page_layout_default_page_manager_pages() {
         'width' => 100,
         'width_type' => '%',
         'parent' => '2',
-        'class' => 'ir-main-idea ir-main-idea-tech',
+        'class' => 'ir-main-idea ir-main-idea-tech bottom-main-idea-containre',
       ),
     ),
   );
@@ -140,8 +140,11 @@ function f_home_page_layout_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'Drupal',
       'title' => '',
-      'body' => 'Drupal',
-      'format' => 'filtered_html',
+      'body' => '<div class="main-idea-image-container">
+<div class="main-idea-image-inner img-love"><img alt="" src="/sites/all/themes/ir_love/images/drupal.png" style="height:90px; width:104px" /></div>
+</div>
+',
+      'format' => 'full_html',
       'substitute' => TRUE,
     );
     $pane->cache = array();
@@ -150,7 +153,7 @@ function f_home_page_layout_default_page_manager_pages() {
     );
     $pane->css = array(
       'css_id' => 'idea-tech',
-      'css_class' => 'content-ir-main-idea',
+      'css_class' => 'content-ir-main-idea bottom-main-idea-container',
     );
     $pane->extras = array();
     $pane->position = 0;
@@ -167,8 +170,11 @@ function f_home_page_layout_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'Dedication',
       'title' => '',
-      'body' => 'Dedication',
-      'format' => 'filtered_html',
+      'body' => '<div class="main-idea-image-container">
+<div class="main-idea-image-inner img-love"><img alt="" src="/sites/all/themes/ir_love/images/index.png" style="height:90px; width:104px" /></div>
+</div>
+',
+      'format' => 'full_html',
       'substitute' => TRUE,
     );
     $pane->cache = array();
@@ -177,7 +183,7 @@ function f_home_page_layout_default_page_manager_pages() {
     );
     $pane->css = array(
       'css_id' => 'idea-dedication',
-      'css_class' => 'content-ir-main-idea',
+      'css_class' => 'content-ir-main-idea middle-main-idea-inner',
     );
     $pane->extras = array();
     $pane->position = 0;
@@ -194,8 +200,11 @@ function f_home_page_layout_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'Love',
       'title' => '<none>',
-      'body' => 'Love',
-      'format' => 'filtered_html',
+      'body' => '<div class="main-idea-image-container">
+<div class="main-idea-image-inner img-love"><img alt="" src="/sites/all/themes/ir_love/images/heart.png" style="height:90px; width:104px" /></div>
+</div>
+',
+      'format' => 'full_html',
       'substitute' => TRUE,
     );
     $pane->cache = array();
@@ -204,7 +213,7 @@ function f_home_page_layout_default_page_manager_pages() {
     );
     $pane->css = array(
       'css_id' => 'idea-love',
-      'css_class' => 'content-ir-main-idea',
+      'css_class' => 'content-ir-main-idea top-main-idea-inner',
     );
     $pane->extras = array();
     $pane->position = 0;
