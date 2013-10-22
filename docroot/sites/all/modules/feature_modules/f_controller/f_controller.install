@@ -18,3 +18,42 @@ function f_controller_install() {
 
   cache_clear_all();
 }
+
+/**
+ * Reverts specified features()
+ */
+function ir_feature_revert($modules) {
+	module_load_include('inc', 'features', 'features.export');
+  	features_include();
+
+  	foreach ($modules as $module) {
+	    if (($feature = feature_load($module, TRUE)) && module_exists($module)) {
+	      $components = array();
+	      // Forcefully revert all components of a feature.
+	      foreach (array_keys($feature->info['features']) as $component) {
+	        if (features_hook($component, 'features_revert')) {
+	          $components[] = $component;
+	        }
+	      }
+	    }
+	    foreach ($components as $component) {
+	      features_revert(array($module => array($component)));
+	    }
+    }
+}
+
+/**
+ * Implements hook_update_N().
+ * Revert all content-related features, necessary for using correct view mode.
+ * Enables ckeditor module.
+ */
+function f_controller_update_7001() {
+	ir_feature_revert(array('f_home_page_layout'));
+
+	if (!module_exists('ckeditor')) {
+    $modules_to_be_enabled = array('ckeditor');
+
+    // Enable modules and their dependencies.
+    module_enable($modules_to_be_enabled);
+  }
+}
