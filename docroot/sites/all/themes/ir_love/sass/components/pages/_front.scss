@@ -16,8 +16,12 @@
 		vertical-align: middle;
 		.content-ir-main-idea {
 			.main-idea-image-inner {
+				display:table;
+				margin: 0 auto;
+				padding: 5%;
+				background: $image_background;
 				img {
-	  				background: $image_background;
+	  				//background: $image_background;
 				}
 			}			
 		}
