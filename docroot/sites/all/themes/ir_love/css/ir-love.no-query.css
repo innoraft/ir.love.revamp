@@ -19,18 +19,21 @@ img, media {
     display: table-cell;
     text-align: center;
     vertical-align: middle; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\0000319}}
-    .ir-main-idea .inside .content-ir-main-idea .main-idea-image-inner img {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\0000318}}
+    .ir-main-idea .inside .content-ir-main-idea .main-idea-image-inner {
+      display: table;
+      margin: 0 auto;
+      padding: 5%;
       background: white; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\0000330}}
 .ir-main-idea-love {
   background: #7ee680; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\0000333}}
 .ir-main-idea-dedication {
   background: #f7a3d0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\0000336}}
 .ir-main-idea-tech {
   background: #f7f4a3; }
