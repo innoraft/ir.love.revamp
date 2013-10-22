@@ -1,0 +1,33 @@
+@import "susy";
+@import "variables/**/*";
+
+/* front main idea blocks*/
+.front {
+	.panels-flexible-row {
+	  padding:0px;
+	}
+}
+.ir-main-idea {
+	width:100%;
+	.content-ir-main-idea {
+		text-align: center;
+		//line-height:678px;
+		//height:100%;
+	}
+	#idea-dedication {
+	}
+	#idea-love {
+	}
+	#idea-tech {
+		
+	}
+}
+.ir-main-idea-love {
+	background: $bg_idea_love;
+}
+.ir-main-idea-dedication {
+	background: $bg_idea_dedication;
+}
+.ir-main-idea-tech {
+	background: $bg_idea_tech;
+}

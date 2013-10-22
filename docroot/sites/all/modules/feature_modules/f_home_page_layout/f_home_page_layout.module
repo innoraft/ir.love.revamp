@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Home Page Layout feature.
+ */
+
+include_once 'f_home_page_layout.features.inc';

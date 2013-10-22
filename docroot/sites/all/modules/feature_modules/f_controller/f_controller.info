@@ -1,0 +1,13 @@
+name = Controller Feature
+description = Controls database changes to be applied like what modules/features to turn on etc
+core = 7.x
+package = IR Features
+version = 7.x-1.0
+project = f_controller
+dependencies[] = admin_menu_toolbar
+dependencies[] = diff
+dependencies[] = f_home_page_layout
+dependencies[] = features
+dependencies[] = module_filter
+dependencies[] = strongarm
+features[features_api][] = api:2

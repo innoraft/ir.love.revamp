@@ -1,0 +1,130 @@
+/*******************************************************************************
+ * simple.layout.scss
+ *
+ * Styling of the "simple" layout demonstrating the Compass grid extension Susy
+ * and building mobile first layouts.
+ ******************************************************************************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/layouts\/ir_love\/ir_love\.layout\.scss}line{font-family:\0000328}}
+.front .l-page {
+  margin-top: -20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/layouts\/ir_love\/ir_love\.layout\.scss}line{font-family:\0000333}}
+.l-header,
+.l-main,
+.l-footer {
+  margin-bottom: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/layouts\/ir_love\/ir_love\.layout\.scss}line{font-family:\0000341}}
+.l-region--highlighted,
+.l-region--help,
+.l-region--sidebar-first,
+.l-region--sidebar-second {
+  margin-bottom: 20px; }
+
+@media (min-width: 44em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/layouts\/ir_love\/ir_love\.layout\.scss}line{font-family:\0000348}}
+  .l-header,
+  .l-main,
+  .l-footer {
+    max-width: 1190px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/layouts\/ir_love\/ir_love\.layout\.scss}line{font-family:\0000352}}
+  .l-branding {
+    width: 32.20339%;
+    float: left;
+    margin-right: 1.69492%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/layouts\/ir_love\/ir_love\.layout\.scss}line{font-family:\0000355}}
+  .l-region--header {
+    width: 66.10169%;
+    float: right;
+    margin-right: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/layouts\/ir_love\/ir_love\.layout\.scss}line{font-family:\0000358}}
+  .l-region--navigation {
+    clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/layouts\/ir_love\/ir_love\.layout\.scss}line{font-family:\0000365}}
+  .has-sidebar-first .l-content,
+  .has-sidebar-second .l-content,
+  .has-two-sidebars .l-content {
+    width: 66.10169%;
+    float: left;
+    margin-right: 1.69492%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/layouts\/ir_love\/ir_love\.layout\.scss}line{font-family:\0000369}}
+  .has-sidebar-first .l-region--sidebar-first,
+  .has-sidebar-first .l-region--sidebar-second,
+  .has-sidebar-second .l-region--sidebar-first,
+  .has-sidebar-second .l-region--sidebar-second,
+  .has-two-sidebars .l-region--sidebar-first,
+  .has-two-sidebars .l-region--sidebar-second {
+    width: 32.20339%;
+    float: right;
+    margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/layouts\/ir_love\/ir_love\.layout\.scss}line{font-family:\0000372}}
+  .has-sidebar-first .l-region--sidebar-second,
+  .has-sidebar-second .l-region--sidebar-second,
+  .has-two-sidebars .l-region--sidebar-second {
+    clear: right; } }
+@media (min-width: 70em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/layouts\/ir_love\/ir_love\.layout\.scss}line{font-family:\0000381}}
+  .l-header,
+  .l-main,
+  .l-footer {
+    max-width: 1190px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/layouts\/ir_love\/ir_love\.layout\.scss}line{font-family:\0000385}}
+  .l-branding {
+    width: 36.70886%;
+    float: left;
+    margin-right: 1.26582%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/layouts\/ir_love\/ir_love\.layout\.scss}line{font-family:\0000388}}
+  .l-region--header {
+    width: 62.02532%;
+    float: right;
+    margin-right: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/layouts\/ir_love\/ir_love\.layout\.scss}line{font-family:\0000393}}
+  .has-sidebar-first .l-content {
+    width: 74.68354%;
+    float: right;
+    margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/layouts\/ir_love\/ir_love\.layout\.scss}line{font-family:\0000396}}
+  .has-sidebar-first .l-region--sidebar-first {
+    width: 24.05063%;
+    float: left;
+    margin-right: 1.26582%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/layouts\/ir_love\/ir_love\.layout\.scss}line{font-family:\00003101}}
+  .has-sidebar-second .l-content {
+    width: 74.68354%;
+    float: left;
+    margin-right: 1.26582%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/layouts\/ir_love\/ir_love\.layout\.scss}line{font-family:\00003104}}
+  .has-sidebar-second .l-region--sidebar-second {
+    width: 24.05063%;
+    float: right;
+    margin-right: 0;
+    clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/layouts\/ir_love\/ir_love\.layout\.scss}line{font-family:\00003111}}
+  .has-two-sidebars .l-content {
+    width: 49.36709%;
+    float: left;
+    margin-right: 1.26582%;
+    margin-left: 25.31646%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/layouts\/ir_love\/ir_love\.layout\.scss}line{font-family:\00003116}}
+  .has-two-sidebars .l-region--sidebar-first,
+  .has-two-sidebars .l-region--sidebar-second {
+    width: 24.05063%;
+    float: left;
+    margin-right: 1.26582%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/layouts\/ir_love\/ir_love\.layout\.scss}line{font-family:\00003119}}
+  .has-two-sidebars .l-region--sidebar-first {
+    margin-left: -75.94937%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/layouts\/ir_love\/ir_love\.layout\.scss}line{font-family:\00003122}}
+  .has-two-sidebars .l-region--sidebar-second {
+    float: right;
+    margin-right: 0;
+    clear: none; } }
