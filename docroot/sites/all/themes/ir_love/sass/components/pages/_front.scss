@@ -1,42 +1,47 @@
 @import "susy";
 @import "variables/**/*";
 
-/* front main idea blocks*/
+/* front header site name - desk*/
 .front {
-	.panels-flexible-row {
-	  padding:0px;
-	}
-}
-.ir-main-idea {
-	width:100%;
-	display:table;
-	.inside {
-		display:table-cell;
-		text-align: center;
-		vertical-align: middle;
-		.content-ir-main-idea {
-			.main-idea-image-inner {
-				display:table;
-				margin: 0 auto;
-				padding: 5%;
-				background: $image_background;
-				img {
-	  				//background: $image_background;
-	  				/*@media screen and (orientation: portrait) {
-	  				  height: 320px !important;
-	  				  width: 200px !important;
-	  				}*/
+	@include at-breakpoint($desk) {
+		.l-branding {
+			padding: 4em 0;
+			.site-name {
+				clear:both;
+				width:99.9%;
+				background: $site_default_font_color;
+				a {
+					//background: $site_default_font_color;
+					font-size: 2em;
+					font-weight:normal;
+					//padding: 0.5% 5%;
+					text-transform:lowercase;
 				}
-			}			
+			}
+			.ir_custom_logo {
+				width:330px;
+				margin: 0 auto;
+				.ir-main-idea {
+					width:33.3%;
+					padding: 1em 0;
+					color: $foreground;
+					margin-bottom:1px;
+				}
+				#ir-drupal {
+					background: $bg_idea_drupal;
+				}
+				#ir-love {
+					background: $bg_idea_love;
+				}
+				#ir-dedication {
+					background: $bg_idea_dedication;
+				}
+			}
 		}
 	}
 }
-.ir-main-idea-love {
-	background: $bg_idea_love;
-}
-.ir-main-idea-dedication {
-	background: $bg_idea_dedication;
-}
-.ir-main-idea-tech {
-	background: $bg_idea_tech;
+
+/* front header default*/
+.ir-main-idea {
+	float:left;
 }
