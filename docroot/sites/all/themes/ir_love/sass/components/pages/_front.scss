@@ -2,8 +2,7 @@
 @import "variables/**/*";
 
 /* front header site name - desk*/
-.front {
-	@include at-breakpoint($desk) {
+@include at-breakpoint($desk) {
 		.l-branding {
 			padding: 4em 0;
 			.site-name {
@@ -38,7 +37,6 @@
 				}
 			}
 		}
-	}
 }
 
 /* front header default*/
