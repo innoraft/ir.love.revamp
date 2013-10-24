@@ -1,45 +1,103 @@
 /* Custom color variables*/
+/* Site Wide varaibles*/
 /* No files to import found in abstractions/**\/* */
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Cabin Regular"), local("Cabin-Regular"), url(http://themes.googleusercontent.com/static/fonts/cabin/v4/JEgmtEDzc-IH8jBshQXrYA.woff) format("woff"); }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/base\/_media\.scss}line{font-family:\000031}}
 img, media {
   max-width: 100%; }
 
 /* No files to import found in variables/**\/* */
-/* front main idea blocks*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\000036}}
-.front .panels-flexible-row {
-  padding: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/_navigation\.scss}line{font-family:\000037}}
+.l-top-nav #block-system-main-menu ul li {
+  list-style: none;
+  float: left;
+  margin-left: 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\0000310}}
-.ir-main-idea {
-  width: 100%;
-  display: table; }
+/* Menu theming for small screens*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/_navigation\.scss}line{font-family:\0000318}}
+.l-top-nav .responsive-menus.responsified {
+  background: none repeat scroll 0 0 #555555; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/_navigation\.scss}line{font-family:\0000320}}
+  .l-top-nav .responsive-menus.responsified span.toggler {
+    text-align: right;
+    background: none repeat scroll 0 0 #555555;
+    border-radius: 0;
+    box-shadow: none;
+    margin-right: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/_navigation\.scss}line{font-family:\0000328}}
+  .l-top-nav .responsive-menus.responsified.responsive-toggled.absolute .responsive-menus-simple {
+    background: none repeat scroll 0 0 #555555;
+    border-radius: 0;
+    box-shadow: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/_navigation\.scss}line{font-family:\0000336}}
+  .l-top-nav .responsive-menus.responsified .responsive-menus-simple ul li.leaf {
+    list-style: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/_navigation\.scss}line{font-family:\0000338}}
+    .l-top-nav .responsive-menus.responsified .responsive-menus-simple ul li.leaf a {
+      color: white;
+      text-decoration: none; }
+
+/* Small Screen Site name*/
+@media (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/_navigation\.scss}line{font-family:\0000351}}
+  .site-name a {
+    position: absolute;
+    top: 0;
+    left: 4px;
+    font-size: 70%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/_navigation\.scss}line{font-family:\0000358}}
+  .ir-custom-logo-icons {
+    position: absolute;
+    top: 5px;
+    margin-left: 7em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/_navigation\.scss}line{font-family:\0000363}}
+  .ir-main-idea {
+    color: white;
+    margin-right: 15px; } }
+/* No files to import found in variables/**\/* */
+/* front header site name - desk*/
+@media (min-width: 769px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\000037}}
+  .front .l-branding {
+    padding: 4em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\000039}}
+    .front .l-branding .site-name {
+      clear: both;
+      width: 99.9%;
+      background: #555555; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\0000313}}
-  .ir-main-idea .inside {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\0000318}}
-    .ir-main-idea .inside .content-ir-main-idea .main-idea-image-inner {
-      display: table;
-      margin: 0 auto;
-      padding: 5%;
-      background: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\0000323}}
-      .ir-main-idea .inside .content-ir-main-idea .main-idea-image-inner img {
-        /*@media screen and (orientation: portrait) {
-          height: 320px !important;
-          width: 200px !important;
-        }*/ }
+      .front .l-branding .site-name a {
+        font-size: 2em;
+        font-weight: normal;
+        text-transform: lowercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\0000321}}
+    .front .l-branding .ir_custom_logo {
+      width: 330px;
+      margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\0000324}}
+      .front .l-branding .ir_custom_logo .ir-main-idea {
+        width: 33.3%;
+        padding: 1em 0;
+        color: white;
+        margin-bottom: 1px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\0000330}}
+      .front .l-branding .ir_custom_logo #ir-drupal {
+        background: #2ca8c2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\0000333}}
+      .front .l-branding .ir_custom_logo #ir-love {
+        background: #eb5054; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\0000336}}
+      .front .l-branding .ir_custom_logo #ir-dedication {
+        background: #8ab845; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\0000334}}
-.ir-main-idea-love {
-  background: #7ee680; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\0000337}}
-.ir-main-idea-dedication {
-  background: #f7a3d0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\0000340}}
-.ir-main-idea-tech {
-  background: #f7f4a3; }
+/* front header default*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\0000345}}
+.ir-main-idea {
+  float: left; }
