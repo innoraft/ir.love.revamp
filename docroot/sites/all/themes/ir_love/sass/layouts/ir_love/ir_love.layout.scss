@@ -46,7 +46,7 @@ $desk: 70em 16; // At 70em use 16 columns.
   .l-header,
   .l-main,
   .l-footer {
-    @include set-container-width; // Reset only the container width (elements have already been declared as containers).
+    //@include set-container-width; // Reset only the container width (elements have already been declared as containers).
   }
 
   .l-branding {
@@ -79,7 +79,8 @@ $desk: 70em 16; // At 70em use 16 columns.
   .l-header,
   .l-main,
   .l-footer {
-    @include set-container-width; // Reset only the container width (elements have already been declared as containers).
+    //@include set-container-width; // Reset only the container width (elements have already been declared as containers).
+    clear:both;
   }
 
   .l-branding {
