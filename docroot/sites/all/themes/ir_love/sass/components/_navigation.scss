@@ -1,0 +1,67 @@
+@import "susy";
+@import "variables/**/*";
+
+.l-top-nav {
+	#block-system-main-menu {
+	  ul {
+	    li {
+	      list-style:none;
+	      float:left;
+	      margin-left: 10px;
+	    }
+	  }
+	}
+}
+
+/* Menu theming for small screens*/
+.l-top-nav {
+	.responsive-menus.responsified {
+		background: none repeat scroll 0 0 $site_default_font_color;
+		span.toggler {
+			text-align:right;
+			background: none repeat scroll 0 0 $site_default_font_color;
+		   	border-radius: 0;
+		   	box-shadow:none;
+		   	margin-right:5px;
+	   	}
+	   	&.responsive-toggled.absolute {
+	   	  .responsive-menus-simple {
+	   	  	background: none repeat scroll 0 0 $site_default_font_color;
+	   		border-radius: 0;
+	   		box-shadow:none;
+	   	  }
+	   	}
+	   	.responsive-menus-simple {
+	   		ul {
+	   		  li.leaf {
+	   		  	list-style:none;
+	   		  	a {
+	   		    	color: $foreground;
+	   		    	text-decoration:none;
+	   		    }
+	   		  }
+	   		}
+	   	}
+	}
+}
+
+/* Small Screen Site name*/
+@include at-breakpoint($tab) {
+	.site-name {
+		a {
+			position: absolute;
+			top:0;
+			left:4px;
+			font-size:70%;
+		}
+	}
+	.ir-custom-logo-icons {
+		position: absolute;
+		top:5px;
+		margin-left:7em;
+	}
+	.ir-main-idea {
+	 	color: $foreground;
+	 	margin-right:15px;
+	}
+}
