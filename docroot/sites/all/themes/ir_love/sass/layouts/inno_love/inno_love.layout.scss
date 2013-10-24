@@ -5,6 +5,7 @@
  * and building mobile first layouts.
  ******************************************************************************/
 @import "susy";
+@import "../../variables/**/*";
 
 // Susy Variables
 
@@ -25,10 +26,35 @@ $container-width: 1200px;
 $tab: 44em 12; // At 44em use 12 columns.
 $desk: 70em 16; // At 70em use 16 columns.
 
-.l-header,
-.l-main,
-.l-footer {
-  @include container; // Define these elements as the grid containers.
+.l-branding {
+  clear:both;
+  width:100%;
+  text-align:center;
+}
+
+.l-footer,
+.l-main {
+  clear:both;
+}
+
+/*site body defaults*/
+.l-page {
+  font-family: "Cabin";
+  font-size:100%;
+}
+
+/*site name defaults*/
+.site-name {
+  a {
+    color: $foreground;
+    text-decoration:none;
+  }
+}
+
+//.l-header,
+.l-main {
+//.l-footer {
+ // @include container; // Define these elements as the grid containers.
   margin-bottom: $vert-spacing-unit;
 }
 
@@ -40,14 +66,14 @@ $desk: 70em 16; // At 70em use 16 columns.
 }
 
 @include at-breakpoint($tab) { // At a given Susy Media Layout, use a given amount of columns.
-  .l-header,
-  .l-main,
-  .l-footer {
-    @include set-container-width; // Reset only the container width (elements have already been declared as containers).
+  //.l-header,
+  .l-main {
+  //.l-footer {
+    //@include set-container-width; // Reset only the container width (elements have already been declared as containers).
   }
 
   .l-branding {
-    @include span-columns(4, 12); // Span 4 out of 12 columns.
+   // @include span-columns(4, 12); // Span 4 out of 12 columns.
   }
   .l-region--header{
     @include span-columns(8 omega, 12); // Span the last (omega) 8 columns of 12.
@@ -73,14 +99,14 @@ $desk: 70em 16; // At 70em use 16 columns.
 }
 
 @include at-breakpoint($desk) {
-  .l-header,
-  .l-main,
-  .l-footer {
-    @include set-container-width; // Reset only the container width (elements have already been declared as containers).
+ // .l-header,
+  .l-main {
+ // .l-footer {
+   // @include set-container-width; // Reset only the container width (elements have already been declared as containers).
   }
 
   .l-branding {
-    @include span-columns(6, 16); // Span 6 out of 16 columns.
+    //@include span-columns(6, 16); // Span 6 out of 16 columns.
   }
   .l-region--header{
     @include span-columns(10 omega, 16); // Span the last (omega) 10 columns of 16.
