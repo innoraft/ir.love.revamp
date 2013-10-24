@@ -1,0 +1,9 @@
+name = Site General Layout Settings
+description = Adding contexts, layouts etc used site-wide
+core = 7.x
+package = IR Features
+dependencies[] = context
+dependencies[] = ctools
+features[context][] = site_wide_context
+features[ctools][] = context:context:3
+features[features_api][] = api:2
