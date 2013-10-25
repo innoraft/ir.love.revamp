@@ -1,42 +1,118 @@
 @import "susy";
 @import "variables/**/*";
 
-/* front main idea blocks*/
-.front {
-	.panels-flexible-row {
-	  padding:0px;
-	}
-}
-.ir-main-idea {
-	width:100%;
-	display:table;
-	.inside {
-		display:table-cell;
-		text-align: center;
-		vertical-align: middle;
-		.content-ir-main-idea {
-			.main-idea-image-inner {
-				display:table;
-				margin: 0 auto;
-				padding: 5%;
-				background: $image_background;
-				img {
-	  				//background: $image_background;
-	  				/*@media screen and (orientation: portrait) {
-	  				  height: 320px !important;
-	  				  width: 200px !important;
-	  				}*/
+/* front header site name - desk*/
+@include at-breakpoint($desk) {
+	.front {
+		.l-branding {
+			padding: 6em 0;
+			.site-name {
+				clear:both;
+				float:none;
+				width:99.9%;
+				background: $site_default_font_color;
+				a {
+					//background: $site_default_font_color;
+					font-size: 4em;
+					font-weight:normal;
+					//padding: 0.5% 5%;
+					text-transform:lowercase;
 				}
-			}			
+			}
+			.ir_custom_logo {
+				width:330px;
+				float:none;
+				margin: 0 auto;
+				.ir-custom-logo-icons {
+					float:none;
+				}
+				.ir-main-idea {
+					width:33.3%;
+					padding: 1em 0;
+					color: $foreground;
+					margin-bottom:1px;
+					margin-right:0;
+					text-shadow: 1px 1px 3px $text_shadow;
+				}
+				#ir-drupal {
+					background: $bg_idea_drupal;
+				}
+				#ir-love {
+					background: $bg_idea_love;
+				}
+				#ir-dedication {
+					background: $bg_idea_dedication;
+				}
+			}
+			.ir-slogan {
+				clear:both;
+				float:none;
+				font-size: 2em;
+				margin-top:2em;
+				text-align:center;
+			}
 		}
 	}
 }
-.ir-main-idea-love {
-	background: $bg_idea_love;
+
+@include at-breakpoint($desk) {
+	.l-branding {
+		@include container;
+		padding: 6em 5px 3em 5px;
+		.site-name {
+			float: right;
+			padding: 1px;
+			background: $site_default_font_color;
+			a {
+				font-size: 2.5em;
+				font-weight:normal;
+				padding: 0 50px;
+				text-transform:lowercase;
+			}
+		}
+		.ir_custom_logo {
+				//width:330px;
+				float:left;
+				margin: 0 auto;
+				.ir-custom-logo-icons {
+					float:left;
+				}
+				.ir-main-idea {
+					//width:33.3%;
+					padding: 15px;
+					margin-right:2px;
+					color: $foreground;
+					margin-bottom:1px;
+					text-shadow: 1px 1px 3px $text_shadow;
+				}
+				#ir-drupal {
+					background: $bg_idea_drupal;
+				}
+				#ir-love {
+					background: $bg_idea_love;
+				}
+				#ir-dedication {
+					background: $bg_idea_dedication;
+				}
+			}
+			.ir-slogan {
+				float:right;
+				font-size: 1.1em;
+				//margin-top:2em;
+				text-align:left;
+			}
+	}
 }
-.ir-main-idea-dedication {
-	background: $bg_idea_dedication;
+
+@include at-breakpoint($tab) {
+	.l-branding {
+		.ir-slogan {
+			display:none;
+		}
+	}
 }
-.ir-main-idea-tech {
-	background: $bg_idea_tech;
+
+/* front header default*/
+.ir-main-idea {
+	float:left;
 }

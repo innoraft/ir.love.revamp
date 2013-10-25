@@ -135,7 +135,7 @@ function f_home_page_layout_default_page_manager_pages() {
     $pane->panel = 'bottom_main_idea';
     $pane->type = 'custom';
     $pane->subtype = 'custom';
-    $pane->shown = TRUE;
+    $pane->shown = FALSE;
     $pane->access = array();
     $pane->configuration = array(
       'admin_title' => 'Drupal',
@@ -165,7 +165,7 @@ function f_home_page_layout_default_page_manager_pages() {
     $pane->panel = 'center';
     $pane->type = 'custom';
     $pane->subtype = 'custom';
-    $pane->shown = TRUE;
+    $pane->shown = FALSE;
     $pane->access = array();
     $pane->configuration = array(
       'admin_title' => 'Dedication',
@@ -195,7 +195,7 @@ function f_home_page_layout_default_page_manager_pages() {
     $pane->panel = '_none_';
     $pane->type = 'custom';
     $pane->subtype = 'custom';
-    $pane->shown = TRUE;
+    $pane->shown = FALSE;
     $pane->access = array();
     $pane->configuration = array(
       'admin_title' => 'Love',

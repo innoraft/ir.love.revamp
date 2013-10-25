@@ -1,0 +1,96 @@
+@import "susy";
+@import "variables/**/*";
+
+/* Large screen menu - desktop*/
+@include at-breakpoint($desk) {
+	.l-top-nav {
+		background: $site_default_font_color;
+		position:fixed;
+		top:0;
+		width:100%;
+		#block-system-main-menu {
+		  @include container;
+		  ul {
+		  padding:0;
+		    li {
+		      list-style:none;
+		      display: inline;
+		      margin-left: 10px;
+		      &.first {
+		        margin:0;
+		      }
+		      a {
+		        color: $foreground;
+		        text-decoration:none;
+		      }
+		    }
+		  }
+		}
+	}
+}
+
+/* Menu theming for small screens*/
+.l-top-nav {
+	.responsive-menus.responsified {
+		background: none repeat scroll 0 0 $site_default_font_color;
+		span.toggler {
+			text-align:right;
+			background: none repeat scroll 0 0 $site_default_font_color;
+		   	border-radius: 0;
+		   	box-shadow:none;
+		   	margin-right:5px;
+		   	padding:8px 0;
+		   	&:hover {
+		   		//text-decoration: underline;
+		   	}
+	   	}
+	   	&.responsive-toggled.absolute {
+	   	  .responsive-menus-simple {
+	   	  	background: none repeat scroll 0 0 $site_default_font_color;
+	   		border-radius: 0;
+	   		box-shadow:none;
+	   	  }
+	   	}
+	   	.responsive-menus-simple {
+	   		ul {
+	   		  padding:0 20px;
+	   		  li.leaf {
+	   		  	padding: 12px 0;
+	   		  	list-style:none;
+	   		  	a {
+	   		    	color: $foreground;
+	   		    	text-decoration:none;
+	   		    	&:hover {
+	   		    		text-decoration: underline;
+	   		    	}
+	   		    }
+	   		  }
+	   		}
+	   	}
+	}
+}
+
+/* Small Screen Site name*/
+@include at-breakpoint($tab) {
+	.site-name {
+		a {
+			position: absolute;
+			top:7px;
+			left:4px;
+			font-size:1.4em;
+			font-weight: bold;
+			//letter-spacing: -1px;
+		}
+	}
+	.ir-custom-logo-icons {
+		position: absolute;
+		top:12px;
+		margin-left:6.3em;
+	}
+	.ir-main-idea {
+	 	color: $foreground;
+	 	margin-right:15px;
+	}
+	.l-top-nav {
+	}
+}
