@@ -7,96 +7,190 @@
   font-weight: 400;
   src: local("Cabin Regular"), local("Cabin-Regular"), url(http://themes.googleusercontent.com/static/fonts/cabin/v4/JEgmtEDzc-IH8jBshQXrYA.woff) format("woff"); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/base\/_media\.scss}line{font-family:\000031}}
+/* line 1, ../sass/base/_media.scss */
 img, media {
   max-width: 100%; }
 
 /* No files to import found in variables/**\/* */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/_navigation\.scss}line{font-family:\000037}}
-.l-top-nav #block-system-main-menu ul li {
-  list-style: none;
-  float: left;
-  margin-left: 10px; }
-
+/* Large screen menu - desktop*/
+@media (min-width: 769px) {
+  /* line 6, ../sass/components/_navigation.scss */
+  .l-top-nav {
+    background: #555555;
+    position: fixed;
+    top: 0;
+    width: 100%; }
+    /* line 13, ../sass/components/_navigation.scss */
+    .l-top-nav #block-system-main-menu ul li {
+      list-style: none;
+      display: inline;
+      margin-left: 10px; }
+      /* line 17, ../sass/components/_navigation.scss */
+      .l-top-nav #block-system-main-menu ul li:first {
+        margin: 0; }
+      /* line 20, ../sass/components/_navigation.scss */
+      .l-top-nav #block-system-main-menu ul li a {
+        color: white;
+        text-decoration: none; } }
 /* Menu theming for small screens*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/_navigation\.scss}line{font-family:\0000318}}
+/* line 32, ../sass/components/_navigation.scss */
 .l-top-nav .responsive-menus.responsified {
   background: none repeat scroll 0 0 #555555; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/_navigation\.scss}line{font-family:\0000320}}
+  /* line 34, ../sass/components/_navigation.scss */
   .l-top-nav .responsive-menus.responsified span.toggler {
     text-align: right;
     background: none repeat scroll 0 0 #555555;
     border-radius: 0;
     box-shadow: none;
-    margin-right: 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/_navigation\.scss}line{font-family:\0000328}}
+    margin-right: 5px;
+    padding: 8px 0; }
+  /* line 46, ../sass/components/_navigation.scss */
   .l-top-nav .responsive-menus.responsified.responsive-toggled.absolute .responsive-menus-simple {
     background: none repeat scroll 0 0 #555555;
     border-radius: 0;
     box-shadow: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/_navigation\.scss}line{font-family:\0000336}}
-  .l-top-nav .responsive-menus.responsified .responsive-menus-simple ul li.leaf {
-    list-style: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/_navigation\.scss}line{font-family:\0000338}}
-    .l-top-nav .responsive-menus.responsified .responsive-menus-simple ul li.leaf a {
-      color: white;
-      text-decoration: none; }
+  /* line 53, ../sass/components/_navigation.scss */
+  .l-top-nav .responsive-menus.responsified .responsive-menus-simple ul {
+    padding: 0 20px; }
+    /* line 55, ../sass/components/_navigation.scss */
+    .l-top-nav .responsive-menus.responsified .responsive-menus-simple ul li.leaf {
+      padding: 12px 0;
+      list-style: none; }
+      /* line 58, ../sass/components/_navigation.scss */
+      .l-top-nav .responsive-menus.responsified .responsive-menus-simple ul li.leaf a {
+        color: white;
+        text-decoration: none; }
+        /* line 61, ../sass/components/_navigation.scss */
+        .l-top-nav .responsive-menus.responsified .responsive-menus-simple ul li.leaf a:hover {
+          text-decoration: underline; }
 
 /* Small Screen Site name*/
 @media (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/_navigation\.scss}line{font-family:\0000351}}
+  /* line 74, ../sass/components/_navigation.scss */
   .site-name a {
     position: absolute;
-    top: 0;
+    top: 7px;
     left: 4px;
-    font-size: 70%; }
+    font-size: 1.4em;
+    font-weight: bold; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/_navigation\.scss}line{font-family:\0000358}}
+  /* line 83, ../sass/components/_navigation.scss */
   .ir-custom-logo-icons {
     position: absolute;
-    top: 5px;
-    margin-left: 7em; }
+    top: 12px;
+    margin-left: 6.3em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/_navigation\.scss}line{font-family:\0000363}}
+  /* line 88, ../sass/components/_navigation.scss */
   .ir-main-idea {
     color: white;
     margin-right: 15px; } }
 /* No files to import found in variables/**\/* */
 /* front header site name - desk*/
 @media (min-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\000036}}
-  .l-branding {
-    padding: 4em 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\000038}}
-    .l-branding .site-name {
+  /* line 7, ../sass/components/pages/_front.scss */
+  .front .l-branding {
+    padding: 6em 0; }
+    /* line 9, ../sass/components/pages/_front.scss */
+    .front .l-branding .site-name {
       clear: both;
+      float: none;
       width: 99.9%;
       background: #555555; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\0000312}}
-      .l-branding .site-name a {
-        font-size: 2em;
+      /* line 14, ../sass/components/pages/_front.scss */
+      .front .l-branding .site-name a {
+        font-size: 4em;
         font-weight: normal;
         text-transform: lowercase; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\0000320}}
-    .l-branding .ir_custom_logo {
+    /* line 22, ../sass/components/pages/_front.scss */
+    .front .l-branding .ir_custom_logo {
       width: 330px;
+      float: none;
       margin: 0 auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\0000323}}
-      .l-branding .ir_custom_logo .ir-main-idea {
+      /* line 26, ../sass/components/pages/_front.scss */
+      .front .l-branding .ir_custom_logo .ir-custom-logo-icons {
+        float: none; }
+      /* line 29, ../sass/components/pages/_front.scss */
+      .front .l-branding .ir_custom_logo .ir-main-idea {
         width: 33.3%;
         padding: 1em 0;
         color: white;
-        margin-bottom: 1px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\0000329}}
+        margin-bottom: 1px;
+        margin-right: 0;
+        text-shadow: 1px 1px 3px #333333; }
+      /* line 37, ../sass/components/pages/_front.scss */
+      .front .l-branding .ir_custom_logo #ir-drupal {
+        background: #2ca8c2; }
+      /* line 40, ../sass/components/pages/_front.scss */
+      .front .l-branding .ir_custom_logo #ir-love {
+        background: #eb5054; }
+      /* line 43, ../sass/components/pages/_front.scss */
+      .front .l-branding .ir_custom_logo #ir-dedication {
+        background: #8ab845; }
+    /* line 47, ../sass/components/pages/_front.scss */
+    .front .l-branding .ir-slogan {
+      clear: both;
+      float: none;
+      font-size: 2em;
+      margin-top: 2em;
+      text-align: center; } }
+@media (min-width: 769px) {
+  /* line 59, ../sass/components/pages/_front.scss */
+  .l-branding {
+    max-width: 1050px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6em 5px 3em 5px; }
+    /* line 38, ../../../../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+    .l-branding:after {
+      content: "";
+      display: table;
+      clear: both; }
+    /* line 62, ../sass/components/pages/_front.scss */
+    .l-branding .site-name {
+      float: right;
+      padding: 1px;
+      background: #555555; }
+      /* line 66, ../sass/components/pages/_front.scss */
+      .l-branding .site-name a {
+        font-size: 2.5em;
+        font-weight: normal;
+        padding: 0 50px;
+        text-transform: lowercase; }
+    /* line 73, ../sass/components/pages/_front.scss */
+    .l-branding .ir_custom_logo {
+      float: left;
+      margin: 0 auto; }
+      /* line 77, ../sass/components/pages/_front.scss */
+      .l-branding .ir_custom_logo .ir-custom-logo-icons {
+        float: left; }
+      /* line 80, ../sass/components/pages/_front.scss */
+      .l-branding .ir_custom_logo .ir-main-idea {
+        padding: 15px;
+        margin-right: 2px;
+        color: white;
+        margin-bottom: 1px;
+        text-shadow: 1px 1px 3px #333333; }
+      /* line 88, ../sass/components/pages/_front.scss */
       .l-branding .ir_custom_logo #ir-drupal {
         background: #2ca8c2; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\0000332}}
+      /* line 91, ../sass/components/pages/_front.scss */
       .l-branding .ir_custom_logo #ir-love {
         background: #eb5054; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\0000335}}
+      /* line 94, ../sass/components/pages/_front.scss */
       .l-branding .ir_custom_logo #ir-dedication {
-        background: #8ab845; } }
+        background: #8ab845; }
+    /* line 98, ../sass/components/pages/_front.scss */
+    .l-branding .ir-slogan {
+      float: right;
+      font-size: 1.1em;
+      text-align: left; } }
+@media (max-width: 768px) {
+  /* line 109, ../sass/components/pages/_front.scss */
+  .l-branding .ir-slogan {
+    display: none; } }
 /* front header default*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\0000343}}
+/* line 116, ../sass/components/pages/_front.scss */
 .ir-main-idea {
   float: left; }
