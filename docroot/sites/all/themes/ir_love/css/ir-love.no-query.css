@@ -71,25 +71,28 @@ img, media {
     box-shadow: none; }
   /* line 67, ../sass/components/_navigation.scss */
   .l-top-nav .responsive-menus.responsified .responsive-menus-simple ul {
-    padding: 0 20px; }
-    /* line 69, ../sass/components/_navigation.scss */
+    padding: 0;
+    margin: 0; }
+    /* line 70, ../sass/components/_navigation.scss */
     .l-top-nav .responsive-menus.responsified .responsive-menus-simple ul li.leaf {
-      padding: 12px 0;
       list-style: none; }
       /* line 72, ../sass/components/_navigation.scss */
       .l-top-nav .responsive-menus.responsified .responsive-menus-simple ul li.leaf a {
-        color: white;
-        text-decoration: none; }
-        /* line 75, ../sass/components/_navigation.scss */
+        color: #dddddd;
+        text-decoration: none;
+        display: block;
+        padding: 12px; }
+        /* line 77, ../sass/components/_navigation.scss */
         .l-top-nav .responsive-menus.responsified .responsive-menus-simple ul li.leaf a:hover {
-          text-decoration: underline; }
+          background: #dddddd;
+          color: #222222; }
 
 /* Small Screen Site name*/
 @media (max-width: 768px) {
-  /* line 87, ../sass/components/_navigation.scss */
+  /* line 90, ../sass/components/_navigation.scss */
   .site-name {
     text-shadow: 1px 1px 1px black; }
-    /* line 89, ../sass/components/_navigation.scss */
+    /* line 92, ../sass/components/_navigation.scss */
     .site-name a {
       position: absolute;
       top: 0px;
@@ -97,23 +100,23 @@ img, media {
       font-size: 2em;
       font-weight: bold; }
 
-  /* line 99, ../sass/components/_navigation.scss */
+  /* line 102, ../sass/components/_navigation.scss */
   .ir_custom_logo .ir-custom-logo-icons {
     position: absolute;
     top: 12px;
     margin-left: 8.5em;
     text-shadow: 1px 1px 1px black; }
-    /* line 104, ../sass/components/_navigation.scss */
+    /* line 107, ../sass/components/_navigation.scss */
     .ir_custom_logo .ir-custom-logo-icons .ir-main-idea {
       color: white;
-      margin-right: 15px; }
-    /* line 108, ../sass/components/_navigation.scss */
+      margin-right: 8px; }
+    /* line 111, ../sass/components/_navigation.scss */
     .ir_custom_logo .ir-custom-logo-icons #ir-drupal {
       color: #2ca8c2; }
-    /* line 111, ../sass/components/_navigation.scss */
+    /* line 114, ../sass/components/_navigation.scss */
     .ir_custom_logo .ir-custom-logo-icons #ir-love {
       color: #eb5054; }
-    /* line 114, ../sass/components/_navigation.scss */
+    /* line 117, ../sass/components/_navigation.scss */
     .ir_custom_logo .ir-custom-logo-icons #ir-dedication {
       color: #8ab845; } }
 /* No files to import found in variables/**\/* */
