@@ -7,8 +7,9 @@
 		.l-branding {
 			padding: 6em 0;
 			.site-name {
-				//text-shadow: 1px 1px 3px $menu_link_color;
+				//text-shadow: 1px 1px 3px $menu_link_hover_color;
 				clear:both;
+				padding: 10px 1px;
 				float:none;
 				width:99.9%;
 				background: $site_default_font_color;
@@ -29,7 +30,7 @@
 				}
 				.ir-main-idea {
 					width:33.3%;
-					padding: 2em 0;
+					padding: 1.8em 0;
 					color: $foreground;
 					margin-bottom:1px;
 					margin-right:0;
@@ -63,7 +64,7 @@
 		.site-name {
 			float: right;
 			padding: 1px;
-			text-shadow: 1px 1px 3px $menu_link_color;
+			text-shadow: 1px 1px 2px $menu_link_color;
 			background: $site_default_font_color;
 			a {
 				font-size: 2.5em;
