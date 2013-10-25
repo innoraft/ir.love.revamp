@@ -16,7 +16,7 @@ img, media {
 @media (min-width: 769px) {
   /* line 6, ../sass/components/_navigation.scss */
   .l-top-nav {
-    background: #555555;
+    background: #333333;
     position: fixed;
     top: 0;
     width: 100%; }
@@ -38,50 +38,54 @@ img, media {
         /* line 15, ../sass/components/_navigation.scss */
         .l-top-nav #block-system-main-menu ul li {
           list-style: none;
-          display: inline;
-          margin-left: 10px; }
-          /* line 19, ../sass/components/_navigation.scss */
-          .l-top-nav #block-system-main-menu ul li.first {
-            margin: 0; }
-          /* line 22, ../sass/components/_navigation.scss */
+          display: inline; }
+          /* line 23, ../sass/components/_navigation.scss */
           .l-top-nav #block-system-main-menu ul li a {
-            color: white;
-            text-decoration: none; } }
+            color: #dddddd;
+            text-decoration: none;
+            letter-spacing: 0.1em;
+            font-weight: bold;
+            padding: 16px 10px;
+            /* &:hover {
+             	//background: $menu_link_color;
+             	color: #A8A7A7;
+             	//padding: 20px 10px;
+             }*/ } }
 /* Menu theming for small screens*/
-/* line 34, ../sass/components/_navigation.scss */
+/* line 43, ../sass/components/_navigation.scss */
 .l-top-nav .responsive-menus.responsified {
-  background: none repeat scroll 0 0 #555555; }
-  /* line 36, ../sass/components/_navigation.scss */
+  background: none repeat scroll 0 0 #333333; }
+  /* line 45, ../sass/components/_navigation.scss */
   .l-top-nav .responsive-menus.responsified span.toggler {
     text-align: right;
-    background: none repeat scroll 0 0 #555555;
+    background: none repeat scroll 0 0 #333333;
     border-radius: 0;
     box-shadow: none;
     margin-right: 5px;
     padding: 8px 0; }
-  /* line 48, ../sass/components/_navigation.scss */
+  /* line 57, ../sass/components/_navigation.scss */
   .l-top-nav .responsive-menus.responsified.responsive-toggled.absolute .responsive-menus-simple {
-    background: none repeat scroll 0 0 #555555;
+    background: none repeat scroll 0 0 #333333;
     border-radius: 0;
     box-shadow: none; }
-  /* line 55, ../sass/components/_navigation.scss */
+  /* line 64, ../sass/components/_navigation.scss */
   .l-top-nav .responsive-menus.responsified .responsive-menus-simple ul {
     padding: 0 20px; }
-    /* line 57, ../sass/components/_navigation.scss */
+    /* line 66, ../sass/components/_navigation.scss */
     .l-top-nav .responsive-menus.responsified .responsive-menus-simple ul li.leaf {
       padding: 12px 0;
       list-style: none; }
-      /* line 60, ../sass/components/_navigation.scss */
+      /* line 69, ../sass/components/_navigation.scss */
       .l-top-nav .responsive-menus.responsified .responsive-menus-simple ul li.leaf a {
         color: white;
         text-decoration: none; }
-        /* line 63, ../sass/components/_navigation.scss */
+        /* line 72, ../sass/components/_navigation.scss */
         .l-top-nav .responsive-menus.responsified .responsive-menus-simple ul li.leaf a:hover {
           text-decoration: underline; }
 
 /* Small Screen Site name*/
 @media (max-width: 768px) {
-  /* line 76, ../sass/components/_navigation.scss */
+  /* line 85, ../sass/components/_navigation.scss */
   .site-name a {
     position: absolute;
     top: 7px;
@@ -89,13 +93,13 @@ img, media {
     font-size: 1.4em;
     font-weight: bold; }
 
-  /* line 85, ../sass/components/_navigation.scss */
+  /* line 94, ../sass/components/_navigation.scss */
   .ir-custom-logo-icons {
     position: absolute;
     top: 12px;
     margin-left: 6.3em; }
 
-  /* line 90, ../sass/components/_navigation.scss */
+  /* line 99, ../sass/components/_navigation.scss */
   .ir-main-idea {
     color: white;
     margin-right: 15px; } }
@@ -110,38 +114,39 @@ img, media {
       clear: both;
       float: none;
       width: 99.9%;
-      background: #555555; }
-      /* line 14, ../sass/components/pages/_front.scss */
+      background: #333333; }
+      /* line 15, ../sass/components/pages/_front.scss */
       .front .l-branding .site-name a {
-        font-size: 4em;
+        font-size: 6em;
         font-weight: normal;
+        padding: 0 112px;
         text-transform: lowercase; }
-    /* line 22, ../sass/components/pages/_front.scss */
+    /* line 23, ../sass/components/pages/_front.scss */
     .front .l-branding .ir_custom_logo {
-      width: 330px;
+      width: 550px;
       float: none;
       margin: 0 auto; }
-      /* line 26, ../sass/components/pages/_front.scss */
+      /* line 27, ../sass/components/pages/_front.scss */
       .front .l-branding .ir_custom_logo .ir-custom-logo-icons {
         float: none; }
-      /* line 29, ../sass/components/pages/_front.scss */
+      /* line 30, ../sass/components/pages/_front.scss */
       .front .l-branding .ir_custom_logo .ir-main-idea {
         width: 33.3%;
-        padding: 1em 0;
+        padding: 2em 0;
         color: white;
         margin-bottom: 1px;
         margin-right: 0;
         text-shadow: 1px 1px 3px #333333; }
-      /* line 37, ../sass/components/pages/_front.scss */
+      /* line 38, ../sass/components/pages/_front.scss */
       .front .l-branding .ir_custom_logo #ir-drupal {
         background: #2ca8c2; }
-      /* line 40, ../sass/components/pages/_front.scss */
+      /* line 41, ../sass/components/pages/_front.scss */
       .front .l-branding .ir_custom_logo #ir-love {
         background: #eb5054; }
-      /* line 43, ../sass/components/pages/_front.scss */
+      /* line 44, ../sass/components/pages/_front.scss */
       .front .l-branding .ir_custom_logo #ir-dedication {
         background: #8ab845; }
-    /* line 47, ../sass/components/pages/_front.scss */
+    /* line 48, ../sass/components/pages/_front.scss */
     .front .l-branding .ir-slogan {
       clear: both;
       float: none;
@@ -149,7 +154,7 @@ img, media {
       margin-top: 2em;
       text-align: center; } }
 @media (min-width: 769px) {
-  /* line 59, ../sass/components/pages/_front.scss */
+  /* line 60, ../sass/components/pages/_front.scss */
   .l-branding {
     max-width: 1050px;
     padding-left: 5px;
@@ -162,50 +167,51 @@ img, media {
       content: "";
       display: table;
       clear: both; }
-    /* line 62, ../sass/components/pages/_front.scss */
+    /* line 63, ../sass/components/pages/_front.scss */
     .l-branding .site-name {
       float: right;
       padding: 1px;
-      background: #555555; }
-      /* line 66, ../sass/components/pages/_front.scss */
+      text-shadow: 1px 1px 3px #dddddd;
+      background: #333333; }
+      /* line 68, ../sass/components/pages/_front.scss */
       .l-branding .site-name a {
         font-size: 2.5em;
         font-weight: normal;
         padding: 0 50px;
         text-transform: lowercase; }
-    /* line 73, ../sass/components/pages/_front.scss */
+    /* line 75, ../sass/components/pages/_front.scss */
     .l-branding .ir_custom_logo {
       float: left;
       margin: 0 auto; }
-      /* line 77, ../sass/components/pages/_front.scss */
+      /* line 79, ../sass/components/pages/_front.scss */
       .l-branding .ir_custom_logo .ir-custom-logo-icons {
         float: left; }
-      /* line 80, ../sass/components/pages/_front.scss */
+      /* line 82, ../sass/components/pages/_front.scss */
       .l-branding .ir_custom_logo .ir-main-idea {
         padding: 15px;
         margin-right: 2px;
         color: white;
         margin-bottom: 1px;
         text-shadow: 1px 1px 3px #333333; }
-      /* line 88, ../sass/components/pages/_front.scss */
+      /* line 90, ../sass/components/pages/_front.scss */
       .l-branding .ir_custom_logo #ir-drupal {
         background: #2ca8c2; }
-      /* line 91, ../sass/components/pages/_front.scss */
+      /* line 93, ../sass/components/pages/_front.scss */
       .l-branding .ir_custom_logo #ir-love {
         background: #eb5054; }
-      /* line 94, ../sass/components/pages/_front.scss */
+      /* line 96, ../sass/components/pages/_front.scss */
       .l-branding .ir_custom_logo #ir-dedication {
         background: #8ab845; }
-    /* line 98, ../sass/components/pages/_front.scss */
+    /* line 100, ../sass/components/pages/_front.scss */
     .l-branding .ir-slogan {
       float: right;
       font-size: 1.1em;
       text-align: left; } }
 @media (max-width: 768px) {
-  /* line 109, ../sass/components/pages/_front.scss */
+  /* line 111, ../sass/components/pages/_front.scss */
   .l-branding .ir-slogan {
     display: none; } }
 /* front header default*/
-/* line 116, ../sass/components/pages/_front.scss */
+/* line 118, ../sass/components/pages/_front.scss */
 .ir-main-idea {
   float: left; }
