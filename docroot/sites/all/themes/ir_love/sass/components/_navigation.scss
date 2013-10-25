@@ -26,9 +26,10 @@
 		        letter-spacing: 0.1em;
 		        font-weight:bold;
 		        padding: 16px 10px;
-		        &:hover {
+		        &:hover, &.active {
 		        	//background: $menu_link_color;
 		        	color: $menu_link_hover_color;
+		        	font-weight:bold;
 		        	//padding: 20px 10px;
 		        }
 		      }
@@ -83,7 +84,7 @@
 /* Small Screen Site name*/
 @include at-breakpoint($tab) {
 	.site-name {
-		text-shadow: 1px 1px 2px $menu_link_hover_color;
+		text-shadow: 1px 1px 1px $text_shadow_logo;
 		a {
 			position: absolute;
 			top:0px;
@@ -98,7 +99,7 @@
 			position: absolute;
 			top:12px;
 			margin-left:8.5em;
-			text-shadow: 1px 1px 1px $menu_link_hover_color;
+			text-shadow: 1px 1px 1px $text_shadow_logo;
 			.ir-main-idea {
 		 		color: $foreground;
 		 		margin-right:15px;

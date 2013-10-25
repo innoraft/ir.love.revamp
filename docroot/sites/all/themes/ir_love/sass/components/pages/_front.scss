@@ -34,7 +34,7 @@
 					color: $foreground;
 					margin-bottom:1px;
 					margin-right:0;
-					text-shadow: 1px 1px 3px $text_shadow;
+					text-shadow: 2px 2px 2px $text_shadow;
 				}
 				#ir-drupal {
 					background: $bg_idea_drupal;
@@ -54,6 +54,9 @@
 				text-align:center;
 			}
 		}
+		.l-content {
+			@include container;
+		}
 	}
 }
 
@@ -64,7 +67,7 @@
 		.site-name {
 			float: right;
 			padding: 1px;
-			text-shadow: 1px 1px 2px $menu_link_color;
+			text-shadow: 1px 1px 2px $text_shadow_logo;
 			background: $site_default_font_color;
 			a {
 				font-size: 2.5em;
