@@ -20,23 +20,38 @@ img, media {
     position: fixed;
     top: 0;
     width: 100%; }
-    /* line 13, ../sass/components/_navigation.scss */
-    .l-top-nav #block-system-main-menu ul li {
-      list-style: none;
-      display: inline;
-      margin-left: 10px; }
-      /* line 17, ../sass/components/_navigation.scss */
-      .l-top-nav #block-system-main-menu ul li:first {
-        margin: 0; }
-      /* line 20, ../sass/components/_navigation.scss */
-      .l-top-nav #block-system-main-menu ul li a {
-        color: white;
-        text-decoration: none; } }
+    /* line 11, ../sass/components/_navigation.scss */
+    .l-top-nav #block-system-main-menu {
+      max-width: 1050px;
+      padding-left: 5px;
+      padding-right: 5px;
+      margin-left: auto;
+      margin-right: auto; }
+      /* line 38, ../../../../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+      .l-top-nav #block-system-main-menu:after {
+        content: "";
+        display: table;
+        clear: both; }
+      /* line 13, ../sass/components/_navigation.scss */
+      .l-top-nav #block-system-main-menu ul {
+        padding: 0; }
+        /* line 15, ../sass/components/_navigation.scss */
+        .l-top-nav #block-system-main-menu ul li {
+          list-style: none;
+          display: inline;
+          margin-left: 10px; }
+          /* line 19, ../sass/components/_navigation.scss */
+          .l-top-nav #block-system-main-menu ul li.first {
+            margin: 0; }
+          /* line 22, ../sass/components/_navigation.scss */
+          .l-top-nav #block-system-main-menu ul li a {
+            color: white;
+            text-decoration: none; } }
 /* Menu theming for small screens*/
-/* line 32, ../sass/components/_navigation.scss */
+/* line 34, ../sass/components/_navigation.scss */
 .l-top-nav .responsive-menus.responsified {
   background: none repeat scroll 0 0 #555555; }
-  /* line 34, ../sass/components/_navigation.scss */
+  /* line 36, ../sass/components/_navigation.scss */
   .l-top-nav .responsive-menus.responsified span.toggler {
     text-align: right;
     background: none repeat scroll 0 0 #555555;
@@ -44,29 +59,29 @@ img, media {
     box-shadow: none;
     margin-right: 5px;
     padding: 8px 0; }
-  /* line 46, ../sass/components/_navigation.scss */
+  /* line 48, ../sass/components/_navigation.scss */
   .l-top-nav .responsive-menus.responsified.responsive-toggled.absolute .responsive-menus-simple {
     background: none repeat scroll 0 0 #555555;
     border-radius: 0;
     box-shadow: none; }
-  /* line 53, ../sass/components/_navigation.scss */
+  /* line 55, ../sass/components/_navigation.scss */
   .l-top-nav .responsive-menus.responsified .responsive-menus-simple ul {
     padding: 0 20px; }
-    /* line 55, ../sass/components/_navigation.scss */
+    /* line 57, ../sass/components/_navigation.scss */
     .l-top-nav .responsive-menus.responsified .responsive-menus-simple ul li.leaf {
       padding: 12px 0;
       list-style: none; }
-      /* line 58, ../sass/components/_navigation.scss */
+      /* line 60, ../sass/components/_navigation.scss */
       .l-top-nav .responsive-menus.responsified .responsive-menus-simple ul li.leaf a {
         color: white;
         text-decoration: none; }
-        /* line 61, ../sass/components/_navigation.scss */
+        /* line 63, ../sass/components/_navigation.scss */
         .l-top-nav .responsive-menus.responsified .responsive-menus-simple ul li.leaf a:hover {
           text-decoration: underline; }
 
 /* Small Screen Site name*/
 @media (max-width: 768px) {
-  /* line 74, ../sass/components/_navigation.scss */
+  /* line 76, ../sass/components/_navigation.scss */
   .site-name a {
     position: absolute;
     top: 7px;
@@ -74,13 +89,13 @@ img, media {
     font-size: 1.4em;
     font-weight: bold; }
 
-  /* line 83, ../sass/components/_navigation.scss */
+  /* line 85, ../sass/components/_navigation.scss */
   .ir-custom-logo-icons {
     position: absolute;
     top: 12px;
     margin-left: 6.3em; }
 
-  /* line 88, ../sass/components/_navigation.scss */
+  /* line 90, ../sass/components/_navigation.scss */
   .ir-main-idea {
     color: white;
     margin-right: 15px; } }
