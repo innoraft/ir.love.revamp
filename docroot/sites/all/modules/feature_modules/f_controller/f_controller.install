@@ -47,14 +47,14 @@ function ir_feature_revert($modules) {
  * Revert all content-related features, necessary for using correct view mode.
  * Enables ckeditor module.
  */
-function f_controller_update_7002() {
-  ir_feature_revert(array('f_home_page_layout'));
+function f_controller_update_7003() {
+  ir_feature_revert(array('f_site_general_settings'));
 
-  if (!module_exists('context')) {
-    $modules_to_be_enabled = array('libraries', 'context', 'contex_omega', 'responsive_menus', 'f_site_general_settings');
+  // if (!module_exists('context')) {
+  //   $modules_to_be_enabled = array('libraries', 'context', 'contex_omega', 'responsive_menus', 'f_site_general_settings');
 
-    // Enable modules and their dependencies.
-    module_enable($modules_to_be_enabled);
-  }
+  //   // Enable modules and their dependencies.
+  //   module_enable($modules_to_be_enabled);
+  // }
 }
 
