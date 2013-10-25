@@ -60,57 +60,58 @@ img, media {
     border-radius: 0;
     box-shadow: none;
     margin-right: 5px;
-    padding: 8px 0; }
-  /* line 57, ../sass/components/_navigation.scss */
+    padding: 8px 0;
+    font-weight: bold; }
+  /* line 58, ../sass/components/_navigation.scss */
   .l-top-nav .responsive-menus.responsified.responsive-toggled.absolute .responsive-menus-simple {
     background: none repeat scroll 0 0 #333333;
     border-radius: 0;
     box-shadow: none; }
-  /* line 64, ../sass/components/_navigation.scss */
+  /* line 65, ../sass/components/_navigation.scss */
   .l-top-nav .responsive-menus.responsified .responsive-menus-simple ul {
     padding: 0 20px; }
-    /* line 66, ../sass/components/_navigation.scss */
+    /* line 67, ../sass/components/_navigation.scss */
     .l-top-nav .responsive-menus.responsified .responsive-menus-simple ul li.leaf {
       padding: 12px 0;
       list-style: none; }
-      /* line 69, ../sass/components/_navigation.scss */
+      /* line 70, ../sass/components/_navigation.scss */
       .l-top-nav .responsive-menus.responsified .responsive-menus-simple ul li.leaf a {
         color: white;
         text-decoration: none; }
-        /* line 72, ../sass/components/_navigation.scss */
+        /* line 73, ../sass/components/_navigation.scss */
         .l-top-nav .responsive-menus.responsified .responsive-menus-simple ul li.leaf a:hover {
           text-decoration: underline; }
 
 /* Small Screen Site name*/
 @media (max-width: 768px) {
-  /* line 84, ../sass/components/_navigation.scss */
+  /* line 85, ../sass/components/_navigation.scss */
   .site-name {
     text-shadow: 1px 1px 2px #8d8d8d; }
-    /* line 86, ../sass/components/_navigation.scss */
+    /* line 87, ../sass/components/_navigation.scss */
     .site-name a {
       position: absolute;
-      top: 7px;
+      top: 0px;
       left: 4px;
-      font-size: 1.4em;
+      font-size: 2em;
       font-weight: bold; }
 
-  /* line 96, ../sass/components/_navigation.scss */
+  /* line 97, ../sass/components/_navigation.scss */
   .ir_custom_logo .ir-custom-logo-icons {
     position: absolute;
     top: 12px;
-    margin-left: 6.3em;
+    margin-left: 8.5em;
     text-shadow: 1px 1px 1px #8d8d8d; }
-    /* line 101, ../sass/components/_navigation.scss */
+    /* line 102, ../sass/components/_navigation.scss */
     .ir_custom_logo .ir-custom-logo-icons .ir-main-idea {
       color: white;
       margin-right: 15px; }
-    /* line 105, ../sass/components/_navigation.scss */
+    /* line 106, ../sass/components/_navigation.scss */
     .ir_custom_logo .ir-custom-logo-icons #ir-drupal {
       color: #2ca8c2; }
-    /* line 108, ../sass/components/_navigation.scss */
+    /* line 109, ../sass/components/_navigation.scss */
     .ir_custom_logo .ir-custom-logo-icons #ir-love {
       color: #eb5054; }
-    /* line 111, ../sass/components/_navigation.scss */
+    /* line 112, ../sass/components/_navigation.scss */
     .ir_custom_logo .ir-custom-logo-icons #ir-dedication {
       color: #8ab845; } }
 /* No files to import found in variables/**\/* */
