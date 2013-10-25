@@ -45,12 +45,10 @@ img, media {
             text-decoration: none;
             letter-spacing: 0.1em;
             font-weight: bold;
-            padding: 16px 10px;
-            /* &:hover {
-             	//background: $menu_link_color;
-             	color: #A8A7A7;
-             	//padding: 20px 10px;
-             }*/ } }
+            padding: 16px 10px; }
+            /* line 29, ../sass/components/_navigation.scss */
+            .l-top-nav #block-system-main-menu ul li a:hover {
+              color: #8d8d8d; } }
 /* Menu theming for small screens*/
 /* line 43, ../sass/components/_navigation.scss */
 .l-top-nav .responsive-menus.responsified {
@@ -85,24 +83,36 @@ img, media {
 
 /* Small Screen Site name*/
 @media (max-width: 768px) {
-  /* line 85, ../sass/components/_navigation.scss */
-  .site-name a {
-    position: absolute;
-    top: 7px;
-    left: 4px;
-    font-size: 1.4em;
-    font-weight: bold; }
+  /* line 84, ../sass/components/_navigation.scss */
+  .site-name {
+    text-shadow: 1px 1px 2px #8d8d8d; }
+    /* line 86, ../sass/components/_navigation.scss */
+    .site-name a {
+      position: absolute;
+      top: 7px;
+      left: 4px;
+      font-size: 1.4em;
+      font-weight: bold; }
 
-  /* line 94, ../sass/components/_navigation.scss */
-  .ir-custom-logo-icons {
+  /* line 96, ../sass/components/_navigation.scss */
+  .ir_custom_logo .ir-custom-logo-icons {
     position: absolute;
     top: 12px;
-    margin-left: 6.3em; }
-
-  /* line 99, ../sass/components/_navigation.scss */
-  .ir-main-idea {
-    color: white;
-    margin-right: 15px; } }
+    margin-left: 6.3em;
+    text-shadow: 1px 1px 1px #8d8d8d; }
+    /* line 101, ../sass/components/_navigation.scss */
+    .ir_custom_logo .ir-custom-logo-icons .ir-main-idea {
+      color: white;
+      margin-right: 15px; }
+    /* line 105, ../sass/components/_navigation.scss */
+    .ir_custom_logo .ir-custom-logo-icons #ir-drupal {
+      color: #2ca8c2; }
+    /* line 108, ../sass/components/_navigation.scss */
+    .ir_custom_logo .ir-custom-logo-icons #ir-love {
+      color: #eb5054; }
+    /* line 111, ../sass/components/_navigation.scss */
+    .ir_custom_logo .ir-custom-logo-icons #ir-dedication {
+      color: #8ab845; } }
 /* No files to import found in variables/**\/* */
 /* front header site name - desk*/
 @media (min-width: 769px) {
@@ -112,41 +122,42 @@ img, media {
     /* line 9, ../sass/components/pages/_front.scss */
     .front .l-branding .site-name {
       clear: both;
+      padding: 10px 1px;
       float: none;
       width: 99.9%;
       background: #333333; }
-      /* line 15, ../sass/components/pages/_front.scss */
+      /* line 16, ../sass/components/pages/_front.scss */
       .front .l-branding .site-name a {
         font-size: 6em;
         font-weight: normal;
         padding: 0 112px;
         text-transform: lowercase; }
-    /* line 23, ../sass/components/pages/_front.scss */
+    /* line 24, ../sass/components/pages/_front.scss */
     .front .l-branding .ir_custom_logo {
       width: 550px;
       float: none;
       margin: 0 auto; }
-      /* line 27, ../sass/components/pages/_front.scss */
+      /* line 28, ../sass/components/pages/_front.scss */
       .front .l-branding .ir_custom_logo .ir-custom-logo-icons {
         float: none; }
-      /* line 30, ../sass/components/pages/_front.scss */
+      /* line 31, ../sass/components/pages/_front.scss */
       .front .l-branding .ir_custom_logo .ir-main-idea {
         width: 33.3%;
-        padding: 2em 0;
+        padding: 1.8em 0;
         color: white;
         margin-bottom: 1px;
         margin-right: 0;
         text-shadow: 1px 1px 3px #333333; }
-      /* line 38, ../sass/components/pages/_front.scss */
+      /* line 39, ../sass/components/pages/_front.scss */
       .front .l-branding .ir_custom_logo #ir-drupal {
         background: #2ca8c2; }
-      /* line 41, ../sass/components/pages/_front.scss */
+      /* line 42, ../sass/components/pages/_front.scss */
       .front .l-branding .ir_custom_logo #ir-love {
         background: #eb5054; }
-      /* line 44, ../sass/components/pages/_front.scss */
+      /* line 45, ../sass/components/pages/_front.scss */
       .front .l-branding .ir_custom_logo #ir-dedication {
         background: #8ab845; }
-    /* line 48, ../sass/components/pages/_front.scss */
+    /* line 49, ../sass/components/pages/_front.scss */
     .front .l-branding .ir-slogan {
       clear: both;
       float: none;
@@ -154,7 +165,7 @@ img, media {
       margin-top: 2em;
       text-align: center; } }
 @media (min-width: 769px) {
-  /* line 60, ../sass/components/pages/_front.scss */
+  /* line 61, ../sass/components/pages/_front.scss */
   .l-branding {
     max-width: 1050px;
     padding-left: 5px;
@@ -167,51 +178,51 @@ img, media {
       content: "";
       display: table;
       clear: both; }
-    /* line 63, ../sass/components/pages/_front.scss */
+    /* line 64, ../sass/components/pages/_front.scss */
     .l-branding .site-name {
       float: right;
       padding: 1px;
-      text-shadow: 1px 1px 3px #dddddd;
+      text-shadow: 1px 1px 2px #dddddd;
       background: #333333; }
-      /* line 68, ../sass/components/pages/_front.scss */
+      /* line 69, ../sass/components/pages/_front.scss */
       .l-branding .site-name a {
         font-size: 2.5em;
         font-weight: normal;
         padding: 0 50px;
         text-transform: lowercase; }
-    /* line 75, ../sass/components/pages/_front.scss */
+    /* line 76, ../sass/components/pages/_front.scss */
     .l-branding .ir_custom_logo {
       float: left;
       margin: 0 auto; }
-      /* line 79, ../sass/components/pages/_front.scss */
+      /* line 80, ../sass/components/pages/_front.scss */
       .l-branding .ir_custom_logo .ir-custom-logo-icons {
         float: left; }
-      /* line 82, ../sass/components/pages/_front.scss */
+      /* line 83, ../sass/components/pages/_front.scss */
       .l-branding .ir_custom_logo .ir-main-idea {
         padding: 15px;
         margin-right: 2px;
         color: white;
         margin-bottom: 1px;
         text-shadow: 1px 1px 3px #333333; }
-      /* line 90, ../sass/components/pages/_front.scss */
+      /* line 91, ../sass/components/pages/_front.scss */
       .l-branding .ir_custom_logo #ir-drupal {
         background: #2ca8c2; }
-      /* line 93, ../sass/components/pages/_front.scss */
+      /* line 94, ../sass/components/pages/_front.scss */
       .l-branding .ir_custom_logo #ir-love {
         background: #eb5054; }
-      /* line 96, ../sass/components/pages/_front.scss */
+      /* line 97, ../sass/components/pages/_front.scss */
       .l-branding .ir_custom_logo #ir-dedication {
         background: #8ab845; }
-    /* line 100, ../sass/components/pages/_front.scss */
+    /* line 101, ../sass/components/pages/_front.scss */
     .l-branding .ir-slogan {
       float: right;
       font-size: 1.1em;
       text-align: left; } }
 @media (max-width: 768px) {
-  /* line 111, ../sass/components/pages/_front.scss */
+  /* line 112, ../sass/components/pages/_front.scss */
   .l-branding .ir-slogan {
     display: none; } }
 /* front header default*/
-/* line 118, ../sass/components/pages/_front.scss */
+/* line 119, ../sass/components/pages/_front.scss */
 .ir-main-idea {
   float: left; }
