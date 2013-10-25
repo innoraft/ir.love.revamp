@@ -165,19 +165,21 @@ img, media {
       float: none;
       font-size: 2em;
       margin-top: 2em;
-      text-align: center; }
-  /* line 57, ../sass/components/pages/_front.scss */
-  .front .l-content {
-    max-width: 1050px;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-left: auto;
-    margin-right: auto; }
-    /* line 38, ../../../../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-    .front .l-content:after {
-      content: "";
-      display: table;
-      clear: both; } }
+      text-align: center; } }
+/* line 59, ../sass/components/pages/_front.scss */
+.l-content {
+  *zoom: 1;
+  max-width: 1050px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 38, ../../../../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .l-content:after {
+    content: "";
+    display: table;
+    clear: both; }
+
 @media (min-width: 769px) {
   /* line 64, ../sass/components/pages/_front.scss */
   .l-branding {

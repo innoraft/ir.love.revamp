@@ -54,10 +54,10 @@
 				text-align:center;
 			}
 		}
-		.l-content {
-			@include container;
-		}
 	}
+}
+.l-content {
+	@include container;
 }
 
 @include at-breakpoint($desk) {
