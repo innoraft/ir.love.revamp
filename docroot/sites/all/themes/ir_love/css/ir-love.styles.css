@@ -47,7 +47,7 @@ img, media {
             font-weight: bold;
             padding: 16px 10px; }
             /* line 29, ../sass/components/_navigation.scss */
-            .l-top-nav #block-system-main-menu ul li a:hover, .l-top-nav #block-system-main-menu ul li a.active {
+            .l-top-nav #block-system-main-menu ul li a:hover {
               color: #8d8d8d;
               font-weight: bold; } }
 /* Menu theming for small screens*/
