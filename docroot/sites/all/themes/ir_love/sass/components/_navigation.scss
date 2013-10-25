@@ -49,6 +49,7 @@
 		   	box-shadow:none;
 		   	margin-right:5px;
 		   	padding:8px 0;
+		   	font-weight:bold;
 		   	&:hover {
 		   		//text-decoration: underline;
 		   	}
@@ -85,9 +86,9 @@
 		text-shadow: 1px 1px 2px $menu_link_hover_color;
 		a {
 			position: absolute;
-			top:7px;
+			top:0px;
 			left:4px;
-			font-size:1.4em;
+			font-size:2em;
 			font-weight: bold;
 			//letter-spacing: -1px;
 		}
@@ -96,7 +97,7 @@
 		.ir-custom-logo-icons {
 			position: absolute;
 			top:12px;
-			margin-left:6.3em;
+			margin-left:8.5em;
 			text-shadow: 1px 1px 1px $menu_link_hover_color;
 			.ir-main-idea {
 		 		color: $foreground;
