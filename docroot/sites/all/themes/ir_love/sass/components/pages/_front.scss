@@ -7,20 +7,21 @@
 		.l-branding {
 			padding: 6em 0;
 			.site-name {
+				//text-shadow: 1px 1px 3px $menu_link_color;
 				clear:both;
 				float:none;
 				width:99.9%;
 				background: $site_default_font_color;
 				a {
 					//background: $site_default_font_color;
-					font-size: 4em;
+					font-size: 6em;
 					font-weight:normal;
-					//padding: 0.5% 5%;
+					padding: 0 112px;
 					text-transform:lowercase;
 				}
 			}
 			.ir_custom_logo {
-				width:330px;
+				width:550px;
 				float:none;
 				margin: 0 auto;
 				.ir-custom-logo-icons {
@@ -28,7 +29,7 @@
 				}
 				.ir-main-idea {
 					width:33.3%;
-					padding: 1em 0;
+					padding: 2em 0;
 					color: $foreground;
 					margin-bottom:1px;
 					margin-right:0;
@@ -62,6 +63,7 @@
 		.site-name {
 			float: right;
 			padding: 1px;
+			text-shadow: 1px 1px 3px $menu_link_color;
 			background: $site_default_font_color;
 			a {
 				font-size: 2.5em;
