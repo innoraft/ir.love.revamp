@@ -1,15 +1,29 @@
 @import "susy";
 @import "variables/**/*";
 
-.l-top-nav {
-	#block-system-main-menu {
-	  ul {
-	    li {
-	      list-style:none;
-	      float:left;
-	      margin-left: 10px;
-	    }
-	  }
+/* Large screen menu - desktop*/
+@include at-breakpoint($desk) {
+	.l-top-nav {
+		background: $site_default_font_color;
+		position:fixed;
+		top:0;
+		width:100%;
+		#block-system-main-menu {
+		  ul {
+		    li {
+		      list-style:none;
+		      display: inline;
+		      margin-left: 10px;
+		      &:first {
+		        margin:0;
+		      }
+		      a {
+		        color: $foreground;
+		        text-decoration:none;
+		      }
+		    }
+		  }
+		}
 	}
 }
 
@@ -23,6 +37,10 @@
 		   	border-radius: 0;
 		   	box-shadow:none;
 		   	margin-right:5px;
+		   	padding:8px 0;
+		   	&:hover {
+		   		//text-decoration: underline;
+		   	}
 	   	}
 	   	&.responsive-toggled.absolute {
 	   	  .responsive-menus-simple {
@@ -33,11 +51,16 @@
 	   	}
 	   	.responsive-menus-simple {
 	   		ul {
+	   		  padding:0 20px;
 	   		  li.leaf {
+	   		  	padding: 12px 0;
 	   		  	list-style:none;
 	   		  	a {
 	   		    	color: $foreground;
 	   		    	text-decoration:none;
+	   		    	&:hover {
+	   		    		text-decoration: underline;
+	   		    	}
 	   		    }
 	   		  }
 	   		}
@@ -50,18 +73,22 @@
 	.site-name {
 		a {
 			position: absolute;
-			top:0;
+			top:7px;
 			left:4px;
-			font-size:70%;
+			font-size:1.4em;
+			font-weight: bold;
+			//letter-spacing: -1px;
 		}
 	}
 	.ir-custom-logo-icons {
 		position: absolute;
-		top:5px;
-		margin-left:7em;
+		top:12px;
+		margin-left:6.3em;
 	}
 	.ir-main-idea {
 	 	color: $foreground;
 	 	margin-right:15px;
+	}
+	.l-top-nav {
 	}
 }
