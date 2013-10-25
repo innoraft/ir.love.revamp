@@ -31,6 +31,9 @@ $desk: 70em 16; // At 70em use 16 columns.
   width:100%;
   text-align:center;
 }
+.l-header {
+  background: $foreground;
+}
 
 .l-footer,
 .l-main {
@@ -41,6 +44,10 @@ $desk: 70em 16; // At 70em use 16 columns.
 .l-page {
   font-family: "Cabin";
   font-size:100%;
+  color: $site_default_font_color;
+}
+body {
+  background: $site_body_color;
 }
 
 /*site name defaults*/
