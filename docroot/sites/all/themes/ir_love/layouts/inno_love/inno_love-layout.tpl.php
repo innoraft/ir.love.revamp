@@ -23,11 +23,11 @@
       <?php endif; ?>
     </div>
 
-      <!-- <div class="ir-slogan"> -->
+      <div class="ir-slogan">
         <?php if ($site_slogan): ?>
-          <div class="site-slogan"><?php //print $site_slogan; ?></div>
+          <div class="site-slogan"><?php print $site_slogan; ?></div>
         <?php endif; ?>
-      <!-- </div> -->
+      </div>
       <?php print render($page['branding']); ?>
     </div>
 
