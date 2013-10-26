@@ -14,6 +14,7 @@ stylesheets[all][] = css/layouts/inno_love/inno_love.layout.css
 scripts[] = js/ir-love.behaviors.js
 
 regions[top_navigation]	= Top Navigation
+regions[branding] = Branding
 regions[header] = Header
 regions[navigation] = Navigation
 regions[highlighted] = Highlighted
