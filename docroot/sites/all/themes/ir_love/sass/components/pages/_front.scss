@@ -37,13 +37,13 @@
 					text-shadow: 2px 2px 2px $text_shadow;
 				}
 				#ir-drupal {
-					background: $bg_idea_drupal;
+					background: $bg_idea_blue;
 				}
 				#ir-love {
-					background: $bg_idea_love;
+					background: $bg_idea_pink;
 				}
 				#ir-dedication {
-					background: $bg_idea_dedication;
+					background: $bg_idea_green;
 				}
 			}
 			.ir-slogan {
@@ -92,13 +92,13 @@
 					text-shadow: 1px 1px 3px $text_shadow;
 				}
 				#ir-drupal {
-					background: $bg_idea_drupal;
+					background: $bg_idea_blue;
 				}
 				#ir-love {
-					background: $bg_idea_love;
+					background: $bg_idea_pink;
 				}
 				#ir-dedication {
-					background: $bg_idea_dedication;
+					background: $bg_idea_green;
 				}
 			}
 			.ir-slogan {
@@ -116,9 +116,61 @@
 			display:none;
 		}
 	}
+	#block-views-our-services-block {
+		.views-view-grid {
+			width:100%;
+		//@include container;
+			td {
+				display:table-row;
+				width:100%;
+			}
+		}
+	}
 }
 
 /* front header default*/
 .ir-main-idea {
 	float:left;
+}
+
+/* front page services blocks */
+@include at-breakpoint($desk) {
+#block-views-our-services-block {
+	margin-top:2em;
+	.views-view-grid {
+		width:100%;
+		border-collapse: collapse;
+		tr {
+			border-bottom: 15px solid $foreground;
+		}
+		td {
+			//padding:20px 0;
+			margin-bottom:5px;
+			width:25%;
+			border-right: 15px solid $foreground;
+			&.col-first {
+				background:$bg_idea_blue;
+			}
+			&.col-2 {
+				background:$bg_idea_pink;
+			}
+			&.col-3 {
+				background:$bg_idea_green;
+			}
+			&.col-last {
+				background:$bg_idea_yellow;
+				border:none;
+			}
+			a {
+				padding:20px;
+				display:block;
+				color: $foreground;
+				text-decoration:none;
+				&:hover {
+					text-decoration:underline;
+				}
+			}
+		}
+	}
+}
 }
