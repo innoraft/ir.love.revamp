@@ -15,7 +15,7 @@ $container-width: 1060px;
 
 // Susy Media Layouts @see http://susy.oddbird.net/guides/reference/#ref-media-layouts
 //$tab_to_desk: 768 12; // At 44em use 12 columns.
-$desk: 769px 12;
-$tab: 8 768px; // At 44em use 12 columns.
-$mobile: 4 480px; // At 480px use 8 columns.
+$desk: 769px 16;
+$tab: 12 768px; // At 44em use 12 columns.
+$mobile: 8 480px; // At 480px use 8 columns.
 $break: 12;
