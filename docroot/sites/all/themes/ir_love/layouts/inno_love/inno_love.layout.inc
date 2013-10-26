@@ -4,10 +4,10 @@ preview = preview.png
 template = inno_love-layout
 
 ; Regions
-regions[branding]       = Branding
 regions[top_navigation]	= Top Navigation
+regions[branding]       = Branding
 regions[header]         = Header
-;regions[navigation]     = Navigation bar
+;regions[navigation]    = Navigation bar
 regions[highlighted]    = Highlighted
 regions[help]           = Help
 regions[content]        = Content

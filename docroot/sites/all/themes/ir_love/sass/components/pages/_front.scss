@@ -37,13 +37,13 @@
 					text-shadow: 2px 2px 2px $text_shadow;
 				}
 				#ir-drupal {
-					background: $bg_idea_drupal;
+					background: $bg_idea_blue;
 				}
 				#ir-love {
-					background: $bg_idea_love;
+					background: $bg_idea_pink;
 				}
 				#ir-dedication {
-					background: $bg_idea_dedication;
+					background: $bg_idea_green;
 				}
 			}
 			.ir-slogan {
@@ -52,6 +52,21 @@
 				font-size: 2em;
 				margin-top:2em;
 				text-align:center;
+			}
+		}
+		#block-views-our-services-block {
+			.views-view-grid {
+				tr {
+					float:none;
+					border-bottom: 15px solid $foreground;
+				}
+				td {
+					width:25%;
+					border-right: 15px solid $foreground;
+					&.col-last {
+						border:none;
+					}
+				}
 			}
 		}
 	}
@@ -92,13 +107,13 @@
 					text-shadow: 1px 1px 3px $text_shadow;
 				}
 				#ir-drupal {
-					background: $bg_idea_drupal;
+					background: $bg_idea_blue;
 				}
 				#ir-love {
-					background: $bg_idea_love;
+					background: $bg_idea_pink;
 				}
 				#ir-dedication {
-					background: $bg_idea_dedication;
+					background: $bg_idea_green;
 				}
 			}
 			.ir-slogan {
@@ -116,9 +131,75 @@
 			display:none;
 		}
 	}
+	#block-views-our-services-block {
+		.views-view-grid {
+			tr {
+				width:50%;
+				float:left;
+			}
+			td {
+				@include span-columns($break);
+				border-right:10px solid $foreground;
+				border-left:10px solid $foreground;
+			}
+		}
+	}
+}
+
+@include at-breakpoint($mobile) {
+	#block-views-our-services-block {
+		.views-view-grid {
+			tr {
+				border-bottom: 15px solid $foreground;
+				width:100%;
+				float:none;
+				border: none;
+			}
+			td {
+				border-bottom: 10px solid $foreground;
+			}
+		}
+	}
 }
 
 /* front header default*/
 .ir-main-idea {
 	float:left;
+}
+
+/* front page services blocks */
+#block-views-our-services-block {
+	margin-top:2em;
+	.views-view-grid {
+		width:100%;
+		border-collapse: collapse;
+		tr {
+		}
+		td {
+			//padding:20px 0;
+			width:100%;
+			&.col-first {
+				background:$bg_idea_blue;
+			}
+			&.col-2 {
+				background:$bg_idea_pink;
+			}
+			&.col-3 {
+				background:$bg_idea_green;
+			}
+			&.col-last {
+				background:$bg_idea_yellow;
+				//border:none;
+			}
+			a {
+				padding:20px;
+				display:block;
+				color: $foreground;
+				text-decoration:none;
+				&:hover {
+					text-decoration:underline;
+				}
+			}
+		}
+	}
 }

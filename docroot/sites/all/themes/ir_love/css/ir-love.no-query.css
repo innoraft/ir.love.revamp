@@ -61,8 +61,7 @@ img, media {
     background: none repeat scroll 0 0 #222222;
     border-radius: 0;
     box-shadow: none;
-    margin-right: 5px;
-    padding: 8px 0;
+    padding: 8px 8px 8px 0;
     font-weight: bold; }
   /* line 60, ../sass/components/_navigation.scss */
   .l-top-nav .responsive-menus.responsified.responsive-toggled.absolute .responsive-menus-simple {
@@ -169,8 +168,19 @@ img, media {
       float: none;
       font-size: 2em;
       margin-top: 2em;
-      text-align: center; } }
-/* line 59, ../sass/components/pages/_front.scss */
+      text-align: center; }
+  /* line 59, ../sass/components/pages/_front.scss */
+  .front #block-views-our-services-block .views-view-grid tr {
+    float: none;
+    border-bottom: 15px solid white; }
+  /* line 63, ../sass/components/pages/_front.scss */
+  .front #block-views-our-services-block .views-view-grid td {
+    width: 25%;
+    border-right: 15px solid white; }
+    /* line 66, ../sass/components/pages/_front.scss */
+    .front #block-views-our-services-block .views-view-grid td.col-last {
+      border: none; } }
+/* line 74, ../sass/components/pages/_front.scss */
 .l-content {
   *zoom: 1;
   max-width: 1050px;
@@ -185,7 +195,7 @@ img, media {
     clear: both; }
 
 @media (min-width: 769px) {
-  /* line 64, ../sass/components/pages/_front.scss */
+  /* line 79, ../sass/components/pages/_front.scss */
   .l-branding {
     max-width: 1050px;
     padding-left: 5px;
@@ -198,51 +208,106 @@ img, media {
       content: "";
       display: table;
       clear: both; }
-    /* line 67, ../sass/components/pages/_front.scss */
+    /* line 82, ../sass/components/pages/_front.scss */
     .l-branding .site-name {
       float: right;
       padding: 1px;
       text-shadow: 1px 1px 2px black;
       background: #222222; }
-      /* line 72, ../sass/components/pages/_front.scss */
+      /* line 87, ../sass/components/pages/_front.scss */
       .l-branding .site-name a {
         font-size: 2.5em;
         font-weight: normal;
         padding: 0 50px;
         text-transform: lowercase; }
-    /* line 79, ../sass/components/pages/_front.scss */
+    /* line 94, ../sass/components/pages/_front.scss */
     .l-branding .ir_custom_logo {
       float: left;
       margin: 0 auto; }
-      /* line 83, ../sass/components/pages/_front.scss */
+      /* line 98, ../sass/components/pages/_front.scss */
       .l-branding .ir_custom_logo .ir-custom-logo-icons {
         float: left; }
-      /* line 86, ../sass/components/pages/_front.scss */
+      /* line 101, ../sass/components/pages/_front.scss */
       .l-branding .ir_custom_logo .ir-main-idea {
         padding: 15px;
         margin-right: 2px;
         color: white;
         margin-bottom: 1px;
         text-shadow: 1px 1px 3px #333333; }
-      /* line 94, ../sass/components/pages/_front.scss */
+      /* line 109, ../sass/components/pages/_front.scss */
       .l-branding .ir_custom_logo #ir-drupal {
         background: #2ca8c2; }
-      /* line 97, ../sass/components/pages/_front.scss */
+      /* line 112, ../sass/components/pages/_front.scss */
       .l-branding .ir_custom_logo #ir-love {
         background: #eb5054; }
-      /* line 100, ../sass/components/pages/_front.scss */
+      /* line 115, ../sass/components/pages/_front.scss */
       .l-branding .ir_custom_logo #ir-dedication {
         background: #8ab845; }
-    /* line 104, ../sass/components/pages/_front.scss */
+    /* line 119, ../sass/components/pages/_front.scss */
     .l-branding .ir-slogan {
       float: right;
       font-size: 1.1em;
       text-align: left; } }
 @media (max-width: 768px) {
-  /* line 115, ../sass/components/pages/_front.scss */
+  /* line 130, ../sass/components/pages/_front.scss */
   .l-branding .ir-slogan {
-    display: none; } }
+    display: none; }
+
+  /* line 136, ../sass/components/pages/_front.scss */
+  #block-views-our-services-block .views-view-grid tr {
+    width: 50%;
+    float: left; }
+  /* line 140, ../sass/components/pages/_front.scss */
+  #block-views-our-services-block .views-view-grid td {
+    width: 100%;
+    float: left;
+    margin-right: 1.69492%;
+    border-right: 10px solid white;
+    border-left: 10px solid white; } }
+@media (max-width: 480px) {
+  /* line 152, ../sass/components/pages/_front.scss */
+  #block-views-our-services-block .views-view-grid tr {
+    border-bottom: 15px solid white;
+    width: 100%;
+    float: none;
+    border: none; }
+  /* line 158, ../sass/components/pages/_front.scss */
+  #block-views-our-services-block .views-view-grid td {
+    border-bottom: 10px solid white; } }
 /* front header default*/
-/* line 122, ../sass/components/pages/_front.scss */
+/* line 166, ../sass/components/pages/_front.scss */
 .ir-main-idea {
   float: left; }
+
+/* front page services blocks */
+/* line 171, ../sass/components/pages/_front.scss */
+#block-views-our-services-block {
+  margin-top: 2em; }
+  /* line 173, ../sass/components/pages/_front.scss */
+  #block-views-our-services-block .views-view-grid {
+    width: 100%;
+    border-collapse: collapse; }
+    /* line 178, ../sass/components/pages/_front.scss */
+    #block-views-our-services-block .views-view-grid td {
+      width: 100%; }
+      /* line 181, ../sass/components/pages/_front.scss */
+      #block-views-our-services-block .views-view-grid td.col-first {
+        background: #2ca8c2; }
+      /* line 184, ../sass/components/pages/_front.scss */
+      #block-views-our-services-block .views-view-grid td.col-2 {
+        background: #eb5054; }
+      /* line 187, ../sass/components/pages/_front.scss */
+      #block-views-our-services-block .views-view-grid td.col-3 {
+        background: #8ab845; }
+      /* line 190, ../sass/components/pages/_front.scss */
+      #block-views-our-services-block .views-view-grid td.col-last {
+        background: #f4b400; }
+      /* line 194, ../sass/components/pages/_front.scss */
+      #block-views-our-services-block .views-view-grid td a {
+        padding: 20px;
+        display: block;
+        color: white;
+        text-decoration: none; }
+        /* line 199, ../sass/components/pages/_front.scss */
+        #block-views-our-services-block .views-view-grid td a:hover {
+          text-decoration: underline; }

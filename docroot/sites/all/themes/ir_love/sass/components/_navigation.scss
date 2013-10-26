@@ -49,8 +49,8 @@
 			background: none repeat scroll 0 0 $site_default_font_color;
 		   	border-radius: 0;
 		   	box-shadow:none;
-		   	margin-right:5px;
-		   	padding:8px 0;
+		   	//margin-right:5px;
+		   	padding:8px 8px 8px 0;
 		   	font-weight:bold;
 		   	&:hover {
 		   		//text-decoration: underline;
@@ -109,13 +109,13 @@
 		 		margin-right:8px;
 			}
 			#ir-drupal {
-				color: $bg_idea_drupal;
+				color: $bg_idea_blue;
 			}
 			#ir-love {
-				color: $bg_idea_love;
+				color: $bg_idea_pink;
 			}
 			#ir-dedication {
-				color: $bg_idea_dedication;
+				color: $bg_idea_green;
 			}
 		}
 	}
