@@ -47,6 +47,7 @@
 				}
 			}
 			.ir-slogan {
+				display:none;
 				clear:both;
 				float:none;
 				font-size: 2em;
@@ -136,11 +137,13 @@
 			tr {
 				width:50%;
 				float:left;
+				border-bottom: 10px solid $foreground;
 			}
 			td {
 				@include span-columns($break);
 				border-right:10px solid $foreground;
 				border-left:10px solid $foreground;
+				border-bottom: 5px solid $foreground;
 			}
 		}
 	}
@@ -178,16 +181,16 @@
 		td {
 			//padding:20px 0;
 			width:100%;
-			&.col-first {
+			&:nth-child(4n + 1){
 				background:$bg_idea_blue;
 			}
-			&.col-2 {
+			&:nth-child(4n + 2){
 				background:$bg_idea_pink;
 			}
-			&.col-3 {
+			&:nth-child(4n + 3) {
 				background:$bg_idea_green;
 			}
-			&.col-last {
+			&:nth-child(4n) {
 				background:$bg_idea_yellow;
 				//border:none;
 			}
