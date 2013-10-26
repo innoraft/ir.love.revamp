@@ -61,8 +61,7 @@ img, media {
     background: none repeat scroll 0 0 #222222;
     border-radius: 0;
     box-shadow: none;
-    margin-right: 5px;
-    padding: 8px 0;
+    padding: 8px 8px 8px 0;
     font-weight: bold; }
   /* line 60, ../sass/components/_navigation.scss */
   .l-top-nav .responsive-menus.responsified.responsive-toggled.absolute .responsive-menus-simple {
@@ -241,8 +240,56 @@ img, media {
 @media (max-width: 768px) {
   /* line 115, ../sass/components/pages/_front.scss */
   .l-branding .ir-slogan {
-    display: none; } }
+    display: none; }
+
+  /* line 120, ../sass/components/pages/_front.scss */
+  #block-views-our-services-block .views-view-grid {
+    width: 100%; }
+    /* line 123, ../sass/components/pages/_front.scss */
+    #block-views-our-services-block .views-view-grid td {
+      display: table-row;
+      width: 100%; } }
 /* front header default*/
-/* line 122, ../sass/components/pages/_front.scss */
+/* line 132, ../sass/components/pages/_front.scss */
 .ir-main-idea {
   float: left; }
+
+/* front page services blocks */
+@media (min-width: 769px) {
+  /* line 138, ../sass/components/pages/_front.scss */
+  #block-views-our-services-block {
+    margin-top: 2em; }
+    /* line 140, ../sass/components/pages/_front.scss */
+    #block-views-our-services-block .views-view-grid {
+      width: 100%;
+      border-collapse: collapse; }
+      /* line 143, ../sass/components/pages/_front.scss */
+      #block-views-our-services-block .views-view-grid tr {
+        border-bottom: 15px solid white; }
+      /* line 146, ../sass/components/pages/_front.scss */
+      #block-views-our-services-block .views-view-grid td {
+        margin-bottom: 5px;
+        width: 25%;
+        border-right: 15px solid white; }
+        /* line 151, ../sass/components/pages/_front.scss */
+        #block-views-our-services-block .views-view-grid td.col-first {
+          background: #2ca8c2; }
+        /* line 154, ../sass/components/pages/_front.scss */
+        #block-views-our-services-block .views-view-grid td.col-2 {
+          background: #eb5054; }
+        /* line 157, ../sass/components/pages/_front.scss */
+        #block-views-our-services-block .views-view-grid td.col-3 {
+          background: #8ab845; }
+        /* line 160, ../sass/components/pages/_front.scss */
+        #block-views-our-services-block .views-view-grid td.col-last {
+          background: #f4b400;
+          border: none; }
+        /* line 164, ../sass/components/pages/_front.scss */
+        #block-views-our-services-block .views-view-grid td a {
+          padding: 20px;
+          display: block;
+          color: white;
+          text-decoration: none; }
+          /* line 169, ../sass/components/pages/_front.scss */
+          #block-views-our-services-block .views-view-grid td a:hover {
+            text-decoration: underline; } }
