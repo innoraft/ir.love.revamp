@@ -132,100 +132,10 @@ function f_home_page_layout_default_page_manager_pages() {
   $display->panels = array();
     $pane = new stdClass();
     $pane->pid = 'new-1';
-    $pane->panel = 'bottom_main_idea';
-    $pane->type = 'custom';
-    $pane->subtype = 'custom';
-    $pane->shown = FALSE;
-    $pane->access = array();
-    $pane->configuration = array(
-      'admin_title' => 'Drupal',
-      'title' => '',
-      'body' => '<div class="main-idea-image-container">
-<div class="main-idea-image-inner img-love"><img alt="" src="/sites/all/themes/ir_love/images/drupal.png" style="height:90px; width:104px" /></div>
-</div>
-',
-      'format' => 'full_html',
-      'substitute' => TRUE,
-    );
-    $pane->cache = array();
-    $pane->style = array(
-      'settings' => NULL,
-    );
-    $pane->css = array(
-      'css_id' => 'idea-tech',
-      'css_class' => 'content-ir-main-idea bottom-main-idea-container',
-    );
-    $pane->extras = array();
-    $pane->position = 0;
-    $pane->locks = array();
-    $display->content['new-1'] = $pane;
-    $display->panels['bottom_main_idea'][0] = 'new-1';
-    $pane = new stdClass();
-    $pane->pid = 'new-2';
-    $pane->panel = 'center';
-    $pane->type = 'custom';
-    $pane->subtype = 'custom';
-    $pane->shown = FALSE;
-    $pane->access = array();
-    $pane->configuration = array(
-      'admin_title' => 'Dedication',
-      'title' => '',
-      'body' => '<div class="main-idea-image-container">
-<div class="main-idea-image-inner img-love"><img alt="" src="/sites/all/themes/ir_love/images/index.png" style="height:90px; width:104px" /></div>
-</div>
-',
-      'format' => 'full_html',
-      'substitute' => TRUE,
-    );
-    $pane->cache = array();
-    $pane->style = array(
-      'settings' => NULL,
-    );
-    $pane->css = array(
-      'css_id' => 'idea-dedication',
-      'css_class' => 'content-ir-main-idea middle-main-idea-inner',
-    );
-    $pane->extras = array();
-    $pane->position = 0;
-    $pane->locks = array();
-    $display->content['new-2'] = $pane;
-    $display->panels['center'][0] = 'new-2';
-    $pane = new stdClass();
-    $pane->pid = 'new-3';
-    $pane->panel = '_none_';
-    $pane->type = 'custom';
-    $pane->subtype = 'custom';
-    $pane->shown = FALSE;
-    $pane->access = array();
-    $pane->configuration = array(
-      'admin_title' => 'Love',
-      'title' => '<none>',
-      'body' => '<div class="main-idea-image-container">
-<div class="main-idea-image-inner img-love"><img alt="" src="/sites/all/themes/ir_love/images/heart.png" style="height:90px; width:104px" /></div>
-</div>
-',
-      'format' => 'full_html',
-      'substitute' => TRUE,
-    );
-    $pane->cache = array();
-    $pane->style = array(
-      'settings' => NULL,
-    );
-    $pane->css = array(
-      'css_id' => 'idea-love',
-      'css_class' => 'content-ir-main-idea top-main-idea-inner',
-    );
-    $pane->extras = array();
-    $pane->position = 0;
-    $pane->locks = array();
-    $display->content['new-3'] = $pane;
-    $display->panels['_none_'][0] = 'new-3';
-    $pane = new stdClass();
-    $pane->pid = 'new-4';
     $pane->panel = '_none_';
     $pane->type = 'node';
     $pane->subtype = 'node';
-    $pane->shown = TRUE;
+    $pane->shown = FALSE;
     $pane->access = array();
     $pane->configuration = array(
       'nid' => '2',
@@ -243,10 +153,58 @@ function f_home_page_layout_default_page_manager_pages() {
     );
     $pane->css = array();
     $pane->extras = array();
+    $pane->position = 0;
+    $pane->locks = array();
+    $display->content['new-1'] = $pane;
+    $display->panels['_none_'][0] = 'new-1';
+    $pane = new stdClass();
+    $pane->pid = 'new-2';
+    $pane->panel = '_none_';
+    $pane->type = 'block';
+    $pane->subtype = 'views-our_portfolio-block';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'override_title' => 0,
+      'override_title_text' => '',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array(
+      'css_id' => '',
+      'css_class' => 'front-page-main-content',
+    );
+    $pane->extras = array();
     $pane->position = 1;
     $pane->locks = array();
-    $display->content['new-4'] = $pane;
-    $display->panels['_none_'][1] = 'new-4';
+    $display->content['new-2'] = $pane;
+    $display->panels['_none_'][1] = 'new-2';
+    $pane = new stdClass();
+    $pane->pid = 'new-3';
+    $pane->panel = '_none_';
+    $pane->type = 'block';
+    $pane->subtype = 'views-our_services-services_content';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'override_title' => 0,
+      'override_title_text' => '',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array(
+      'css_id' => '',
+      'css_class' => 'front-page-main-content',
+    );
+    $pane->extras = array();
+    $pane->position = 2;
+    $pane->locks = array();
+    $display->content['new-3'] = $pane;
+    $display->panels['_none_'][2] = 'new-3';
   $display->hide_title = PANELS_TITLE_NONE;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
