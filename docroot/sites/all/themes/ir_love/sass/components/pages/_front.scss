@@ -138,16 +138,24 @@
 				}
 			}
 			> .view-content {
-				$total-columns: 12;
+				/*$total-columns: 12;
 				@include container;
 				.views-row-odd {
 					@include span-columns(6,12);
 				}
 				.views-row-even {
 					@include span-columns(6,12);
-				}
+				}*/
 
 			}
+		}
+	}
+	.pane-main-idea {
+		$total-columns: 12;
+		@include container;
+		.front-page-main-content {
+			@include span-columns(6,12);
+			margin-right:6px;
 		}
 	}
 }
@@ -300,25 +308,9 @@
 		.views-row:hover {
 	    	//background: $foreground;
 	  	}
-	  	@include at-breakpoint($desk) {
-	  	/*> .view-content {
-	  		$total-columns: 2;
-	  		@include set-container-width;
-	  		.views-row {
-	  			clear:none;
-	  			margin-right:0 !important;
-	  		}
-	  		.views-row-odd {
-	  			@include span-columns(1,2);
-	  		}
-	  		.views-row-even {
-	  			@include span-columns(1,2);
-	  		}
-	  	}*/
-	  	}
 	}
 }
 .front-top-content-block,
 .front-page-main-content {
-	clear:both;
+	//clear:both;
 }
