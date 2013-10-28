@@ -310,3 +310,28 @@ table {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   *behavior: url('../behaviors/box-sizing/boxsizing.php'); }
+
+/* Basic HTML css changes site-wide*/
+/* line 15, ../sass/ir-love.normalize.scss */
+body {
+  background: gainsboro; }
+
+/* line 19, ../sass/ir-love.normalize.scss */
+a {
+  color: #2ca8c2;
+  text-decoration: none; }
+  /* line 22, ../sass/ir-love.normalize.scss */
+  a:hover {
+    text-decoration: underline; }
+
+/*site name defaults*/
+/* line 29, ../sass/ir-love.normalize.scss */
+.site-name a {
+  color: white;
+  text-decoration: none; }
+
+/* Read More Link Site-wide*/
+/* line 36, ../sass/ir-love.normalize.scss */
+.read-more-link {
+  float: right;
+  font-size: 80%; }

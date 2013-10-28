@@ -7,30 +7,12 @@
 @import "susy";
 @import "../../variables/**/*";
 
-// Susy Variables
-
-// Set consistent vertical and horizontal spacing units.
-$vert-spacing-unit: 20px;
-$horz-spacing-unit: 1em;
-
-// Define Susy grid variables mobile first.
-$total-columns: 4;
-$column-width: 4em;
-$gutter-width: $horz-spacing-unit;
-$grid-padding: 5px;
-
-$container-style: magic;
-$container-width: 1060px;
-
-// Susy Media Layouts @see http://susy.oddbird.net/guides/reference/#ref-media-layouts
-$tab: 44em 12; // At 44em use 12 columns.
-$desk: 70em 16; // At 70em use 16 columns.
-
 .l-branding {
   clear:both;
   width:100%;
   text-align:center;
 }
+
 .l-header {
   background: $foreground;
 }
@@ -39,6 +21,7 @@ $desk: 70em 16; // At 70em use 16 columns.
 .l-main {
   clear:both;
 }
+
 .l-content {
   @include container;
 }
@@ -49,30 +32,8 @@ $desk: 70em 16; // At 70em use 16 columns.
   font-size:100%;
   color: $site_default_font_color;
 }
-body {
-  background: $site_body_color;
-}
 
-a {
-  color: $bg_idea_blue;
-  text-decoration:none;
-  &:hover {
-    text-decoration:underline;
-  }
-}
-
-/*site name defaults*/
-.site-name {
-  a {
-    color: $foreground;
-    text-decoration:none;
-  }
-}
-
-//.l-header,
 .l-main {
-//.l-footer {
- // @include container; // Define these elements as the grid containers.
   margin-bottom: $vert-spacing-unit;
 }
 
@@ -84,15 +45,6 @@ a {
 }
 
 @include at-breakpoint($tab) { // At a given Susy Media Layout, use a given amount of columns.
-  //.l-header,
-  .l-main {
-  //.l-footer {
-    //@include set-container-width; // Reset only the container width (elements have already been declared as containers).
-  }
-
-  .l-branding {
-   // @include span-columns(4, 12); // Span 4 out of 12 columns.
-  }
   .l-region--header{
     @include span-columns(8 omega, 12); // Span the last (omega) 8 columns of 12.
   }
@@ -117,15 +69,6 @@ a {
 }
 
 @include at-breakpoint($desk) {
- // .l-header,
-  .l-main {
- // .l-footer {
-   // @include set-container-width; // Reset only the container width (elements have already been declared as containers).
-  }
-
-  .l-branding {
-    //@include span-columns(6, 16); // Span 6 out of 16 columns.
-  }
   .l-region--header{
     @include span-columns(10 omega, 16); // Span the last (omega) 10 columns of 16.
   }

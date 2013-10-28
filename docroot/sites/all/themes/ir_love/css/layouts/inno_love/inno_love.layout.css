@@ -6,22 +6,22 @@
  ******************************************************************************/
 /* Custom color variables*/
 /* Site Wide varaibles*/
-/* line 29, ../../../sass/layouts/inno_love/inno_love.layout.scss */
+/* line 10, ../../../sass/layouts/inno_love/inno_love.layout.scss */
 .l-branding {
   clear: both;
   width: 100%;
   text-align: center; }
 
-/* line 34, ../../../sass/layouts/inno_love/inno_love.layout.scss */
+/* line 16, ../../../sass/layouts/inno_love/inno_love.layout.scss */
 .l-header {
   background: white; }
 
-/* line 39, ../../../sass/layouts/inno_love/inno_love.layout.scss */
+/* line 21, ../../../sass/layouts/inno_love/inno_love.layout.scss */
 .l-footer,
 .l-main {
   clear: both; }
 
-/* line 42, ../../../sass/layouts/inno_love/inno_love.layout.scss */
+/* line 25, ../../../sass/layouts/inno_love/inno_love.layout.scss */
 .l-content {
   *zoom: 1;
   max-width: 1050px;
@@ -36,60 +36,42 @@
     clear: both; }
 
 /*site body defaults*/
-/* line 47, ../../../sass/layouts/inno_love/inno_love.layout.scss */
+/* line 30, ../../../sass/layouts/inno_love/inno_love.layout.scss */
 .l-page {
   font-family: "Cabin";
   font-size: 100%;
   color: #222222; }
 
-/* line 52, ../../../sass/layouts/inno_love/inno_love.layout.scss */
-body {
-  background: gainsboro; }
-
-/* line 56, ../../../sass/layouts/inno_love/inno_love.layout.scss */
-a {
-  color: #2ca8c2;
-  text-decoration: none; }
-  /* line 59, ../../../sass/layouts/inno_love/inno_love.layout.scss */
-  a:hover {
-    text-decoration: underline; }
-
-/*site name defaults*/
-/* line 66, ../../../sass/layouts/inno_love/inno_love.layout.scss */
-.site-name a {
-  color: white;
-  text-decoration: none; }
-
-/* line 73, ../../../sass/layouts/inno_love/inno_love.layout.scss */
+/* line 36, ../../../sass/layouts/inno_love/inno_love.layout.scss */
 .l-main {
   margin-bottom: 20px; }
 
-/* line 82, ../../../sass/layouts/inno_love/inno_love.layout.scss */
+/* line 43, ../../../sass/layouts/inno_love/inno_love.layout.scss */
 .l-region--highlighted,
 .l-region--help,
 .l-region--sidebar-first,
 .l-region--sidebar-second {
   margin-bottom: 20px; }
 
-@media (min-width: 44em) {
-  /* line 96, ../../../sass/layouts/inno_love/inno_love.layout.scss */
+@media (max-width: 768px) {
+  /* line 48, ../../../sass/layouts/inno_love/inno_love.layout.scss */
   .l-region--header {
     width: 66.10169%;
     float: right;
     margin-right: 0; }
 
-  /* line 99, ../../../sass/layouts/inno_love/inno_love.layout.scss */
+  /* line 51, ../../../sass/layouts/inno_love/inno_love.layout.scss */
   .l-region--navigation {
     clear: both; }
 
-  /* line 106, ../../../sass/layouts/inno_love/inno_love.layout.scss */
+  /* line 58, ../../../sass/layouts/inno_love/inno_love.layout.scss */
   .has-sidebar-first .l-content,
   .has-sidebar-second .l-content,
   .has-two-sidebars .l-content {
     width: 66.10169%;
     float: left;
     margin-right: 1.69492%; }
-  /* line 110, ../../../sass/layouts/inno_love/inno_love.layout.scss */
+  /* line 62, ../../../sass/layouts/inno_love/inno_love.layout.scss */
   .has-sidebar-first .l-region--sidebar-first,
   .has-sidebar-first .l-region--sidebar-second,
   .has-sidebar-second .l-region--sidebar-first,
@@ -99,57 +81,57 @@ a {
     width: 32.20339%;
     float: right;
     margin-right: 0; }
-  /* line 113, ../../../sass/layouts/inno_love/inno_love.layout.scss */
+  /* line 65, ../../../sass/layouts/inno_love/inno_love.layout.scss */
   .has-sidebar-first .l-region--sidebar-second,
   .has-sidebar-second .l-region--sidebar-second,
   .has-two-sidebars .l-region--sidebar-second {
     clear: right; } }
-@media (min-width: 70em) {
-  /* line 129, ../../../sass/layouts/inno_love/inno_love.layout.scss */
+@media (min-width: 769px) {
+  /* line 72, ../../../sass/layouts/inno_love/inno_love.layout.scss */
   .l-region--header {
     width: 62.02532%;
     float: right;
     margin-right: 0; }
 
-  /* line 134, ../../../sass/layouts/inno_love/inno_love.layout.scss */
+  /* line 77, ../../../sass/layouts/inno_love/inno_love.layout.scss */
   .has-sidebar-first .l-content {
     width: 74.68354%;
     float: right;
     margin-right: 0; }
-  /* line 137, ../../../sass/layouts/inno_love/inno_love.layout.scss */
+  /* line 80, ../../../sass/layouts/inno_love/inno_love.layout.scss */
   .has-sidebar-first .l-region--sidebar-first {
     width: 24.05063%;
     float: left;
     margin-right: 1.26582%; }
 
-  /* line 142, ../../../sass/layouts/inno_love/inno_love.layout.scss */
+  /* line 85, ../../../sass/layouts/inno_love/inno_love.layout.scss */
   .has-sidebar-second .l-content {
     width: 74.68354%;
     float: left;
     margin-right: 1.26582%; }
-  /* line 145, ../../../sass/layouts/inno_love/inno_love.layout.scss */
+  /* line 88, ../../../sass/layouts/inno_love/inno_love.layout.scss */
   .has-sidebar-second .l-region--sidebar-second {
     width: 24.05063%;
     float: right;
     margin-right: 0;
     clear: none; }
 
-  /* line 152, ../../../sass/layouts/inno_love/inno_love.layout.scss */
+  /* line 95, ../../../sass/layouts/inno_love/inno_love.layout.scss */
   .has-two-sidebars .l-content {
     width: 49.36709%;
     float: left;
     margin-right: 1.26582%;
     margin-left: 25.31646%; }
-  /* line 157, ../../../sass/layouts/inno_love/inno_love.layout.scss */
+  /* line 100, ../../../sass/layouts/inno_love/inno_love.layout.scss */
   .has-two-sidebars .l-region--sidebar-first,
   .has-two-sidebars .l-region--sidebar-second {
     width: 24.05063%;
     float: left;
     margin-right: 1.26582%; }
-  /* line 160, ../../../sass/layouts/inno_love/inno_love.layout.scss */
+  /* line 103, ../../../sass/layouts/inno_love/inno_love.layout.scss */
   .has-two-sidebars .l-region--sidebar-first {
     margin-left: -75.94937%; }
-  /* line 163, ../../../sass/layouts/inno_love/inno_love.layout.scss */
+  /* line 106, ../../../sass/layouts/inno_love/inno_love.layout.scss */
   .has-two-sidebars .l-region--sidebar-second {
     float: right;
     margin-right: 0;
