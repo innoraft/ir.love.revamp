@@ -23,6 +23,7 @@ img, media {
     z-index: 1000; }
     /* line 12, ../sass/components/_navigation.scss */
     .l-top-nav #block-system-main-menu {
+      max-width: 1050px;
       padding-left: 5px;
       padding-right: 5px;
       margin-left: auto;
@@ -182,6 +183,7 @@ img, media {
 /* line 74, ../sass/components/pages/_front.scss */
 .l-content {
   *zoom: 1;
+  max-width: 1050px;
   padding-left: 5px;
   padding-right: 5px;
   margin-left: auto;
@@ -195,6 +197,7 @@ img, media {
 @media (min-width: 769px) {
   /* line 79, ../sass/components/pages/_front.scss */
   .l-branding {
+    max-width: 1050px;
     padding-left: 5px;
     padding-right: 5px;
     margin-left: auto;
@@ -348,6 +351,7 @@ img, media {
 /* line 247, ../sass/components/pages/_front.scss */
 .front-page-main-content .content-listings-home > .view-content .views-row {
   *zoom: 1;
+  max-width: 1050px;
   padding-left: 5px;
   padding-right: 5px;
   margin-left: auto;
