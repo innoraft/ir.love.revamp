@@ -283,17 +283,32 @@
 			.content-image {
 			}
 			&:nth-child(4n + 1){
-				//border-bottom: 2px solid $bg_idea_blue;
+				.views-field-field-work-link, .views-field-title {
+					a {
+						color: $bg_idea_blue;
+					}
+				}
 			}
 			&:nth-child(4n + 2){
-				//border-bottom: 2px solid $bg_idea_pink;
+				.views-field-field-work-link, .views-field-title {
+					a {
+						color: $bg_idea_pink;
+					}
+				}
 			}
 			&:nth-child(4n + 3) {
-				//border-bottom: 2px solid $bg_idea_green;
+				.views-field-field-work-link, .views-field-title {
+					a {
+						color: $bg_idea_green;
+					}
+				}
 			}
 			&:nth-child(4n) {
-				//border-bottom: 2px solid $bg_idea_yellow;
-				//border:none;
+				.views-field-field-work-link, .views-field-title {
+					a {
+						color: $bg_idea_yellow;
+					}
+				}
 			}
 			&:hover {
 				bakground: $foreground;
