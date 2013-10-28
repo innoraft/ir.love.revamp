@@ -132,9 +132,8 @@
 			> .view-content .views-row {
 				clear:none !important;
 				text-align:left !important;
-				margin: 5px 0px 5px 8px;
 				.content-image {
-					@include span-columns(3,6);
+					//@include span-columns(3,6);
 				}
 			}
 			> .view-content {
