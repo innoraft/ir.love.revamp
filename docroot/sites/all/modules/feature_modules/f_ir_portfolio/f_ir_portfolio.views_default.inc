@@ -42,8 +42,8 @@ function f_ir_portfolio_views_default_views() {
   $handler->display->display_options['fields']['field_work_image']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_work_image']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_work_image']['settings'] = array(
-    'image_style' => 'adaptive_275_x_175',
-    'image_link' => 'content',
+    'image_style' => 'adaptive_460_x_215',
+    'image_link' => '',
   );
   /* Field: Content: Site Link */
   $handler->display->display_options['fields']['field_work_link']['id'] = 'field_work_link';
