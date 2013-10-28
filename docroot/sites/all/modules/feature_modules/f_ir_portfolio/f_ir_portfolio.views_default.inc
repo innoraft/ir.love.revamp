@@ -42,7 +42,7 @@ function f_ir_portfolio_views_default_views() {
   $handler->display->display_options['fields']['field_work_image']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_work_image']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_work_image']['settings'] = array(
-    'image_style' => 'adaptive_215_x_125',
+    'image_style' => 'adaptive_275_x_175',
     'image_link' => 'content',
   );
   /* Field: Content: Site Link */
@@ -80,8 +80,8 @@ function f_ir_portfolio_views_default_views() {
     'our_work' => 'our_work',
   );
 
-  /* Display: Block */
-  $handler = $view->new_display('block', 'Block', 'block');
+  /* Display: Home Page Portfolio */
+  $handler = $view->new_display('block', 'Home Page Portfolio', 'block');
   $export['our_portfolio'] = $view;
 
   return $export;

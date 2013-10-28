@@ -19,6 +19,7 @@ features[field_instance][] = node-our_work-field_client_testimonials
 features[field_instance][] = node-our_work-field_work_category
 features[field_instance][] = node-our_work-field_work_image
 features[field_instance][] = node-our_work-field_work_link
+features[image][] = adaptive_275_x_175
 features[node][] = our_work
 features[taxonomy][] = work_category
 features[variable][] = comment_anonymous_our_work
