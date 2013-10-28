@@ -60,6 +60,12 @@ function f_ir_portfolio_views_default_views() {
   $handler->display->display_options['fields']['field_work_category']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_work_category']['type'] = 'taxonomy_term_reference_plain';
   $handler->display->display_options['fields']['field_work_category']['delta_offset'] = '0';
+  /* Field: Content: Client Testimonials */
+  $handler->display->display_options['fields']['field_client_testimonials']['id'] = 'field_client_testimonials';
+  $handler->display->display_options['fields']['field_client_testimonials']['table'] = 'field_data_field_client_testimonials';
+  $handler->display->display_options['fields']['field_client_testimonials']['field'] = 'field_client_testimonials';
+  $handler->display->display_options['fields']['field_client_testimonials']['label'] = '';
+  $handler->display->display_options['fields']['field_client_testimonials']['element_label_colon'] = FALSE;
   /* Sort criterion: Content: Post date */
   $handler->display->display_options['sorts']['created']['id'] = 'created';
   $handler->display->display_options['sorts']['created']['table'] = 'node';

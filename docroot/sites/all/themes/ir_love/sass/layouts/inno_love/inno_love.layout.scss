@@ -56,6 +56,9 @@ body {
 a {
   color: $bg_idea_blue;
   text-decoration:none;
+  &:hover {
+    text-decoration:underline;
+  }
 }
 
 /*site name defaults*/
