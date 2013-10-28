@@ -254,23 +254,47 @@ img, media {
     text-align: left !important; }
   /* line 132, ../sass/components/pages/_front.scss */
   .front-page-main-content .content-listings-home > .view-content .views-row {
-    text-align: left !important; }
-    /* line 134, ../sass/components/pages/_front.scss */
+    clear: none !important;
+    text-align: left !important;
+    margin: 5px 0px 5px 8px; }
+    /* line 136, ../sass/components/pages/_front.scss */
     .front-page-main-content .content-listings-home > .view-content .views-row .content-image {
-      width: 32.20339%;
+      width: 48.27586%;
+      float: left;
+      margin-right: 3.44828%; }
+  /* line 140, ../sass/components/pages/_front.scss */
+  .front-page-main-content .content-listings-home > .view-content {
+    max-width: 1050px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: auto;
+    margin-right: auto; }
+    /* line 38, ../../../../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+    .front-page-main-content .content-listings-home > .view-content:after {
+      content: "";
+      display: table;
+      clear: both; }
+    /* line 143, ../sass/components/pages/_front.scss */
+    .front-page-main-content .content-listings-home > .view-content .views-row-odd {
+      width: 49.15254%;
+      float: left;
+      margin-right: 1.69492%; }
+    /* line 146, ../sass/components/pages/_front.scss */
+    .front-page-main-content .content-listings-home > .view-content .views-row-even {
+      width: 49.15254%;
       float: left;
       margin-right: 1.69492%; } }
 @media (min-width: 481px) and (max-width: 768px) {
-  /* line 144, ../sass/components/pages/_front.scss */
+  /* line 157, ../sass/components/pages/_front.scss */
   .l-branding .ir-slogan {
     display: none; }
 
-  /* line 150, ../sass/components/pages/_front.scss */
+  /* line 163, ../sass/components/pages/_front.scss */
   #block-views-our-services-block .views-view-grid tr {
     width: 50%;
     float: left;
     border-bottom: 10px solid white; }
-  /* line 155, ../sass/components/pages/_front.scss */
+  /* line 168, ../sass/components/pages/_front.scss */
   #block-views-our-services-block .views-view-grid td {
     width: 100%;
     float: left;
@@ -279,76 +303,76 @@ img, media {
     border-left: 10px solid white;
     border-bottom: 5px solid white; }
 
-  /* line 164, ../sass/components/pages/_front.scss */
+  /* line 177, ../sass/components/pages/_front.scss */
   .front-page-main-content .pane-title {
     text-align: left !important; }
-  /* line 168, ../sass/components/pages/_front.scss */
+  /* line 181, ../sass/components/pages/_front.scss */
   .front-page-main-content .content-listings-home > .view-content .views-row {
     text-align: left !important; }
-    /* line 170, ../sass/components/pages/_front.scss */
+    /* line 183, ../sass/components/pages/_front.scss */
     .front-page-main-content .content-listings-home > .view-content .views-row .content-image {
       width: 32.20339%;
       float: left;
       margin-right: 1.69492%; } }
 @media (max-width: 480px) {
-  /* line 180, ../sass/components/pages/_front.scss */
+  /* line 193, ../sass/components/pages/_front.scss */
   .l-branding .ir-slogan {
     display: none; }
 
-  /* line 186, ../sass/components/pages/_front.scss */
+  /* line 199, ../sass/components/pages/_front.scss */
   #block-views-our-services-block .views-view-grid tr {
     border-bottom: 15px solid white;
     width: 100%;
     float: none;
     border: none; }
-  /* line 192, ../sass/components/pages/_front.scss */
+  /* line 205, ../sass/components/pages/_front.scss */
   #block-views-our-services-block .views-view-grid td {
     border-bottom: 10px solid white; } }
 /* front header default*/
-/* line 200, ../sass/components/pages/_front.scss */
+/* line 213, ../sass/components/pages/_front.scss */
 .ir-main-idea {
   float: left; }
 
 /* front page services blocks */
-/* line 205, ../sass/components/pages/_front.scss */
+/* line 218, ../sass/components/pages/_front.scss */
 #block-views-our-services-block {
   margin-top: 2em; }
-  /* line 207, ../sass/components/pages/_front.scss */
+  /* line 220, ../sass/components/pages/_front.scss */
   #block-views-our-services-block .views-view-grid {
     width: 100%;
     border-collapse: collapse; }
-    /* line 212, ../sass/components/pages/_front.scss */
+    /* line 225, ../sass/components/pages/_front.scss */
     #block-views-our-services-block .views-view-grid td {
       width: 100%; }
-      /* line 215, ../sass/components/pages/_front.scss */
+      /* line 228, ../sass/components/pages/_front.scss */
       #block-views-our-services-block .views-view-grid td:nth-child(4n + 1) {
         background: #2ca8c2; }
-      /* line 218, ../sass/components/pages/_front.scss */
+      /* line 231, ../sass/components/pages/_front.scss */
       #block-views-our-services-block .views-view-grid td:nth-child(4n + 2) {
         background: #eb5054; }
-      /* line 221, ../sass/components/pages/_front.scss */
+      /* line 234, ../sass/components/pages/_front.scss */
       #block-views-our-services-block .views-view-grid td:nth-child(4n + 3) {
         background: #8ab845; }
-      /* line 224, ../sass/components/pages/_front.scss */
+      /* line 237, ../sass/components/pages/_front.scss */
       #block-views-our-services-block .views-view-grid td:nth-child(4n) {
         background: #f4b400; }
-      /* line 228, ../sass/components/pages/_front.scss */
+      /* line 241, ../sass/components/pages/_front.scss */
       #block-views-our-services-block .views-view-grid td a {
         padding: 20px;
         display: block;
         color: white;
         text-decoration: none; }
-        /* line 233, ../sass/components/pages/_front.scss */
+        /* line 246, ../sass/components/pages/_front.scss */
         #block-views-our-services-block .views-view-grid td a:hover {
           text-decoration: underline; }
 
-/* line 241, ../sass/components/pages/_front.scss */
+/* line 254, ../sass/components/pages/_front.scss */
 .front-page-main-content .pane-title {
   font-weight: normal;
   font-size: 2em;
   text-shadow: 0 1px 0 white;
   text-align: center; }
-/* line 248, ../sass/components/pages/_front.scss */
+/* line 261, ../sass/components/pages/_front.scss */
 .front-page-main-content .content-listings-home > .view-content .views-row {
   *zoom: 1;
   max-width: 1050px;
@@ -363,22 +387,22 @@ img, media {
   font-weight: normal;
   letter-spacing: -1px;
   padding: 20px;
-  margin: 15px 0; }
+  margin: 15px 0px 15px 6px; }
   /* line 38, ../../../../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   .front-page-main-content .content-listings-home > .view-content .views-row:after {
     content: "";
     display: table;
     clear: both; }
-  /* line 278, ../sass/components/pages/_front.scss */
+  /* line 291, ../sass/components/pages/_front.scss */
   .front-page-main-content .content-listings-home > .view-content .views-row:hover {
     bakground: white; }
-  /* line 281, ../sass/components/pages/_front.scss */
+  /* line 294, ../sass/components/pages/_front.scss */
   .front-page-main-content .content-listings-home > .view-content .views-row .views-field-field-client-testimonials {
     font-size: 14px;
     letter-spacing: 0;
     margin-top: 10px; }
 @media (min-width: 769px) {
-  /* line 247, ../sass/components/pages/_front.scss */
+  /* line 260, ../sass/components/pages/_front.scss */
   .front-page-main-content .content-listings-home {
     /*> .view-content {
     	$total-columns: 2;
@@ -395,7 +419,7 @@ img, media {
     	}
     }*/ } }
 
-/* line 309, ../sass/components/pages/_front.scss */
+/* line 322, ../sass/components/pages/_front.scss */
 .front-top-content-block,
 .front-page-main-content {
   clear: both; }

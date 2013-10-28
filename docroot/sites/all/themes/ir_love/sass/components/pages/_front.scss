@@ -130,10 +130,23 @@
 		}
 		.content-listings-home {
 			> .view-content .views-row {
+				clear:none !important;
 				text-align:left !important;
+				margin: 5px 0px 5px 8px;
 				.content-image {
-					@include span-columns(4,12);
+					@include span-columns(3,6);
 				}
+			}
+			> .view-content {
+				$total-columns: 12;
+				@include container;
+				.views-row-odd {
+					@include span-columns(6,12);
+				}
+				.views-row-even {
+					@include span-columns(6,12);
+				}
+
 			}
 		}
 	}
@@ -258,7 +271,7 @@
     		font-weight: normal;
     		letter-spacing: -1px;
     		padding: 20px;
-    		margin: 15px 0;
+    		margin: 15px 0px 15px 6px;
     		//@include box-shadow($site_default_font_color 1px 1px 1px);
 			.content-image {
 			}
