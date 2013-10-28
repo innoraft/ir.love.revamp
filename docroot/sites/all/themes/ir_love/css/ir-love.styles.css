@@ -255,14 +255,8 @@ img, media {
   /* line 132, ../sass/components/pages/_front.scss */
   .front-page-main-content .content-listings-home > .view-content .views-row {
     clear: none !important;
-    text-align: left !important;
-    margin: 5px 0px 5px 8px; }
-    /* line 136, ../sass/components/pages/_front.scss */
-    .front-page-main-content .content-listings-home > .view-content .views-row .content-image {
-      width: 48.27586%;
-      float: left;
-      margin-right: 3.44828%; }
-  /* line 140, ../sass/components/pages/_front.scss */
+    text-align: left !important; }
+  /* line 139, ../sass/components/pages/_front.scss */
   .front-page-main-content .content-listings-home > .view-content {
     /*$total-columns: 12;
     @include container;
@@ -273,7 +267,7 @@ img, media {
     	@include span-columns(6,12);
     }*/ }
 
-  /* line 153, ../sass/components/pages/_front.scss */
+  /* line 152, ../sass/components/pages/_front.scss */
   .pane-main-idea {
     max-width: 1050px;
     padding-left: 5px;
@@ -285,23 +279,23 @@ img, media {
       content: "";
       display: table;
       clear: both; }
-    /* line 156, ../sass/components/pages/_front.scss */
+    /* line 155, ../sass/components/pages/_front.scss */
     .pane-main-idea .front-page-main-content {
       width: 49.15254%;
       float: left;
       margin-right: 1.69492%;
       margin-right: 6px; } }
 @media (min-width: 481px) and (max-width: 768px) {
-  /* line 165, ../sass/components/pages/_front.scss */
+  /* line 164, ../sass/components/pages/_front.scss */
   .l-branding .ir-slogan {
     display: none; }
 
-  /* line 171, ../sass/components/pages/_front.scss */
+  /* line 170, ../sass/components/pages/_front.scss */
   #block-views-our-services-block .views-view-grid tr {
     width: 50%;
     float: left;
     border-bottom: 10px solid white; }
-  /* line 176, ../sass/components/pages/_front.scss */
+  /* line 175, ../sass/components/pages/_front.scss */
   #block-views-our-services-block .views-view-grid td {
     width: 100%;
     float: left;
@@ -310,76 +304,76 @@ img, media {
     border-left: 10px solid white;
     border-bottom: 5px solid white; }
 
-  /* line 185, ../sass/components/pages/_front.scss */
+  /* line 184, ../sass/components/pages/_front.scss */
   .front-page-main-content .pane-title {
     text-align: left !important; }
-  /* line 189, ../sass/components/pages/_front.scss */
+  /* line 188, ../sass/components/pages/_front.scss */
   .front-page-main-content .content-listings-home > .view-content .views-row {
     text-align: left !important; }
-    /* line 191, ../sass/components/pages/_front.scss */
+    /* line 190, ../sass/components/pages/_front.scss */
     .front-page-main-content .content-listings-home > .view-content .views-row .content-image {
       width: 32.20339%;
       float: left;
       margin-right: 1.69492%; } }
 @media (max-width: 480px) {
-  /* line 201, ../sass/components/pages/_front.scss */
+  /* line 200, ../sass/components/pages/_front.scss */
   .l-branding .ir-slogan {
     display: none; }
 
-  /* line 207, ../sass/components/pages/_front.scss */
+  /* line 206, ../sass/components/pages/_front.scss */
   #block-views-our-services-block .views-view-grid tr {
     border-bottom: 15px solid white;
     width: 100%;
     float: none;
     border: none; }
-  /* line 213, ../sass/components/pages/_front.scss */
+  /* line 212, ../sass/components/pages/_front.scss */
   #block-views-our-services-block .views-view-grid td {
     border-bottom: 10px solid white; } }
 /* front header default*/
-/* line 221, ../sass/components/pages/_front.scss */
+/* line 220, ../sass/components/pages/_front.scss */
 .ir-main-idea {
   float: left; }
 
 /* front page services blocks */
-/* line 226, ../sass/components/pages/_front.scss */
+/* line 225, ../sass/components/pages/_front.scss */
 #block-views-our-services-block {
   margin-top: 2em; }
-  /* line 228, ../sass/components/pages/_front.scss */
+  /* line 227, ../sass/components/pages/_front.scss */
   #block-views-our-services-block .views-view-grid {
     width: 100%;
     border-collapse: collapse; }
-    /* line 233, ../sass/components/pages/_front.scss */
+    /* line 232, ../sass/components/pages/_front.scss */
     #block-views-our-services-block .views-view-grid td {
       width: 100%; }
-      /* line 236, ../sass/components/pages/_front.scss */
+      /* line 235, ../sass/components/pages/_front.scss */
       #block-views-our-services-block .views-view-grid td:nth-child(4n + 1) {
         background: #2ca8c2; }
-      /* line 239, ../sass/components/pages/_front.scss */
+      /* line 238, ../sass/components/pages/_front.scss */
       #block-views-our-services-block .views-view-grid td:nth-child(4n + 2) {
         background: #eb5054; }
-      /* line 242, ../sass/components/pages/_front.scss */
+      /* line 241, ../sass/components/pages/_front.scss */
       #block-views-our-services-block .views-view-grid td:nth-child(4n + 3) {
         background: #8ab845; }
-      /* line 245, ../sass/components/pages/_front.scss */
+      /* line 244, ../sass/components/pages/_front.scss */
       #block-views-our-services-block .views-view-grid td:nth-child(4n) {
         background: #f4b400; }
-      /* line 249, ../sass/components/pages/_front.scss */
+      /* line 248, ../sass/components/pages/_front.scss */
       #block-views-our-services-block .views-view-grid td a {
         padding: 20px;
         display: block;
         color: white;
         text-decoration: none; }
-        /* line 254, ../sass/components/pages/_front.scss */
+        /* line 253, ../sass/components/pages/_front.scss */
         #block-views-our-services-block .views-view-grid td a:hover {
           text-decoration: underline; }
 
-/* line 262, ../sass/components/pages/_front.scss */
+/* line 261, ../sass/components/pages/_front.scss */
 .front-page-main-content .pane-title {
   font-weight: normal;
   font-size: 2em;
   text-shadow: 0 1px 0 white;
   text-align: center; }
-/* line 269, ../sass/components/pages/_front.scss */
+/* line 268, ../sass/components/pages/_front.scss */
 .front-page-main-content .content-listings-home > .view-content .views-row {
   *zoom: 1;
   max-width: 1050px;
@@ -400,10 +394,10 @@ img, media {
     content: "";
     display: table;
     clear: both; }
-  /* line 299, ../sass/components/pages/_front.scss */
+  /* line 298, ../sass/components/pages/_front.scss */
   .front-page-main-content .content-listings-home > .view-content .views-row:hover {
     bakground: white; }
-  /* line 302, ../sass/components/pages/_front.scss */
+  /* line 301, ../sass/components/pages/_front.scss */
   .front-page-main-content .content-listings-home > .view-content .views-row .views-field-field-client-testimonials {
     font-size: 14px;
     letter-spacing: 0;
