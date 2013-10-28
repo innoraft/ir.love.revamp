@@ -23,7 +23,6 @@ img, media {
     z-index: 1000; }
     /* line 12, ../sass/components/_navigation.scss */
     .l-top-nav #block-system-main-menu {
-      max-width: 1050px;
       padding-left: 5px;
       padding-right: 5px;
       margin-left: auto;
@@ -164,27 +163,25 @@ img, media {
         background: #8ab845; }
     /* line 49, ../sass/components/pages/_front.scss */
     .front .l-branding .ir-slogan {
-      display: none;
       clear: both;
       float: none;
-      font-size: 2em;
-      margin-top: 2em;
+      font-size: 1.5em;
+      margin-top: 1em;
       text-align: center; }
-  /* line 60, ../sass/components/pages/_front.scss */
+  /* line 59, ../sass/components/pages/_front.scss */
   .front #block-views-our-services-block .views-view-grid tr {
     float: none;
     border-bottom: 15px solid white; }
-  /* line 64, ../sass/components/pages/_front.scss */
+  /* line 63, ../sass/components/pages/_front.scss */
   .front #block-views-our-services-block .views-view-grid td {
     width: 25%;
     border-right: 15px solid white; }
-    /* line 67, ../sass/components/pages/_front.scss */
+    /* line 66, ../sass/components/pages/_front.scss */
     .front #block-views-our-services-block .views-view-grid td.col-last {
       border: none; } }
-/* line 75, ../sass/components/pages/_front.scss */
+/* line 74, ../sass/components/pages/_front.scss */
 .l-content {
   *zoom: 1;
-  max-width: 1050px;
   padding-left: 5px;
   padding-right: 5px;
   margin-left: auto;
@@ -196,9 +193,8 @@ img, media {
     clear: both; }
 
 @media (min-width: 769px) {
-  /* line 80, ../sass/components/pages/_front.scss */
+  /* line 79, ../sass/components/pages/_front.scss */
   .l-branding {
-    max-width: 1050px;
     padding-left: 5px;
     padding-right: 5px;
     margin-left: auto;
@@ -209,108 +205,195 @@ img, media {
       content: "";
       display: table;
       clear: both; }
-    /* line 83, ../sass/components/pages/_front.scss */
+    /* line 82, ../sass/components/pages/_front.scss */
     .l-branding .site-name {
       float: right;
       padding: 1px;
       text-shadow: 1px 1px 2px black;
       background: #222222; }
-      /* line 88, ../sass/components/pages/_front.scss */
+      /* line 87, ../sass/components/pages/_front.scss */
       .l-branding .site-name a {
         font-size: 2.5em;
         font-weight: normal;
         padding: 0 50px;
         text-transform: lowercase; }
-    /* line 95, ../sass/components/pages/_front.scss */
+    /* line 94, ../sass/components/pages/_front.scss */
     .l-branding .ir_custom_logo {
       float: left;
       margin: 0 auto; }
-      /* line 99, ../sass/components/pages/_front.scss */
+      /* line 98, ../sass/components/pages/_front.scss */
       .l-branding .ir_custom_logo .ir-custom-logo-icons {
         float: left; }
-      /* line 102, ../sass/components/pages/_front.scss */
+      /* line 101, ../sass/components/pages/_front.scss */
       .l-branding .ir_custom_logo .ir-main-idea {
         padding: 15px;
         margin-right: 2px;
         color: white;
         margin-bottom: 1px;
         text-shadow: 1px 1px 3px #333333; }
-      /* line 110, ../sass/components/pages/_front.scss */
+      /* line 109, ../sass/components/pages/_front.scss */
       .l-branding .ir_custom_logo #ir-drupal {
         background: #2ca8c2; }
-      /* line 113, ../sass/components/pages/_front.scss */
+      /* line 112, ../sass/components/pages/_front.scss */
       .l-branding .ir_custom_logo #ir-love {
         background: #eb5054; }
-      /* line 116, ../sass/components/pages/_front.scss */
+      /* line 115, ../sass/components/pages/_front.scss */
       .l-branding .ir_custom_logo #ir-dedication {
         background: #8ab845; }
-    /* line 120, ../sass/components/pages/_front.scss */
+    /* line 119, ../sass/components/pages/_front.scss */
     .l-branding .ir-slogan {
       float: right;
       font-size: 1.1em;
-      text-align: left; } }
-@media (max-width: 768px) {
+      text-align: left; }
+
+  /* line 127, ../sass/components/pages/_front.scss */
+  .front-page-main-content .pane-title {
+    text-align: left !important; }
   /* line 131, ../sass/components/pages/_front.scss */
+  .front-page-main-content .content-listings-home > .view-content .views-row {
+    text-align: left !important; }
+    /* line 133, ../sass/components/pages/_front.scss */
+    .front-page-main-content .content-listings-home > .view-content .views-row .content-image {
+      width: 32.20339%;
+      float: left;
+      margin-right: 1.69492%; } }
+@media (min-width: 481px) and (max-width: 768px) {
+  /* line 143, ../sass/components/pages/_front.scss */
   .l-branding .ir-slogan {
     display: none; }
 
-  /* line 137, ../sass/components/pages/_front.scss */
+  /* line 149, ../sass/components/pages/_front.scss */
   #block-views-our-services-block .views-view-grid tr {
     width: 50%;
     float: left;
     border-bottom: 10px solid white; }
-  /* line 142, ../sass/components/pages/_front.scss */
+  /* line 154, ../sass/components/pages/_front.scss */
   #block-views-our-services-block .views-view-grid td {
     width: 100%;
     float: left;
     margin-right: 1.69492%;
     border-right: 10px solid white;
     border-left: 10px solid white;
-    border-bottom: 5px solid white; } }
+    border-bottom: 5px solid white; }
+
+  /* line 163, ../sass/components/pages/_front.scss */
+  .front-page-main-content .pane-title {
+    text-align: left !important; }
+  /* line 167, ../sass/components/pages/_front.scss */
+  .front-page-main-content .content-listings-home > .view-content .views-row {
+    text-align: left !important; }
+    /* line 169, ../sass/components/pages/_front.scss */
+    .front-page-main-content .content-listings-home > .view-content .views-row .content-image {
+      width: 32.20339%;
+      float: left;
+      margin-right: 1.69492%; } }
 @media (max-width: 480px) {
-  /* line 155, ../sass/components/pages/_front.scss */
+  /* line 179, ../sass/components/pages/_front.scss */
+  .l-branding .ir-slogan {
+    display: none; }
+
+  /* line 185, ../sass/components/pages/_front.scss */
   #block-views-our-services-block .views-view-grid tr {
     border-bottom: 15px solid white;
     width: 100%;
     float: none;
     border: none; }
-  /* line 161, ../sass/components/pages/_front.scss */
+  /* line 191, ../sass/components/pages/_front.scss */
   #block-views-our-services-block .views-view-grid td {
     border-bottom: 10px solid white; } }
 /* front header default*/
-/* line 169, ../sass/components/pages/_front.scss */
+/* line 199, ../sass/components/pages/_front.scss */
 .ir-main-idea {
   float: left; }
 
 /* front page services blocks */
-/* line 174, ../sass/components/pages/_front.scss */
+/* line 204, ../sass/components/pages/_front.scss */
 #block-views-our-services-block {
   margin-top: 2em; }
-  /* line 176, ../sass/components/pages/_front.scss */
+  /* line 206, ../sass/components/pages/_front.scss */
   #block-views-our-services-block .views-view-grid {
     width: 100%;
     border-collapse: collapse; }
-    /* line 181, ../sass/components/pages/_front.scss */
+    /* line 211, ../sass/components/pages/_front.scss */
     #block-views-our-services-block .views-view-grid td {
       width: 100%; }
-      /* line 184, ../sass/components/pages/_front.scss */
+      /* line 214, ../sass/components/pages/_front.scss */
       #block-views-our-services-block .views-view-grid td:nth-child(4n + 1) {
         background: #2ca8c2; }
-      /* line 187, ../sass/components/pages/_front.scss */
+      /* line 217, ../sass/components/pages/_front.scss */
       #block-views-our-services-block .views-view-grid td:nth-child(4n + 2) {
         background: #eb5054; }
-      /* line 190, ../sass/components/pages/_front.scss */
+      /* line 220, ../sass/components/pages/_front.scss */
       #block-views-our-services-block .views-view-grid td:nth-child(4n + 3) {
         background: #8ab845; }
-      /* line 193, ../sass/components/pages/_front.scss */
+      /* line 223, ../sass/components/pages/_front.scss */
       #block-views-our-services-block .views-view-grid td:nth-child(4n) {
         background: #f4b400; }
-      /* line 197, ../sass/components/pages/_front.scss */
+      /* line 227, ../sass/components/pages/_front.scss */
       #block-views-our-services-block .views-view-grid td a {
         padding: 20px;
         display: block;
         color: white;
         text-decoration: none; }
-        /* line 202, ../sass/components/pages/_front.scss */
+        /* line 232, ../sass/components/pages/_front.scss */
         #block-views-our-services-block .views-view-grid td a:hover {
           text-decoration: underline; }
+
+/* line 240, ../sass/components/pages/_front.scss */
+.front-page-main-content .pane-title {
+  font-weight: normal;
+  font-size: 2em;
+  text-shadow: 0 1px 0 white;
+  text-align: center; }
+/* line 247, ../sass/components/pages/_front.scss */
+.front-page-main-content .content-listings-home > .view-content .views-row {
+  *zoom: 1;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+  text-align: center;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: #FFFFFF;
+  background-image: none;
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+  font-size: 22px;
+  font-weight: normal;
+  letter-spacing: -1px;
+  padding: 20px;
+  margin: 15px 0; }
+  /* line 38, ../../../../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .front-page-main-content .content-listings-home > .view-content .views-row:after {
+    content: "";
+    display: table;
+    clear: both; }
+  /* line 283, ../sass/components/pages/_front.scss */
+  .front-page-main-content .content-listings-home > .view-content .views-row:hover {
+    bakground: white; }
+@media (min-width: 769px) {
+  /* line 246, ../sass/components/pages/_front.scss */
+  .front-page-main-content .content-listings-home {
+    /*> .view-content {
+    	$total-columns: 2;
+    	@include set-container-width;
+    	.views-row {
+    		clear:none;
+    		margin-right:0 !important;
+    	}
+    	.views-row-odd {
+    		@include span-columns(1,2);
+    	}
+    	.views-row-even {
+    		@include span-columns(1,2);
+    	}
+    }*/ } }
+
+/* line 309, ../sass/components/pages/_front.scss */
+.front-top-content-block,
+.front-page-main-content {
+  clear: both; }
