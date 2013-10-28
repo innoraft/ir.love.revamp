@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the IR Portfolio Feature feature.
+ */
+
+include_once 'f_ir_portfolio.features.inc';
