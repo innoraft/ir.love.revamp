@@ -53,6 +53,11 @@ body {
   background: $site_body_color;
 }
 
+a {
+  color: $bg_idea_blue;
+  text-decoration:none;
+}
+
 /*site name defaults*/
 .site-name {
   a {
