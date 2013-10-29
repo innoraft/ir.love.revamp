@@ -188,7 +188,7 @@
 			> .view-content .views-row {
 				text-align:left !important;
 				.content-image {
-					@include span-columns(4,12);
+					@include span-columns(6,12);
 				}
 			}
 		}
