@@ -26,13 +26,14 @@ function f_site_general_settings_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'views-our_services-block' => array(
-          'module' => 'views',
-          'delta' => 'our_services-block',
-          'region' => 'branding',
+        'system-main-menu' => array(
+          'module' => 'system',
+          'delta' => 'main-menu',
+          'region' => 'top_navigation',
           'weight' => '-10',
         ),
       ),
+      'layout' => 'ir_love',
     ),
   );
   $context->condition_mode = 0;
