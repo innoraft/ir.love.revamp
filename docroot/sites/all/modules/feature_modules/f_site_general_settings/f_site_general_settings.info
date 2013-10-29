@@ -7,7 +7,6 @@ dependencies[] = ctools
 dependencies[] = metatag
 dependencies[] = strongarm
 dependencies[] = views
-features[context][] = home_page_blocks
 features[context][] = site_wide_context
 features[ctools][] = context:context:3
 features[ctools][] = strongarm:strongarm:1

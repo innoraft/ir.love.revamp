@@ -47,13 +47,13 @@ function ir_feature_revert($modules) {
  * Revert all content-related features, necessary for using correct view mode.
  * Enables specified module.
  */
-function f_controller_update_7009() {
-  ir_feature_revert(array('f_site_general_settings'));
-  if (!module_exists('pathauto')) {
-    $modules_to_be_enabled = array('pathauto');
+function f_controller_update_7010() {
+  ir_feature_revert(array('f_site_general_settings', 'f_home_page_layout'));
+  // if (!module_exists('pathauto')) {
+  //   $modules_to_be_enabled = array('pathauto');
 
-    // Enable modules and their dependencies.
-    module_enable($modules_to_be_enabled);
-  }
+  //   // Enable modules and their dependencies.
+  //   module_enable($modules_to_be_enabled);
+  // }
 }
 

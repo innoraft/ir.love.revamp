@@ -1,22 +1,32 @@
 <div<?php print $attributes; ?>>
   <header class="l-header" role="banner">
+    <div class="l-top-nav">
+      <?php print render($page['top_navigation']); ?>
+    </div>
     <div class="l-branding">
-      <?php /*if ($logo): ?>
+      <?php if ($logo): ?>
         <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="site-logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
-      <?php endif; */?>
-
-      <?php /* if ($site_name || $site_slogan): ?>
+      <?php endif; ?>
+      <div class="ir_custom_logo">
+        <div class="ir-custom-logo-icons">
+          <div id="ir-drupal" class="ir-main-idea"><i class="fa fa-cog"></i></div>
+          <div id="ir-love" class="ir-main-idea"><i class="fa fa-heart"></i></div>
+          <div id="ir-dedication" class="ir-main-idea"><i class="fa fa-trophy"></i></div>
+        </div>
+      <?php if ($site_name || $site_slogan): ?>
         <?php if ($site_name): ?>
-          <h1 class="site-name">
+          <div class="site-name">
             <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
-          </h1>
+          </div>
         <?php endif; ?>
 
+      <?php endif; ?>
+      </div>
+      <div class="ir-slogan">
         <?php if ($site_slogan): ?>
-          <h2 class="site-slogan"><?php print $site_slogan; ?></h2>
+          <div class="site-slogan"><?php print $site_slogan; ?></div>
         <?php endif; ?>
-      <?php endif; */ ?>
-
+      </div>
       <?php print render($page['branding']); ?>
     </div>
 

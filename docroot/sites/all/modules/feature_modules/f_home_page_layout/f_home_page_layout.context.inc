@@ -1,25 +1,25 @@
 <?php
 /**
  * @file
- * f_site_general_settings.context.inc
+ * f_home_page_layout.context.inc
  */
 
 /**
  * Implements hook_context_default_contexts().
  */
-function f_site_general_settings_context_default_contexts() {
+function f_home_page_layout_context_default_contexts() {
   $export = array();
 
   $context = new stdClass();
   $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
   $context->api_version = 3;
-  $context->name = 'site_wide_context';
+  $context->name = 'home_page_blocks';
   $context->description = '';
   $context->tag = '';
   $context->conditions = array(
-    'sitewide' => array(
+    'path' => array(
       'values' => array(
-        1 => 1,
+        'home' => 'home',
       ),
     ),
   );
@@ -33,10 +33,11 @@ function f_site_general_settings_context_default_contexts() {
           'weight' => '-10',
         ),
       ),
+      'layout' => 'ir_love-home',
     ),
   );
   $context->condition_mode = 0;
-  $export['site_wide_context'] = $context;
+  $export['home_page_blocks'] = $context;
 
   return $export;
 }
