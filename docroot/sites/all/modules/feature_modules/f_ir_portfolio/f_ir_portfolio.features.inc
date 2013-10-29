@@ -37,7 +37,7 @@ function f_ir_portfolio_flag_default_flags() {
     'flag_short' => 'Make It Featured',
     'flag_long' => '',
     'flag_message' => '',
-    'unflag_short' => 'Make it unfeatured',
+    'unflag_short' => 'Featured',
     'unflag_long' => '',
     'unflag_message' => '',
     'unflag_denied_text' => '',
@@ -57,11 +57,11 @@ function f_ir_portfolio_flag_default_flags() {
     'access_author' => '',
     'show_contextual_link' => 0,
     'i18n' => 0,
-    'api_version' => 3,
     'module' => 'f_ir_portfolio',
     'locked' => array(
       0 => 'name',
     ),
+    'api_version' => 3,
   );
   return $flags;
 
@@ -78,7 +78,7 @@ function f_ir_portfolio_image_default_styles() {
     'name' => 'adaptive_275_x_175',
     'label' => 'Adaptive 275 x 175',
     'effects' => array(
-      3 => array(
+      4 => array(
         'label' => 'Scale and crop',
         'help' => 'Scale and crop will maintain the aspect-ratio of the original image, then crop the larger dimension. This is most useful for creating perfectly square thumbnails without stretching the image.',
         'effect callback' => 'image_scale_and_crop_effect',
@@ -101,7 +101,7 @@ function f_ir_portfolio_image_default_styles() {
     'name' => 'adaptive_460_x_215',
     'label' => 'Adaptive 460 x 215',
     'effects' => array(
-      2 => array(
+      5 => array(
         'label' => 'Scale and crop',
         'help' => 'Scale and crop will maintain the aspect-ratio of the original image, then crop the larger dimension. This is most useful for creating perfectly square thumbnails without stretching the image.',
         'effect callback' => 'image_scale_and_crop_effect',
@@ -112,7 +112,7 @@ function f_ir_portfolio_image_default_styles() {
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 460,
-          'height' => 215,
+          'height' => 375,
         ),
         'weight' => 1,
       ),

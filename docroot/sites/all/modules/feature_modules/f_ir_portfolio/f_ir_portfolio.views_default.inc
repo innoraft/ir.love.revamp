@@ -23,7 +23,7 @@ function f_ir_portfolio_views_default_views() {
   /* Display: Master */
   $handler = $view->new_display('default', 'Master', 'default');
   $handler->display->display_options['title'] = 'Our Work';
-  $handler->display->display_options['css_class'] = 'content-listings-home';
+  $handler->display->display_options['css_class'] = 'work-content-listing';
   $handler->display->display_options['use_ajax'] = TRUE;
   $handler->display->display_options['use_more_always'] = FALSE;
   $handler->display->display_options['access']['type'] = 'perm';
@@ -47,37 +47,23 @@ function f_ir_portfolio_views_default_views() {
   $handler->display->display_options['fields']['field_work_image']['table'] = 'field_data_field_work_image';
   $handler->display->display_options['fields']['field_work_image']['field'] = 'field_work_image';
   $handler->display->display_options['fields']['field_work_image']['label'] = '';
-  $handler->display->display_options['fields']['field_work_image']['element_class'] = 'content-image';
   $handler->display->display_options['fields']['field_work_image']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_work_image']['element_wrapper_type'] = 'div';
+  $handler->display->display_options['fields']['field_work_image']['element_wrapper_class'] = 'content-image';
   $handler->display->display_options['fields']['field_work_image']['click_sort_column'] = 'fid';
-  $handler->display->display_options['fields']['field_work_image']['type'] = 'cs_adaptive_image';
   $handler->display->display_options['fields']['field_work_image']['settings'] = array(
+    'image_style' => 'threshold-480',
     'image_link' => 'content',
-    'styles' => array(
-      'breakpoint_1' => '768',
-      'style_1' => 'adaptive_275_x_175',
-      'breakpoint_2' => '',
-      'style_2' => '',
-      'breakpoint_3' => '',
-      'style_3' => '',
-      'breakpoint_4' => '',
-      'style_4' => '',
-      'breakpoint_5' => '',
-      'style_5' => '',
-      'max_style' => 'adaptive_460_x_215',
-      'fallback_style' => '',
-    ),
   );
   $handler->display->display_options['fields']['field_work_image']['delta_limit'] = '1';
   $handler->display->display_options['fields']['field_work_image']['delta_offset'] = '0';
   $handler->display->display_options['fields']['field_work_image']['separator'] = ' ';
-  /* Field: Content: Site Link */
-  $handler->display->display_options['fields']['field_work_link']['id'] = 'field_work_link';
-  $handler->display->display_options['fields']['field_work_link']['table'] = 'field_data_field_work_link';
-  $handler->display->display_options['fields']['field_work_link']['field'] = 'field_work_link';
-  $handler->display->display_options['fields']['field_work_link']['label'] = '';
-  $handler->display->display_options['fields']['field_work_link']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_work_link']['click_sort_column'] = 'url';
+  /* Field: Content: Title */
+  $handler->display->display_options['fields']['title']['id'] = 'title';
+  $handler->display->display_options['fields']['title']['table'] = 'node';
+  $handler->display->display_options['fields']['title']['field'] = 'title';
+  $handler->display->display_options['fields']['title']['label'] = '';
+  $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
   /* Field: Content: Category */
   $handler->display->display_options['fields']['field_work_category']['id'] = 'field_work_category';
   $handler->display->display_options['fields']['field_work_category']['table'] = 'field_data_field_work_category';
@@ -92,6 +78,8 @@ function f_ir_portfolio_views_default_views() {
   $handler->display->display_options['fields']['field_client_testimonials']['field'] = 'field_client_testimonials';
   $handler->display->display_options['fields']['field_client_testimonials']['label'] = '';
   $handler->display->display_options['fields']['field_client_testimonials']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_client_testimonials']['element_wrapper_type'] = 'div';
+  $handler->display->display_options['fields']['field_client_testimonials']['element_wrapper_class'] = 'content-data';
   /* Sort criterion: Flags: Flagged */
   $handler->display->display_options['sorts']['flagged']['id'] = 'flagged';
   $handler->display->display_options['sorts']['flagged']['table'] = 'flagging';
@@ -125,6 +113,15 @@ function f_ir_portfolio_views_default_views() {
 
   /* Display: Home Page Portfolio */
   $handler = $view->new_display('block', 'Home Page Portfolio', 'block');
+  $handler->display->display_options['defaults']['footer'] = FALSE;
+  /* Footer: Global: PHP */
+  $handler->display->display_options['footer']['php']['id'] = 'php';
+  $handler->display->display_options['footer']['php']['table'] = 'views';
+  $handler->display->display_options['footer']['php']['field'] = 'php';
+  $handler->display->display_options['footer']['php']['php_output'] = '<?php
+print l(\'View Our Portfolio Page\', \'portfolio\', array(\'class\' => array(\'view-portfolio-link\')));
+?>
+';
 
   /* Display: Page */
   $handler = $view->new_display('page', 'Page', 'page_1');
