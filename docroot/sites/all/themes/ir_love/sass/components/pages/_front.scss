@@ -32,19 +32,19 @@
 				.ir-main-idea {
 					width:33.3%;
 					padding: 1.8em 0;
-					color: $foreground;
+					color: $white;
 					margin-bottom:1px;
 					margin-right:0;
 					text-shadow: 2px 2px 2px $text_shadow;
 				}
 				#ir-drupal {
-					background: $bg_idea_blue;
+					background: $blue;
 				}
 				#ir-love {
-					background: $bg_idea_pink;
+					background: $pink;
 				}
 				#ir-dedication {
-					background: $bg_idea_green;
+					background: $green;
 				}
 			}
 			.ir-slogan {
@@ -53,21 +53,6 @@
 				font-size: 1.5em;
 				margin-top:2.1em;
 				text-align:center;
-			}
-		}
-		#block-views-our-services-block {
-			.views-view-grid {
-				tr {
-					float:none;
-					border-bottom: 15px solid $foreground;
-				}
-				td {
-					width:25%;
-					border-right: 15px solid $foreground;
-					&.col-last {
-						border:none;
-					}
-				}
 			}
 		}
 	}
@@ -103,18 +88,18 @@
 					//width:33.3%;
 					padding: 15px;
 					margin-right:2px;
-					color: $foreground;
+					color: $white;
 					margin-bottom:1px;
 					text-shadow: 1px 1px 3px $text_shadow;
 				}
 				#ir-drupal {
-					background: $bg_idea_blue;
+					background: $blue;
 				}
 				#ir-love {
-					background: $bg_idea_pink;
+					background: $pink;
 				}
 				#ir-dedication {
-					background: $bg_idea_green;
+					background: $green;
 				}
 			}
 			.ir-slogan {
@@ -148,12 +133,57 @@
 
 			}
 		}
+		
 	}
+	.work-content-listing {
+			> .view-content .views-row {
+				padding:0 !important;
+				.views-field-title {
+					float:left;
+					margin-left:0.5em;
+					margin-top:1em;
+				}
+				.views-field-field-work-category {
+					float:right;
+					margin-right:0.5em;
+					margin-top:1em;
+				}
+				.views-field-field-client-testimonials{
+					clear:right;
+					margin-top:4em;
+				}
+    			
+			}
+			.views-row-odd {
+				.listing-list-left {
+					//@include span-columns(6,12);
+					float:left;
+					width:50%;
+					margin:0;
+
+				}
+				.listing-list-right {
+					width: 50%;
+					display: block;
+					float: left;
+				}
+			}
+			.views-row-even {
+				.listing-list-left {
+					float:right;
+					width:50%;
+					//border-left: 1em solid $site_body_color;
+				}
+				.listing-list-right {
+					float:left;
+					width:50%;
+					margin-right:0;
+				}
+			}
+			
+		}
 	.pane-main-idea {
-		$total-columns: 12;
-		@include container;
 		.front-page-main-content {
-			@include span-columns(6,12);
 			margin-right:6px;
 		}
 	}
@@ -165,25 +195,7 @@
 			display:none;
 		}
 	}
-	#block-views-our-services-block {
-		.views-view-grid {
-			tr {
-				width:50%;
-				float:left;
-				border-bottom: 10px solid $foreground;
-			}
-			td {
-				@include span-columns($break);
-				border-right:10px solid $foreground;
-				border-left:10px solid $foreground;
-				border-bottom: 5px solid $foreground;
-			}
-		}
-	}
 	.front-page-main-content {
-		.pane-title {
-			text-align:left !important;
-		}
 		.content-listings-home {
 			> .view-content .views-row {
 				text-align:left !important;
@@ -199,19 +211,6 @@
 	.l-branding {
 		.ir-slogan {
 			display:none;
-		}
-	}
-	#block-views-our-services-block {
-		.views-view-grid {
-			tr {
-				border-bottom: 15px solid $foreground;
-				width:100%;
-				float:none;
-				border: none;
-			}
-			td {
-				border-bottom: 10px solid $foreground;
-			}
 		}
 	}
 }
@@ -233,22 +232,22 @@
 			//padding:20px 0;
 			width:100%;
 			&:nth-child(4n + 1){
-				background:$bg_idea_blue;
+				background:$blue;
 			}
 			&:nth-child(4n + 2){
-				background:$bg_idea_pink;
+				background:$pink;
 			}
 			&:nth-child(4n + 3) {
-				background:$bg_idea_green;
+				background:$green;
 			}
 			&:nth-child(4n) {
-				background:$bg_idea_yellow;
+				background:$yellow;
 				//border:none;
 			}
 			a {
 				padding:20px;
 				display:block;
-				color: $foreground;
+				color: $white;
 				text-decoration:none;
 				&:hover {
 					text-decoration:underline;
@@ -257,11 +256,88 @@
 		}
 	}
 }
+.work-content-listing {
+	> .view-content .views-row {
+		font-family: "sans-serif";
+		$total-columns:12;
+		$gutter-width: 1em;
+		text-align:center;
+		@include container;
+		background: $white;
+		margin-bottom:2em;
+		font-size: 1.2em;
+    	font-weight: normal;
+    	letter-spacing: -1px;
+    	.content-image {
+    		img {
+    			width:100%;
+    			height:auto;
+    			}
+    		}
+    		&:nth-child(4n + 1){
+    			.listing-list-right {
+    				border-top: 1em solid $blue;
+    			}
+				.views-field-field-work-link, .views-field-title {
+					a {
+						color: $blue;
+					}
+				}
+			}
+			&:nth-child(4n + 2){
+				.listing-list-right {
+    				border-top: 1em solid $pink;
+    			}
+				.views-field-field-work-link, .views-field-title {
+					a {
+						color: $pink;
+					}
+				}
+			}
+			&:nth-child(4n + 3) {
+				.listing-list-right {
+    				border-top: 1em solid $green;
+    			}
+				.views-field-field-work-link, .views-field-title {
+					a {
+						color: $green;
+					}
+				}
+			}
+			&:nth-child(4n) {
+				.listing-list-right {
+    				border-top: 1em solid $yellow;
+    			}
+				.views-field-field-work-link, .views-field-title {
+					a {
+						color: $yellow;
+					}
+				}
+			}
+	}
+	.view-footer {
+		a {
+			display:block;
+			background: $yellow;
+			color: $site_default_font_color;
+			padding:0.5em;
+			font-size:1.2em;
+			text-align:center;
+			text-decoration:none;
+			&:hover {
+				background: $site_default_font_color;
+				color: $yellow;
+			}
+		}
+
+	}
+}
+
 .front-page-main-content {
 	.pane-title {
 		font-weight:normal;
-		font-size:2em;
-		text-shadow: 0 1px 0 $foreground;
+		font-size:1.5em;
+		text-shadow: 0 1px 0 $white;
 		text-align:center;
 	}
 	.content-listings-home {
@@ -279,39 +355,36 @@
     		letter-spacing: -1px;
     		padding: 20px;
     		margin: 15px 0px 15px 6px;
-    		//@include box-shadow($site_default_font_color 1px 1px 1px);
-			.content-image {
-			}
 			&:nth-child(4n + 1){
 				.views-field-field-work-link, .views-field-title {
 					a {
-						color: $bg_idea_blue;
+						color: $blue;
 					}
 				}
 			}
 			&:nth-child(4n + 2){
 				.views-field-field-work-link, .views-field-title {
 					a {
-						color: $bg_idea_pink;
+						color: $pink;
 					}
 				}
 			}
 			&:nth-child(4n + 3) {
 				.views-field-field-work-link, .views-field-title {
 					a {
-						color: $bg_idea_green;
+						color: $green;
 					}
 				}
 			}
 			&:nth-child(4n) {
 				.views-field-field-work-link, .views-field-title {
 					a {
-						color: $bg_idea_yellow;
+						color: $yellow;
 					}
 				}
 			}
 			&:hover {
-				bakground: $foreground;
+				bakground: $white;
 			}
 			.views-field-field-client-testimonials {
 				font-size: 14px;
@@ -319,12 +392,5 @@
 				margin-top:10px;
 			}
 		}
-		.views-row:hover {
-	    	//background: $foreground;
-	  	}
 	}
-}
-.front-top-content-block,
-.front-page-main-content {
-	//clear:both;
 }
