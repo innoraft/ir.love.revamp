@@ -47,10 +47,10 @@ function ir_feature_revert($modules) {
  * Revert all content-related features, necessary for using correct view mode.
  * Enables specified module.
  */
-function f_controller_update_7011() {
+function f_controller_update_7012() {
   ir_feature_revert(array('f_ir_portfolio'));
-  if (!module_exists('cs_adaptive_image')) {
-    $modules_to_be_enabled = array('cs_adaptive_image');
+  if (!module_exists('flag')) {
+    $modules_to_be_enabled = array('flag', 'flag_actions');
 
     // Enable modules and their dependencies.
     module_enable($modules_to_be_enabled);
