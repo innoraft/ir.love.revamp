@@ -41,10 +41,27 @@ function f_ir_portfolio_views_default_views() {
   $handler->display->display_options['fields']['field_work_image']['element_class'] = 'content-image';
   $handler->display->display_options['fields']['field_work_image']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_work_image']['click_sort_column'] = 'fid';
+  $handler->display->display_options['fields']['field_work_image']['type'] = 'cs_adaptive_image';
   $handler->display->display_options['fields']['field_work_image']['settings'] = array(
-    'image_style' => 'adaptive_460_x_215',
     'image_link' => '',
+    'styles' => array(
+      'breakpoint_1' => '768',
+      'style_1' => 'adaptive_275_x_175',
+      'breakpoint_2' => '',
+      'style_2' => '',
+      'breakpoint_3' => '',
+      'style_3' => '',
+      'breakpoint_4' => '',
+      'style_4' => '',
+      'breakpoint_5' => '',
+      'style_5' => '',
+      'max_style' => 'adaptive_460_x_215',
+      'fallback_style' => '',
+    ),
   );
+  $handler->display->display_options['fields']['field_work_image']['delta_limit'] = '1';
+  $handler->display->display_options['fields']['field_work_image']['delta_offset'] = '0';
+  $handler->display->display_options['fields']['field_work_image']['separator'] = ' ';
   /* Field: Content: Site Link */
   $handler->display->display_options['fields']['field_work_link']['id'] = 'field_work_link';
   $handler->display->display_options['fields']['field_work_link']['table'] = 'field_data_field_work_link';
