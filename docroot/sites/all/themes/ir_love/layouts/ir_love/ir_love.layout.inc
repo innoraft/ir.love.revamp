@@ -4,14 +4,13 @@ preview = preview.png
 template = ir_love-layout
 
 ; Regions
+regions[top_navigation]	= Top Navigation
 regions[branding]       = Branding
 regions[header]         = Header
-; regions[navigation]     = Navigation bar
-; regions[highlighted]    = Highlighted
-; regions[help]           = Help
+;regions[navigation]    = Navigation bar
+regions[highlighted]    = Highlighted
+regions[help]           = Help
 regions[content]        = Content
-; regions[sidebar_first]  = First sidebar
-; regions[sidebar_second] = Second sidebar
 regions[footer]         = Footer
 
 ; Stylesheets
