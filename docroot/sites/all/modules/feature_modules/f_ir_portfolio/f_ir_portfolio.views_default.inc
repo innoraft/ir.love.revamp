@@ -52,7 +52,7 @@ function f_ir_portfolio_views_default_views() {
   $handler->display->display_options['fields']['field_work_image']['element_wrapper_class'] = 'content-image';
   $handler->display->display_options['fields']['field_work_image']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_work_image']['settings'] = array(
-    'image_style' => 'threshold-480',
+    'image_style' => 'adaptive_460_x_225',
     'image_link' => 'content',
   );
   $handler->display->display_options['fields']['field_work_image']['delta_limit'] = '1';

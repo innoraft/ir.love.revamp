@@ -119,6 +119,29 @@ function f_ir_portfolio_image_default_styles() {
     ),
   );
 
+  // Exported image style: adaptive_460_x_225.
+  $styles['adaptive_460_x_225'] = array(
+    'name' => 'adaptive_460_x_225',
+    'label' => 'Adaptive 460 x 225',
+    'effects' => array(
+      5 => array(
+        'label' => 'Scale and crop',
+        'help' => 'Scale and crop will maintain the aspect-ratio of the original image, then crop the larger dimension. This is most useful for creating perfectly square thumbnails without stretching the image.',
+        'effect callback' => 'image_scale_and_crop_effect',
+        'dimensions callback' => 'image_resize_dimensions',
+        'form callback' => 'image_resize_form',
+        'summary theme' => 'image_resize_summary',
+        'module' => 'image',
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 460,
+          'height' => 225,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
   return $styles;
 }
 
