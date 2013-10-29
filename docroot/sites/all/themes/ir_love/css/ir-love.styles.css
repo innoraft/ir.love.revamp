@@ -20,7 +20,7 @@ img, media {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1000; }
+    z-index: 999; }
     /* line 12, ../sass/components/_navigation.scss */
     .l-top-nav #block-system-main-menu {
       max-width: 1050px;
