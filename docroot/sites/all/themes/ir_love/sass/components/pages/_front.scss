@@ -122,22 +122,7 @@
 		}
 		.content-listings-home {
 			> .view-content .views-row {
-				clear:none !important;
 				text-align:left !important;
-				.content-image {
-					//@include span-columns(3,6);
-				}
-			}
-			> .view-content {
-				/*$total-columns: 12;
-				@include container;
-				.views-row-odd {
-					@include span-columns(6,12);
-				}
-				.views-row-even {
-					@include span-columns(6,12);
-				}*/
-
 			}
 		}
 		
@@ -208,9 +193,6 @@
 		.content-listings-home {
 			> .view-content .views-row {
 				text-align:left !important;
-				.content-image {
-					@include span-columns(6,12);
-				}
 			}
 		}
 	}
@@ -278,42 +260,6 @@
 	float:left;
 }
 
-/* front page services blocks */
-#block-views-our-services-block {
-	margin-top:2em;
-	.views-view-grid {
-		width:100%;
-		border-collapse: collapse;
-		tr {
-		}
-		td {
-			//padding:20px 0;
-			width:100%;
-			&:nth-child(4n + 1){
-				background:$blue;
-			}
-			&:nth-child(4n + 2){
-				background:$pink;
-			}
-			&:nth-child(4n + 3) {
-				background:$green;
-			}
-			&:nth-child(4n) {
-				background:$yellow;
-				//border:none;
-			}
-			a {
-				padding:20px;
-				display:block;
-				color: $white;
-				text-decoration:none;
-				&:hover {
-					text-decoration:underline;
-				}
-			}
-		}
-	}
-}
 .work-content-listing {
 	> .view-content .views-row {
 		font-family: "sans-serif";
@@ -413,40 +359,44 @@
 			@include container;
 			clear:both;
 			text-align:center;
+			position: relative;
 
-			background-color: #FFFFFF;
-    		font-size: 22px;
+			background-color: $white;
+			min-height:9em;
     		font-weight: normal;
     		letter-spacing: -1px;
     		padding: 20px;
     		margin: 15px 0px 15px 6px;
+    		.views-field-title {
+    			position:absolute;
+    			left:0;
+    			top:0;
+    			display:block;
+    			width:100%;
+    			a {
+    				color: $white;
+    				display:block;
+    				width:100%;
+    				padding: 0.5em 1.2em;
+					font-size: 1.1em;
+    			}
+    		}
+    		.views-field-body {
+    			margin-top: 2em;
+				font-family: serif;
+				font-size: 1.2em;
+    		}
 			&:nth-child(4n + 1){
-				.views-field-field-work-link, .views-field-title {
-					a {
-						color: $blue;
-					}
-				}
+				@include color_palatte_ir_services($blue);
 			}
 			&:nth-child(4n + 2){
-				.views-field-field-work-link, .views-field-title {
-					a {
-						color: $pink;
-					}
-				}
+				@include color_palatte_ir_services($pink);
 			}
 			&:nth-child(4n + 3) {
-				.views-field-field-work-link, .views-field-title {
-					a {
-						color: $green;
-					}
-				}
+				@include color_palatte_ir_services($green);
 			}
 			&:nth-child(4n) {
-				.views-field-field-work-link, .views-field-title {
-					a {
-						color: $yellow;
-					}
-				}
+				@include color_palatte_ir_services($yellow);
 			}
 			&:hover {
 				bakground: $white;

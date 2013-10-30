@@ -20,3 +20,9 @@
 		}
 	}
 }
+
+@mixin color_palatte_ir_services($color) {
+	.views-field-title {
+		background: $color;
+	}
+}
