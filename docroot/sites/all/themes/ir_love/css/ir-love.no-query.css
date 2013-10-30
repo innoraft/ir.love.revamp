@@ -154,23 +154,26 @@ img, media {
         margin-bottom: 1px;
         margin-right: 0;
         text-shadow: 2px 2px 2px #333333; }
-      /* line 40, ../sass/components/pages/_front.scss */
+        /* line 42, ../sass/components/pages/_front.scss */
+        .front .l-branding .ir_custom_logo .ir-main-idea .ir-idea-text {
+          display: none; }
+      /* line 46, ../sass/components/pages/_front.scss */
       .front .l-branding .ir_custom_logo #ir-drupal {
         background: #2ca8c2; }
-      /* line 43, ../sass/components/pages/_front.scss */
+      /* line 49, ../sass/components/pages/_front.scss */
       .front .l-branding .ir_custom_logo #ir-love {
         background: #eb5054; }
-      /* line 46, ../sass/components/pages/_front.scss */
+      /* line 52, ../sass/components/pages/_front.scss */
       .front .l-branding .ir_custom_logo #ir-dedication {
         background: #8ab845; }
-    /* line 50, ../sass/components/pages/_front.scss */
+    /* line 56, ../sass/components/pages/_front.scss */
     .front .l-branding .ir-slogan {
       clear: both;
       float: none;
       font-size: 1.5em;
       margin-top: 2.1em;
       text-align: center; } }
-/* line 60, ../sass/components/pages/_front.scss */
+/* line 66, ../sass/components/pages/_front.scss */
 .l-content {
   *zoom: 1;
   max-width: 1050px;
@@ -185,7 +188,7 @@ img, media {
     clear: both; }
 
 @media (min-width: 769px) {
-  /* line 65, ../sass/components/pages/_front.scss */
+  /* line 71, ../sass/components/pages/_front.scss */
   .l-branding {
     max-width: 1050px;
     padding-left: 5px;
@@ -198,55 +201,55 @@ img, media {
       content: "";
       display: table;
       clear: both; }
-    /* line 68, ../sass/components/pages/_front.scss */
+    /* line 74, ../sass/components/pages/_front.scss */
     .l-branding .site-name {
       float: right;
       padding: 1px;
       text-shadow: 1px 1px 2px black;
       background: #222222; }
-      /* line 73, ../sass/components/pages/_front.scss */
+      /* line 79, ../sass/components/pages/_front.scss */
       .l-branding .site-name a {
         font-size: 2.5em;
         font-weight: normal;
         padding: 0 50px;
         text-transform: lowercase; }
-    /* line 80, ../sass/components/pages/_front.scss */
+    /* line 86, ../sass/components/pages/_front.scss */
     .l-branding .ir_custom_logo {
       float: left;
       margin: 0 auto; }
-      /* line 84, ../sass/components/pages/_front.scss */
+      /* line 90, ../sass/components/pages/_front.scss */
       .l-branding .ir_custom_logo .ir-custom-logo-icons {
         float: left; }
-      /* line 87, ../sass/components/pages/_front.scss */
+      /* line 93, ../sass/components/pages/_front.scss */
       .l-branding .ir_custom_logo .ir-main-idea {
         padding: 15px;
         margin-right: 2px;
         color: white;
         margin-bottom: 1px;
         text-shadow: 1px 1px 3px #333333; }
-      /* line 95, ../sass/components/pages/_front.scss */
+      /* line 101, ../sass/components/pages/_front.scss */
       .l-branding .ir_custom_logo #ir-drupal {
         background: #2ca8c2; }
-      /* line 98, ../sass/components/pages/_front.scss */
+      /* line 104, ../sass/components/pages/_front.scss */
       .l-branding .ir_custom_logo #ir-love {
         background: #eb5054; }
-      /* line 101, ../sass/components/pages/_front.scss */
+      /* line 107, ../sass/components/pages/_front.scss */
       .l-branding .ir_custom_logo #ir-dedication {
         background: #8ab845; }
-    /* line 105, ../sass/components/pages/_front.scss */
+    /* line 111, ../sass/components/pages/_front.scss */
     .l-branding .ir-slogan {
       float: right;
       font-size: 1.1em;
       text-align: left; }
 
-  /* line 113, ../sass/components/pages/_front.scss */
+  /* line 119, ../sass/components/pages/_front.scss */
   .front-page-main-content .pane-title {
     text-align: left !important; }
-  /* line 117, ../sass/components/pages/_front.scss */
+  /* line 123, ../sass/components/pages/_front.scss */
   .front-page-main-content .content-listings-home > .view-content .views-row {
     clear: none !important;
     text-align: left !important; }
-  /* line 124, ../sass/components/pages/_front.scss */
+  /* line 130, ../sass/components/pages/_front.scss */
   .front-page-main-content .content-listings-home > .view-content {
     /*$total-columns: 12;
     @include container;
@@ -257,105 +260,106 @@ img, media {
     	@include span-columns(6,12);
     }*/ }
 
-  /* line 139, ../sass/components/pages/_front.scss */
+  /* line 145, ../sass/components/pages/_front.scss */
   .work-content-listing > .view-content .views-row {
     padding: 0 !important; }
-    /* line 141, ../sass/components/pages/_front.scss */
+    /* line 147, ../sass/components/pages/_front.scss */
     .work-content-listing > .view-content .views-row .views-field-title {
       float: left;
       margin-left: 0.5em;
       margin-top: 1em; }
-    /* line 146, ../sass/components/pages/_front.scss */
+    /* line 152, ../sass/components/pages/_front.scss */
     .work-content-listing > .view-content .views-row .views-field-field-work-category {
       float: right;
       margin-right: 0.5em;
       margin-top: 1em; }
-    /* line 151, ../sass/components/pages/_front.scss */
+    /* line 157, ../sass/components/pages/_front.scss */
     .work-content-listing > .view-content .views-row .views-field-field-client-testimonials {
       clear: right;
-      margin-top: 4em; }
-  /* line 158, ../sass/components/pages/_front.scss */
+      margin-top: 4em;
+      text-align: center; }
+  /* line 165, ../sass/components/pages/_front.scss */
   .work-content-listing .views-row-odd .listing-list-left {
     float: left;
     width: 50%;
     margin: 0; }
-  /* line 165, ../sass/components/pages/_front.scss */
+  /* line 172, ../sass/components/pages/_front.scss */
   .work-content-listing .views-row-odd .listing-list-right {
     width: 50%;
     display: block;
     float: left; }
-  /* line 172, ../sass/components/pages/_front.scss */
+  /* line 179, ../sass/components/pages/_front.scss */
   .work-content-listing .views-row-even .listing-list-left {
     float: right;
     width: 50%; }
-  /* line 177, ../sass/components/pages/_front.scss */
+  /* line 184, ../sass/components/pages/_front.scss */
   .work-content-listing .views-row-even .listing-list-right {
     float: left;
     width: 50%;
     margin-right: 0; }
 
-  /* line 186, ../sass/components/pages/_front.scss */
+  /* line 193, ../sass/components/pages/_front.scss */
   .pane-main-idea .front-page-main-content {
     margin-right: 6px; } }
 @media (min-width: 481px) and (max-width: 768px) {
-  /* line 194, ../sass/components/pages/_front.scss */
+  /* line 201, ../sass/components/pages/_front.scss */
   .l-branding .ir-slogan {
     display: none; }
 
-  /* line 200, ../sass/components/pages/_front.scss */
+  /* line 207, ../sass/components/pages/_front.scss */
   .front-page-main-content .content-listings-home > .view-content .views-row {
     text-align: left !important; }
-    /* line 202, ../sass/components/pages/_front.scss */
+    /* line 209, ../sass/components/pages/_front.scss */
     .front-page-main-content .content-listings-home > .view-content .views-row .content-image {
       width: 49.15254%;
       float: left;
       margin-right: 1.69492%; } }
 @media (max-width: 480px) {
-  /* line 212, ../sass/components/pages/_front.scss */
+  /* line 219, ../sass/components/pages/_front.scss */
   .l-branding .ir-slogan {
     display: none; } }
 /* front header default*/
-/* line 219, ../sass/components/pages/_front.scss */
+/* line 226, ../sass/components/pages/_front.scss */
 .ir-main-idea {
   float: left; }
 
 /* front page services blocks */
-/* line 224, ../sass/components/pages/_front.scss */
+/* line 231, ../sass/components/pages/_front.scss */
 #block-views-our-services-block {
   margin-top: 2em; }
-  /* line 226, ../sass/components/pages/_front.scss */
+  /* line 233, ../sass/components/pages/_front.scss */
   #block-views-our-services-block .views-view-grid {
     width: 100%;
     border-collapse: collapse; }
-    /* line 231, ../sass/components/pages/_front.scss */
+    /* line 238, ../sass/components/pages/_front.scss */
     #block-views-our-services-block .views-view-grid td {
       width: 100%; }
-      /* line 234, ../sass/components/pages/_front.scss */
+      /* line 241, ../sass/components/pages/_front.scss */
       #block-views-our-services-block .views-view-grid td:nth-child(4n + 1) {
         background: #2ca8c2; }
-      /* line 237, ../sass/components/pages/_front.scss */
+      /* line 244, ../sass/components/pages/_front.scss */
       #block-views-our-services-block .views-view-grid td:nth-child(4n + 2) {
         background: #eb5054; }
-      /* line 240, ../sass/components/pages/_front.scss */
+      /* line 247, ../sass/components/pages/_front.scss */
       #block-views-our-services-block .views-view-grid td:nth-child(4n + 3) {
         background: #8ab845; }
-      /* line 243, ../sass/components/pages/_front.scss */
+      /* line 250, ../sass/components/pages/_front.scss */
       #block-views-our-services-block .views-view-grid td:nth-child(4n) {
         background: #f4b400; }
-      /* line 247, ../sass/components/pages/_front.scss */
+      /* line 254, ../sass/components/pages/_front.scss */
       #block-views-our-services-block .views-view-grid td a {
         padding: 20px;
         display: block;
         color: white;
         text-decoration: none; }
-        /* line 252, ../sass/components/pages/_front.scss */
+        /* line 259, ../sass/components/pages/_front.scss */
         #block-views-our-services-block .views-view-grid td a:hover {
           text-decoration: underline; }
 
-/* line 260, ../sass/components/pages/_front.scss */
+/* line 267, ../sass/components/pages/_front.scss */
 .work-content-listing > .view-content .views-row {
   font-family: "sans-serif";
-  text-align: center;
+  text-align: left;
   *zoom: 1;
   max-width: 1050px;
   padding-left: 5px;
@@ -372,35 +376,34 @@ img, media {
     content: "";
     display: table;
     clear: both; }
-  /* line 272, ../sass/components/pages/_front.scss */
+  /* line 279, ../sass/components/pages/_front.scss */
   .work-content-listing > .view-content .views-row .content-image img {
-    width: 100%;
-    height: auto; }
-  /* line 278, ../sass/components/pages/_front.scss */
+    width: 100%; }
+  /* line 285, ../sass/components/pages/_front.scss */
   .work-content-listing > .view-content .views-row:nth-child(4n + 1) .listing-list-right {
     border-top: 1em solid #2ca8c2; }
-  /* line 282, ../sass/components/pages/_front.scss */
+  /* line 289, ../sass/components/pages/_front.scss */
   .work-content-listing > .view-content .views-row:nth-child(4n + 1) .views-field-field-work-link a, .work-content-listing > .view-content .views-row:nth-child(4n + 1) .views-field-title a {
     color: #2ca8c2; }
-  /* line 288, ../sass/components/pages/_front.scss */
+  /* line 295, ../sass/components/pages/_front.scss */
   .work-content-listing > .view-content .views-row:nth-child(4n + 2) .listing-list-right {
     border-top: 1em solid #eb5054; }
-  /* line 292, ../sass/components/pages/_front.scss */
+  /* line 299, ../sass/components/pages/_front.scss */
   .work-content-listing > .view-content .views-row:nth-child(4n + 2) .views-field-field-work-link a, .work-content-listing > .view-content .views-row:nth-child(4n + 2) .views-field-title a {
     color: #eb5054; }
-  /* line 298, ../sass/components/pages/_front.scss */
+  /* line 305, ../sass/components/pages/_front.scss */
   .work-content-listing > .view-content .views-row:nth-child(4n + 3) .listing-list-right {
     border-top: 1em solid #8ab845; }
-  /* line 302, ../sass/components/pages/_front.scss */
+  /* line 309, ../sass/components/pages/_front.scss */
   .work-content-listing > .view-content .views-row:nth-child(4n + 3) .views-field-field-work-link a, .work-content-listing > .view-content .views-row:nth-child(4n + 3) .views-field-title a {
     color: #8ab845; }
-  /* line 308, ../sass/components/pages/_front.scss */
+  /* line 315, ../sass/components/pages/_front.scss */
   .work-content-listing > .view-content .views-row:nth-child(4n) .listing-list-right {
     border-top: 1em solid #f4b400; }
-  /* line 312, ../sass/components/pages/_front.scss */
+  /* line 319, ../sass/components/pages/_front.scss */
   .work-content-listing > .view-content .views-row:nth-child(4n) .views-field-field-work-link a, .work-content-listing > .view-content .views-row:nth-child(4n) .views-field-title a {
     color: #f4b400; }
-/* line 319, ../sass/components/pages/_front.scss */
+/* line 326, ../sass/components/pages/_front.scss */
 .work-content-listing .view-footer a {
   display: block;
   background: #f4b400;
@@ -409,18 +412,18 @@ img, media {
   font-size: 1.2em;
   text-align: center;
   text-decoration: none; }
-  /* line 327, ../sass/components/pages/_front.scss */
+  /* line 334, ../sass/components/pages/_front.scss */
   .work-content-listing .view-footer a:hover {
     background: #222222;
     color: #f4b400; }
 
-/* line 337, ../sass/components/pages/_front.scss */
+/* line 344, ../sass/components/pages/_front.scss */
 .front-page-main-content .pane-title {
   font-weight: normal;
   font-size: 1.5em;
   text-shadow: 0 1px 0 white;
   text-align: center; }
-/* line 344, ../sass/components/pages/_front.scss */
+/* line 351, ../sass/components/pages/_front.scss */
 .front-page-main-content .content-listings-home > .view-content .views-row {
   *zoom: 1;
   max-width: 1050px;
@@ -441,22 +444,22 @@ img, media {
     content: "";
     display: table;
     clear: both; }
-  /* line 360, ../sass/components/pages/_front.scss */
+  /* line 367, ../sass/components/pages/_front.scss */
   .front-page-main-content .content-listings-home > .view-content .views-row:nth-child(4n + 1) .views-field-field-work-link a, .front-page-main-content .content-listings-home > .view-content .views-row:nth-child(4n + 1) .views-field-title a {
     color: #2ca8c2; }
-  /* line 367, ../sass/components/pages/_front.scss */
+  /* line 374, ../sass/components/pages/_front.scss */
   .front-page-main-content .content-listings-home > .view-content .views-row:nth-child(4n + 2) .views-field-field-work-link a, .front-page-main-content .content-listings-home > .view-content .views-row:nth-child(4n + 2) .views-field-title a {
     color: #eb5054; }
-  /* line 374, ../sass/components/pages/_front.scss */
+  /* line 381, ../sass/components/pages/_front.scss */
   .front-page-main-content .content-listings-home > .view-content .views-row:nth-child(4n + 3) .views-field-field-work-link a, .front-page-main-content .content-listings-home > .view-content .views-row:nth-child(4n + 3) .views-field-title a {
     color: #8ab845; }
-  /* line 381, ../sass/components/pages/_front.scss */
+  /* line 388, ../sass/components/pages/_front.scss */
   .front-page-main-content .content-listings-home > .view-content .views-row:nth-child(4n) .views-field-field-work-link a, .front-page-main-content .content-listings-home > .view-content .views-row:nth-child(4n) .views-field-title a {
     color: #f4b400; }
-  /* line 386, ../sass/components/pages/_front.scss */
+  /* line 393, ../sass/components/pages/_front.scss */
   .front-page-main-content .content-listings-home > .view-content .views-row:hover {
     bakground: white; }
-  /* line 389, ../sass/components/pages/_front.scss */
+  /* line 396, ../sass/components/pages/_front.scss */
   .front-page-main-content .content-listings-home > .view-content .views-row .views-field-field-client-testimonials {
     font-size: 14px;
     letter-spacing: 0;
