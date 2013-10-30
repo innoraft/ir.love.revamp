@@ -60,27 +60,8 @@ function f_home_page_layout_default_page_manager_pages() {
         'width_type' => '%',
         'children' => array(
           0 => 1,
-          1 => 'main-row',
-          2 => 2,
         ),
         'parent' => 'canvas',
-      ),
-      'main-row' => array(
-        'type' => 'row',
-        'contains' => 'region',
-        'children' => array(
-          0 => 'center',
-        ),
-        'parent' => 'main',
-        'class' => 'pane-main-idea',
-      ),
-      'center' => array(
-        'type' => 'region',
-        'title' => 'Center Main Idea',
-        'width' => 100,
-        'width_type' => '%',
-        'parent' => 'main-row',
-        'class' => 'ir-main-idea ir-main-idea-dedication middle-main-idea-container',
       ),
       1 => array(
         'type' => 'row',
@@ -97,24 +78,7 @@ function f_home_page_layout_default_page_manager_pages() {
         'width' => 100,
         'width_type' => '%',
         'parent' => '1',
-        'class' => 'ir-main-idea ir-main-idea-love top-main-idea-container',
-      ),
-      2 => array(
-        'type' => 'row',
-        'contains' => 'region',
-        'children' => array(
-          0 => 'bottom_main_idea',
-        ),
-        'parent' => 'main',
-        'class' => 'pane-main-idea',
-      ),
-      'bottom_main_idea' => array(
-        'type' => 'region',
-        'title' => 'Bottom Main Idea',
-        'width' => 100,
-        'width_type' => '%',
-        'parent' => '2',
-        'class' => 'ir-main-idea ir-main-idea-tech bottom-main-idea-containre',
+        'class' => 'ir-main-idea-love top-main-idea-container',
       ),
     ),
   );
@@ -133,25 +97,22 @@ function f_home_page_layout_default_page_manager_pages() {
     $pane = new stdClass();
     $pane->pid = 'new-1';
     $pane->panel = '_none_';
-    $pane->type = 'node';
-    $pane->subtype = 'node';
-    $pane->shown = FALSE;
+    $pane->type = 'block';
+    $pane->subtype = 'views-our_portfolio-block';
+    $pane->shown = TRUE;
     $pane->access = array();
     $pane->configuration = array(
-      'nid' => '2',
-      'links' => 0,
-      'leave_node_title' => 0,
-      'identifier' => '',
-      'build_mode' => 'full',
-      'link_node_title' => 0,
-      'override_title' => 1,
-      'override_title_text' => 'Welcome To Innoraft',
+      'override_title' => 0,
+      'override_title_text' => '',
     );
     $pane->cache = array();
     $pane->style = array(
       'settings' => NULL,
     );
-    $pane->css = array();
+    $pane->css = array(
+      'css_id' => '',
+      'css_class' => 'front-page-main-content',
+    );
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
@@ -161,7 +122,7 @@ function f_home_page_layout_default_page_manager_pages() {
     $pane->pid = 'new-2';
     $pane->panel = '_none_';
     $pane->type = 'block';
-    $pane->subtype = 'views-our_portfolio-block';
+    $pane->subtype = 'views-our_services-services_content';
     $pane->shown = TRUE;
     $pane->access = array();
     $pane->configuration = array(
@@ -181,30 +142,6 @@ function f_home_page_layout_default_page_manager_pages() {
     $pane->locks = array();
     $display->content['new-2'] = $pane;
     $display->panels['_none_'][1] = 'new-2';
-    $pane = new stdClass();
-    $pane->pid = 'new-3';
-    $pane->panel = '_none_';
-    $pane->type = 'block';
-    $pane->subtype = 'views-our_services-services_content';
-    $pane->shown = TRUE;
-    $pane->access = array();
-    $pane->configuration = array(
-      'override_title' => 0,
-      'override_title_text' => '',
-    );
-    $pane->cache = array();
-    $pane->style = array(
-      'settings' => NULL,
-    );
-    $pane->css = array(
-      'css_id' => '',
-      'css_class' => 'front-page-main-content',
-    );
-    $pane->extras = array();
-    $pane->position = 2;
-    $pane->locks = array();
-    $display->content['new-3'] = $pane;
-    $display->panels['_none_'][2] = 'new-3';
   $display->hide_title = PANELS_TITLE_NONE;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
