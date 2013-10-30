@@ -52,31 +52,36 @@ function f_ir_portfolio_views_default_views() {
   $handler->display->display_options['fields']['field_work_image']['element_wrapper_class'] = 'content-image';
   $handler->display->display_options['fields']['field_work_image']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_work_image']['settings'] = array(
-    'image_style' => 'adaptive_460_x_225',
+    'image_style' => 'adaptive_460_x_330',
     'image_link' => 'content',
   );
   $handler->display->display_options['fields']['field_work_image']['delta_limit'] = '1';
   $handler->display->display_options['fields']['field_work_image']['delta_offset'] = '0';
   $handler->display->display_options['fields']['field_work_image']['separator'] = ' ';
-  /* Field: Content: Title */
-  $handler->display->display_options['fields']['title']['id'] = 'title';
-  $handler->display->display_options['fields']['title']['table'] = 'node';
-  $handler->display->display_options['fields']['title']['field'] = 'title';
-  $handler->display->display_options['fields']['title']['label'] = '';
-  $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
   /* Field: Content: Category */
   $handler->display->display_options['fields']['field_work_category']['id'] = 'field_work_category';
   $handler->display->display_options['fields']['field_work_category']['table'] = 'field_data_field_work_category';
   $handler->display->display_options['fields']['field_work_category']['field'] = 'field_work_category';
   $handler->display->display_options['fields']['field_work_category']['label'] = '';
   $handler->display->display_options['fields']['field_work_category']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_work_category']['element_wrapper_class'] = 'content-as-flag';
   $handler->display->display_options['fields']['field_work_category']['type'] = 'taxonomy_term_reference_plain';
   $handler->display->display_options['fields']['field_work_category']['delta_offset'] = '0';
+  /* Field: Content: Title */
+  $handler->display->display_options['fields']['title']['id'] = 'title';
+  $handler->display->display_options['fields']['title']['table'] = 'node';
+  $handler->display->display_options['fields']['title']['field'] = 'title';
+  $handler->display->display_options['fields']['title']['label'] = '';
+  $handler->display->display_options['fields']['title']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
   /* Field: Content: Client Testimonials */
   $handler->display->display_options['fields']['field_client_testimonials']['id'] = 'field_client_testimonials';
   $handler->display->display_options['fields']['field_client_testimonials']['table'] = 'field_data_field_client_testimonials';
   $handler->display->display_options['fields']['field_client_testimonials']['field'] = 'field_client_testimonials';
   $handler->display->display_options['fields']['field_client_testimonials']['label'] = '';
+  $handler->display->display_options['fields']['field_client_testimonials']['alter']['alter_text'] = TRUE;
+  $handler->display->display_options['fields']['field_client_testimonials']['alter']['text'] = '<div class="content-title">[title]</div>
+<div class="content-testimonials">[field_client_testimonials]</div>';
   $handler->display->display_options['fields']['field_client_testimonials']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_client_testimonials']['element_wrapper_type'] = 'div';
   $handler->display->display_options['fields']['field_client_testimonials']['element_wrapper_class'] = 'content-data';
