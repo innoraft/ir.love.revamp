@@ -537,3 +537,11 @@ img, media {
     font-size: 14px;
     letter-spacing: 0;
     margin-top: 10px; }
+
+/* line 426, ../sass/components/pages/_front.scss */
+.pane-views-our-portfolio-block .header-stickey {
+  top: 2.1em; }
+
+/* line 431, ../sass/components/pages/_front.scss */
+.pane-views-our-services-services-content .header-stickey {
+  top: 4em; }
