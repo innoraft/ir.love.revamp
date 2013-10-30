@@ -248,140 +248,91 @@ img, media {
     text-align: left !important; }
   /* line 124, ../sass/components/pages/_front.scss */
   .front-page-main-content .content-listings-home > .view-content .views-row {
-    clear: none !important;
     text-align: left !important; }
-  /* line 131, ../sass/components/pages/_front.scss */
-  .front-page-main-content .content-listings-home > .view-content {
-    /*$total-columns: 12;
-    @include container;
-    .views-row-odd {
-    	@include span-columns(6,12);
-    }
-    .views-row-even {
-    	@include span-columns(6,12);
-    }*/ }
 
-  /* line 146, ../sass/components/pages/_front.scss */
+  /* line 131, ../sass/components/pages/_front.scss */
   .work-content-listing > .view-content .views-row {
     padding: 0 !important; }
-    /* line 148, ../sass/components/pages/_front.scss */
+    /* line 133, ../sass/components/pages/_front.scss */
     .work-content-listing > .view-content .views-row .views-field-title {
       margin-top: 1em; }
-    /* line 158, ../sass/components/pages/_front.scss */
+    /* line 143, ../sass/components/pages/_front.scss */
     .work-content-listing > .view-content .views-row .views-field-field-client-testimonials {
       clear: right; }
-  /* line 166, ../sass/components/pages/_front.scss */
+  /* line 151, ../sass/components/pages/_front.scss */
   .work-content-listing .views-row-odd .listing-list-left {
     float: left;
     width: 50%;
     margin: 0;
     border-right: 1em solid gainsboro; }
-  /* line 174, ../sass/components/pages/_front.scss */
+  /* line 159, ../sass/components/pages/_front.scss */
   .work-content-listing .views-row-odd .listing-list-right {
     width: 50%;
     display: block;
     float: left; }
-  /* line 181, ../sass/components/pages/_front.scss */
+  /* line 166, ../sass/components/pages/_front.scss */
   .work-content-listing .views-row-even .listing-list-left {
     float: right;
     width: 50%;
     border-left: 1em solid gainsboro; }
-  /* line 186, ../sass/components/pages/_front.scss */
+  /* line 171, ../sass/components/pages/_front.scss */
   .work-content-listing .views-row-even .listing-list-right {
     float: left;
     width: 50%;
     margin-right: 0; }
 
-  /* line 195, ../sass/components/pages/_front.scss */
+  /* line 180, ../sass/components/pages/_front.scss */
   .pane-main-idea .front-page-main-content {
     margin-right: 6px; } }
 @media (min-width: 481px) and (max-width: 768px) {
-  /* line 203, ../sass/components/pages/_front.scss */
+  /* line 188, ../sass/components/pages/_front.scss */
   .l-branding .ir-slogan {
     display: none; }
 
-  /* line 209, ../sass/components/pages/_front.scss */
+  /* line 194, ../sass/components/pages/_front.scss */
   .front-page-main-content .content-listings-home > .view-content .views-row {
     text-align: left !important; }
-    /* line 211, ../sass/components/pages/_front.scss */
-    .front-page-main-content .content-listings-home > .view-content .views-row .content-image {
-      width: 49.15254%;
-      float: left;
-      margin-right: 1.69492%; }
 
-  /* line 218, ../sass/components/pages/_front.scss */
+  /* line 200, ../sass/components/pages/_front.scss */
   .work-content-listing > .view-content .views-row {
     padding: 0 !important; }
-    /* line 220, ../sass/components/pages/_front.scss */
+    /* line 202, ../sass/components/pages/_front.scss */
     .work-content-listing > .view-content .views-row .views-field-title {
       margin-top: 1em; }
-    /* line 230, ../sass/components/pages/_front.scss */
+    /* line 212, ../sass/components/pages/_front.scss */
     .work-content-listing > .view-content .views-row .views-field-field-client-testimonials {
       clear: right; }
-  /* line 238, ../sass/components/pages/_front.scss */
+  /* line 220, ../sass/components/pages/_front.scss */
   .work-content-listing .views-row-odd .listing-list-left {
     float: left;
     width: 50%;
     margin: 0;
     border-right: 1em solid gainsboro; }
-  /* line 246, ../sass/components/pages/_front.scss */
+  /* line 228, ../sass/components/pages/_front.scss */
   .work-content-listing .views-row-odd .listing-list-right {
     width: 50%;
     display: block;
     float: left; }
-  /* line 253, ../sass/components/pages/_front.scss */
+  /* line 235, ../sass/components/pages/_front.scss */
   .work-content-listing .views-row-even .listing-list-left {
     float: right;
     width: 50%;
     border-left: 1em solid gainsboro; }
-  /* line 258, ../sass/components/pages/_front.scss */
+  /* line 240, ../sass/components/pages/_front.scss */
   .work-content-listing .views-row-even .listing-list-right {
     float: left;
     width: 50%;
     margin-right: 0; } }
 @media (max-width: 480px) {
-  /* line 270, ../sass/components/pages/_front.scss */
+  /* line 252, ../sass/components/pages/_front.scss */
   .l-branding .ir-slogan {
     display: none; } }
 /* front header default*/
-/* line 277, ../sass/components/pages/_front.scss */
+/* line 259, ../sass/components/pages/_front.scss */
 .ir-main-idea {
   float: left; }
 
-/* front page services blocks */
-/* line 282, ../sass/components/pages/_front.scss */
-#block-views-our-services-block {
-  margin-top: 2em; }
-  /* line 284, ../sass/components/pages/_front.scss */
-  #block-views-our-services-block .views-view-grid {
-    width: 100%;
-    border-collapse: collapse; }
-    /* line 289, ../sass/components/pages/_front.scss */
-    #block-views-our-services-block .views-view-grid td {
-      width: 100%; }
-      /* line 292, ../sass/components/pages/_front.scss */
-      #block-views-our-services-block .views-view-grid td:nth-child(4n + 1) {
-        background: #2ca8c2; }
-      /* line 295, ../sass/components/pages/_front.scss */
-      #block-views-our-services-block .views-view-grid td:nth-child(4n + 2) {
-        background: #eb5054; }
-      /* line 298, ../sass/components/pages/_front.scss */
-      #block-views-our-services-block .views-view-grid td:nth-child(4n + 3) {
-        background: #8ab845; }
-      /* line 301, ../sass/components/pages/_front.scss */
-      #block-views-our-services-block .views-view-grid td:nth-child(4n) {
-        background: #f4b400; }
-      /* line 305, ../sass/components/pages/_front.scss */
-      #block-views-our-services-block .views-view-grid td a {
-        padding: 20px;
-        display: block;
-        color: white;
-        text-decoration: none; }
-        /* line 310, ../sass/components/pages/_front.scss */
-        #block-views-our-services-block .views-view-grid td a:hover {
-          text-decoration: underline; }
-
-/* line 318, ../sass/components/pages/_front.scss */
+/* line 264, ../sass/components/pages/_front.scss */
 .work-content-listing > .view-content .views-row {
   font-family: "sans-serif";
   text-align: left;
@@ -401,13 +352,13 @@ img, media {
     content: "";
     display: table;
     clear: both; }
-  /* line 329, ../sass/components/pages/_front.scss */
+  /* line 275, ../sass/components/pages/_front.scss */
   .work-content-listing > .view-content .views-row .listing-list-right {
     position: relative; }
-    /* line 331, ../sass/components/pages/_front.scss */
+    /* line 277, ../sass/components/pages/_front.scss */
     .work-content-listing > .view-content .views-row .listing-list-right .content-as-flag {
       color: white; }
-    /* line 334, ../sass/components/pages/_front.scss */
+    /* line 280, ../sass/components/pages/_front.scss */
     .work-content-listing > .view-content .views-row .listing-list-right .views-field-field-work-category {
       position: absolute;
       right: 0;
@@ -416,16 +367,16 @@ img, media {
       top: 0;
       font-size: 0.7em;
       letter-spacing: 0.1em; }
-    /* line 343, ../sass/components/pages/_front.scss */
+    /* line 289, ../sass/components/pages/_front.scss */
     .work-content-listing > .view-content .views-row .listing-list-right .views-field-field-client-testimonials {
       margin-top: 2em; }
-      /* line 345, ../sass/components/pages/_front.scss */
+      /* line 291, ../sass/components/pages/_front.scss */
       .work-content-listing > .view-content .views-row .listing-list-right .views-field-field-client-testimonials .content-title {
         margin-left: 1em;
         font-size: 2.2em;
         text-transform: lowercase;
         text-align: left; }
-      /* line 351, ../sass/components/pages/_front.scss */
+      /* line 297, ../sass/components/pages/_front.scss */
       .work-content-listing > .view-content .views-row .listing-list-right .views-field-field-client-testimonials .content-testimonials {
         margin-top: 2em;
         margin-left: 4em;
@@ -435,7 +386,7 @@ img, media {
         font-family: serif;
         font-style: italic;
         line-height: 1.7em; }
-  /* line 365, ../sass/components/pages/_front.scss */
+  /* line 311, ../sass/components/pages/_front.scss */
   .work-content-listing > .view-content .views-row .content-image img {
     width: 100%; }
   /* line 11, ../sass/base/_base.scss */
@@ -474,7 +425,7 @@ img, media {
   /* line 18, ../sass/base/_base.scss */
   .work-content-listing > .view-content .views-row:nth-child(4n) .content-title a {
     color: #f4b400; }
-/* line 384, ../sass/components/pages/_front.scss */
+/* line 330, ../sass/components/pages/_front.scss */
 .work-content-listing .view-footer a {
   display: block;
   background: #222222;
@@ -483,18 +434,18 @@ img, media {
   font-size: 1.2em;
   text-align: center;
   text-decoration: none; }
-  /* line 392, ../sass/components/pages/_front.scss */
+  /* line 338, ../sass/components/pages/_front.scss */
   .work-content-listing .view-footer a:hover {
     background: #222222;
     color: #f4b400; }
 
-/* line 402, ../sass/components/pages/_front.scss */
+/* line 348, ../sass/components/pages/_front.scss */
 .front-page-main-content .pane-title {
   font-weight: normal;
   font-size: 1.5em;
   text-shadow: 0 1px 0 white;
   text-align: center; }
-/* line 409, ../sass/components/pages/_front.scss */
+/* line 355, ../sass/components/pages/_front.scss */
 .front-page-main-content .content-listings-home > .view-content .views-row {
   *zoom: 1;
   max-width: 1050px;
@@ -504,8 +455,9 @@ img, media {
   margin-right: auto;
   clear: both;
   text-align: center;
-  background-color: #FFFFFF;
-  font-size: 22px;
+  position: relative;
+  background-color: white;
+  min-height: 9em;
   font-weight: normal;
   letter-spacing: -1px;
   padding: 20px;
@@ -515,22 +467,41 @@ img, media {
     content: "";
     display: table;
     clear: both; }
-  /* line 425, ../sass/components/pages/_front.scss */
-  .front-page-main-content .content-listings-home > .view-content .views-row:nth-child(4n + 1) .views-field-field-work-link a, .front-page-main-content .content-listings-home > .view-content .views-row:nth-child(4n + 1) .views-field-title a {
-    color: #2ca8c2; }
-  /* line 432, ../sass/components/pages/_front.scss */
-  .front-page-main-content .content-listings-home > .view-content .views-row:nth-child(4n + 2) .views-field-field-work-link a, .front-page-main-content .content-listings-home > .view-content .views-row:nth-child(4n + 2) .views-field-title a {
-    color: #eb5054; }
-  /* line 439, ../sass/components/pages/_front.scss */
-  .front-page-main-content .content-listings-home > .view-content .views-row:nth-child(4n + 3) .views-field-field-work-link a, .front-page-main-content .content-listings-home > .view-content .views-row:nth-child(4n + 3) .views-field-title a {
-    color: #8ab845; }
-  /* line 446, ../sass/components/pages/_front.scss */
-  .front-page-main-content .content-listings-home > .view-content .views-row:nth-child(4n) .views-field-field-work-link a, .front-page-main-content .content-listings-home > .view-content .views-row:nth-child(4n) .views-field-title a {
-    color: #f4b400; }
-  /* line 451, ../sass/components/pages/_front.scss */
+  /* line 370, ../sass/components/pages/_front.scss */
+  .front-page-main-content .content-listings-home > .view-content .views-row .views-field-title {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 100%; }
+    /* line 376, ../sass/components/pages/_front.scss */
+    .front-page-main-content .content-listings-home > .view-content .views-row .views-field-title a {
+      color: white;
+      display: block;
+      width: 100%;
+      padding: 0.5em 1.2em;
+      font-size: 1.1em; }
+  /* line 384, ../sass/components/pages/_front.scss */
+  .front-page-main-content .content-listings-home > .view-content .views-row .views-field-body {
+    margin-top: 2em;
+    font-family: serif;
+    font-size: 1.2em; }
+  /* line 25, ../sass/base/_base.scss */
+  .front-page-main-content .content-listings-home > .view-content .views-row:nth-child(4n + 1) .views-field-title {
+    background: #2ca8c2; }
+  /* line 25, ../sass/base/_base.scss */
+  .front-page-main-content .content-listings-home > .view-content .views-row:nth-child(4n + 2) .views-field-title {
+    background: #eb5054; }
+  /* line 25, ../sass/base/_base.scss */
+  .front-page-main-content .content-listings-home > .view-content .views-row:nth-child(4n + 3) .views-field-title {
+    background: #8ab845; }
+  /* line 25, ../sass/base/_base.scss */
+  .front-page-main-content .content-listings-home > .view-content .views-row:nth-child(4n) .views-field-title {
+    background: #f4b400; }
+  /* line 401, ../sass/components/pages/_front.scss */
   .front-page-main-content .content-listings-home > .view-content .views-row:hover {
     bakground: white; }
-  /* line 454, ../sass/components/pages/_front.scss */
+  /* line 404, ../sass/components/pages/_front.scss */
   .front-page-main-content .content-listings-home > .view-content .views-row .views-field-field-client-testimonials {
     font-size: 14px;
     letter-spacing: 0;
