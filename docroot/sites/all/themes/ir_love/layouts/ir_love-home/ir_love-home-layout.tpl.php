@@ -8,10 +8,17 @@
         <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="site-logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
       <?php endif; ?>
       <div class="ir_custom_logo">
+        <div class="ir-logo">
         <div class="ir-custom-logo-icons">
-          <div id="ir-drupal" class="ir-main-idea"><i class="fa fa-cog"></i></div>
-          <div id="ir-love" class="ir-main-idea"><i class="fa fa-heart"></i></div>
-          <div id="ir-dedication" class="ir-main-idea"><i class="fa fa-trophy"></i></div>
+          <div id="ir-drupal" class="ir-main-idea">
+              <i class="fa fa-cog ir-idea-font-icon"></i><span class="ir-idea-text">Drupal</span>
+          </div>
+          <div id="ir-love" class="ir-main-idea">
+              <i class="fa fa-heart ir-idea-font-icon"></i><span class="ir-idea-text">Love</span>
+          </div>
+          <div id="ir-dedication" class="ir-main-idea">
+              <i class="fa fa-trophy ir-idea-font-icon"></i><span class="ir-idea-text">Dedication</span>
+          </div>
         </div>
       <?php if ($site_name || $site_slogan): ?>
         <?php if ($site_name): ?>
@@ -19,8 +26,8 @@
             <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
           </div>
         <?php endif; ?>
-
       <?php endif; ?>
+    </div>
       </div>
       <div class="ir-slogan">
         <?php if ($site_slogan): ?>
