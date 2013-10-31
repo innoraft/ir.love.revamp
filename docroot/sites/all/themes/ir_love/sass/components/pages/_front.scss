@@ -125,6 +125,12 @@
 				text-align:left !important;
 			}
 		}
+		.header-stickey {
+		    position:fixed;
+	    	padding:0.5em !important;
+	    	z-index:999;
+	    	@include container;
+		}
 		
 	}
 	.work-content-listing {
@@ -180,6 +186,16 @@
 		.front-page-main-content {
 			margin-right:6px;
 			@include container;
+		}
+	}
+	.pane-views-our-portfolio-block {
+		.header-stickey {
+			top:2.1em;
+		}
+	}
+	.pane-views-our-services-services-content {
+		.header-stickey {
+			top:4em;
 		}
 	}
 }
@@ -357,12 +373,6 @@
 		padding: 0.83em 0;
 		background: $site_body_color;
 	}
-	.header-stickey {
-	    position:fixed;
-    	padding:0.5em !important;
-    	z-index:999;
-    	@include container;
-	}
 	.content-listings-home {
 		> .view-content .views-row {
 			$total-columns: 12;
@@ -419,16 +429,5 @@
 				margin-top:10px;
 			}
 		}
-	}
-}
-
-.pane-views-our-portfolio-block {
-	.header-stickey {
-		top:2.1em;
-	}
-}
-.pane-views-our-services-services-content {
-	.header-stickey {
-		top:4em;
 	}
 }
