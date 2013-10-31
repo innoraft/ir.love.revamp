@@ -201,6 +201,11 @@
 }
 
 @include at-breakpoint($tablet_only) {
+	.l-branding {
+		.ir-slogan {
+			display:none;
+		}
+	}
 	.front-page-main-content {
 		.content-listings-home {
 			> .view-content .views-row {
