@@ -130,6 +130,7 @@
 	    	padding:0.5em !important;
 	    	z-index:999;
 	    	@include container;
+	    	top:2.15em;
 		}
 		
 	}
@@ -188,16 +189,6 @@
 			@include container;
 		}
 	}
-	.pane-views-our-portfolio-block {
-		.header-stickey {
-			top:2.15em;
-		}
-	}
-	.pane-views-our-services-services-content {
-		.header-stickey {
-			top:4em;
-		}
-	}
 }
 
 @include at-breakpoint($tablet_only) {
@@ -248,6 +239,11 @@
 					margin-left: 0 !important;
 				}
 			}
+			.content-image {
+	    		img {
+	    			height:auto;
+	    		}
+	    	}
 		}
 	}
 }
