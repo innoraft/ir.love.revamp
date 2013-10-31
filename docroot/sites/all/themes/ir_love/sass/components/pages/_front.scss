@@ -212,56 +212,7 @@
 				text-align:left !important;
 			}
 		}
-	}
-	.work-content-listing {
-			> .view-content .views-row {
-				padding:0 !important;
-				.views-field-title {
-					//float:left;
-					//margin-left:0.5em;
-					margin-top:1em;
-				}
-				.views-field-field-work-category {
-					//float:right;
-					//margin-right:0.5em;
-					//margin-top:1em;
-				}
-				.views-field-field-client-testimonials{
-					clear:right;
-					//margin-top:4em;
-					//text-align:center;
-				}
-    			
-			}
-			.views-row-odd {
-				.listing-list-left {
-					//@include span-columns(6,12);
-					float:left;
-					width:50%;
-					margin:0;
-					border-right: 1em solid $site_body_color;
-
-				}
-				.listing-list-right {
-					width: 50%;
-					display: block;
-					float: left;
-				}
-			}
-			.views-row-even {
-				.listing-list-left {
-					float:right;
-					width:50%;
-					border-left: 1em solid $site_body_color;
-				}
-				.listing-list-right {
-					float:left;
-					width:50%;
-					margin-right:0;
-				}
-			}
-			
-		}
+	}	
 }
 
 @include at-breakpoint($mobile) {
