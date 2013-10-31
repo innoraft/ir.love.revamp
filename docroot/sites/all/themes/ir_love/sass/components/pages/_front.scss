@@ -201,15 +201,19 @@
 }
 
 @include at-breakpoint($tablet_only) {
-	.l-branding {
-		.ir-slogan {
-			display:none;
-		}
-	}
 	.front-page-main-content {
 		.content-listings-home {
 			> .view-content .views-row {
 				text-align:left !important;
+			}
+		}
+	}
+	.work-content-listing {
+		> .view-content .views-row {
+			.views-field-field-client-testimonials {
+				.content-testimonials {
+					margin-bottom: 1em;
+				}	
 			}
 		}
 	}	
@@ -219,6 +223,20 @@
 	.l-branding {
 		.ir-slogan {
 			display:none;
+		}
+	}
+	.work-content-listing {
+		> .view-content .views-row {
+			.views-field-field-client-testimonials {
+				.content-testimonials {
+					text-align:center;
+					margin: 1em 0 2em 0 !important;
+				}	
+				.content-title {
+					text-align:center;
+					margin-left: 0 !important;
+				}
+			}
 		}
 	}
 }
@@ -260,13 +278,12 @@
     				margin-left: 1em;
 					font-size: 2.2em;
 					text-transform: lowercase;
-					text-align:left;
     			}
     			.content-testimonials {
     				margin-top: 2em;
 					margin-left: 4em;
 					margin-right: 2em;
-					text-align: left;
+					//text-align: left;
 					font-size:1.1em;
 					font-family: serif;
 					font-style: italic;
