@@ -32,6 +32,12 @@ function f_home_page_layout_context_default_contexts() {
           'region' => 'top_navigation',
           'weight' => '-10',
         ),
+        'panels_mini-site_footer' => array(
+          'module' => 'panels_mini',
+          'delta' => 'site_footer',
+          'region' => 'footer',
+          'weight' => '-10',
+        ),
       ),
       'layout' => 'ir_love-home',
     ),
