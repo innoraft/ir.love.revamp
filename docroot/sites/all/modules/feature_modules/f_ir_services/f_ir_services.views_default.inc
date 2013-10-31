@@ -78,22 +78,15 @@ function f_ir_services_views_default_views() {
   $handler->display->display_options['row_plugin'] = 'fields';
   $handler->display->display_options['defaults']['row_options'] = FALSE;
   $handler->display->display_options['defaults']['fields'] = FALSE;
-  /* Field: Content: Service Icon */
-  $handler->display->display_options['fields']['field_service_icon']['id'] = 'field_service_icon';
-  $handler->display->display_options['fields']['field_service_icon']['table'] = 'field_data_field_service_icon';
-  $handler->display->display_options['fields']['field_service_icon']['field'] = 'field_service_icon';
-  $handler->display->display_options['fields']['field_service_icon']['label'] = '';
-  $handler->display->display_options['fields']['field_service_icon']['exclude'] = TRUE;
-  $handler->display->display_options['fields']['field_service_icon']['element_label_colon'] = FALSE;
   /* Field: Content: Title */
   $handler->display->display_options['fields']['title']['id'] = 'title';
   $handler->display->display_options['fields']['title']['table'] = 'node';
   $handler->display->display_options['fields']['title']['field'] = 'title';
   $handler->display->display_options['fields']['title']['label'] = '';
-  $handler->display->display_options['fields']['title']['alter']['alter_text'] = TRUE;
   $handler->display->display_options['fields']['title']['alter']['text'] = '<span class="service-icon">[field_service_icon]</span><span class="service-title"> [title]</span>';
   $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
   $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
+  $handler->display->display_options['fields']['title']['element_class'] = 'service-title';
   $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
   /* Field: Content: Body */
   $handler->display->display_options['fields']['body']['id'] = 'body';
