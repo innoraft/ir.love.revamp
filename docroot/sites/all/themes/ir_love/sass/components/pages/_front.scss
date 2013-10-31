@@ -190,7 +190,7 @@
 	}
 	.pane-views-our-portfolio-block {
 		.header-stickey {
-			top:2.1em;
+			top:2.15em;
 		}
 	}
 	.pane-views-our-services-services-content {
@@ -209,7 +209,6 @@
 	.front-page-main-content {
 		.content-listings-home {
 			> .view-content .views-row {
-				text-align:left !important;
 			}
 		}
 	}
@@ -228,6 +227,13 @@
 	.l-branding {
 		.ir-slogan {
 			display:none;
+		}
+	}
+	.content-listings-home {
+		> .view-content .views-row {
+			.views-field-body {
+	    		text-align:center;
+    		}
 		}
 	}
 	.work-content-listing {
@@ -353,7 +359,6 @@
 
 			@include container;
 			clear:both;
-			text-align:center;
 			position: relative;
 
 			background-color: $white;
@@ -374,6 +379,9 @@
     				width:100%;
     				padding: 0.5em 1.2em;
 					font-size: 1.1em;
+    			}
+    			.service-icon {
+    				float:right;
     			}
     		}
     		.views-field-body {
