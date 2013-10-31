@@ -81,9 +81,7 @@ function f_home_page_layout_ckeditor_profile_defaults() {
           ),
         ),
       ),
-      'input_formats' => array(
-        'full_html' => 'Full HTML',
-      ),
+      'input_formats' => array(),
     ),
   );
   return $data;
