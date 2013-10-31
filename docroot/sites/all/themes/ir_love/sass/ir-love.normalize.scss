@@ -9,31 +9,3 @@
 // Use 'border-box' for the box model.
 @import "toolkit/border-box";
 @import "susy";
-
-/* Basic HTML css changes site-wide*/
-
-body {
-  background: $site_body_color;
-}
-
-a {
-  color: $bg_idea_blue;
-  text-decoration:none;
-  &:hover {
-    text-decoration:underline;
-  }
-}
-
-/*site name defaults*/
-.site-name {
-  a {
-    color: $foreground;
-    text-decoration:none;
-  }
-}
-
-/* Read More Link Site-wide*/
-.read-more-link {
-	float:right;
-	font-size:80%;
-}
