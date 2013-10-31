@@ -1,0 +1,28 @@
+@import "susy";
+@import "variables/**/*";
+@import "base/**/*";
+@import "compass/css3/box-shadow";
+
+.l-footer {
+	background: $white;
+	text-align: center;
+	#footer-item-copyright {
+		font-size: 0.9em;
+		font-family: serif;
+		color: $site_grey_light;
+		padding: 4em 0 1em 0;
+	}
+	#footer-item-contact {
+		font-size:1.1em;
+		p {
+			margin:0.5em 0;
+			a {
+				color: $grey;
+			}
+		}
+
+	}
+	#footer-item-header {
+		font-size:1.8em;
+	}
+}

@@ -4,7 +4,7 @@
 /* Large screen menu - desktop*/
 @include at-breakpoint($desk) {
 	.l-top-nav {
-		background: $site_default_font_color;
+		background: $grey;
 		position:fixed;
 		top:0;
 		width:100%;
@@ -43,10 +43,10 @@
 /* Menu theming for small screens*/
 .l-top-nav {
 	.responsive-menus.responsified {
-		background: none repeat scroll 0 0 $site_default_font_color;
+		background: none repeat scroll 0 0 $grey;
 		span.toggler {
 			text-align:right;
-			background: none repeat scroll 0 0 $site_default_font_color;
+			background: none repeat scroll 0 0 $grey;
 		   	border-radius: 0;
 		   	box-shadow:none;
 		   	//margin-right:5px;
@@ -58,7 +58,7 @@
 	   	}
 	   	&.responsive-toggled.absolute {
 	   	  .responsive-menus-simple {
-	   	  	background: none repeat scroll 0 0 $site_default_font_color;
+	   	  	background: none repeat scroll 0 0 $grey;
 	   		border-radius: 0;
 	   		box-shadow:none;
 	   	  }
@@ -76,7 +76,7 @@
 	   		    	padding:12px;
 	   		    	&:hover {
 	   		    		background: $menu_link_color;
-	   		    		color: $site_default_font_color;
+	   		    		color: $grey;
 	   		    	}
 	   		    }
 	   		  }
@@ -109,13 +109,13 @@
 		 		margin-right:8px;
 			}
 			#ir-drupal {
-				color: $bg_idea_blue;
+				color: $blue;
 			}
 			#ir-love {
-				color: $bg_idea_pink;
+				color: $pink;
 			}
 			#ir-dedication {
-				color: $bg_idea_green;
+				color: $green;
 			}
 		}
 	}

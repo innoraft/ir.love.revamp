@@ -2,6 +2,31 @@
 /* Custom color variables*/
 /* Site Wide varaibles*/
 /* No files to import found in abstractions/**\/* */
+/* No files to import found in variables/**\/* */
+/* line 4, ../sass/base/_base.scss */
+body {
+  background: gainsboro; }
+
+/* line 8, ../sass/base/_base.scss */
+a {
+  color: #2ca8c2;
+  text-decoration: none; }
+  /* line 11, ../sass/base/_base.scss */
+  a:hover {
+    text-decoration: underline; }
+
+/*site name defaults*/
+/* line 18, ../sass/base/_base.scss */
+.site-name a {
+  color: white;
+  text-decoration: none; }
+
+/* Read More Link Site-wide*/
+/* line 25, ../sass/base/_base.scss */
+.read-more-link {
+  float: right;
+  font-size: 80%; }
+
 @font-face {
   font-family: 'Cabin';
   font-style: normal;
@@ -11,6 +36,31 @@
 /* line 1, ../sass/base/_media.scss */
 img, media {
   max-width: 100%; }
+
+/* No files to import found in variables/**\/* */
+/* No files to import found in base/**\/* */
+/* line 6, ../sass/components/_footer.scss */
+.l-footer {
+  background: white;
+  text-align: center; }
+  /* line 9, ../sass/components/_footer.scss */
+  .l-footer #footer-item-copyright {
+    font-size: 0.9em;
+    font-family: serif;
+    color: #c9c9c9;
+    padding: 4em 0 1em 0; }
+  /* line 15, ../sass/components/_footer.scss */
+  .l-footer #footer-item-contact {
+    font-size: 1.1em; }
+    /* line 17, ../sass/components/_footer.scss */
+    .l-footer #footer-item-contact p {
+      margin: 0.5em 0; }
+      /* line 19, ../sass/components/_footer.scss */
+      .l-footer #footer-item-contact p a {
+        color: #222222; }
+  /* line 25, ../sass/components/_footer.scss */
+  .l-footer #footer-item-header {
+    font-size: 1.8em; }
 
 /* No files to import found in variables/**\/* */
 /* Large screen menu - desktop*/
@@ -398,40 +448,40 @@ img, media {
   /* line 303, ../sass/components/pages/_front.scss */
   .work-content-listing > .view-content .views-row .content-image img {
     width: 100%; }
-  /* line 11, ../sass/base/_base.scss */
+  /* line 38, ../sass/base/_base.scss */
   .work-content-listing > .view-content .views-row:nth-child(4n + 1) .listing-list-right {
     border-top: 0.5em solid #2ca8c2; }
-    /* line 13, ../sass/base/_base.scss */
+    /* line 40, ../sass/base/_base.scss */
     .work-content-listing > .view-content .views-row:nth-child(4n + 1) .listing-list-right .content-as-flag {
       background: #2ca8c2; }
-  /* line 18, ../sass/base/_base.scss */
+  /* line 45, ../sass/base/_base.scss */
   .work-content-listing > .view-content .views-row:nth-child(4n + 1) .content-title a {
     color: #2ca8c2; }
-  /* line 11, ../sass/base/_base.scss */
+  /* line 38, ../sass/base/_base.scss */
   .work-content-listing > .view-content .views-row:nth-child(4n + 2) .listing-list-right {
     border-top: 0.5em solid #eb5054; }
-    /* line 13, ../sass/base/_base.scss */
+    /* line 40, ../sass/base/_base.scss */
     .work-content-listing > .view-content .views-row:nth-child(4n + 2) .listing-list-right .content-as-flag {
       background: #eb5054; }
-  /* line 18, ../sass/base/_base.scss */
+  /* line 45, ../sass/base/_base.scss */
   .work-content-listing > .view-content .views-row:nth-child(4n + 2) .content-title a {
     color: #eb5054; }
-  /* line 11, ../sass/base/_base.scss */
+  /* line 38, ../sass/base/_base.scss */
   .work-content-listing > .view-content .views-row:nth-child(4n + 3) .listing-list-right {
     border-top: 0.5em solid #8ab845; }
-    /* line 13, ../sass/base/_base.scss */
+    /* line 40, ../sass/base/_base.scss */
     .work-content-listing > .view-content .views-row:nth-child(4n + 3) .listing-list-right .content-as-flag {
       background: #8ab845; }
-  /* line 18, ../sass/base/_base.scss */
+  /* line 45, ../sass/base/_base.scss */
   .work-content-listing > .view-content .views-row:nth-child(4n + 3) .content-title a {
     color: #8ab845; }
-  /* line 11, ../sass/base/_base.scss */
+  /* line 38, ../sass/base/_base.scss */
   .work-content-listing > .view-content .views-row:nth-child(4n) .listing-list-right {
     border-top: 0.5em solid #f4b400; }
-    /* line 13, ../sass/base/_base.scss */
+    /* line 40, ../sass/base/_base.scss */
     .work-content-listing > .view-content .views-row:nth-child(4n) .listing-list-right .content-as-flag {
       background: #f4b400; }
-  /* line 18, ../sass/base/_base.scss */
+  /* line 45, ../sass/base/_base.scss */
   .work-content-listing > .view-content .views-row:nth-child(4n) .content-title a {
     color: #f4b400; }
 /* line 322, ../sass/components/pages/_front.scss */
@@ -502,16 +552,16 @@ img, media {
     margin-top: 2em;
     font-family: serif;
     font-size: 1.2em; }
-  /* line 25, ../sass/base/_base.scss */
+  /* line 52, ../sass/base/_base.scss */
   .front-page-main-content .content-listings-home > .view-content .views-row:nth-child(4n + 1) .views-field-title {
     background: #2ca8c2; }
-  /* line 25, ../sass/base/_base.scss */
+  /* line 52, ../sass/base/_base.scss */
   .front-page-main-content .content-listings-home > .view-content .views-row:nth-child(4n + 2) .views-field-title {
     background: #eb5054; }
-  /* line 25, ../sass/base/_base.scss */
+  /* line 52, ../sass/base/_base.scss */
   .front-page-main-content .content-listings-home > .view-content .views-row:nth-child(4n + 3) .views-field-title {
     background: #8ab845; }
-  /* line 25, ../sass/base/_base.scss */
+  /* line 52, ../sass/base/_base.scss */
   .front-page-main-content .content-listings-home > .view-content .views-row:nth-child(4n) .views-field-title {
     background: #f4b400; }
   /* line 400, ../sass/components/pages/_front.scss */

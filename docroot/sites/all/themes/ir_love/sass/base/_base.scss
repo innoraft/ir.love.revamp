@@ -1,4 +1,31 @@
 @import "susy";
+@import "variables/**/*";
+
+body {
+  background: $site_body_color;
+}
+
+a {
+  color: $blue;
+  text-decoration:none;
+  &:hover {
+    text-decoration:underline;
+  }
+}
+
+/*site name defaults*/
+.site-name {
+  a {
+    color: $foreground;
+    text-decoration:none;
+  }
+}
+
+/* Read More Link Site-wide*/
+.read-more-link {
+	float:right;
+	font-size:80%;
+}
 
 @font-face {
   font-family: 'Cabin';
