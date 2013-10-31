@@ -55,50 +55,9 @@ function f_ir_services_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-our_services-field_service_icon'
-  $field_instances['node-our_services-field_service_icon'] = array(
-    'bundle' => 'our_services',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'hidden',
-        'module' => 'text',
-        'settings' => array(),
-        'type' => 'text_default',
-        'weight' => 1,
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-    ),
-    'entity_type' => 'node',
-    'field_name' => 'field_service_icon',
-    'label' => 'Service Icon',
-    'required' => 0,
-    'settings' => array(
-      'text_processing' => 1,
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'text',
-      'settings' => array(
-        'rows' => 3,
-      ),
-      'type' => 'text_textarea',
-      'weight' => 41,
-    ),
-  );
-
   // Translatables
   // Included for use with string extractors like potx.
   t('Body');
-  t('Service Icon');
 
   return $field_instances;
 }
