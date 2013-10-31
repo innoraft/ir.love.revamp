@@ -44,7 +44,7 @@
   margin-bottom: $vert-spacing-unit;
 }
 
-@include at-breakpoint($tab) { // At a given Susy Media Layout, use a given amount of columns.
+@include at-breakpoint($tablet_only) { // At a given Susy Media Layout, use a given amount of columns.
   .l-region--header{
     @include span-columns(8 omega, 12); // Span the last (omega) 8 columns of 12.
   }

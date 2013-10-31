@@ -54,7 +54,7 @@
 .l-region--sidebar-second {
   margin-bottom: 20px; }
 
-@media (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 768px) {
   /* line 48, ../../../sass/layouts/inno_love/inno_love.layout.scss */
   .l-region--header {
     width: 66.10169%;
