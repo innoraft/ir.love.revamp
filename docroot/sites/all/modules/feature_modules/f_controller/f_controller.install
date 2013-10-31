@@ -47,7 +47,7 @@ function ir_feature_revert($modules) {
  * Revert all content-related features, necessary for using correct view mode.
  * Enables specified module.
  */
-function f_controller_update_7015() {
+function f_controller_update_7016() {
   ir_feature_revert(array('f_ir_services', 'f_home_page_layout', 'f_site_general_settings'));
   // if (!module_exists('entity')) {
   //   $modules_to_be_enabled = array('entity', 'entity_token');
