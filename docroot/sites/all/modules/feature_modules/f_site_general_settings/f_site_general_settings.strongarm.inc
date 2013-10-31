@@ -42,7 +42,7 @@ function f_site_general_settings_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'pathauto_node_our_work_pattern';
-  $strongarm->value = 'project/[node:title]';
+  $strongarm->value = 'work/[node:title]';
   $export['pathauto_node_our_work_pattern'] = $strongarm;
 
   $strongarm = new stdClass();
