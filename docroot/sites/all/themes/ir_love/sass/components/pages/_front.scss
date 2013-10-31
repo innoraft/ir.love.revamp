@@ -125,6 +125,12 @@
 				text-align:left !important;
 			}
 		}
+		.header-stickey {
+		    position:fixed;
+	    	padding:0.5em !important;
+	    	z-index:999;
+	    	@include container;
+		}
 		
 	}
 	.work-content-listing {
@@ -182,6 +188,16 @@
 			@include container;
 		}
 	}
+	.pane-views-our-portfolio-block {
+		.header-stickey {
+			top:2.1em;
+		}
+	}
+	.pane-views-our-services-services-content {
+		.header-stickey {
+			top:4em;
+		}
+	}
 }
 
 @include at-breakpoint($tablet_only) {
@@ -198,60 +214,34 @@
 		}
 	}
 	.work-content-listing {
-			> .view-content .views-row {
-				padding:0 !important;
-				.views-field-title {
-					//float:left;
-					//margin-left:0.5em;
-					margin-top:1em;
-				}
-				.views-field-field-work-category {
-					//float:right;
-					//margin-right:0.5em;
-					//margin-top:1em;
-				}
-				.views-field-field-client-testimonials{
-					clear:right;
-					//margin-top:4em;
-					//text-align:center;
-				}
-    			
+		> .view-content .views-row {
+			.views-field-field-client-testimonials {
+				.content-testimonials {
+					margin-bottom: 1em;
+				}	
 			}
-			.views-row-odd {
-				.listing-list-left {
-					//@include span-columns(6,12);
-					float:left;
-					width:50%;
-					margin:0;
-					border-right: 1em solid $site_body_color;
-
-				}
-				.listing-list-right {
-					width: 50%;
-					display: block;
-					float: left;
-				}
-			}
-			.views-row-even {
-				.listing-list-left {
-					float:right;
-					width:50%;
-					border-left: 1em solid $site_body_color;
-				}
-				.listing-list-right {
-					float:left;
-					width:50%;
-					margin-right:0;
-				}
-			}
-			
 		}
+	}	
 }
 
 @include at-breakpoint($mobile) {
 	.l-branding {
 		.ir-slogan {
 			display:none;
+		}
+	}
+	.work-content-listing {
+		> .view-content .views-row {
+			.views-field-field-client-testimonials {
+				.content-testimonials {
+					text-align:center;
+					margin: 1em 0 2em 0 !important;
+				}	
+				.content-title {
+					text-align:center;
+					margin-left: 0 !important;
+				}
+			}
 		}
 	}
 }
@@ -293,13 +283,12 @@
     				margin-left: 1em;
 					font-size: 2.2em;
 					text-transform: lowercase;
-					text-align:left;
     			}
     			.content-testimonials {
     				margin-top: 2em;
 					margin-left: 4em;
 					margin-right: 2em;
-					text-align: left;
+					//text-align: left;
 					font-size:1.1em;
 					font-family: serif;
 					font-style: italic;
@@ -357,12 +346,6 @@
 		padding: 0.83em 0;
 		background: $site_body_color;
 	}
-	.header-stickey {
-	    position:fixed;
-    	padding:0.5em !important;
-    	z-index:999;
-    	@include container;
-	}
 	.content-listings-home {
 		> .view-content .views-row {
 			$total-columns: 12;
@@ -419,16 +402,5 @@
 				margin-top:10px;
 			}
 		}
-	}
-}
-
-.pane-views-our-portfolio-block {
-	.header-stickey {
-		top:2.1em;
-	}
-}
-.pane-views-our-services-services-content {
-	.header-stickey {
-		top:4em;
 	}
 }
