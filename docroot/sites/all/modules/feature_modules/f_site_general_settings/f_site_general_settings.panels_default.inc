@@ -71,13 +71,13 @@ function f_site_general_settings_default_panels_mini() {
     $pane->configuration = array(
       'admin_title' => 'Contact us',
       'title' => '',
-      'body' => '<div><a class="blue" href="/contact">Contact Us</a></div>
+      'body' => '<div>Contact Us / <a class="blue" href="/contact">Click Here</a></div>
 
-<div><a class="pink" href="tel:+919830691694">call +91-9830-691-694</a></div>
+<div>Call / <a class="pink" href="tel:+919830691694">+91-9830-691-694</a></div>
 
-<div><a class="green" href="mailto:admin@innoraft.com" target="_blank">admin@innoraft.com</a></div>
+<div>Mail / <a class="green" href="mailto:admin@innoraft.com" target="_blank">admin@innoraft.com</a></div>
 
-<div><a class="yellow" href="http://twitter.com/innoraft">tweet@innoraft</a></div>
+<div>Tweet / <a class="yellow" href="http://twitter.com/innoraft">@innoraft</a></div>
 ',
       'format' => 'filtered_html',
       'substitute' => TRUE,
