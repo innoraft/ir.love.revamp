@@ -5,7 +5,7 @@
 /* No files to import found in variables/**\/* */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/base\/_base\.scss}line{font-family:\000034}}
 body {
-  background: gainsboro; }
+  background: #f2f2f2; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/base\/_base\.scss}line{font-family:\000038}}
 a {
@@ -364,7 +364,7 @@ img, media {
     float: left;
     width: 50%;
     margin: 0;
-    border-right: 1em solid gainsboro; }
+    border-right: 1em solid #f2f2f2; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\00003166}}
   .work-content-listing .views-row-odd .listing-list-right {
     width: 50%;
@@ -374,7 +374,7 @@ img, media {
   .work-content-listing .views-row-even .listing-list-left {
     float: right;
     width: 50%;
-    border-left: 1em solid gainsboro; }
+    border-left: 1em solid #f2f2f2; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\00003178}}
   .work-content-listing .views-row-even .listing-list-right {
     float: left;
@@ -542,7 +542,7 @@ img, media {
   width: 100%;
   margin: 0;
   padding: 0.83em 0;
-  background: gainsboro; }
+  background: #f2f2f2; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\00003352}}
 .front-page-main-content .content-listings-home > .view-content .views-row {
   *zoom: 1;
