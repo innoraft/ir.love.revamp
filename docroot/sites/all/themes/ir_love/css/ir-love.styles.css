@@ -172,6 +172,39 @@ img, media {
       color: #8ab845; } }
 /* No files to import found in variables/**\/* */
 /* No files to import found in base/**\/* */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\000036}}
+.block__content {
+  background: white;
+  padding: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\0000310}}
+.block__title {
+  letter-spacing: 0.1em; }
+
+/* Contact us locations block */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\0000317}}
+#block-panels-mini-ir-locations .ir-map iframe {
+  width: 100%;
+  height: 22em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\0000322}}
+#block-panels-mini-ir-locations .ir-address-1 {
+  padding-bottom: 1em;
+  border-bottom: 0.2em solid #eb5054;
+  margin-bottom: 2em; }
+
+/* No files to import found in variables/**\/* */
+/* No files to import found in base/**\/* */
+/* Contact Us page*/
+@media (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_forms\.scss}line{font-family:\000039}}
+  #contact-site-form .form-text, #contact-site-form textarea {
+    width: 100% !important; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_forms\.scss}line{font-family:\0000315}}
+#contact-site-form .form-text, #contact-site-form textarea {
+  width: 80%; }
+
+/* No files to import found in variables/**\/* */
+/* No files to import found in base/**\/* */
 /* front header site name - desk*/
 @media (min-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\000039}}
@@ -226,7 +259,7 @@ img, media {
       margin-top: 2.1em;
       text-align: center; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\0000367}}
-.l-content {
+.l-main {
   *zoom: 1;
   max-width: 1050px;
   padding-left: 5px;
@@ -234,7 +267,7 @@ img, media {
   margin-left: auto;
   margin-right: auto; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
-  .l-content:after {
+  .l-main:after {
     content: "";
     display: table;
     clear: both; }

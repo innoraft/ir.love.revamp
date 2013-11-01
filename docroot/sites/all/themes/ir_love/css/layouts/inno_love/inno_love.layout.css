@@ -63,30 +63,7 @@
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/layouts\/inno_love\/inno_love\.layout\.scss}line{font-family:\0000351}}
   .l-region--navigation {
-    clear: both; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/layouts\/inno_love\/inno_love\.layout\.scss}line{font-family:\0000358}}
-  .has-sidebar-first .l-content,
-  .has-sidebar-second .l-content,
-  .has-two-sidebars .l-content {
-    width: 66.10169%;
-    float: left;
-    margin-right: 1.69492%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/layouts\/inno_love\/inno_love\.layout\.scss}line{font-family:\0000362}}
-  .has-sidebar-first .l-region--sidebar-first,
-  .has-sidebar-first .l-region--sidebar-second,
-  .has-sidebar-second .l-region--sidebar-first,
-  .has-sidebar-second .l-region--sidebar-second,
-  .has-two-sidebars .l-region--sidebar-first,
-  .has-two-sidebars .l-region--sidebar-second {
-    width: 32.20339%;
-    float: right;
-    margin-right: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/layouts\/inno_love\/inno_love\.layout\.scss}line{font-family:\0000365}}
-  .has-sidebar-first .l-region--sidebar-second,
-  .has-sidebar-second .l-region--sidebar-second,
-  .has-two-sidebars .l-region--sidebar-second {
-    clear: right; } }
+    clear: both; } }
 @media (min-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/layouts\/inno_love\/inno_love\.layout\.scss}line{font-family:\0000372}}
   .l-region--header {
@@ -107,12 +84,12 @@
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/layouts\/inno_love\/inno_love\.layout\.scss}line{font-family:\0000385}}
   .has-sidebar-second .l-content {
-    width: 74.68354%;
+    width: 62.02532%;
     float: left;
     margin-right: 1.26582%; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/layouts\/inno_love\/inno_love\.layout\.scss}line{font-family:\0000388}}
   .has-sidebar-second .l-region--sidebar-second {
-    width: 24.05063%;
+    width: 36.70886%;
     float: right;
     margin-right: 0;
     clear: none; }
