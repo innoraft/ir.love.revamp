@@ -1,0 +1,27 @@
+@import "susy";
+@import "variables/**/*";
+@import "base/**/*";
+@import "compass/css3/box-shadow";
+
+.block__content {
+	background: $white;
+	padding: 1em;
+}
+.block__title {
+	letter-spacing: 0.1em;
+}
+
+/* Contact us locations block */
+#block-panels-mini-ir-locations {
+	.ir-map {
+		iframe {
+			width: 100%;
+			height: 22em;
+		}
+	}
+	.ir-address-1 {
+		padding-bottom: 1em;
+		border-bottom: .2em solid $pink;
+		margin-bottom: 2em;
+	}
+}
