@@ -32,6 +32,12 @@ function f_site_general_settings_context_default_contexts() {
           'region' => 'top_navigation',
           'weight' => '-10',
         ),
+        'system-main' => array(
+          'module' => 'system',
+          'delta' => 'main',
+          'region' => 'content',
+          'weight' => '-10',
+        ),
         'panels_mini-site_footer' => array(
           'module' => 'panels_mini',
           'delta' => 'site_footer',

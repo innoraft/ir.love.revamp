@@ -149,7 +149,7 @@ function f_site_general_settings_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'responsive_menus_simple_text';
-  $strongarm->value = '☰';
+  $strongarm->value = '<i class="fa fa-list-ul"></i>';
   $export['responsive_menus_simple_text'] = $strongarm;
 
   $strongarm = new stdClass();
