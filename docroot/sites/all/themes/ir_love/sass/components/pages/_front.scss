@@ -194,7 +194,7 @@
 @include at-breakpoint($tablet_only) {
 	.l-branding {
 		.ir-slogan {
-			display:none;
+			padding: 1.2em;
 		}
 		.ir-idea-text {
 			display:none;
@@ -220,7 +220,7 @@
 @include at-breakpoint($mobile) {
 	.l-branding {
 		.ir-slogan {
-			display:none;
+			padding: 1.2em;
 		}
 		.ir-idea-text {
 			display:none;
