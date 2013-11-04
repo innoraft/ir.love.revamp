@@ -313,11 +313,11 @@ img, media {
       margin: 0 auto; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\0000391}}
       .l-branding .ir_custom_logo .ir-custom-logo-icons {
-        float: left; }
+        float: right; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\0000394}}
       .l-branding .ir_custom_logo .ir-main-idea {
         padding: 15px;
-        margin-right: 2px;
+        margin-left: 2px;
         color: white;
         margin-bottom: 1px;
         text-shadow: 1px 1px 3px #333333; }
