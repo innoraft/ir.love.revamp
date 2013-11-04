@@ -53,7 +53,7 @@ function f_ir_portfolio_views_default_views() {
   $handler->display->display_options['fields']['field_work_image']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_work_image']['settings'] = array(
     'image_style' => 'adaptive_460_x_330',
-    'image_link' => 'content',
+    'image_link' => '',
   );
   $handler->display->display_options['fields']['field_work_image']['delta_limit'] = '1';
   $handler->display->display_options['fields']['field_work_image']['delta_offset'] = '0';
@@ -74,13 +74,21 @@ function f_ir_portfolio_views_default_views() {
   $handler->display->display_options['fields']['title']['label'] = '';
   $handler->display->display_options['fields']['title']['exclude'] = TRUE;
   $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
+  /* Field: Content: Site Link */
+  $handler->display->display_options['fields']['field_work_link']['id'] = 'field_work_link';
+  $handler->display->display_options['fields']['field_work_link']['table'] = 'field_data_field_work_link';
+  $handler->display->display_options['fields']['field_work_link']['field'] = 'field_work_link';
+  $handler->display->display_options['fields']['field_work_link']['label'] = '';
+  $handler->display->display_options['fields']['field_work_link']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_work_link']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_work_link']['click_sort_column'] = 'url';
   /* Field: Content: Client Testimonials */
   $handler->display->display_options['fields']['field_client_testimonials']['id'] = 'field_client_testimonials';
   $handler->display->display_options['fields']['field_client_testimonials']['table'] = 'field_data_field_client_testimonials';
   $handler->display->display_options['fields']['field_client_testimonials']['field'] = 'field_client_testimonials';
   $handler->display->display_options['fields']['field_client_testimonials']['label'] = '';
   $handler->display->display_options['fields']['field_client_testimonials']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_client_testimonials']['alter']['text'] = '<div class="content-title">[title]</div>
+  $handler->display->display_options['fields']['field_client_testimonials']['alter']['text'] = '<div class="content-title">[field_work_link]</div>
 <div class="content-testimonials">[field_client_testimonials]</div>';
   $handler->display->display_options['fields']['field_client_testimonials']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_client_testimonials']['element_wrapper_type'] = 'div';
