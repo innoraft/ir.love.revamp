@@ -406,7 +406,7 @@ img, media {
 @media (min-width: 481px) and (max-width: 768px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\00003196}}
   .l-branding .ir-slogan {
-    display: none; }
+    padding: 1.2em; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\00003199}}
   .l-branding .ir-idea-text {
     display: none; }
@@ -417,7 +417,7 @@ img, media {
 @media (max-width: 480px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\00003222}}
   .l-branding .ir-slogan {
-    display: none; }
+    padding: 1.2em; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\00003225}}
   .l-branding .ir-idea-text {
     display: none; }
