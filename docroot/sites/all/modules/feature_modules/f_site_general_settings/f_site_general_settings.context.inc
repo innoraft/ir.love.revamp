@@ -15,7 +15,7 @@ function f_site_general_settings_context_default_contexts() {
   $context->api_version = 3;
   $context->name = 'site_wide_context';
   $context->description = '';
-  $context->tag = '';
+  $context->tag = 'layout';
   $context->conditions = array(
     'sitewide' => array(
       'values' => array(
@@ -48,6 +48,10 @@ function f_site_general_settings_context_default_contexts() {
     ),
   );
   $context->condition_mode = 0;
+
+  // Translatables
+  // Included for use with string extractors like potx.
+  t('layout');
   $export['site_wide_context'] = $context;
 
   return $export;
