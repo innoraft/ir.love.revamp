@@ -1,0 +1,26 @@
+@import "susy";
+@import "variables/**/*";
+@import "base/**/*";
+@import "compass/css3/box-shadow";
+
+/* Contact Us page*/
+@include at-breakpoint($tab) {
+	#contact-site-form {
+		.form-text, textarea {
+			width:100% !important;
+		}
+	}
+}
+#contact-site-form {
+	.form-text, textarea, .grippie {
+		width:80%;
+	}
+}
+
+.l-region--sidebar-second {
+	#contact-site-form {
+		.form-text, textarea, .grippie {
+			width:100%;
+		}
+	}
+}
