@@ -47,10 +47,10 @@ function ir_feature_revert($modules) {
  * Revert all content-related features, necessary for using correct view mode.
  * Enables specified module.
  */
-function f_controller_update_7018() {
-  // ir_feature_revert(array('f_ir_services', 'f_home_page_layout', 'f_site_general_settings'));
-  if (!module_exists('f_site_contact')) {
-    $modules_to_be_enabled = array('f_site_contact');
+function f_controller_update_7019() {
+  ir_feature_revert(array('f_ir_services', 'f_home_page_layout', 'f_site_general_settings'));
+  if (!module_exists('contact_form_blocks')) {
+    $modules_to_be_enabled = array('contact_form_blocks');
 
     // Enable modules and their dependencies.
     module_enable($modules_to_be_enabled);
