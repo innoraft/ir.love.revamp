@@ -22,7 +22,7 @@ function f_ir_portfolio_views_default_views() {
 
   /* Display: Master */
   $handler = $view->new_display('default', 'Master', 'default');
-  $handler->display->display_options['title'] = 'Our Work';
+  $handler->display->display_options['title'] = 'Portfolio';
   $handler->display->display_options['css_class'] = 'work-content-listing';
   $handler->display->display_options['use_ajax'] = TRUE;
   $handler->display->display_options['use_more_always'] = FALSE;
@@ -118,13 +118,17 @@ function f_ir_portfolio_views_default_views() {
 
   /* Display: Home Page Portfolio */
   $handler = $view->new_display('block', 'Home Page Portfolio', 'block');
+  $handler->display->display_options['defaults']['pager'] = FALSE;
+  $handler->display->display_options['pager']['type'] = 'some';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '4';
+  $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['defaults']['footer'] = FALSE;
   /* Footer: Global: PHP */
   $handler->display->display_options['footer']['php']['id'] = 'php';
   $handler->display->display_options['footer']['php']['table'] = 'views';
   $handler->display->display_options['footer']['php']['field'] = 'php';
   $handler->display->display_options['footer']['php']['php_output'] = '<?php
-print l(\'View Our Portfolio Page\', \'portfolio\', array(\'class\' => array(\'view-portfolio-link\')));
+print l(\'View more projects in our portfolio.\', \'portfolio\', array(\'class\' => array(\'view-portfolio-link\')));
 ?>
 ';
 
