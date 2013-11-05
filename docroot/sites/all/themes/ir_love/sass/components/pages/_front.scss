@@ -69,6 +69,7 @@
 	@include container;
 }
 
+/* site logo desktop - other pages*/
 @include at-breakpoint($desk) {
 	.l-branding {
 		@include container;
@@ -139,25 +140,12 @@
 			> .view-content .views-row {
 				padding:0 !important;
 				.views-field-title {
-					//float:left;
-					//margin-left:0.5em;
 					margin-top:1em;
-				}
-				.views-field-field-work-category {
-					//float:right;
-					//margin-right:0.5em;
-					//margin-top:1em;
-				}
-				.views-field-field-client-testimonials{
-					clear:right;
-					//margin-top:4em;
-					//text-align:center;
 				}
     			
 			}
 			.views-row-odd {
 				.listing-list-left {
-					//@include span-columns(6,12);
 					float:left;
 					width:50%;
 					margin:0;
@@ -259,6 +247,8 @@
 .ir-main-idea {
 	float:left;
 }
+
+/* work view - homepage/landing*/
 
 .work-content-listing {
 	> .view-content .views-row {
