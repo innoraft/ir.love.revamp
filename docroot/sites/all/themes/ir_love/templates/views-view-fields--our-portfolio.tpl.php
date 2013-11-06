@@ -26,16 +26,16 @@
 ?>
 <div class="listing-list-left">
   <div class="listing-list-left-inner">
-  	<?php if(isset($fields['field_work_image'])):?>
-  	  <?php if (!empty($fields['field_work_image']->separator)): ?>
-        <?php print $fields['field_work_image']->separator; ?>
+  	<?php if(isset($fields['field_work_link_1'])):?>
+  	  <?php if (!empty($fields['field_work_link_1']->separator)): ?>
+        <?php print $fields['field_work_link_1']->separator; ?>
       <?php endif; ?>
 
-      <?php print $fields['field_work_image']->wrapper_prefix; ?>
-        <?php print $fields['field_work_image']->label_html; ?>
-        <?php print $fields['field_work_image']->content; ?>
-      <?php print $fields['field_work_image']->wrapper_suffix; ?>
-      <?php unset($fields['field_work_image']);?>
+      <?php print $fields['field_work_link_1']->wrapper_prefix; ?>
+        <?php print $fields['field_work_link_1']->label_html; ?>
+        <?php print $fields['field_work_link_1']->content; ?>
+      <?php print $fields['field_work_link_1']->wrapper_suffix; ?>
+      <?php unset($fields['field_work_link_1']);?>
     <?php endif;?>
 
   </div>

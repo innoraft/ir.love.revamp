@@ -47,6 +47,7 @@ function f_ir_portfolio_views_default_views() {
   $handler->display->display_options['fields']['field_work_image']['table'] = 'field_data_field_work_image';
   $handler->display->display_options['fields']['field_work_image']['field'] = 'field_work_image';
   $handler->display->display_options['fields']['field_work_image']['label'] = '';
+  $handler->display->display_options['fields']['field_work_image']['exclude'] = TRUE;
   $handler->display->display_options['fields']['field_work_image']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_work_image']['element_wrapper_type'] = 'div';
   $handler->display->display_options['fields']['field_work_image']['element_wrapper_class'] = 'content-image';
@@ -58,6 +59,16 @@ function f_ir_portfolio_views_default_views() {
   $handler->display->display_options['fields']['field_work_image']['delta_limit'] = '1';
   $handler->display->display_options['fields']['field_work_image']['delta_offset'] = '0';
   $handler->display->display_options['fields']['field_work_image']['separator'] = ' ';
+  /* Field: Content: Site Link */
+  $handler->display->display_options['fields']['field_work_link_1']['id'] = 'field_work_link_1';
+  $handler->display->display_options['fields']['field_work_link_1']['table'] = 'field_data_field_work_link';
+  $handler->display->display_options['fields']['field_work_link_1']['field'] = 'field_work_link';
+  $handler->display->display_options['fields']['field_work_link_1']['label'] = '';
+  $handler->display->display_options['fields']['field_work_link_1']['alter']['alter_text'] = TRUE;
+  $handler->display->display_options['fields']['field_work_link_1']['alter']['text'] = '<a href=[field_work_link_1-url] target="_blank">[field_work_image]</a>';
+  $handler->display->display_options['fields']['field_work_link_1']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_work_link_1']['element_wrapper_class'] = 'content-image';
+  $handler->display->display_options['fields']['field_work_link_1']['click_sort_column'] = 'url';
   /* Field: Content: Category */
   $handler->display->display_options['fields']['field_work_category']['id'] = 'field_work_category';
   $handler->display->display_options['fields']['field_work_category']['table'] = 'field_data_field_work_category';
