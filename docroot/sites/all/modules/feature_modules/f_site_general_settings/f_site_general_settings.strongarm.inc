@@ -76,19 +76,6 @@ function f_site_general_settings_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'captcha_placement_map_cache';
-  $strongarm->value = array(
-    'contact_site_form' => array(
-      'path' => array(),
-      'key' => 'actions',
-      'weight' => 99,
-    ),
-  );
-  $export['captcha_placement_map_cache'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'pathauto_blog_pattern';
   $strongarm->value = 'blogs/[user:name]';
   $export['pathauto_blog_pattern'] = $strongarm;
@@ -169,6 +156,130 @@ function f_site_general_settings_strongarm() {
   $strongarm->name = 'pathauto_user_pattern';
   $strongarm->value = 'users/[user:name]';
   $export['pathauto_user_pattern'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'prettify_activation_mode';
+  $strongarm->value = '0';
+  $export['prettify_activation_mode'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'prettify_activation_pages';
+  $strongarm->value = 'admin
+admin/*';
+  $export['prettify_activation_pages'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'prettify_add_css_media';
+  $strongarm->value = 'all';
+  $export['prettify_add_css_media'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'prettify_add_css_preprocess';
+  $strongarm->value = 1;
+  $export['prettify_add_css_preprocess'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'prettify_add_js_defer';
+  $strongarm->value = 0;
+  $export['prettify_add_js_defer'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'prettify_add_js_preprocess';
+  $strongarm->value = 1;
+  $export['prettify_add_js_preprocess'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'prettify_add_js_scope';
+  $strongarm->value = 'header';
+  $export['prettify_add_js_scope'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'prettify_auto_custom_markup';
+  $strongarm->value = '';
+  $export['prettify_auto_custom_markup'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'prettify_auto_disabled_class';
+  $strongarm->value = 'no-code';
+  $export['prettify_auto_disabled_class'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'prettify_auto_element_class';
+  $strongarm->value = '.content';
+  $export['prettify_auto_element_class'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'prettify_auto_markup';
+  $strongarm->value = array(
+    'code' => 'code',
+    'pre' => 'pre',
+    'precode' => 0,
+  );
+  $export['prettify_auto_markup'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'prettify_behaviour_extensions';
+  $strongarm->value = array(
+    'apollo' => 'apollo',
+    'css' => 'css',
+    'hs' => 'hs',
+    'lisp' => 'lisp',
+    'lua' => 'lua',
+    'ml' => 'ml',
+    'proto' => 'proto',
+    'scala' => 'scala',
+    'sql' => 'sql',
+    'vb' => 'vb',
+    'vhdl' => 'vhdl',
+    'wiki' => 'wiki',
+    'yaml' => 'yaml',
+  );
+  $export['prettify_behaviour_extensions'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'prettify_behaviour_linenums';
+  $strongarm->value = '1';
+  $export['prettify_behaviour_linenums'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'prettify_css';
+  $strongarm->value = 'googlecode';
+  $export['prettify_css'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'prettify_css_path';
+  $strongarm->value = '';
+  $export['prettify_css_path'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
