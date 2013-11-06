@@ -147,7 +147,7 @@ function f_ir_portfolio_views_default_views() {
   $handler->display->display_options['footer']['php']['table'] = 'views';
   $handler->display->display_options['footer']['php']['field'] = 'php';
   $handler->display->display_options['footer']['php']['php_output'] = '<?php
-print l(\'View more projects in our portfolio.\', \'portfolio\', array(\'class\' => array(\'view-portfolio-link\')));
+print l(\'View more projects in our portfolio\', \'portfolio\', array(\'class\' => array(\'view-portfolio-link\')));
 ?>
 ';
 
