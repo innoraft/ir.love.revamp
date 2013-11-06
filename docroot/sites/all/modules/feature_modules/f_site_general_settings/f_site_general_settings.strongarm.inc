@@ -271,7 +271,7 @@ admin/*';
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'prettify_css';
-  $strongarm->value = 'googlecode';
+  $strongarm->value = 'drupalorg';
   $export['prettify_css'] = $strongarm;
 
   $strongarm = new stdClass();
