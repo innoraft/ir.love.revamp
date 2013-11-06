@@ -47,10 +47,37 @@ h1 {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/base\/_forms\.scss}line{font-family:\0000315}}
 #contact-site-form .form-text, #contact-site-form textarea, #contact-site-form .grippie {
   width: 80%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/base\/_forms\.scss}line{font-family:\0000318}}
+#contact-site-form .form-actions {
+  margin-top: 1em;
+  margin-left: 0.1em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/base\/_forms\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/base\/_forms\.scss}line{font-family:\0000326}}
 .l-region--sidebar-second #contact-site-form .form-text, .l-region--sidebar-second #contact-site-form textarea, .l-region--sidebar-second #contact-site-form .grippie {
   width: 100%; }
+
+/* recaptcha form*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/base\/_forms\.scss}line{font-family:\0000333}}
+.captcha {
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/base\/_forms\.scss}line{font-family:\0000335}}
+  .captcha .fieldset-wrapper {
+    width: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/base\/_forms\.scss}line{font-family:\0000337}}
+    .captcha .fieldset-wrapper #edit-captcha-form {
+      width: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/base\/_forms\.scss}line{font-family:\0000340}}
+      .captcha .fieldset-wrapper #edit-captcha-form #recaptcha_table .recaptcha_image_cell {
+        width: auto !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/base\/_forms\.scss}line{font-family:\0000342}}
+        .captcha .fieldset-wrapper #edit-captcha-form #recaptcha_table .recaptcha_image_cell #recaptcha_image {
+          width: auto !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/base\/_forms\.scss}line{font-family:\0000346}}
+      .captcha .fieldset-wrapper #edit-captcha-form #recaptcha_table #recaptcha_response_field {
+        width: 100% !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/base\/_forms\.scss}line{font-family:\0000352}}
+  .captcha #recaptcha_privacy {
+    display: none; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/base\/_media\.scss}line{font-family:\000031}}
 img, media {

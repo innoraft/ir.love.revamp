@@ -15,6 +15,10 @@
 	.form-text, textarea, .grippie {
 		width:80%;
 	}
+	.form-actions {
+		margin-top:1em;
+		margin-left:0.1em;
+	}
 }
 
 .l-region--sidebar-second {
@@ -22,5 +26,30 @@
 		.form-text, textarea, .grippie {
 			width:100%;
 		}
+	}
+}
+
+/* recaptcha form*/
+.captcha {
+	width:100%;
+	.fieldset-wrapper {
+		width:auto;
+		#edit-captcha-form {
+			width:auto;
+			#recaptcha_table {
+				.recaptcha_image_cell {
+					width:auto !important;
+					#recaptcha_image {
+						width:auto !important;
+					}
+				}
+				#recaptcha_response_field {
+					width:100% !important;
+				}
+			}
+		}
+	}
+	#recaptcha_privacy {
+	  display:none;
 	}
 }

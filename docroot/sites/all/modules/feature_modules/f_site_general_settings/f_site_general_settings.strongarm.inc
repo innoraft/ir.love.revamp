@@ -35,7 +35,7 @@ function f_site_general_settings_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'captcha_default_challenge';
-  $strongarm->value = 'image_captcha/Image';
+  $strongarm->value = 'recaptcha/reCAPTCHA';
   $export['captcha_default_challenge'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -169,6 +169,48 @@ function f_site_general_settings_strongarm() {
   $strongarm->name = 'pathauto_user_pattern';
   $strongarm->value = 'users/[user:name]';
   $export['pathauto_user_pattern'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'recaptcha_ajax_api';
+  $strongarm->value = 1;
+  $export['recaptcha_ajax_api'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'recaptcha_nocookies';
+  $strongarm->value = 1;
+  $export['recaptcha_nocookies'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'recaptcha_private_key';
+  $strongarm->value = '6Lf9sukSAAAAAGPpI0ovKNKs73FPchbTMprXK_8w';
+  $export['recaptcha_private_key'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'recaptcha_public_key';
+  $strongarm->value = '6Lf9sukSAAAAAJc-V3s5SZjePCP9Uq2yo8uy9NCs';
+  $export['recaptcha_public_key'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'recaptcha_tabindex';
+  $strongarm->value = '';
+  $export['recaptcha_tabindex'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'recaptcha_theme';
+  $strongarm->value = 'clean';
+  $export['recaptcha_theme'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
