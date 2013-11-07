@@ -17,9 +17,9 @@
 		background-color: $white;
 		min-height:9em;
    		font-weight: normal;
-   		letter-spacing: -1px;
+   		//letter-spacing: -1px;
    		padding: 20px;
-   		margin: 15px 0px 15px 6px;
+   		margin: 2em 0px 2em 6px;
    		.views-field-title {
    			display:block;
    			width:100%;
@@ -30,18 +30,21 @@
    				padding: 0.3em 0.8em;
 				font-size: 2em;
 				letter-spacing:0.1em;
-				font-family:serif;
+				font-family:"Source Sans Pro";
    			}
    			.service-icon {
    				float:right;
    			}
    		}
    		.views-field-body {
-   			padding: 1em;
-			font-family: serif;
-			font-size: 1.3em;
-			letter-spacing: 0.1em;
-			line-height:1.4em;
+   			padding: 2em;
+			font-family: arial;
+			font-size: 1em;
+			//letter-spacing: normal;
+			line-height:1.6em;
+			//word-spacing:1px;
+			font-weight:normal;
+			text-align:justify;
    		}
 		&:nth-child(4n + 1){
 			@include color_palatte_ir_services($blue);
@@ -70,11 +73,8 @@
 	.content-listings-home {
 		> .view-content .views-row {
 			.views-field-body {
-				//margin-top: 6em;
-				font-family: serif;
-				font-size: 1.1em;
-				letter-spacing: 0.1em;
-				line-height:1.4em;
+				font-family: arial;
+				letter-spacing: normal;
 				text-overflow: clip;
 				overflow: hidden;
    			}
