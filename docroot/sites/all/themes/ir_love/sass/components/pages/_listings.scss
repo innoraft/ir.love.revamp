@@ -12,6 +12,7 @@
 		@include container;
 		clear:both;
 		position: relative;
+		padding: 0 !important;
 
 		background-color: $white;
 		min-height:9em;
@@ -20,9 +21,6 @@
    		padding: 20px;
    		margin: 15px 0px 15px 6px;
    		.views-field-title {
-   			position:absolute;
-   			left:0;
-   			top:0;
    			display:block;
    			width:100%;
    			.service-title {
@@ -39,7 +37,7 @@
    			}
    		}
    		.views-field-body {
-   			margin-top: 3em;
+   			padding: 1em;
 			font-family: serif;
 			font-size: 1.3em;
 			letter-spacing: 0.1em;
@@ -72,7 +70,7 @@
 	.content-listings-home {
 		> .view-content .views-row {
 			.views-field-body {
-				margin-top: 6em;
+				//margin-top: 6em;
 				font-family: serif;
 				font-size: 1.1em;
 				letter-spacing: 0.1em;
