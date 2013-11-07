@@ -519,14 +519,15 @@ img, media {
         text-transform: lowercase; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\00003286}}
       .work-content-listing > .view-content .views-row .listing-list-right .views-field-field-client-testimonials .content-testimonials {
-        margin-top: 2em;
+        margin-top: 1em;
         margin-left: 4em;
         margin-right: 2em;
-        font-size: 1.1em;
+        font-size: 1em;
         font-family: serif;
         font-style: italic;
-        line-height: 1.7em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\00003300}}
+        line-height: 1.5em;
+        letter-spacing: 1px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\00003301}}
   .work-content-listing > .view-content .views-row .content-image img {
     width: 100%; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/base\/_base\.scss}line{font-family:\0000349}}
@@ -565,7 +566,7 @@ img, media {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/base\/_base\.scss}line{font-family:\0000356}}
   .work-content-listing > .view-content .views-row:nth-child(4n) .content-title a {
     color: #f4b400; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\00003319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\00003320}}
 .work-content-listing .view-footer a {
   display: block;
   background: #222222;
@@ -574,12 +575,12 @@ img, media {
   font-size: 1.2em;
   text-align: center;
   text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\00003327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\00003328}}
   .work-content-listing .view-footer a:hover {
     background: #222222;
     color: #f4b400; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\00003337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_front\.scss}line{font-family:\00003338}}
 .front-page-main-content .pane-title {
   font-weight: normal;
   font-size: 1.5em;
