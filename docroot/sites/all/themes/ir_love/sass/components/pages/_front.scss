@@ -124,7 +124,7 @@
 		}
 		.content-listings-home {
 			> .view-content .views-row {
-				text-align:left !important;
+				
 			}
 		}
 		.header-stickey {
@@ -189,11 +189,15 @@
 			display:none;
 		}
 	}
-	.front-page-main-content {
-		.content-listings-home {
+	.content-listings-home {
 			> .view-content .views-row {
+				.views-field-body {
+					text-align:center !important;
+				}
 			}
 		}
+	.front-page-main-content {
+		
 	}
 	.work-content-listing {
 		> .view-content .views-row {
@@ -218,7 +222,7 @@
 	.content-listings-home {
 		> .view-content .views-row {
 			.views-field-body {
-	    		text-align:center;
+	    		text-align:center !important;
     		}
 		}
 	}
