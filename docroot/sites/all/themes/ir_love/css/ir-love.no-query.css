@@ -617,17 +617,19 @@ img, media {
   min-height: 9em;
   font-weight: normal;
   padding: 20px;
-  margin: 2em 0px 2em 6px; }
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 0 !important; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
   .content-listings-home > .view-content .views-row:after {
     content: "";
     display: table;
     clear: both; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000325}}
   .content-listings-home > .view-content .views-row .views-field-title {
     display: block;
     width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000328}}
     .content-listings-home > .view-content .views-row .views-field-title .service-title {
       color: white;
       display: block;
@@ -636,10 +638,10 @@ img, media {
       font-size: 2em;
       letter-spacing: 0.1em;
       font-family: "Source Sans Pro"; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000337}}
     .content-listings-home > .view-content .views-row .views-field-title .service-icon {
       float: right; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000341}}
   .content-listings-home > .view-content .views-row .views-field-body {
     padding: 2em;
     font-family: arial;
@@ -659,17 +661,20 @@ img, media {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/base\/_base\.scss}line{font-family:\0000369}}
   .content-listings-home > .view-content .views-row:nth-child(4n) .views-field-title {
     background: #f4b400; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000363}}
   .content-listings-home > .view-content .views-row:hover {
     bakground: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000366}}
   .content-listings-home > .view-content .views-row .views-field-field-client-testimonials {
     font-size: 14px;
     letter-spacing: 0;
     margin-top: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000372}}
+.content-listings-home .views-row-first {
+  margin-top: 0 !important; }
 
 @media (max-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/nginx\/www\/ir\/docroot\/sites\/all\/themes\/ir_love\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000380}}
   .content-listings-home > .view-content .views-row .views-field-body {
     font-family: arial;
     letter-spacing: normal;
