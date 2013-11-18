@@ -1,0 +1,114 @@
+@import "susy";
+@import "variables/**/*";
+
+/* Large screen menu - desktop*/
+@include at-breakpoint($desk) {
+	.l-top-nav {
+		//background: $grey;
+		position:fixed;
+		top:0;
+		width:100%;
+		z-index: 999;
+		#block-system-main-menu {
+		  @include container;
+		  ul {
+		  text-align: right;
+		  padding:0;
+		    li {
+		      list-style:none;
+		      display: inline;
+		      a {
+		        color: $menu_link_color;
+		        text-decoration:none;
+		        letter-spacing: 0.1em;
+		        font-weight:bold;
+		        padding: 16px 10px;
+		        font-family: 'ABeeZee', sans-serif;
+		        &:hover {
+		        	color: $menu_link_hover_color;
+		        	font-weight:bold;
+		        }
+		      }
+		    }
+		  }
+		}
+	}
+}
+
+/* Menu theming for small screens*/
+.l-top-nav {
+	.responsive-menus.responsified {
+		background: none repeat scroll 0 0 $grey;
+		span.toggler {
+			text-align:right;
+			background: none repeat scroll 0 0 $grey;
+		   	border-radius: 0;
+		   	box-shadow:none;
+		   	padding:8px 8px 8px 0;
+		   	font-weight:bold;
+		}
+	   	&.responsive-toggled.absolute {
+	   	  .responsive-menus-simple {
+	   	  	background: none repeat scroll 0 0 $grey;
+	   		border-radius: 0;
+	   		box-shadow:none;
+	   	  }
+	   	}
+	   	.responsive-menus-simple {
+	   		ul {
+	   		  padding:0;
+	   		  margin:0;
+	   		  li.leaf {
+	   		  	list-style:none;
+	   		  	a {
+	   		    	color: $menu_link_color;
+	   		    	text-decoration:none;
+	   		    	display:block;
+	   		    	padding:12px;
+	   		    	&:hover {
+	   		    		background: $menu_link_color;
+	   		    		color: $grey;
+	   		    	}
+	   		    }
+	   		  }
+	   		}
+	   	}
+	}
+}
+
+/* Small Screen Site name*/
+@include at-breakpoint($tab) {
+	.site-name {
+		text-shadow: 1px 1px 1px $text_shadow_logo;
+		a {
+			position: absolute;
+			top:0px;
+			left:4px;
+			font-size:2em;
+			font-weight: bold;
+		}
+	}
+	.ir_custom_logo {
+		.ir-custom-logo-icons {
+			position: absolute;
+			top:12px;
+			margin-left:8.5em;
+			text-shadow: 1px 1px 1px $text_shadow_logo;
+			.ir-main-idea {
+		 		color: $white;
+		 		margin-right:8px;
+			}
+			#ir-drupal {
+				color: $blue;
+			}
+			#ir-love {
+				color: $pink;
+			}
+			#ir-dedication {
+				color: $green;
+			}
+		}
+	}
+	.l-top-nav {
+	}
+}
