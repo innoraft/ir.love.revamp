@@ -443,6 +443,8 @@
   }
   .node__submitted , .node__content, .node__links {
     padding: 0.3em 1.4em;
+    line-height: 1.4em;
+    text-align: justify;
   }
   a {
   	color: #415993;
@@ -457,7 +459,6 @@
       margin: 0 2% 3% !important;
       overflow: hidden;
 //      font-family: arial;
-      line-height: 1.4em;
       font-weight: normal;
       color: black;
       h2 a{
