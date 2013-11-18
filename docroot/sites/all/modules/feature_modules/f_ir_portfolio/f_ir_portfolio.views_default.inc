@@ -22,7 +22,7 @@ function f_ir_portfolio_views_default_views() {
 
   /* Display: Master */
   $handler = $view->new_display('default', 'Master', 'default');
-  $handler->display->display_options['title'] = 'Portfolio';
+  $handler->display->display_options['title'] = 'Testimonial';
   $handler->display->display_options['css_class'] = 'work-content-listing';
   $handler->display->display_options['use_ajax'] = TRUE;
   $handler->display->display_options['use_more_always'] = FALSE;
@@ -33,7 +33,59 @@ function f_ir_portfolio_views_default_views() {
   $handler->display->display_options['pager']['type'] = 'some';
   $handler->display->display_options['pager']['options']['items_per_page'] = '3';
   $handler->display->display_options['pager']['options']['offset'] = '0';
-  $handler->display->display_options['style_plugin'] = 'default';
+  $handler->display->display_options['style_plugin'] = 'slideshow';
+  $handler->display->display_options['style_options']['slideshow_type'] = 'views_slideshow_cycle';
+  $handler->display->display_options['style_options']['slideshow_skin'] = 'default';
+  $handler->display->display_options['style_options']['skin_info'] = array(
+    'class' => 'default',
+    'name' => 'Default',
+    'module' => 'views_slideshow',
+    'path' => '',
+    'stylesheets' => array(),
+  );
+  $handler->display->display_options['style_options']['widgets']['top']['views_slideshow_pager']['weight'] = '1';
+  $handler->display->display_options['style_options']['widgets']['top']['views_slideshow_pager']['type'] = 'views_slideshow_pager_fields';
+  $handler->display->display_options['style_options']['widgets']['top']['views_slideshow_pager']['views_slideshow_pager_fields_fields'] = array(
+    'field_work_image' => 0,
+    'field_work_link_1' => 0,
+    'field_work_category' => 0,
+    'title' => 0,
+    'field_work_link' => 0,
+    'field_client_testimonials' => 0,
+    'counter_1' => 0,
+  );
+  $handler->display->display_options['style_options']['widgets']['top']['views_slideshow_controls']['enable'] = 1;
+  $handler->display->display_options['style_options']['widgets']['top']['views_slideshow_controls']['weight'] = '1';
+  $handler->display->display_options['style_options']['widgets']['top']['views_slideshow_controls']['type'] = 'vscc_controls';
+  $handler->display->display_options['style_options']['widgets']['top']['views_slideshow_controls']['vscc_controls_pause'] = 1;
+  $handler->display->display_options['style_options']['widgets']['top']['views_slideshow_controls']['vscc_controls_skin'] = 'black_icons';
+  $handler->display->display_options['style_options']['widgets']['top']['views_slideshow_slide_counter']['weight'] = '1';
+  $handler->display->display_options['style_options']['widgets']['bottom']['views_slideshow_pager']['weight'] = '1';
+  $handler->display->display_options['style_options']['widgets']['bottom']['views_slideshow_pager']['type'] = 'views_slideshow_pager_fields';
+  $handler->display->display_options['style_options']['widgets']['bottom']['views_slideshow_pager']['views_slideshow_pager_fields_fields'] = array(
+    'counter_1' => 'counter_1',
+    'field_work_image' => 0,
+    'field_work_link_1' => 0,
+    'field_work_category' => 0,
+    'title' => 0,
+    'field_work_link' => 0,
+    'field_client_testimonials' => 0,
+  );
+  $handler->display->display_options['style_options']['widgets']['bottom']['views_slideshow_controls']['weight'] = '1';
+  $handler->display->display_options['style_options']['widgets']['bottom']['views_slideshow_controls']['type'] = 'vscc_controls';
+  $handler->display->display_options['style_options']['widgets']['bottom']['views_slideshow_controls']['vscc_controls_pause'] = 1;
+  $handler->display->display_options['style_options']['widgets']['bottom']['views_slideshow_slide_counter']['weight'] = '1';
+  $handler->display->display_options['style_options']['views_slideshow_cycle']['effect'] = 'scrollLeft';
+  $handler->display->display_options['style_options']['views_slideshow_cycle']['transition_advanced'] = 1;
+  $handler->display->display_options['style_options']['views_slideshow_cycle']['timeout'] = '4000';
+  $handler->display->display_options['style_options']['views_slideshow_cycle']['speed'] = '1200';
+  $handler->display->display_options['style_options']['views_slideshow_cycle']['delay'] = '0';
+  $handler->display->display_options['style_options']['views_slideshow_cycle']['start_paused'] = 0;
+  $handler->display->display_options['style_options']['views_slideshow_cycle']['remember_slide_days'] = '1';
+  $handler->display->display_options['style_options']['views_slideshow_cycle']['items_per_slide'] = '1';
+  $handler->display->display_options['style_options']['views_slideshow_cycle']['wait_for_image_load_timeout'] = '3000';
+  $handler->display->display_options['style_options']['views_slideshow_cycle']['cleartype'] = 0;
+  $handler->display->display_options['style_options']['views_slideshow_cycle']['cleartypenobg'] = 0;
   $handler->display->display_options['row_plugin'] = 'fields';
   /* Relationship: Flags: featured */
   $handler->display->display_options['relationships']['flag_content_rel']['id'] = 'flag_content_rel';
@@ -104,6 +156,14 @@ function f_ir_portfolio_views_default_views() {
   $handler->display->display_options['fields']['field_client_testimonials']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_client_testimonials']['element_wrapper_type'] = 'div';
   $handler->display->display_options['fields']['field_client_testimonials']['element_wrapper_class'] = 'content-data';
+  /* Field: Global: View result counter */
+  $handler->display->display_options['fields']['counter_1']['id'] = 'counter_1';
+  $handler->display->display_options['fields']['counter_1']['table'] = 'views';
+  $handler->display->display_options['fields']['counter_1']['field'] = 'counter';
+  $handler->display->display_options['fields']['counter_1']['label'] = '';
+  $handler->display->display_options['fields']['counter_1']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['counter_1']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['counter_1']['counter_start'] = '1';
   /* Sort criterion: Flags: Flagged */
   $handler->display->display_options['sorts']['flagged']['id'] = 'flagged';
   $handler->display->display_options['sorts']['flagged']['table'] = 'flagging';
@@ -160,6 +220,28 @@ print l(\'View more projects in our portfolio\', \'portfolio\', array(\'class\' 
   $handler->display->display_options['pager']['options']['id'] = '0';
   $handler->display->display_options['pager']['options']['quantity'] = '9';
   $handler->display->display_options['path'] = 'portfolio';
+
+  /* Display: Home Page Portfolio for tablet */
+  $handler = $view->new_display('block', 'Home Page Portfolio for tablet', 'block_1');
+  $handler->display->display_options['defaults']['pager'] = FALSE;
+  $handler->display->display_options['pager']['type'] = 'some';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '4';
+  $handler->display->display_options['pager']['options']['offset'] = '0';
+  $handler->display->display_options['defaults']['style_plugin'] = FALSE;
+  $handler->display->display_options['style_plugin'] = 'default';
+  $handler->display->display_options['defaults']['style_options'] = FALSE;
+  $handler->display->display_options['defaults']['row_plugin'] = FALSE;
+  $handler->display->display_options['row_plugin'] = 'fields';
+  $handler->display->display_options['defaults']['row_options'] = FALSE;
+  $handler->display->display_options['defaults']['footer'] = FALSE;
+  /* Footer: Global: PHP */
+  $handler->display->display_options['footer']['php']['id'] = 'php';
+  $handler->display->display_options['footer']['php']['table'] = 'views';
+  $handler->display->display_options['footer']['php']['field'] = 'php';
+  $handler->display->display_options['footer']['php']['php_output'] = '<?php
+print l(\'View more projects in our portfolio\', \'portfolio\', array(\'class\' => array(\'view-portfolio-link\')));
+?>
+';
   $export['our_portfolio'] = $view;
 
   return $export;
