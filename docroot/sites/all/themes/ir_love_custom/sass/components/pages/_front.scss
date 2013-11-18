@@ -436,7 +436,13 @@
   h2.node__title {
   	border-bottom: 1px solid white;
   	 font-family: "Source Sans Pro";
-  	 padding: 0.3em 0.8em;
+     font-weight: normal;
+  }
+  h2.node__title {
+    padding: 0.5em 0.8em;
+  }
+  .node__submitted , .node__content, .node__links {
+    padding: 0.3em 1.4em;
   }
   a {
   	color: #415993;
@@ -450,12 +456,24 @@
   	    height: auto;
       margin: 0 2% 3% !important;
       overflow: hidden;
+//      font-family: arial;
+      line-height: 1.4em;
+      font-weight: normal;
+      color: black;
       h2 a{
       	color: white;
+        text-decoration: none;
       }
     }
   }
 }
-.front-page-blogs-content , .front-page-blogs-content .view-our-blogs {
+
+.front-page-blogs-content .view-our-blogs {
+    padding-top: 50px;
+ }
+
+.front-page-blogs-content {
 	padding-top: 50px;
+  padding-bottom: 50px;
 }
+

@@ -28,7 +28,7 @@
 }
 
 .pane-views-our-services-services-content, .block--views-our-portfolio-block {
-  padding: 60px;
+  padding: 10px;
   padding-top:39px;
   position: relative;
   h2 , > div {
@@ -74,6 +74,7 @@
   }
   a {
     color: white;
+    text-decoration: none;
   }
     > div.view-our-services {
     padding: 35px;
@@ -95,7 +96,7 @@
 
 /*site body defaults*/
 .l-page {
-  font-family: "Cabin";
+//  font-family: "Cabin";
   font-size:100%;
   color: $grey;
 }
