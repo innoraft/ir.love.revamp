@@ -86,6 +86,7 @@
 
 .front-page-blogs-content {
   background-color: $blogs-color;
+  background: url("../../../images/green_bg.gif")  repeat scroll 0 0 transparent;
   .view-our-blogs {
     @include container;
   }
@@ -101,6 +102,11 @@
 
 .l-main {
 //  margin-bottom: $vert-spacing-unit;
+.l-content {
+  .ir-main-idea-love {
+    width: 100%;
+  }
+}
 }
 
 .l-region--highlighted,
