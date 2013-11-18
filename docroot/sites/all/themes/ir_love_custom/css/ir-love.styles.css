@@ -451,10 +451,6 @@ img, media {
   .l-branding .ir-idea-text {
     display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_front\.scss}line{font-family:\00003198}}
-  .content-listings-home > .view-content .views-row .views-field-body {
-    text-align: center !important; }
-
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_front\.scss}line{font-family:\00003209}}
   .work-content-listing > .view-content .views-row .views-field-field-client-testimonials .content-testimonials {
     margin-bottom: 1em; } }
@@ -609,7 +605,7 @@ img, media {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_front\.scss}line{font-family:\00003386}}
 .vscc_controls_previous img, .vscc_controls_next img {
   position: absolute;
-  top: 160px;
+  top: 50%;
   z-index: 10; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_front\.scss}line{font-family:\00003392}}
@@ -662,39 +658,45 @@ img, media {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_front\.scss}line{font-family:\00003441}}
 .front-page-blogs-content h2.node__title {
   padding: 0.5em 0.8em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_front\.scss}line{font-family:\00003444}}
+@media (min-width: 769px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_front\.scss}line{font-family:\00003445}}
+  .front-page-blogs-content .node__submitted, .front-page-blogs-content .node__content, .front-page-blogs-content .node__links {
+    padding: 0.3em 1.4em; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_front\.scss}line{font-family:\00003449}}
 .front-page-blogs-content .node__submitted, .front-page-blogs-content .node__content, .front-page-blogs-content .node__links {
-  padding: 0.3em 1.4em;
   line-height: 1.4em;
   text-align: justify; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_front\.scss}line{font-family:\00003449}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_front\.scss}line{font-family:\00003454}}
 .front-page-blogs-content a {
   color: #415993; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_front\.scss}line{font-family:\00003452}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_front\.scss}line{font-family:\00003457}}
 .front-page-blogs-content .view-our-blogs {
   border-top: 1px solid white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_front\.scss}line{font-family:\00003454}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_front\.scss}line{font-family:\00003459}}
   .front-page-blogs-content .view-our-blogs .views-row.our--blogs {
-    width: 45%;
+    width: auto;
     float: left;
     height: auto;
     margin: 0 2% 3% !important;
     overflow: hidden;
     font-weight: normal;
     color: black; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_front\.scss}line{font-family:\00003464}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_front\.scss}line{font-family:\00003467}}
     .front-page-blogs-content .view-our-blogs .views-row.our--blogs h2 a {
       color: white;
       text-decoration: none; }
+  @media (min-width: 769px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_front\.scss}line{font-family:\00003473}}
+    .front-page-blogs-content .view-our-blogs .views-row.our--blogs {
+      width: 45%; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_front\.scss}line{font-family:\00003472}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_front\.scss}line{font-family:\00003480}}
 .front-page-blogs-content .view-our-blogs {
-  padding-top: 50px; }
+  padding: 7% 3% 1%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_front\.scss}line{font-family:\00003476}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_front\.scss}line{font-family:\00003484}}
 .front-page-blogs-content {
-  padding-top: 50px;
-  padding-bottom: 50px; }
+  padding: 3.5% 4%; }
 
 /* No files to import found in variables/**\/* */
 /* No files to import found in base/**\/* */
@@ -726,34 +728,32 @@ img, media {
       color: white;
       display: block;
       width: 100%;
-      padding: 0.3em 0.8em;
       font-size: 2em;
       letter-spacing: 0em;
       font-family: "Source Sans Pro"; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000342}}
     .content-listings-home > .view-content .views-row .views-field-title .service-icon {
       float: right; }
-    @media (min-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000342}}
-      .content-listings-home > .view-content .views-row .views-field-title .service-title {
-        font-size: 1.6em;
-        border-bottom-style: solid;
-        border-width: 0 0 1px; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000346}}
+    .content-listings-home > .view-content .views-row .views-field-title .service-title {
+      font-size: 1.6em;
+      border-bottom-style: solid;
+      border-width: 0 0 1px;
+      padding: 0.3em 0.8em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000354}}
   .content-listings-home > .view-content .views-row .views-field-body {
-    padding: 2em;
     font-size: 1em;
     line-height: 1.4em;
     font-weight: normal;
     text-align: justify; }
   @media (min-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000364}}
     .content-listings-home > .view-content .views-row .views-field-body {
       padding: 0.1em 1.3em; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000380}}
   .content-listings-home > .view-content .views-row:hover {
     bakground: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000383}}
   .content-listings-home > .view-content .views-row .views-field-field-client-testimonials {
     font-size: 14px;
     letter-spacing: 0.1em;
@@ -762,12 +762,12 @@ img, media {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\000038}}
     .content-listings-home > .view-content .views-row {
       letter-spacing: 0; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000392}}
 .content-listings-home .views-row-first {
   margin-top: 0 !important; }
 
 @media (max-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\00003100}}
   .content-listings-home > .view-content .views-row .views-field-body {
     font-family: arial;
     letter-spacing: normal;

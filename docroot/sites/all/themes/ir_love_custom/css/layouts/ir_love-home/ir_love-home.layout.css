@@ -72,7 +72,7 @@ h1 {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000330}}
 .pane-views-our-services-services-content, .block--views-our-portfolio-block {
-  padding: 39px 60px;
+  padding: 3.5% 4%;
   position: relative; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000333}}
   .pane-views-our-services-services-content h2, .pane-views-our-services-services-content > div, .block--views-our-portfolio-block h2, .block--views-our-portfolio-block > div {
@@ -131,16 +131,16 @@ h1 {
     text-decoration: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000382}}
   .pane-views-our-services-services-content > div.view-our-services {
-    padding: 62px 35px 10px;
+    padding: 7% 3% 1%;
     background-color: #72bad6;
     background: url("../../../images/blue_bg.gif") repeat scroll 0 0 transparent;
     border-top: 1px solid #FFFFFF; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000391}}
 .front-page-blogs-content {
   background-color: #74ca58;
   background: url("../../../images/green_bg.gif") repeat scroll 0 0 transparent; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000394}}
   .front-page-blogs-content .view-our-blogs {
     *zoom: 1;
     max-width: 1050px;
@@ -155,16 +155,16 @@ h1 {
       clear: both; }
 
 /*site body defaults*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003101}}
 .l-page {
   font-size: 100%;
   color: #222222; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003110}}
 .l-main .l-content .ir-main-idea-love {
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003119}}
 .l-region--highlighted,
 .l-region--help,
 .l-region--sidebar-first,
@@ -172,24 +172,24 @@ h1 {
   margin-bottom: 20px; }
 
 @media (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003124}}
   .l-region--header {
     width: 66.10169%;
     float: right;
     margin-right: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003126}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003127}}
   .l-region--navigation {
     clear: both; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003133}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003134}}
   .has-sidebar-first .l-content,
   .has-sidebar-second .l-content,
   .has-two-sidebars .l-content {
     width: 66.10169%;
     float: left;
     margin-right: 1.69492%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003137}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003138}}
   .has-sidebar-first .l-region--sidebar-first,
   .has-sidebar-first .l-region--sidebar-second,
   .has-sidebar-second .l-region--sidebar-first,
@@ -199,57 +199,57 @@ h1 {
     width: 32.20339%;
     float: right;
     margin-right: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003141}}
   .has-sidebar-first .l-region--sidebar-second,
   .has-sidebar-second .l-region--sidebar-second,
   .has-two-sidebars .l-region--sidebar-second {
     clear: right; } }
 @media (min-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003147}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003148}}
   .l-region--header {
     width: 62.02532%;
     float: right;
     margin-right: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003152}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003153}}
   .has-sidebar-first .l-content {
     width: 74.68354%;
     float: right;
     margin-right: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003155}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003156}}
   .has-sidebar-first .l-region--sidebar-first {
     width: 24.05063%;
     float: left;
     margin-right: 1.26582%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003160}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003161}}
   .has-sidebar-second .l-content {
     width: 74.68354%;
     float: left;
     margin-right: 1.26582%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003163}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003164}}
   .has-sidebar-second .l-region--sidebar-second {
     width: 24.05063%;
     float: right;
     margin-right: 0;
     clear: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003170}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003171}}
   .has-two-sidebars .l-content {
     width: 49.36709%;
     float: left;
     margin-right: 1.26582%;
     margin-left: 25.31646%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003175}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003176}}
   .has-two-sidebars .l-region--sidebar-first,
   .has-two-sidebars .l-region--sidebar-second {
     width: 24.05063%;
     float: left;
     margin-right: 1.26582%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003178}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003179}}
   .has-two-sidebars .l-region--sidebar-first {
     margin-left: -75.94937%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003181}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003182}}
   .has-two-sidebars .l-region--sidebar-second {
     float: right;
     margin-right: 0;
