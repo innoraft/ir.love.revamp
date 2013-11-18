@@ -1,0 +1,461 @@
+@import "susy";
+@import "variables/**/*";
+@import "base/**/*";
+@import "compass/css3/box-shadow";
+
+/* front header site name - desk*/
+@include at-breakpoint($desk) {
+	.front {
+	  .l-top-nav {
+		  position: static !important;
+		  padding: 1px !important;
+	  }
+		.l-branding {
+			padding: 1em 0 3.5em 0.1em;
+			.site-name {
+				//text-shadow: 1px 1px 3px $menu_link_hover_color;
+				clear:both;
+				padding: 10px 1px;
+				float:none;
+				width:99.9%;
+				background: $grey;
+				a {
+					//background: $grey;
+					font-size: 6em;
+					font-weight:normal;
+//					padding: 0 112px;
+					text-transform:lowercase;
+				}
+			}
+			.ir_custom_logo {
+				width:48%;
+			//	float:none;
+				margin: 0 auto;
+				.ir-custom-logo-icons {
+					float:none;
+				}
+				.ir-main-idea {
+					width:33.3%;
+					padding: 1.8em 0;
+					color: $white;
+					margin-bottom:1px;
+					margin-right:0;
+					margin-left:0;
+					//text-shadow: 2px 2px 2px $text_shadow;
+					font-size:1.2em;
+					.ir-idea-font-icon {
+						//float:left;
+					}
+					.ir-idea-text {
+						margin-left: 0.5em;
+					}
+				}
+				#ir-drupal {
+					background: $blue;
+				}
+				#ir-love {
+					background: $pink;
+				}
+				#ir-dedication {
+					background: $green;
+				}
+			}
+			.ir-slogan {
+	//			clear:both;
+				float:none;
+				font-size: 1.9em;
+				margin-top:1.2em;
+				text-align:center;
+				font-family: 'Roboto Condensed', sans-serif;
+				color: #656565;
+			}
+		}
+	}
+}
+.l-main {
+//	@include container;
+}
+
+/* site logo desktop - other pages*/
+@include at-breakpoint($desk) {
+	.l-branding {
+		@include container;
+		padding: 6em 5px 3em 5px;
+		.site-name {
+			float: right;
+			padding: 1px;
+			text-shadow: 1px 1px 2px $text_shadow_logo;
+			background: $grey;
+			a {
+				font-size: 2.5em;
+				font-weight:normal;
+				padding: 0 50px;
+				text-transform:lowercase;
+			}
+		}
+		.ir_custom_logo {
+				//width:330px;
+				float:left;
+				margin: 0 auto;
+				.ir-custom-logo-icons {
+					float:right;
+				}
+				.ir-main-idea {
+					//width:33.3%;
+					padding: 15px;
+					margin-left:2px;
+					color: $white;
+					margin-bottom:1px;
+					//text-shadow: 1px 1px 3px $text_shadow;
+				}
+				#ir-drupal {
+					background: $blue;
+				}
+				#ir-love {
+					background: $pink;
+				}
+				#ir-dedication {
+					background: $green;
+				}
+			}
+			.ir-slogan {
+				float:right;
+				font-size: 1.1em;
+				//margin-top:2em;
+				text-align:left;
+			}
+	}
+	.front-page-main-content {
+		.content-listings-home {
+			> .view-content .views-row {
+
+			}
+		}
+		.header-stickey {
+		    position:fixed;
+	    	padding:0.5em !important;
+	    	z-index:999;
+	    	@include container;
+	    	top:1.2em;
+		}
+
+	}
+	.work-content-listing {
+			> .view-content .views-row {
+				padding:0 !important;
+				.views-field-title {
+					margin-top:1em;
+				}
+
+			}
+			.views-row-odd {
+				.listing-list-left {
+					float:left;
+					width:50%;
+					margin:0;
+					border-right: 1em solid $site_body_color;
+
+				}
+				.listing-list-right {
+					width: 50%;
+					display: block;
+					float: left;
+				}
+			}
+			.views-row-even {
+				.listing-list-left {
+					float:right;
+					width:50%;
+					border-left: 1em solid $site_body_color;
+				}
+				.listing-list-right {
+					float:left;
+					width:50%;
+					margin-right:0;
+				}
+			}
+
+		}
+	.pane-main-idea {
+		.front-page-main-content {
+			margin-right:6px;
+			@include container;
+		}
+	}
+}
+
+@include at-breakpoint($tablet_only) {
+	.l-branding {
+		.ir-slogan {
+			padding: 1.2em;
+		}
+		.ir-idea-text {
+			display:none;
+		}
+	}
+	.content-listings-home {
+			> .view-content .views-row {
+				.views-field-body {
+					text-align:center !important;
+				}
+			}
+		}
+	.front-page-main-content {
+
+	}
+	.work-content-listing {
+		> .view-content .views-row {
+			.views-field-field-client-testimonials {
+				.content-testimonials {
+					margin-bottom: 1em;
+				}
+			}
+		}
+	}
+}
+
+@include at-breakpoint($mobile) {
+	.l-branding {
+		.ir-slogan {
+			padding: 1.2em;
+		}
+		.ir-idea-text {
+			display:none;
+		}
+	}
+	.content-listings-home {
+		> .view-content .views-row {
+			.views-field-body {
+	    		text-align:center !important;
+    		}
+		}
+	}
+	.work-content-listing {
+		> .view-content .views-row {
+			.views-field-field-client-testimonials {
+				.content-testimonials {
+					text-align:center;
+					margin: 1em 0 2em 0 !important;
+				}
+				.content-title {
+					text-align:center;
+					margin-left: 0 !important;
+				}
+			}
+			.content-image {
+	    		img {
+	    			height:auto;
+	    		}
+	    	}
+		}
+	}
+}
+
+/* front header default*/
+.ir-main-idea {
+	float:left;
+}
+
+/* work view - homepage/landing*/
+
+.work-content-listing {
+	> .view-content .views-row {
+		font-family: "sans-serif";
+		$total-columns:12;
+		$gutter-width: 1em;
+		text-align:left;
+		@include container;
+		background: $white;
+		margin-bottom:2em;
+		font-size: 1.2em;
+		letter-spacing: -1px;
+    	font-weight: normal;
+    	.listing-list-right {
+    		position:relative;
+    		.content-as-flag {
+    			color: $white;
+    		}
+    		.views-field-field-work-category {
+    			position: absolute;
+    			right:0;
+    			margin-right:2em;
+    			padding: 0.5em 1.5em;
+    			top:0;
+    			font-size: 0.7em;
+				letter-spacing: 0.1em;
+    		}
+    		.views-field-field-client-testimonials {
+    			margin-top:2em;
+    			.content-title {
+    			margin-left: 1em;
+					font-size: 1.7em;
+//					text-transform: lowercase;
+					margin-left: 60px;
+					font-family: 'Source Sans Pro', sans-serif;
+    			}
+    			.content-testimonials {
+    			margin-top: 1em;
+					margin-left: 4em;
+					margin-right: 2em;
+					//text-align: left;
+					font-size: 0.9em;
+					font-family: 'ABeeZee',sans-serif;
+					line-height: 1.3em;
+					letter-spacing: 1px;
+    			}
+    		}
+
+    	}
+    	.content-image {
+    		img {
+    			width:100%;
+    			//height:auto;
+    		}
+    	}
+    		&:nth-child(4n + 1){
+    			@include color_palatte_ir_work($blue);
+			}
+			&:nth-child(4n + 2){
+				@include color_palatte_ir_work($pink);
+			}
+			&:nth-child(4n + 3) {
+				@include color_palatte_ir_work($green);
+			}
+			&:nth-child(4n) {
+				@include color_palatte_ir_work($yellow);
+			}
+	}
+	.view-footer {
+		a {
+			display:block;
+			background: #774545;
+			color: $white;
+			padding:0.5em;
+			font-size:1.2em;
+			text-align:center;
+			text-decoration:none;
+			font-family: 'ABeeZee', sans-serif;
+			&:hover {
+				//background: #;
+				//color: $yellow;
+			}
+		}
+
+	}
+}
+
+.front-page-main-content {
+	// .pane-title {
+	// 	font-family: 'Radley',serif;
+	// 	font-weight:normal;
+	// 	font-size:2.5em;
+	// 	text-shadow: 0 1px 0 $white;
+	// 	text-align:center;
+	// 	display: block;
+	// 	width: 100%;
+	// 	margin:0;
+	// 	padding: 0.83em 0;
+	// 	background: $site_body_color;
+	// }
+}
+
+@include at-breakpoint($desk) {
+
+.ir-main-idea-love {
+	width: 100%;
+}
+
+  .services {
+    float: left;
+    height: 310px;
+ //   margin: 0 5px 15px !important;
+    margin: 0 2% 3% !important;
+    overflow: hidden;
+    width: 45%;
+//    background-color: $services_color;
+  }
+
+}
+////****
+///   slide show arrows
+////****
+.view-our-portfolio .view-content {
+	position: relative;
+}
+
+.vscc_controls_previous img , .vscc_controls_next img{
+  position: absolute;
+  top: 160px;
+  z-index: 10;
+}
+
+.vscc_controls_previous img {
+  left: 20px;
+ }
+
+.vscc_controls_next img {
+  right: 20px;
+}
+
+#vscc_controls_pause_our_portfolio-block {
+	display: none;
+}
+
+
+#widget_pager_bottom_our_portfolio-block {
+	text-align: right;
+	margin-bottom: 10px;
+}
+
+.views-slideshow-pager-field-item {
+	display: inline-block;
+	.views-field-counter div.views-content-counter {
+    background-color: #D0BBBB;
+    text-align: center;
+    width: 20px;
+	}
+}
+
+.views-slideshow-cycle-main-frame-row, .views-slideshow-cycle-main-frame {
+      width: 100% !important;
+}
+
+.front-page-blogs-content {
+  h2.pane-title {
+	  background-color: $blogs-color;
+	  background: url("../images/green_bg.gif")  repeat scroll 6px 2px transparent;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    top: 16px;
+    width: 100px;
+    font-family: 'Poiret One',cursive;
+    font-size: 2em;
+  	color: white;
+  }
+  h2.node__title {
+  	border-bottom: 1px solid white;
+  	 font-family: "Source Sans Pro";
+  	 padding: 0.3em 0.8em;
+  }
+  a {
+  	color: #415993;
+  }
+  .view-our-blogs  {
+  	border-top: 1px solid white;
+	  .views-row.our--blogs {
+	    width: 45%;
+	    float: left;
+//	    height: 370px;
+  	    height: auto;
+      margin: 0 2% 3% !important;
+      overflow: hidden;
+      h2 a{
+      	color: white;
+      }
+    }
+  }
+}
+.front-page-blogs-content , .front-page-blogs-content .view-our-blogs {
+	padding-top: 50px;
+}
