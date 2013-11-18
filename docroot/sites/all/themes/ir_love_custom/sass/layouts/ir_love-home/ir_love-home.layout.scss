@@ -28,7 +28,7 @@
 }
 
 .pane-views-our-services-services-content, .block--views-our-portfolio-block {
-  padding: 39px 60px;
+  padding: 3.5% 4%;
   position: relative;
   h2 , > div {
     @include container;
@@ -80,7 +80,8 @@
     text-decoration: none;
   }
     > div.view-our-services {
-    padding: 62px 35px 10px;
+//    padding: 62px 35px 10px;
+      padding: 7% 3% 1%;
     background-color: $services_color;
     @include set_background_image_blue;
     border-top: 1px solid #FFFFFF;
