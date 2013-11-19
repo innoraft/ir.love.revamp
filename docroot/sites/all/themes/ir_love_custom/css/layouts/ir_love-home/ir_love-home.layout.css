@@ -61,6 +61,10 @@ h1 {
   width: 100%;
   text-align: center; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000317}}
+.l-header {
+  background: url(../../../images/noisy_grid.png); }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000322}}
 .l-footer,
 .l-main {
@@ -96,30 +100,30 @@ h1 {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000351}}
 .block--views-our-portfolio-block {
   background-color: #d67272;
-  background: url("../../../images/pink_bg.gif") repeat scroll 0 0 transparent; }
+  background: url("../../../images/blue_bg.gif") repeat scroll 0 0 transparent; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000354}}
   .block--views-our-portfolio-block h2 {
     width: 200px;
     background-color: #d67272;
-    background: url("../../../images/pink_bg.gif") repeat scroll 0 0 transparent;
+    background: url("../../../images/blue_bg.gif") repeat scroll 0 0 transparent;
     background-position: 6px 2px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000360}}
   .block--views-our-portfolio-block > div {
     padding: 35px;
     padding-top: 62px;
     background-color: #d67272;
-    background: url("../../../images/pink_bg.gif") repeat scroll 0 0 transparent;
+    background: url("../../../images/blue_bg.gif") repeat scroll 0 0 transparent;
     border-top: 1px solid #FFFFFF; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000369}}
 .pane-views-our-services-services-content {
   background-color: #72bad6;
-  background: url("../../../images/blue_bg.gif") repeat scroll 0 0 transparent; }
+  background: url("../../../images/pink_bg.gif") repeat scroll 0 0 transparent; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000372}}
   .pane-views-our-services-services-content h2 {
     width: 150px;
     background-color: #72bad6;
-    background: url("../../../images/blue_bg.gif") repeat scroll 0 0 transparent;
+    background: url("../../../images/pink_bg.gif") repeat scroll 0 0 transparent;
     background-position: 6px 2px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000378}}
   .pane-views-our-services-services-content a {
@@ -129,7 +133,7 @@ h1 {
   .pane-views-our-services-services-content > div.view-our-services {
     padding: 7% 3% 1%;
     background-color: #72bad6;
-    background: url("../../../images/blue_bg.gif") repeat scroll 0 0 transparent;
+    background: url("../../../images/pink_bg.gif") repeat scroll 0 0 transparent;
     border-top: 1px solid #FFFFFF; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000391}}
