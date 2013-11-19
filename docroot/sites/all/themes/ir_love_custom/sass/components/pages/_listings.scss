@@ -47,7 +47,12 @@
       font-size: 1.6em;
       border-bottom-style: solid;
       border-width: 0 0 1px;
+      padding: 0.3em 0em;
+  }
+  @include at-breakpoint($desk) {
+    .service-title {
       padding: 0.3em 0.8em;
+    }
   }
 }
 

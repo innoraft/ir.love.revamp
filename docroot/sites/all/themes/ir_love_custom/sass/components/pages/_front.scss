@@ -227,7 +227,7 @@
 	.content-listings-home {
 		> .view-content .views-row {
 			.views-field-body {
-	    		text-align:center !important;
+//	    		text-align:center !important;
     		}
 		}
 	}
@@ -329,7 +329,7 @@
 	.view-footer {
 		a {
 			display:block;
-			background: #774545;
+			background: #485F84;
 			color: $white;
 			padding:0.5em;
 			font-size:1.2em;
@@ -440,9 +440,12 @@
      font-weight: normal;
   }
   h2.node__title {
-    padding: 0.5em 0.8em;
+    padding: 0.5em 0em;
   }
   @include at-breakpoint($desk) {
+    h2.node__title {
+      padding: 0.5em 0.8em;
+    }
     .node__submitted , .node__content, .node__links {
        padding: 0.3em 1.4em;
     }
