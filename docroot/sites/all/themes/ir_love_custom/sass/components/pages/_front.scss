@@ -15,7 +15,7 @@
 			.site-name {
 				//text-shadow: 1px 1px 3px $menu_link_hover_color;
 				clear:both;
-				padding: 10px 1px;
+				padding: 15px 1px;
 				float:none;
 				width:99.9%;
 				background: $grey;
@@ -28,14 +28,14 @@
 				}
 			}
 			.ir_custom_logo {
-				width:48%;
+				width:450px;
 				  margin: 80px auto 0px;
 				.ir-custom-logo-icons {
 					float:none;
 				}
 				.ir-main-idea {
 					width:33.3%;
-					padding: 1.5em 0;
+					padding: 1.7em 0;
 					color: $white;
 					margin-bottom:1px;
 					margin-right:0;
@@ -108,6 +108,9 @@
 					color: $white;
 					margin-bottom:1px;
 					//text-shadow: 1px 1px 3px $text_shadow;
+       i {
+            display: none;
+          }
 				}
 				#ir-drupal {
 					background: $blue;
@@ -189,6 +192,9 @@
 	.l-branding {
 		.ir-slogan {
 			padding: 1.2em;
+      .site-slogan {
+        font-size: 1.2em;
+      }
 		}
 		.ir-idea-text {
 			display:none;
@@ -218,7 +224,10 @@
 @include at-breakpoint($mobile) {
 	.l-branding {
 		.ir-slogan {
-			padding: 1.2em;
+			padding: 1em;
+      .site-slogan {
+        font-size: 1.2em;
+      }
 		}
 		.ir-idea-text {
 			display:none;
