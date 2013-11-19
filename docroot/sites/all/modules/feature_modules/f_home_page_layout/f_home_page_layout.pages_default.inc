@@ -99,26 +99,9 @@ function f_home_page_layout_default_page_manager_pages() {
     $pane->panel = '_none_';
     $pane->type = 'block';
     $pane->subtype = 'views-our_portfolio-block';
-    $pane->shown = FALSE;
+    $pane->shown = TRUE;
     $pane->access = array(
-      'plugins' => array(
-        0 => array(
-          'name' => 'mobile_detect_ctools',
-          'settings' => array(
-            'type' => 'isMobile',
-          ),
-          'context' => array(),
-          'not' => TRUE,
-        ),
-        1 => array(
-          'name' => 'mobile_detect_ctools',
-          'settings' => array(
-            'type' => 'isTablet',
-          ),
-          'context' => array(),
-          'not' => TRUE,
-        ),
-      ),
+      'plugins' => array(),
     );
     $pane->configuration = array(
       'override_title' => 0,
@@ -143,19 +126,22 @@ function f_home_page_layout_default_page_manager_pages() {
     $pane->panel = '_none_';
     $pane->type = 'block';
     $pane->subtype = 'views-our_portfolio-block_1';
-    $pane->shown = TRUE;
+    $pane->shown = FALSE;
     $pane->access = array(
       'plugins' => array(),
     );
     $pane->configuration = array(
-      'override_title' => 1,
+      'override_title' => 0,
       'override_title_text' => '',
     );
     $pane->cache = array();
     $pane->style = array(
       'settings' => NULL,
     );
-    $pane->css = array();
+    $pane->css = array(
+      'css_id' => '',
+      'css_class' => 'testimonial--block',
+    );
     $pane->extras = array();
     $pane->position = 1;
     $pane->locks = array();
