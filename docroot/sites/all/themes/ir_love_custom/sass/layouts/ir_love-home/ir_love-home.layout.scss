@@ -15,7 +15,7 @@
 }
 
 .l-header {
-//  background: url(../../../images/noisy_grid.png);
+  background: url(../../../images/noisy_grid.png);
 }
 
 .l-footer,
@@ -50,29 +50,29 @@
 
 .block--views-our-portfolio-block {
   background-color: $portfolio_color;
-  @include set_background_image_pink;
+  @include set_background_image_blue;
   h2 {
     width: 200px;
     background-color: $portfolio_color;
-    @include set_background_image_pink;
+    @include set_background_image_blue;
     background-position: 6px 2px;
   }
   > div {
     padding: 35px;
     padding-top: 62px;
     background-color: $portfolio_color;
-    @include set_background_image_pink;
+    @include set_background_image_blue;
     border-top: 1px solid #FFFFFF;
   }
 }
 
 .pane-views-our-services-services-content {
   background-color: $services_color;
-  @include set_background_image_blue;
+  @include set_background_image_pink;
   h2 {
     width: 150px;
     background-color: $services_color;
-      @include set_background_image_blue;
+      @include set_background_image_pink;
       background-position: 6px 2px;
   }
   a {
@@ -83,7 +83,7 @@
 //    padding: 62px 35px 10px;
       padding: 7% 3% 1%;
     background-color: $services_color;
-    @include set_background_image_blue;
+    @include set_background_image_pink;
     border-top: 1px solid #FFFFFF;
   }
 }
