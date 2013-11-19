@@ -232,7 +232,7 @@ img, media {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/_navigation\.scss}line{font-family:\0000391}}
   .ir_custom_logo .ir-custom-logo-icons {
     position: absolute;
-    top: 12px;
+    top: 10px;
     margin-left: 8.5em;
     text-shadow: 1px 1px 1px black; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/_navigation\.scss}line{font-family:\0000396}}
@@ -240,14 +240,24 @@ img, media {
       color: white;
       margin-right: 8px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/_navigation\.scss}line{font-family:\00003100}}
-    .ir_custom_logo .ir-custom-logo-icons #ir-drupal {
-      color: #2ca8c2; }
+    .ir_custom_logo .ir-custom-logo-icons i {
+      display: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/_navigation\.scss}line{font-family:\00003103}}
+    .ir_custom_logo .ir-custom-logo-icons > div {
+      height: 20px;
+      width: 29px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/_navigation\.scss}line{font-family:\00003107}}
+    .ir_custom_logo .ir-custom-logo-icons #ir-drupal {
+      color: #2ca8c2;
+      background-color: #2ca8c2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/_navigation\.scss}line{font-family:\00003111}}
     .ir_custom_logo .ir-custom-logo-icons #ir-love {
-      color: #eb5054; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/_navigation\.scss}line{font-family:\00003106}}
+      color: #eb5054;
+      background-color: #eb5054; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/_navigation\.scss}line{font-family:\00003115}}
     .ir_custom_logo .ir-custom-logo-icons #ir-dedication {
-      color: #8ab845; } }
+      color: #8ab845;
+      background-color: #8ab845; } }
 /* No files to import found in variables/**\/* */
 /* No files to import found in base/**\/* */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\000036}}
