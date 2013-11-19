@@ -7,8 +7,8 @@
 @include at-breakpoint($desk) {
 	.front {
 	  .l-top-nav {
-		  position: static !important;
-		  padding: 1px !important;
+// 		  position: static !important;
+//		  padding: 1px !important;
 	  }
 		.l-branding {
 			padding: 1em 0 3.5em 0.1em;
@@ -29,14 +29,13 @@
 			}
 			.ir_custom_logo {
 				width:48%;
-			//	float:none;
-				margin: 0 auto;
+				  margin: 80px auto 0px;
 				.ir-custom-logo-icons {
 					float:none;
 				}
 				.ir-main-idea {
 					width:33.3%;
-					padding: 1.8em 0;
+					padding: 1.5em 0;
 					color: $white;
 					margin-bottom:1px;
 					margin-right:0;
@@ -50,15 +49,15 @@
 						margin-left: 0.5em;
 					}
 				}
-				#ir-drupal {
-					background: $blue;
-				}
-				#ir-love {
-					background: $pink;
-				}
-				#ir-dedication {
-					background: $green;
-				}
+				// #ir-drupal {
+				// 	background: $blue;
+				// }
+				// #ir-love {
+				// 	background: $pink;
+				// }
+				// #ir-dedication {
+				// 	background: $green;
+				// }
 			}
 			.ir-slogan {
 	//			clear:both;
@@ -68,6 +67,8 @@
 				text-align:center;
 				font-family: 'Roboto Condensed', sans-serif;
 				color: #656565;
+        width: 800px;
+        margin: 30px auto 0;
 			}
 		}
 	}
@@ -95,7 +96,7 @@
 		}
 		.ir_custom_logo {
 				//width:330px;
-				float:left;
+//				float:left;
 				margin: 0 auto;
 				.ir-custom-logo-icons {
 					float:right;

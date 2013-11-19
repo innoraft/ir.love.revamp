@@ -4,7 +4,7 @@
 /* Large screen menu - desktop*/
 @include at-breakpoint($desk) {
 	.l-top-nav {
-		//background: $grey;
+		background: $grey;
 		position:fixed;
 		top:0;
 		width:100%;
@@ -12,7 +12,6 @@
 		#block-system-main-menu {
 		  @include container;
 		  ul {
-		  text-align: right;
 		  padding:0;
 		    li {
 		      list-style:none;
