@@ -90,21 +90,31 @@
 	.ir_custom_logo {
 		.ir-custom-logo-icons {
 			position: absolute;
-			top:12px;
+			top:10px;
 			margin-left:8.5em;
 			text-shadow: 1px 1px 1px $text_shadow_logo;
 			.ir-main-idea {
 		 		color: $white;
 		 		margin-right:8px;
 			}
+			i {
+				display: none;
+			}
+      > div {
+	      height: 20px;
+        width: 29px;
+      }
 			#ir-drupal {
 				color: $blue;
+				background-color: $blue;
 			}
 			#ir-love {
 				color: $pink;
+				background-color: $pink;
 			}
 			#ir-dedication {
 				color: $green;
+				background-color: $green;
 			}
 		}
 	}
