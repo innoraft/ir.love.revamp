@@ -99,7 +99,7 @@ function f_home_page_layout_default_page_manager_pages() {
     $pane->panel = '_none_';
     $pane->type = 'block';
     $pane->subtype = 'views-our_portfolio-block';
-    $pane->shown = TRUE;
+    $pane->shown = FALSE;
     $pane->access = array(
       'plugins' => array(
         0 => array(
@@ -145,24 +145,7 @@ function f_home_page_layout_default_page_manager_pages() {
     $pane->subtype = 'views-our_portfolio-block_1';
     $pane->shown = TRUE;
     $pane->access = array(
-      'plugins' => array(
-        0 => array(
-          'name' => 'mobile_detect_ctools',
-          'settings' => array(
-            'type' => 'isTablet',
-          ),
-          'context' => array(),
-          'not' => FALSE,
-        ),
-        1 => array(
-          'name' => 'mobile_detect_ctools',
-          'settings' => array(
-            'type' => 'isMobile',
-          ),
-          'context' => array(),
-          'not' => FALSE,
-        ),
-      ),
+      'plugins' => array(),
     );
     $pane->configuration = array(
       'override_title' => 1,
