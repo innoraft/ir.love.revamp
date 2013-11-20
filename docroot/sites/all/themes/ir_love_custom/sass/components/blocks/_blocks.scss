@@ -25,3 +25,62 @@
 		margin-bottom: 2em;
 	}
 }
+
+.not-front {
+  .l-main {
+    padding: 2.5% 5%;
+    background: url("../images/grey_bg.gif") repeat scroll 0 0 transparent;
+    .l-content , .l-region {
+	    h1 , h2:not(.node__title) {
+        margin: 0 auto;
+        position: relative;
+        text-align: center;
+        top: 16px;
+        letter-spacing: 0em;
+        width: 140px;
+        background: url("../images/grey_bg.gif") repeat scroll 0 0 transparent;
+        color: $light-black;
+        font-family: 'Poiret One',cursive;
+	    }
+	    article, .block__content , form {
+				background: url("../images/grey_bg.gif") repeat scroll 0 0 transparent;
+        border-top: 1px solid black;
+        padding-top: 60px;
+        form {
+        	border: none;
+        	padding: 0;
+        }
+      }
+    }
+    .l-region {
+    	margin-top: 4px;
+    	.block--panels-mini-ir-locations {
+	  		.block__title {
+	    		width: 170px;
+	    	}
+	  	}
+  	}
+	}
+}
+
+@include at-breakpoint($mobile) {
+	.not-front {
+		.l-main {
+			h1 , h2 {
+			 	width: 120px !important;
+			}
+		}
+		.l-region {
+			.block__title {
+				width: 150px !important;
+			}
+		}
+	}
+	.ir_custom_logo {
+		.ir-custom-logo-icons {
+			#ir-drupal {
+				background: url("../images/inno_logo.png") no-repeat scroll 0 0 transparent;
+			}
+		}
+	}
+}

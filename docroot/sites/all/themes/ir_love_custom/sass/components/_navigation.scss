@@ -82,7 +82,7 @@
 		a {
 			position: absolute;
 			top:0px;
-			left:4px;
+			left:102px;
 			font-size:2em;
 			font-weight: bold;
 		}
@@ -90,12 +90,12 @@
 	.ir_custom_logo {
 		.ir-custom-logo-icons {
 			position: absolute;
-			top:10px;
-			margin-left:8.5em;
+			top: 8px;
+			margin-left: 0.5em;
 			text-shadow: 1px 1px 1px $text_shadow_logo;
 			.ir-main-idea {
 		 		color: $white;
-		 		margin-right:8px;
+		 		margin-right: 3px;
 			}
 			i {
 				display: none;
@@ -119,5 +119,32 @@
 		}
 	}
 	.l-top-nav {
+	}
+}
+
+@include at-breakpoint($mobile) {
+	.ir_custom_logo {
+		.ir-custom-logo-icons {
+			top: 1px;
+			> div {
+	      height: 35px;
+        width: 50px;
+      }
+      #ir-love , #ir-dedication {
+      	display: none;
+      }
+		}
+		.site-name {
+			a {
+				left: 62px !important;
+			}
+		}
+	}
+}
+
+.not-front {
+	#block-system-main-menu {
+		max-width: none;
+		padding-left: 5%;
 	}
 }

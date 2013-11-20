@@ -99,6 +99,22 @@
 	}
 }
 
+
+.not-front {
+  .view-our-services , .view-our-portfolio {
+    border-top: 1px solid black;
+    padding-top: 50px;
+  }
+  .view-our-services {
+    .service-title {
+      color: $grey !important;
+    }
+    .views-row {
+      margin-bottom: 20px;
+    }
+  }
+}
+
 @include at-breakpoint($mobile) {
 	.content-listings-home {
 		> .view-content .views-row {
