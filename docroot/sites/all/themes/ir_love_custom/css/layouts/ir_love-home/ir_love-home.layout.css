@@ -55,6 +55,14 @@ h1 {
   font-weight: 400;
   src: local("Oswald Regular"), local("Oswald-Regular"), url(http://themes.googleusercontent.com/static/fonts/oswald/v7/-g5pDUSRgvxvOl5u-a_WHw.woff) format("woff"); }
 
+@media (min-width: 481px) and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_base\.scss}line{font-family:\0000357}}
+  .not-front .l-page {
+    font-size: 90%; } }
+@media (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_base\.scss}line{font-family:\0000365}}
+  .not-front .l-page {
+    font-size: 80%; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000311}}
 .l-branding {
   clear: both;
@@ -158,7 +166,7 @@ h1 {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003101}}
 .l-page {
   font-size: 100%;
-  color: #222222; }
+  color: #373737; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003110}}
 .l-main .l-content .ir-main-idea-love {
