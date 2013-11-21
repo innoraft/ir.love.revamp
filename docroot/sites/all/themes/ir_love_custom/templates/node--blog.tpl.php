@@ -81,20 +81,25 @@
 <article<?php print $attributes; ?>>
   <?php if (!empty($title_prefix) || !empty($title_suffix) || !$page): ?>
     <header>
-      <h1> <?php print render($user_picture); ?> </h1>
       <?php print render($title_prefix); ?>
       <?php if (!$page): ?>
         <h2<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>" rel="bookmark"><?php print $title; ?></a></h2>
       <?php endif; ?>
       <?php print render($title_suffix); ?>
     </header>
+
   <?php endif; ?>
 
   <?php if ($display_submitted): ?>
-    <footer class="node__submitted">
-      <?php print $user_picture; ?>
-      <p class="submitted"><?php print $submitted; ?></p>
-    </footer>
+   <div class="blog_header"><?php print render($user_picture); ?>
+    <div class="node__submitted">
+      <div class="submitted">
+        <div class="blogger_name"><?php print render($blogger_name_link); ?></div>
+        <div class="date"><?php print $date; //$submitted; ?></div>
+        <div class="comment_number"><?php print render($comment_number_link); ?></div>
+      </div>
+    </div>
+    </div>
   <?php endif; ?>
 
   <div<?php print $content_attributes; ?>>
@@ -106,6 +111,7 @@
     ?>
   </div>
 
-  <?php print render($content['links']); ?>
+  <?php //print render($content['links']); ?>
   <?php print render($content['comments']); ?>
+  <span class="read--more"><?php print render($node_name_link); ?></span>
 </article>
