@@ -68,6 +68,17 @@ input#recaptcha_response_field {
 	}
 }
 
+
+.not-front.page-node {
+  h1 {
+    border: none !important;
+    width: auto !important;
+    text-align: left !important;
+    font-family: "Source Sans Pro" !important;
+    color: #6D6565 !important;
+  }
+}
+
 @include at-breakpoint($mobile) {
 	.not-front {
 		.l-region {
@@ -119,20 +130,5 @@ article.node--blog--teaser {
   }
   .read--more {
     float: right;
-  }
-}
-
-.node-type-blog {
-  .l-content {
-    h1 , h2 {
-      font-family: "Source Sans Pro" !important;
-      margin: 0 !important;
-      width: auto !important;
-      text-align: left !important;
-      color: #6D6565 !important;
-    }
-  }
-  article {
-    border: none !important;
   }
 }
