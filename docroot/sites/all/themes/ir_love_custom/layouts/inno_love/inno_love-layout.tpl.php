@@ -35,7 +35,7 @@
     <?php //print render($page['navigation']); ?>
   </header>
 
-  <div class="l-main">
+  <div class="l-main clearfix">
     <div class="l-content" role="main">
       <?php print render($page['highlighted']); ?>
       <?php //print $breadcrumb; ?>

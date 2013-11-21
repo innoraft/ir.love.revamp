@@ -14,6 +14,14 @@
 #contact-site-form {
 	.form-text, textarea, .grippie {
 		width:80%;
+		height: 40px;
+		padding-left: 6px;
+	}
+	.grippie {
+		height: 15px;
+	}
+	textarea {
+		height: 140px;
 	}
 	.form-actions {
 		margin-top:1em;

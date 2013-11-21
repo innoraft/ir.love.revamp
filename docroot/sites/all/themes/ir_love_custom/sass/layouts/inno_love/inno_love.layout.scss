@@ -84,6 +84,8 @@
   .has-sidebar-second {
     .l-content {
       @include span-columns(10, 16); // Span 12 out of 16 columns.
+      margin-right: 5%;
+      width: 58%;
     }
     .l-region--sidebar-second {
       @include span-columns(6 omega, 16); // Span the last (omega) 4 columns of 16.

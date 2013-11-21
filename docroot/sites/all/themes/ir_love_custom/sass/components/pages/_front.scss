@@ -83,7 +83,7 @@
 		@include container;
 		padding: 6em 5px 3em 5px;
 		.site-name {
-			float: right;
+			float: left;
 			padding: 1px;
 			text-shadow: 1px 1px 2px $text_shadow_logo;
 			background: $grey;
@@ -99,11 +99,11 @@
 //				float:left;
 				margin: 0 auto;
 				.ir-custom-logo-icons {
-					float:right;
+					float: left;
 				}
 				.ir-main-idea {
 					//width:33.3%;
-					padding: 15px;
+					padding: 24px;
 					margin-left:2px;
 					color: $white;
 					margin-bottom:1px;
@@ -123,10 +123,9 @@
 				}
 			}
 			.ir-slogan {
-				float:right;
-				font-size: 1.1em;
-				//margin-top:2em;
-				text-align:left;
+				float: right;
+				font-size: 1.3em;
+				text-align: center;
 			}
 	}
 	.front-page-main-content {
@@ -441,7 +440,7 @@
     width: 100px;
     font-family: 'Poiret One',cursive;
     font-size: 2em;
-  	color: white;
+  	color: $white;
   }
   h2.node__title {
   	border-bottom: 1px solid white;
@@ -476,9 +475,9 @@
       margin: 0 2% 3% !important;
       overflow: hidden;
       font-weight: normal;
-      color: black;
+      color: $black;
       h2 a{
-      	color: white;
+      	color: $white;
         text-decoration: none;
       }
     }

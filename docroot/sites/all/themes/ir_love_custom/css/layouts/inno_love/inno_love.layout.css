@@ -25,7 +25,7 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/inno_love\/inno_love\.layout\.scss}line{font-family:\0000330}}
 .l-page {
   font-size: 100%;
-  color: #222222; }
+  color: #373737; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/inno_love\/inno_love\.layout\.scss}line{font-family:\0000343}}
 .l-region--highlighted,
@@ -66,30 +66,32 @@
   .has-sidebar-second .l-content {
     width: 62.02532%;
     float: left;
-    margin-right: 1.26582%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/inno_love\/inno_love\.layout\.scss}line{font-family:\0000388}}
+    margin-right: 1.26582%;
+    margin-right: 5%;
+    width: 58%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/inno_love\/inno_love\.layout\.scss}line{font-family:\0000390}}
   .has-sidebar-second .l-region--sidebar-second {
     width: 36.70886%;
     float: right;
     margin-right: 0;
     clear: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/inno_love\/inno_love\.layout\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/inno_love\/inno_love\.layout\.scss}line{font-family:\0000397}}
   .has-two-sidebars .l-content {
     width: 49.36709%;
     float: left;
     margin-right: 1.26582%;
     margin-left: 25.31646%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/inno_love\/inno_love\.layout\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/inno_love\/inno_love\.layout\.scss}line{font-family:\00003102}}
   .has-two-sidebars .l-region--sidebar-first,
   .has-two-sidebars .l-region--sidebar-second {
     width: 24.05063%;
     float: left;
     margin-right: 1.26582%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/inno_love\/inno_love\.layout\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/inno_love\/inno_love\.layout\.scss}line{font-family:\00003105}}
   .has-two-sidebars .l-region--sidebar-first {
     margin-left: -75.94937%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/inno_love\/inno_love\.layout\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/inno_love\/inno_love\.layout\.scss}line{font-family:\00003108}}
   .has-two-sidebars .l-region--sidebar-second {
     float: right;
     margin-right: 0;
