@@ -41,6 +41,7 @@ input#recaptcha_response_field {
         position: relative;
         text-align: center;
         top: 16px;
+        letter-spacing: 2px;
         width: 140px;
         background: url("../images/grey_bg.gif") repeat scroll 0 0 transparent;
         color: $light-black;
