@@ -13,7 +13,7 @@ input#recaptcha_response_field {
 	padding: 1em;
 }
 .block__title {
-	letter-spacing: 0.1em;
+//	letter-spacing: 0.1em;
 }
 
 /* Contact us locations block */
@@ -32,16 +32,15 @@ input#recaptcha_response_field {
 }
 
 .not-front {
-  .l-main {
+   .l-main {
     padding: 2.5% 5%;
     background: url("../images/grey_bg.gif") repeat scroll 0 0 transparent;
-    .l-content , .l-region {
+    .l-content:not(.page-not-found) , .l-region {
 	    h1 , h2:not(.node__title) {
         margin: 0 auto;
         position: relative;
         text-align: center;
         top: 16px;
-        letter-spacing: 0em;
         width: 140px;
         background: url("../images/grey_bg.gif") repeat scroll 0 0 transparent;
         color: $light-black;
@@ -69,7 +68,7 @@ input#recaptcha_response_field {
 }
 
 
-.not-front.page-node {
+.not-front.page-node:not(.section-about-us) {
   h1 {
     border: none !important;
     width: auto !important;
