@@ -3,12 +3,17 @@
 @import "base/**/*";
 @import "compass/css3/box-shadow";
 
+
+input#recaptcha_response_field {
+  border: 1px solid #B1A8A8 !important;
+}
+
 .block__content {
 	background: $white;
 	padding: 1em;
 }
 .block__title {
-	letter-spacing: 0.1em;
+//	letter-spacing: 0.1em;
 }
 
 /* Contact us locations block */
@@ -27,22 +32,22 @@
 }
 
 .not-front {
-  .l-main {
+   .l-main {
     padding: 2.5% 5%;
     background: url("../images/grey_bg.gif") repeat scroll 0 0 transparent;
-    .l-content , .l-region {
+    .l-content:not(.page-not-found) , .l-region {
 	    h1 , h2:not(.node__title) {
         margin: 0 auto;
         position: relative;
         text-align: center;
         top: 16px;
-        letter-spacing: 0em;
+        letter-spacing: 2px;
         width: 140px;
         background: url("../images/grey_bg.gif") repeat scroll 0 0 transparent;
         color: $light-black;
         font-family: 'Poiret One',cursive;
 	    }
-	    article, .block__content , form {
+	    .main--content , article , .block__content , form {
 				background: url("../images/grey_bg.gif") repeat scroll 0 0 transparent;
         border-top: 1px solid black;
         padding-top: 60px;
@@ -56,20 +61,26 @@
     	margin-top: 4px;
     	.block--panels-mini-ir-locations {
 	  		.block__title {
-	    		width: 170px;
+	    		width: 190px;
 	    	}
 	  	}
   	}
 	}
 }
 
+
+.not-front.page-node:not(.section-about-us) {
+  h1 {
+    border: none !important;
+    width: auto !important;
+    text-align: left !important;
+    font-family: "Source Sans Pro" !important;
+    color: #6D6565 !important;
+  }
+}
+
 @include at-breakpoint($mobile) {
 	.not-front {
-		.l-main {
-			h1 , h2 {
-			 	width: 120px !important;
-			}
-		}
 		.l-region {
 			.block__title {
 				width: 150px !important;
@@ -83,4 +94,41 @@
 			}
 		}
 	}
+}
+
+.blog_header {
+border-bottom: 1px solid #DDD4D4;
+  .user-picture , .node__submitted {
+    display: inline-block;
+//    height: 40px;
+    img {
+      vertical-align: bottom;
+    }
+  }
+
+  .blogger_name , .date , .comment_number {
+    float: left;
+    padding: 0 5px !important;
+  }
+
+  .comment_number {
+    margin-left: 20px;
+  }
+}
+
+article.node--blog--teaser {
+  padding-bottom: 40px;
+  .node__title {
+    font-family: "Source Sans Pro";
+  }
+  a {
+    color: #6D6565;
+  }
+  li , .comment_number , .node__submitted {
+    margin: 0;
+    padding: 0;
+  }
+  .read--more {
+    float: right;
+  }
 }

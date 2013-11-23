@@ -34,9 +34,11 @@
     <?php //print render($page['header']); ?>
     <?php //print render($page['navigation']); ?>
   </header>
-
   <div class="l-main clearfix">
-    <div class="l-content" role="main">
+
+    <div class="<?php isset($page_not_found) ? print "l-content " . $page_not_found : print "l-content"; ?>
+    " role="main">
+
       <?php print render($page['highlighted']); ?>
       <?php //print $breadcrumb; ?>
       <a id="main-content"></a>

@@ -470,7 +470,9 @@
   	border-top: 1px solid white;
 	  .views-row.our--blogs {
 	    width: auto;
-	    float: left;
+//	    float: left;
+      display: inline-block;
+      vertical-align: top;
   	  height: auto;
       margin: 0 2% 3% !important;
       overflow: hidden;
@@ -483,7 +485,7 @@
     }
     @include at-breakpoint($desk) {
       .views-row.our--blogs {
-        width: 45%;
+        width: 44%;
       }
     }
   }

@@ -11,7 +11,10 @@ function ir_love_custom_preprocess_page(&$variables) {
   // drupal_add_js("http://code.jquery.com/ui/1.10.3/jquery-ui.js");
   $path = drupal_get_path('theme', 'ir_love_custom');
   if (drupal_is_front_page()) {
-	drupal_add_js("$path/js/home.js");
+    drupal_add_js("$path/js/home.js");
   }
-
+  $headers = drupal_get_http_header();
+  if (isset($headers['status'])) {
+    $variables['page_not_found'] = 'page-not-found';
+  }
 }
