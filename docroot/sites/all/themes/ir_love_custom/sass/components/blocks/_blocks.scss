@@ -145,7 +145,8 @@ article.node--blog--teaser {
 }
 
 .search-result {
-  h3 {
+  color: $black;
+  h3 a{
     color: $light_grey;
   }
   .search-result__snippet {
