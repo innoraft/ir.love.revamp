@@ -133,7 +133,7 @@ article.node--blog--teaser {
     font-family: "Source Sans Pro";
   }
   a {
-    color: #6D6565;
+    color: $light_grey;
   }
   li , .comment_number , .node__submitted {
     margin: 0;
@@ -141,5 +141,14 @@ article.node--blog--teaser {
   }
   .read--more {
     float: right;
+  }
+}
+
+.search-result {
+  h3 {
+    color: $light_grey;
+  }
+  .search-result__snippet {
+    padding-left: 0px;
   }
 }
