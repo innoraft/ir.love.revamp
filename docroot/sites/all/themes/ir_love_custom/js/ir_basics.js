@@ -48,18 +48,24 @@ $(window).resize(function() {
        $(this).height(heightImgNow);
      }
 
-       change_font();
   });
+
+  change_font(); // change font only for desktop version
 });
 
 function change_font() {
   var window_width = $(window).width();
-  if ( window_width >= 769) {
+  console.log(screen.width);
+  if ( window_width > 755 ) { // below this width ,it will show tablet layout
     var window_ratio = window_width / 1000;
     window_ratio = window_ratio * 100;
     window_ratio = window_ratio > 100 ? 100 : window_ratio;
     window_ratio = window_ratio + "%";
     $('body').css('font-size', window_ratio );
+    }
+    else {
+      window_ratio = 100 + "%";
+      $('body').css('font-size', window_ratio );
     }
   }
 
