@@ -2,7 +2,6 @@
 	$(document).ready(function(){
 		//alert('will be stickey');
 		// stickey_header();
-        change_font();
 		var paneheight = $('div.pane-views-our-portfolio-block').height();
 		var wheight = $(window).height();
 		var logoheight = $('.l-branding').height();
@@ -50,12 +49,12 @@ $(window).resize(function() {
 
   });
 
-  change_font(); // change font only for desktop version
+/*  change_font(); */ // change font only for desktop version
 });
 
+/*
 function change_font() {
   var window_width = $(window).width();
-  console.log(screen.width);
   if ( window_width > 755 ) { // below this width ,it will show tablet layout
     var window_ratio = window_width / 1000;
     window_ratio = window_ratio * 100;
@@ -68,6 +67,6 @@ function change_font() {
       $('body').css('font-size', window_ratio );
     }
   }
-
+*/
 	});
 }(jQuery));
