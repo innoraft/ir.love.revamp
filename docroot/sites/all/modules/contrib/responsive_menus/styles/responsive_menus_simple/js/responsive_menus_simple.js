@@ -34,7 +34,8 @@
     attach: function (context, settings) {
       settings.responsive_menus = settings.responsive_menus || {};
       // Window width with legacy browsers.
-      var windowWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+      //var windowWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+       var   windowWidth = $(document).width();
       $('body').once('responsive-menus-load', function(){
         $.each(settings.responsive_menus, function(ind, iteration) {
           if (iteration.responsive_menus_style != 'responsive_menus_simple') {
@@ -129,7 +130,8 @@
         // Handle window resizing.
         $(window).resize(function() {
           // Window width with legacy browsers.
-          windowWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+       //   windowWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+          windowWidth = $(document).width();
           $('.responsive-menus').each(function(menuIndex, menuValue){
             mediasize = $(this).data('mediasize') || 768;
             var menuElement = $(this).find('.responsive-menus-simple');
