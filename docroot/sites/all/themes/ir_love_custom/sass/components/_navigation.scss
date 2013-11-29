@@ -37,10 +37,10 @@
 /* Menu theming for small screens*/
 .l-top-nav {
 	.responsive-menus.responsified {
-		background: none repeat scroll 0 0 $grey;
+		background: none repeat scroll 0 0 $light-black;
 		span.toggler {
 			text-align:right;
-			background: none repeat scroll 0 0 $grey;
+			background: none repeat scroll 0 0 $light-black;
 		   	border-radius: 0;
 		   	box-shadow:none;
 		   	padding:8px 8px 8px 0;
@@ -48,7 +48,7 @@
 		}
 	   	&.responsive-toggled.absolute {
 	   	  .responsive-menus-simple {
-	   	  	background: none repeat scroll 0 0 $grey;
+	   	  	background: none repeat scroll 0 0 $light-black;
 	   		border-radius: 0;
 	   		box-shadow:none;
 	   	  }
