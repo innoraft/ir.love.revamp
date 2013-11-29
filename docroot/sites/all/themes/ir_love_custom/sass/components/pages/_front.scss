@@ -67,7 +67,7 @@
 				text-align:center;
 				font-family: 'Roboto Condensed', sans-serif;
 				color: #656565;
-        width: 800px;
+//        width: 800px;
         margin: 30px auto 0;
 			}
 		}
@@ -123,7 +123,7 @@
 				}
 			}
 			.ir-slogan {
-				float: right;
+//				float: right;
 				font-size: 1.3em;
 				text-align: center;
 			}
@@ -498,6 +498,16 @@
     }
   }
 }
+
+@include at-breakpoint($mobile) {
+  .our--blogs {
+    h2 {
+      font-size: 1.2em;
+      height: auto !important;
+    }
+  }
+}
+
 
 .front-page-blogs-content .view-our-blogs {
     padding: 7% 3% 1%;
