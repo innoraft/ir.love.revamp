@@ -1,5 +1,6 @@
 (function ($) {
 	$(document).ready(function(){
+    set_heading_width();
 		//alert('will be stickey');
 		// stickey_header();
 		var paneheight = $('div.pane-views-our-portfolio-block').height();
@@ -31,6 +32,7 @@
 
 
 $(window).resize(function() {
+  set_heading_width();
   $('.views-slideshow-cycle-main-frame').each(function(){
     var heightImgNow = '';
     $(this).find('.views-slideshow-cycle-main-frame-row').each(function(){
@@ -51,6 +53,22 @@ $(window).resize(function() {
 
 /*  change_font(); */ // change font only for desktop version
 });
+
+
+function set_heading_width() {
+  var document_width = $(document).width();
+  var character_space = 17;
+  character_space = document_width > 769 ? 17 : 12;
+
+  var heading_charater = $('.l-content h1').html().length;
+  heading_charater = heading_charater * character_space;
+  document_width = $(document).width();
+  heading_charater = document_width > heading_charater ? heading_charater : document_width - 40;
+  $('.l-content h1').css('width', heading_charater);
+  if (document_width < 300) {
+      $('.l-content h1').css('width', 'auto');
+  }
+}
 
 /*
 function change_font() {
