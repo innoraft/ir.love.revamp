@@ -8,12 +8,12 @@
 function ir_love_custom_preprocess_node(&$variables, $hook) {
   $node = $variables['node'];
   if ($node->type == 'blog') {
-    $variables['date'] = date("M d, Y", strtotime($variables['date']));
-    $variables['comment_number'] = $variables['comment_count'];
-    $link_variable = $variables['content']['links'];
-    $node_name_link = $link_variable['node'];
-    $blogger_name_link = $link_variable['blog'];
-    $comment_number_link = $link_variable['comment'];
+    $variables['date'] = isset($variables['date']) ? date("M d, Y", strtotime($variables['date'])) : null;
+    $variables['comment_number'] = isset($variables['comment_count']) ? $variables['comment_count'] : null;
+    $link_variable = isset($variables['content']['links']) ? $variables['content']['links'] : null;
+    $node_name_link = isset($link_variable['node']) ? $link_variable['node'] : null;
+    $blogger_name_link = isset($link_variable['blog']) ? $link_variable['blog'] : null;
+    $comment_number_link = isset($link_variable['comment']) ? $link_variable['comment'] : null;
     $variables['blogger_name_link'] = $blogger_name_link;
     $variables['node_name_link'] = $node_name_link;
     unset($link_variable['node']);
