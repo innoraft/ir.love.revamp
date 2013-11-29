@@ -55,11 +55,11 @@ h1 {
 @media (min-width: 481px) and (max-width: 768px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_base\.scss}line{font-family:\0000359}}
   .l-page {
-    font-size: 90%; } }
+    font-size: 90% !important; } }
 @media (max-width: 480px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_base\.scss}line{font-family:\0000365}}
   .l-page {
-    font-size: 80%; } }
+    font-size: 80% !important; } }
 /* No files to import found in variables/**\/* */
 /* No files to import found in base/**\/* */
 /* Contact Us page*/
