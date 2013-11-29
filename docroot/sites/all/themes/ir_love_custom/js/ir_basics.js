@@ -58,7 +58,7 @@ $(window).resize(function() {
 function set_heading_width() {
   var document_width = $(document).width();
   var character_space = 17;
-  character_space = document_width > 769 ? 17 : 12;
+  character_space = document_width > 769 ? 17 : 14;
 
   var heading_charater = $('.l-content h1').html().length;
   heading_charater = heading_charater * character_space;
