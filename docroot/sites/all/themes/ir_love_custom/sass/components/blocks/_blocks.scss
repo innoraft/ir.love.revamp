@@ -133,6 +133,11 @@ input#recaptcha_response_field {
   }
 }
 
+.node__content {
+    word-wrap: break-word;
+  }
+
+
 article.node--blog--teaser {
   padding-bottom: 40px;
   .node__title {
@@ -157,6 +162,15 @@ article.node--blog--teaser {
     }
   }
 }
+
+@include at-breakpoint($mobile) {
+  article.node--blog--teaser {
+    .node__submitted {
+      width: 45%;
+    }
+  }
+}
+
 
 .search-result {
   color: $black;
