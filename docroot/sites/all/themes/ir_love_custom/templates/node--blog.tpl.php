@@ -107,11 +107,15 @@
       // We hide the comments and links now so that we can render them later.
       hide($content['comments']);
       hide($content['links']);
+    if(!isset($check_content_come_from_view)) {
       print render($content);
+    }
     ?>
   </div>
 
   <?php //print render($content['links']); ?>
   <?php print render($content['comments']); ?>
-  <span class="read--more"><?php print render($node_name_link); ?></span>
+  <?php if(!isset($check_content_come_from_view)): ?>
+    <span class="read--more"> <?php print render($node_name_link); ?> </span>
+  <?php endif; ?>
 </article>
