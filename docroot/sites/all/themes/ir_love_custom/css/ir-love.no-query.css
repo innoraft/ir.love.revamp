@@ -68,49 +68,50 @@ h1 {
 #contact-site-form .form-text, #contact-site-form textarea, #contact-site-form .grippie {
   width: 80%;
   height: 40px;
-  padding-left: 6px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_forms\.scss}line{font-family:\0000320}}
+  padding-left: 6px;
+  border: 1px solid #9BB3AB; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_forms\.scss}line{font-family:\0000321}}
 #contact-site-form fieldset.captcha .fieldset-wrapper img {
   width: 80%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_forms\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_forms\.scss}line{font-family:\0000324}}
 #contact-site-form .grippie {
   height: 15px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_forms\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_forms\.scss}line{font-family:\0000327}}
 #contact-site-form textarea {
   height: 140px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_forms\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_forms\.scss}line{font-family:\0000330}}
 #contact-site-form .form-actions {
   margin-top: 1em;
   margin-left: 0.1em; }
 
 @media (min-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_forms\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_forms\.scss}line{font-family:\0000337}}
   .page-contact fieldset.captcha {
     width: 80%; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_forms\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_forms\.scss}line{font-family:\0000345}}
 .l-region--sidebar-second #contact-site-form .form-text, .l-region--sidebar-second #contact-site-form textarea, .l-region--sidebar-second #contact-site-form .grippie {
   width: 100%; }
 
 /* recaptcha form*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_forms\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_forms\.scss}line{font-family:\0000352}}
 .captcha {
   width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_forms\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_forms\.scss}line{font-family:\0000354}}
   .captcha .fieldset-wrapper {
     width: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_forms\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_forms\.scss}line{font-family:\0000356}}
     .captcha .fieldset-wrapper #edit-captcha-form {
       width: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_forms\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_forms\.scss}line{font-family:\0000359}}
       .captcha .fieldset-wrapper #edit-captcha-form #recaptcha_table .recaptcha_image_cell {
         width: auto !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_forms\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_forms\.scss}line{font-family:\0000361}}
         .captcha .fieldset-wrapper #edit-captcha-form #recaptcha_table .recaptcha_image_cell #recaptcha_image {
           width: auto !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_forms\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_forms\.scss}line{font-family:\0000365}}
       .captcha .fieldset-wrapper #edit-captcha-form #recaptcha_table #recaptcha_response_field {
         width: 100% !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_forms\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_forms\.scss}line{font-family:\0000371}}
   .captcha #recaptcha_privacy {
     display: none; }
 
@@ -140,7 +141,7 @@ img, media {
       margin: 0.5em 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/_footer\.scss}line{font-family:\0000321}}
       .l-footer #footer-item-contact div a {
-        color: #373737; }
+        color: #5f5b5b; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/_footer\.scss}line{font-family:\0000327}}
   .l-footer #footer-item-header {
     font-size: 1.8em; }
@@ -158,9 +159,9 @@ img, media {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/_footer\.scss}line{font-family:\0000346}}
 .l-footer .block__content {
-  background: url("../images/inflicted.png") repeat scroll 0 0 transparent;
+  background-color: #252323;
   padding-top: 2.5em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/_footer\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/_footer\.scss}line{font-family:\0000351}}
 .l-footer #footer-item-header, .l-footer #footer-item-contact a {
   color: white !important; }
 
@@ -195,11 +196,12 @@ img, media {
           display: inline; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/_navigation\.scss}line{font-family:\0000319}}
           .l-top-nav #block-system-main-menu ul li a {
-            color: #dddddd;
+            color: #eeeeee;
             text-decoration: none;
             font-weight: bold;
             padding: 16px 10px;
-            font-family: 'ABeeZee', sans-serif; }
+            font-family: 'ABeeZee', sans-serif;
+            outline: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/_navigation\.scss}line{font-family:\0000326}}
             .l-top-nav #block-system-main-menu ul li a:hover {
               color: #8d8d8d;
@@ -207,18 +209,18 @@ img, media {
 /* Menu theming for small screens*/
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/_navigation\.scss}line{font-family:\0000339}}
 .l-top-nav .responsive-menus.responsified {
-  background: none repeat scroll 0 0 #373737; }
+  background: none repeat scroll 0 0 #5f5b5b; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/_navigation\.scss}line{font-family:\0000341}}
   .l-top-nav .responsive-menus.responsified span.toggler {
     text-align: right;
-    background: none repeat scroll 0 0 #373737;
+    background: none repeat scroll 0 0 #5f5b5b;
     border-radius: 0;
     box-shadow: none;
     padding: 8px 8px 8px 0;
     font-weight: bold; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/_navigation\.scss}line{font-family:\0000350}}
   .l-top-nav .responsive-menus.responsified.responsive-toggled.absolute .responsive-menus-simple {
-    background: none repeat scroll 0 0 #373737;
+    background: none repeat scroll 0 0 #5f5b5b;
     border-radius: 0;
     box-shadow: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/_navigation\.scss}line{font-family:\0000357}}
@@ -230,14 +232,14 @@ img, media {
       list-style: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/_navigation\.scss}line{font-family:\0000362}}
       .l-top-nav .responsive-menus.responsified .responsive-menus-simple ul li.leaf a {
-        color: #dddddd;
+        color: #eeeeee;
         text-decoration: none;
         display: block;
         padding: 12px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/_navigation\.scss}line{font-family:\0000367}}
         .l-top-nav .responsive-menus.responsified .responsive-menus-simple ul li.leaf a:hover {
-          background: #dddddd;
-          color: #373737; }
+          background: #eeeeee;
+          color: #5f5b5b; }
 
 /* Small Screen Site name*/
 @media (max-width: 768px) {
@@ -302,31 +304,31 @@ img, media {
 
 /* No files to import found in variables/**\/* */
 /* No files to import found in base/**\/* */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\0000321}}
 input#recaptcha_response_field {
   border: 1px solid #B1A8A8 !important; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\0000325}}
 .block__content {
   background: white;
   padding: 1em; }
 
 /* Contact us locations block */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\0000336}}
 #block-panels-mini-ir-locations .ir-map iframe {
   width: 100%;
   height: 22em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\0000341}}
 #block-panels-mini-ir-locations .ir-address-1 {
   padding-bottom: 1em;
   border-bottom: 0.2em solid #eb5054;
   margin-bottom: 2em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\0000349}}
 .not-front .l-main {
   padding: 2.5% 5%;
-  background: url("../images/grey_bg.gif") repeat scroll 0 0 transparent; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\0000352}}
+  background-color: #f8f5f5; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\0000355}}
   .not-front .l-main .l-content:not(.page-not-found) h1 {
     margin: 0 auto;
     position: relative;
@@ -334,10 +336,12 @@ input#recaptcha_response_field {
     top: 16px;
     letter-spacing: 2px;
     width: 150px;
-    background: url("../images/grey_bg.gif") repeat scroll 0 0 transparent;
-    color: #222222;
-    font-family: 'Poiret One',cursive; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\0000357}}
+    background-color: #f8f5f5;
+    color: #373737;
+    font-family: 'Poiret One',cursive;
+    z-index: 9;
+    letter-spacing: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\0000361}}
   .not-front .l-main .l-region h2 {
     margin: 0 auto;
     position: relative;
@@ -345,26 +349,27 @@ input#recaptcha_response_field {
     top: 16px;
     letter-spacing: 2px;
     width: 150px;
-    background: url("../images/grey_bg.gif") repeat scroll 0 0 transparent;
-    color: #222222;
-    font-family: 'Poiret One',cursive; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\0000362}}
+    background-color: #f8f5f5;
+    color: #373737;
+    font-family: 'Poiret One',cursive;
+    z-index: 9; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\0000366}}
   .not-front .l-main .main--content, .not-front .l-main article, .not-front .l-main .block__content, .not-front .l-main form {
-    background: url("../images/grey_bg.gif") repeat scroll 0 0 transparent;
+    background-color: #f8f5f5;
     border-top: 1px solid black;
     padding-top: 60px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\0000371}}
     .not-front .l-main .main--content form, .not-front .l-main article form, .not-front .l-main .block__content form, .not-front .l-main form form {
       border: none;
       padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\0000376}}
   .not-front .l-main .l-region {
     margin-top: 4px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\0000379}}
     .not-front .l-main .l-region .block--panels-mini-ir-locations .block__title {
       width: 190px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\0000389}}
 .not-front.page-node:not(.section-about-us) h1 {
   border: none !important;
   width: auto !important;
@@ -373,57 +378,58 @@ input#recaptcha_response_field {
   color: #6D6565 !important; }
 
 @media (max-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003101}}
   .not-front .l-region .block__title {
     width: 150px !important; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003108}}
   .ir_custom_logo .ir-custom-logo-icons #ir-drupal {
     background: url("../images/inno_logo.png") no-repeat scroll 0 0 transparent; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003115}}
 .blog_header {
-  border-bottom: 1px solid #DDD4D4; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003112}}
+  border-bottom: 1px solid #DDD4D4;
+  padding: 0 0.8em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003118}}
   .blog_header .user-picture, .blog_header .node__submitted {
     display: inline-block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003121}}
     .blog_header .user-picture img, .blog_header .node__submitted img {
       vertical-align: bottom; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003126}}
   .blog_header .blogger_name, .blog_header .date, .blog_header .comment_number {
     float: left;
     padding: 0 5px !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003131}}
   .blog_header .comment_number {
     margin-left: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003136}}
 article.node--blog--teaser {
   padding-bottom: 40px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003132}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003138}}
   article.node--blog--teaser .node__title {
     font-family: "Source Sans Pro"; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003141}}
   article.node--blog--teaser a {
     color: #6d6565; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003144}}
   article.node--blog--teaser li, article.node--blog--teaser .comment_number, article.node--blog--teaser .node__submitted {
     margin: 0;
     padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003142}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003148}}
   article.node--blog--teaser .node__submitted {
     width: 75%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003145}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003151}}
   article.node--blog--teaser .read--more {
     float: right; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003150}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003156}}
 .search-result {
   color: black; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003152}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003158}}
   .search-result h3 a {
     color: #6d6565; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003155}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003161}}
   .search-result .search-result__snippet {
     padding-left: 0px; }
 
@@ -796,8 +802,7 @@ article.node--blog--teaser {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_front\.scss}line{font-family:\00003441}}
 .front-page-blogs-content h2.pane-title {
-  background-color: #74ca58;
-  background: url("../images/green_bg.gif") repeat scroll 6px 2px transparent;
+  background-color: #e8ffc5;
   margin: 0 auto;
   position: relative;
   text-align: center;
@@ -805,15 +810,14 @@ article.node--blog--teaser {
   width: 100px;
   font-family: 'Poiret One',cursive;
   font-size: 2em;
-  color: white; }
+  color: #4e4a4a; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_front\.scss}line{font-family:\00003453}}
 .front-page-blogs-content h2.node__title {
-  border-bottom: 1px solid white;
   font-family: "Source Sans Pro";
-  font-weight: normal; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_front\.scss}line{font-family:\00003458}}
-.front-page-blogs-content h2.node__title {
-  padding: 0.5em 0em; }
+  font-weight: normal;
+  padding: 0.5em 0em;
+  margin: 0;
+  height: 120px; }
 @media (min-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_front\.scss}line{font-family:\00003462}}
   .front-page-blogs-content h2.node__title {
@@ -830,7 +834,7 @@ article.node--blog--teaser {
   color: #415993; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_front\.scss}line{font-family:\00003477}}
 .front-page-blogs-content .view-our-blogs {
-  border-top: 1px solid white; }
+  border-top: 1px solid #4e4a4a; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_front\.scss}line{font-family:\00003479}}
   .front-page-blogs-content .view-our-blogs .views-row.our--blogs {
     width: auto;
@@ -840,10 +844,10 @@ article.node--blog--teaser {
     margin: 0 2% 3% !important;
     overflow: hidden;
     font-weight: normal;
-    color: black; }
+    color: #5f5b5b; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_front\.scss}line{font-family:\00003489}}
     .front-page-blogs-content .view-our-blogs .views-row.our--blogs h2 a {
-      color: white;
+      color: #4e4a4a;
       text-decoration: none; }
   @media (min-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_front\.scss}line{font-family:\00003495}}
@@ -897,27 +901,26 @@ article.node--blog--teaser {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000346}}
     .content-listings-home > .view-content .views-row .views-field-title .service-title {
       font-size: 1.6em;
-      border-bottom-style: solid;
-      border-width: 0 0 1px;
+      border-bottom: 1px solid #4e4a4a;
       padding: 0.3em 0em; }
     @media (min-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000352}}
       .content-listings-home > .view-content .views-row .views-field-title .service-title {
         padding: 0.3em 0.8em; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000358}}
   .content-listings-home > .view-content .views-row .views-field-body {
     font-size: 1em;
     line-height: 1.4em;
     font-weight: normal;
     text-align: justify; }
   @media (min-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000368}}
     .content-listings-home > .view-content .views-row .views-field-body {
       padding: 0.1em 1.3em; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000384}}
   .content-listings-home > .view-content .views-row:hover {
     bakground: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000387}}
   .content-listings-home > .view-content .views-row .views-field-field-client-testimonials {
     font-size: 14px;
     letter-spacing: 0.1em;
@@ -926,23 +929,23 @@ article.node--blog--teaser {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\000038}}
     .content-listings-home > .view-content .views-row {
       letter-spacing: 0; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\0000396}}
 .content-listings-home .views-row-first {
   margin-top: 0 !important; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\00003103}}
 .not-front .view-our-services, .not-front .view-our-portfolio {
   border-top: 1px solid black;
   padding-top: 50px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\00003108}}
 .not-front .view-our-services .service-title {
-  color: #373737 !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\00003112}}
+  color: #5f5b5b !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\00003111}}
 .not-front .view-our-services .views-row {
   margin-bottom: 20px; }
 
 @media (max-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\00003121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_listings\.scss}line{font-family:\00003120}}
   .content-listings-home > .view-content .views-row .views-field-body {
     font-family: arial;
     letter-spacing: normal;

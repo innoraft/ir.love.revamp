@@ -68,10 +68,6 @@ h1 {
   width: 100%;
   text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000317}}
-.l-header {
-  background: url(../../../images/noisy_grid.png); }
-
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000322}}
 .l-footer,
 .l-main {
@@ -96,7 +92,7 @@ h1 {
       clear: both; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000336}}
   .pane-views-our-services-services-content h2, .block--views-our-portfolio-block h2 {
-    color: white;
+    color: #4e4a4a;
     margin: 0 auto;
     position: relative;
     top: 18px;
@@ -106,47 +102,40 @@ h1 {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000351}}
 .block--views-our-portfolio-block {
-  background-color: #d67272;
-  background: url("../../../images/blue_bg.gif") repeat scroll 0 0 transparent; }
+  background-color: #e0e4ff; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000354}}
   .block--views-our-portfolio-block h2 {
     width: 200px;
-    background-color: #d67272;
-    background: url("../../../images/blue_bg.gif") repeat scroll 0 0 transparent;
+    background-color: #e0e4ff;
     background-position: 6px 2px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000360}}
   .block--views-our-portfolio-block > div {
     padding: 35px;
     padding-top: 62px;
-    background-color: #d67272;
-    background: url("../../../images/blue_bg.gif") repeat scroll 0 0 transparent;
-    border-top: 1px solid #FFFFFF; }
+    background-color: #e0e4ff;
+    border-top: 1px solid #4e4a4a; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000369}}
 .pane-views-our-services-services-content {
-  background-color: #72bad6;
-  background: url("../../../images/pink_bg.gif") repeat scroll 0 0 transparent; }
+  background-color: #ffe3e3; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000372}}
   .pane-views-our-services-services-content h2 {
     width: 150px;
-    background-color: #72bad6;
-    background: url("../../../images/pink_bg.gif") repeat scroll 0 0 transparent;
+    background-color: #ffe3e3;
     background-position: 6px 2px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000378}}
   .pane-views-our-services-services-content a {
-    color: white;
+    color: #4e4a4a;
     text-decoration: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000382}}
   .pane-views-our-services-services-content > div.view-our-services {
     padding: 7% 3% 1%;
-    background-color: #72bad6;
-    background: url("../../../images/pink_bg.gif") repeat scroll 0 0 transparent;
-    border-top: 1px solid #FFFFFF; }
+    background-color: #ffe3e3;
+    border-top: 1px solid #4e4a4a; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000391}}
 .front-page-blogs-content {
-  background-color: #74ca58;
-  background: url("../../../images/green_bg.gif") repeat scroll 0 0 transparent; }
+  background-color: #e8ffc5; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000394}}
   .front-page-blogs-content .view-our-blogs {
     *zoom: 1;
@@ -165,7 +154,7 @@ h1 {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003101}}
 .l-page {
   font-size: 100%;
-  color: #373737; }
+  color: #5f5b5b; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\00003110}}
 .l-main .l-content .ir-main-idea-love {

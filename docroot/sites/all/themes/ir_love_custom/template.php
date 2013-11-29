@@ -19,5 +19,8 @@ function ir_love_custom_preprocess_node(&$variables, $hook) {
     unset($link_variable['node']);
     unset($link_variable['blog']);
     $variables['comment_number_link'] = $link_variable;
+    if (isset($node->view->human_name)) {
+      $variables['check_content_come_from_view'] = "page_from_view";
+    }
   }
 }
