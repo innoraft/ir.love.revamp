@@ -422,14 +422,17 @@ article.node--blog--teaser {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003151}}
   article.node--blog--teaser .read--more {
     float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003154}}
+    article.node--blog--teaser .read--more a span {
+      display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003156}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003161}}
 .search-result {
   color: black; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003158}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003163}}
   .search-result h3 a {
     color: #6d6565; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003161}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003166}}
   .search-result .search-result__snippet {
     padding-left: 0px; }
 
