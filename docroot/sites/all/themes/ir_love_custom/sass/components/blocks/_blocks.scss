@@ -150,6 +150,11 @@ article.node--blog--teaser {
   }
   .read--more {
     float: right;
+    a {
+      span {
+        display: none;
+      }
+    }
   }
 }
 
