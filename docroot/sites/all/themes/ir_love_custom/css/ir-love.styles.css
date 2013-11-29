@@ -433,7 +433,7 @@ article.node--blog--teaser {
 @media (max-width: 480px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003168}}
   article.node--blog--teaser .node__submitted {
-    width: 45%; } }
+    width: 65%; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/blocks\/_blocks\.scss}line{font-family:\00003175}}
 .search-result {
   color: black; }
@@ -489,7 +489,6 @@ article.node--blog--teaser {
       text-align: center;
       font-family: 'Roboto Condensed', sans-serif;
       color: #656565;
-      width: 800px;
       margin: 30px auto 0; } }
 /* site logo desktop - other pages*/
 @media (min-width: 769px) {
@@ -544,7 +543,6 @@ article.node--blog--teaser {
         background: #8ab845; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_front\.scss}line{font-family:\00003125}}
     .l-branding .ir-slogan {
-      float: right;
       font-size: 1.3em;
       text-align: center; }
 
@@ -864,11 +862,16 @@ article.node--blog--teaser {
     .front-page-blogs-content .view-our-blogs .views-row.our--blogs {
       width: 44%; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_front\.scss}line{font-family:\00003502}}
+@media (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_front\.scss}line{font-family:\00003504}}
+  .our--blogs h2 {
+    font-size: 1.2em;
+    height: auto !important; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_front\.scss}line{font-family:\00003512}}
 .front-page-blogs-content .view-our-blogs {
   padding: 7% 3% 1%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_front\.scss}line{font-family:\00003506}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/components\/pages\/_front\.scss}line{font-family:\00003516}}
 .front-page-blogs-content {
   padding: 3.5% 4%; }
 
