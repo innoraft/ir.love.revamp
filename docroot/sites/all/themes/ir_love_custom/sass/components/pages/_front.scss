@@ -18,7 +18,7 @@
 				padding: 15px 1px;
 				float:none;
 				width:99.9%;
-				background: $grey;
+				background: $light-black;
 				a {
 					//background: $grey;
 					font-size: 6em;
@@ -86,7 +86,7 @@
 			float: left;
 			padding: 1px;
 			text-shadow: 1px 1px 2px $text_shadow_logo;
-			background: $grey;
+			background: $light-black;
 			a {
 				font-size: 2.5em;
 				font-weight:normal;
@@ -440,7 +440,7 @@
 .front-page-blogs-content {
   h2.pane-title {
 	  background-color: $blogs-color;
-	  background: url("../images/green_bg.gif")  repeat scroll 6px 2px transparent;
+//	  background: url("../images/green_bg.gif")  repeat scroll 6px 2px transparent;
     margin: 0 auto;
     position: relative;
     text-align: center;
@@ -448,15 +448,15 @@
     width: 100px;
     font-family: 'Poiret One',cursive;
     font-size: 2em;
-  	color: $white;
+  	color: $node_heading_color;
   }
   h2.node__title {
-  	border-bottom: 1px solid white;
+  //	border-bottom: 1px solid $node_heading_color;
   	 font-family: "Source Sans Pro";
      font-weight: normal;
-  }
-  h2.node__title {
     padding: 0.5em 0em;
+    margin: 0;
+    height: 120px;
   }
   @include at-breakpoint($desk) {
     h2.node__title {
@@ -475,7 +475,7 @@
   	color: #415993;
   }
   .view-our-blogs  {
-  	border-top: 1px solid white;
+  	border-top: 1px solid $node_heading_color;
 	  .views-row.our--blogs {
 	    width: auto;
 //	    float: left;
@@ -485,9 +485,9 @@
       margin: 0 2% 3% !important;
       overflow: hidden;
       font-weight: normal;
-      color: $black;
+      color: $grey;
       h2 a{
-      	color: $white;
+      	color: $node_heading_color;
         text-decoration: none;
       }
     }

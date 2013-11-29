@@ -45,8 +45,7 @@
 
     .service-title {
       font-size: 1.6em;
-      border-bottom-style: solid;
-      border-width: 0 0 1px;
+      border-bottom: 1px solid $node_heading_color;
       padding: 0.3em 0em;
   }
   @include at-breakpoint($desk) {

@@ -4,7 +4,7 @@
 /* Large screen menu - desktop*/
 @include at-breakpoint($desk) {
 	.l-top-nav {
-		background: $grey;
+		background: $light-black;
 		position:fixed;
 		top:0;
 		width:100%;
@@ -19,10 +19,10 @@
 		      a {
 		        color: $menu_link_color;
 		        text-decoration:none;
-//		        letter-spacing: 0.1em;
 		        font-weight:bold;
 		        padding: 16px 10px;
 		        font-family: 'ABeeZee', sans-serif;
+		        outline: none;
 		        &:hover {
 		        	color: $menu_link_hover_color;
 		        	font-weight:bold;
