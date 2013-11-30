@@ -454,14 +454,11 @@
   //	border-bottom: 1px solid $node_heading_color;
   	 font-family: "Source Sans Pro";
      font-weight: normal;
-    padding: 0.5em 0em;
+    padding: 0.5em 0.8em;
     margin: 0;
-    height: 120px;
+    height: 135px;
   }
   @include at-breakpoint($desk) {
-    h2.node__title {
-      padding: 0.5em 0.8em;
-    }
     .node__submitted , .node__content, .node__links {
        padding: 0.3em 1.4em;
     }
