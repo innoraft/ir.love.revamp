@@ -103,7 +103,8 @@
 				}
 				.ir-main-idea {
 					//width:33.3%;
-					padding: 24px;
+          height: 48px;
+          width: 50px;
 					margin-left:2px;
 					color: $white;
 					margin-bottom:1px;
@@ -131,6 +132,7 @@
   .not-front {
     .site-name {
       width: 22%;
+      height: 48px;
       a {
         padding: 0px;
       }
