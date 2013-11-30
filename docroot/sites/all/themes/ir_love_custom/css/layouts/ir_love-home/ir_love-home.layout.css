@@ -11,27 +11,30 @@
 body {
   background: #f2f2f2;
   font-family: arial; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_base\.scss}line{font-family:\000037}}
+  body iframe {
+    display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_base\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_base\.scss}line{font-family:\0000312}}
 a {
   color: #2ca8c2;
   text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_base\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_base\.scss}line{font-family:\0000315}}
   a:hover {
     text-decoration: underline; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_base\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_base\.scss}line{font-family:\0000320}}
 h1 {
   font-size: 1.7em; }
 
 /*site name defaults*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_base\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_base\.scss}line{font-family:\0000327}}
 .site-name a {
   color: white;
   text-decoration: none; }
 
 /* Read More Link Site-wide*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_base\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_base\.scss}line{font-family:\0000334}}
 .read-more-link {
   float: right;
   font-size: 80%; }
@@ -55,13 +58,13 @@ h1 {
   src: local("Oswald Regular"), local("Oswald-Regular"), url(http://themes.googleusercontent.com/static/fonts/oswald/v7/-g5pDUSRgvxvOl5u-a_WHw.woff) format("woff"); }
 
 @media (min-width: 481px) and (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_base\.scss}line{font-family:\0000357}}
-  .not-front .l-page {
-    font-size: 90%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_base\.scss}line{font-family:\0000359}}
+  .l-page {
+    font-size: 90% !important; } }
 @media (max-width: 480px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/base\/_base\.scss}line{font-family:\0000365}}
-  .not-front .l-page {
-    font-size: 80%; } }
+  .l-page {
+    font-size: 80% !important; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000311}}
 .l-branding {
   clear: both;
@@ -102,26 +105,26 @@ h1 {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000351}}
 .block--views-our-portfolio-block {
-  background-color: #e0e4ff; }
+  background-color: #eaecfe; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000354}}
   .block--views-our-portfolio-block h2 {
     width: 200px;
-    background-color: #e0e4ff;
+    background-color: #eaecfe;
     background-position: 6px 2px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000360}}
   .block--views-our-portfolio-block > div {
     padding: 35px;
     padding-top: 62px;
-    background-color: #e0e4ff;
+    background-color: #eaecfe;
     border-top: 1px solid #4e4a4a; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000369}}
 .pane-views-our-services-services-content {
-  background-color: #ffe3e3; }
+  background-color: #fdeadb; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000372}}
   .pane-views-our-services-services-content h2 {
     width: 150px;
-    background-color: #ffe3e3;
+    background-color: #fdeadb;
     background-position: 6px 2px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000378}}
   .pane-views-our-services-services-content a {
@@ -130,12 +133,12 @@ h1 {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000382}}
   .pane-views-our-services-services-content > div.view-our-services {
     padding: 7% 3% 1%;
-    background-color: #ffe3e3;
+    background-color: #fdeadb;
     border-top: 1px solid #4e4a4a; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000391}}
 .front-page-blogs-content {
-  background-color: #e8ffc5; }
+  background-color: #f0fcdd; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/innosome\/docroot\/sites\/all\/themes\/ir_love_custom\/sass\/layouts\/ir_love-home\/ir_love-home\.layout\.scss}line{font-family:\0000394}}
   .front-page-blogs-content .view-our-blogs {
     *zoom: 1;

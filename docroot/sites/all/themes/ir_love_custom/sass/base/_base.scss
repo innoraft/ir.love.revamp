@@ -4,6 +4,9 @@
 body {
   background: $site_body_color;
   font-family: arial;
+  iframe {
+    display: none;
+  }
 }
 
 a {
@@ -53,18 +56,14 @@ h1 {
 }
 
 @include at-breakpoint($tablet_only) {
-  .not-front {
     .l-page {
-      font-size: 90%;
-    }
+      font-size: 90% !important;
   }
 }
 
 @include at-breakpoint($mobile) {
-  .not-front {
     .l-page {
-      font-size: 80%;
-    }
+      font-size: 80% !important;
   }
 }
 
