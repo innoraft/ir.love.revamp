@@ -89,14 +89,6 @@ function service_block_height() {
   }
 }
 
-
-
-
-
-
-
-
-
 /*
 function change_font() {
   var window_width = $(window).width();

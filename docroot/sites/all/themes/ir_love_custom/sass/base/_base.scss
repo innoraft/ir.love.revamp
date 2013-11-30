@@ -4,7 +4,7 @@
 body {
   background: $site_body_color;
   font-family: arial;
-  iframe:not('#dsq-2') {
+  > iframe {
     display: none;
   }
 }
