@@ -26,7 +26,7 @@
   <?php print $styles; ?>
 
   <!--[if lte IE 8]>
-	<script src="<?php print drupal_get_path('theme', 'hcl_rbtc');?>/js/aFarkas-html5shiv/src/html5shiv.js"></script>
+	<script src="<?php //print drupal_get_path('theme', 'ir_love_custom');?>/js/html5.js"></script>
 	<![endif]-->
 
   <script>
