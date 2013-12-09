@@ -341,7 +341,7 @@ input#recaptcha_response_field {
   padding: 2.5% 5%;
   background-color: #f8f5f5;
 }
-.not-front .l-main .l-content:not(.page-not-found) h1 {
+.not-front .l-main .l-content h1 {
   margin: 0 auto;
   position: relative;
   text-align: center;
