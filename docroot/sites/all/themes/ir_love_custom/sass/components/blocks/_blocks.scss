@@ -51,7 +51,7 @@ input#recaptcha_response_field {
     background-color: $grey_block;
   //  background: url("../images/grey_bg.gif") repeat scroll 0 0 transparent;
 
-    .l-content:not(.page-not-found) {
+    .l-content {
       h1 {
         @include heading-position;
         letter-spacing: 0px;
