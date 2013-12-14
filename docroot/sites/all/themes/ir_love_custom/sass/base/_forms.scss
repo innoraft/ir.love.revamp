@@ -6,7 +6,7 @@
 /* Contact Us page*/
 @include at-breakpoint($tab) {
 	#contact-site-form {
-		.form-text, textarea {
+		.form-text, textarea, .grippie {
 			width:100% !important;
 		}
 	}
