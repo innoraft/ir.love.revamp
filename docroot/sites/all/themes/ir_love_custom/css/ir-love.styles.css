@@ -69,7 +69,7 @@ h1 {
 /* No files to import found in base/**\/* */
 /* Contact Us page*/
 @media (max-width: 768px) {
-  #contact-site-form .form-text, #contact-site-form textarea {
+  #contact-site-form .form-text, #contact-site-form textarea, #contact-site-form .grippie {
     width: 100% !important;
   }
 }
