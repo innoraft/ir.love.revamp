@@ -9,6 +9,13 @@ function ir_love_custom_preprocess_page(&$variables) {
   // drupal_add_css('http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css');
   // drupal_add_js("http://code.jquery.com/jquery-1.9.1.js");
   // drupal_add_js("http://code.jquery.com/ui/1.10.3/jquery-ui.js");
+//dpm($variables);
+  if ($variables['is_mobile'] == 1
+    && arg(0) != 'contact'
+    && $variables['is_tablet'] != 1) {
+    $variables['contact_form_for_mobile'] = "contact form";
+  }
+
   $path = drupal_get_path('theme', 'ir_love_custom');
   if (drupal_is_front_page()) {
     drupal_add_js("$path/js/home.js");

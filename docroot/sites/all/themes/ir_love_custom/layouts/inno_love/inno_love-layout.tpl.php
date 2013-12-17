@@ -58,7 +58,10 @@
     </div>
 
     <?php print render($page['sidebar_first']); ?>
-    <?php print render($page['sidebar_second']); ?>
+    <!--  contact form is not visible in mobile device  -->
+    <?php if(!(isset($contact_form_for_mobile))): ?>
+      <?php print render($page['sidebar_second']); ?>
+    <?php endif; ?>
   </div>
 
   <footer class="l-footer" role="contentinfo">
