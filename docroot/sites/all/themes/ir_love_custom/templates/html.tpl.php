@@ -12,11 +12,16 @@
 
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
-<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+<!-- This will create only one request to call all fonts file -->
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed|Source+Sans+Pro|ABeeZee|Poiret+One|Cantata+One' rel='stylesheet' type='text/css'>
+
+<!--
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Cantata+One' rel='stylesheet' type='text/css'>
+-->
 
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
