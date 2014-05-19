@@ -80,7 +80,7 @@ function f_ir_portfolio_field_default_field_instances() {
     'label' => 'Client Testimonials',
     'required' => 0,
     'settings' => array(
-      'text_processing' => 0,
+      'text_processing' => 1,
       'user_register_form' => FALSE,
     ),
     'widget' => array(
@@ -142,7 +142,7 @@ function f_ir_portfolio_field_default_field_instances() {
         'module' => 'image',
         'settings' => array(
           'image_link' => '',
-          'image_style' => '',
+          'image_style' => 'image_style_testimonials',
         ),
         'type' => 'image',
         'weight' => 0,
