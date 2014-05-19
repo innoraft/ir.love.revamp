@@ -1,0 +1,183 @@
+@import "susy";
+@import "variables/**/*";
+@import "base/**/*";
+@import "compass/css3/box-shadow";
+
+
+@mixin heading-position {
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  top: 16px;
+  letter-spacing: 2px;
+  width: 150px;
+  background-color: $grey_block;
+//  background: url("../images/grey_bg.gif") repeat scroll 0 0 transparent;
+  color: $light-black;
+  font-family: 'Poiret One',cursive;
+  z-index: 9;
+}
+
+input#recaptcha_response_field {
+  border: 1px solid #B1A8A8 !important;
+}
+
+.block__content {
+	background: $white;
+	padding: 1em;
+}
+.block__title {
+//	letter-spacing: 0.1em;
+}
+
+/* Contact us locations block */
+#block-panels-mini-ir-locations {
+	.ir-map {
+		iframe {
+			width: 100%;
+			height: 22em;
+		}
+	}
+	.ir-address-1 {
+		padding-bottom: 1em;
+		border-bottom: .2em solid $pink;
+		margin-bottom: 2em;
+	}
+}
+
+.not-front {
+   .l-main {
+    padding: 2.5% 5%;
+    background-color: $grey_block;
+  //  background: url("../images/grey_bg.gif") repeat scroll 0 0 transparent;
+
+    .l-content {
+      h1 {
+        @include heading-position;
+        letter-spacing: 0px;
+      }
+    }
+    .l-region {
+      h2 {
+        @include heading-position;
+      }
+    }
+
+	    .main--content , article , .block__content , form {
+        background-color: $grey_block;
+			//	background: url("../images/grey_bg.gif") repeat scroll 0 0 transparent;
+        border-top: 1px solid black;
+        padding-top: 60px;
+        form {
+        	border: none;
+        	padding: 0;
+        }
+    }
+    .l-region {
+    	margin-top: 4px;
+    	.block--panels-mini-ir-locations {
+	  		.block__title {
+	    		width: 190px;
+	    	}
+	  	}
+  	}
+	}
+}
+
+
+.not-front.page-node:not(.section-about-us) {
+  h1 {
+    border: none !important;
+    width: auto !important;
+    text-align: left !important;
+    font-family: "Source Sans Pro" !important;
+    color: #6D6565 !important;
+  }
+}
+
+@include at-breakpoint($mobile) {
+	.not-front {
+		.l-region {
+			.block__title {
+				width: 150px !important;
+			}
+		}
+	}
+	.ir_custom_logo {
+		.ir-custom-logo-icons {
+			#ir-drupal {
+				background: url("../images/inno_logo.png") no-repeat scroll 0 0 transparent;
+			}
+		}
+	}
+}
+
+.blog_header {
+  border-bottom: 1px solid #DDD4D4;
+  padding: 0 0.8em;
+  .user-picture , .node__submitted {
+    display: inline-block;
+//    height: 40px;
+    img {
+      vertical-align: bottom;
+    }
+  }
+
+  .blogger_name , .date , .comment_number {
+    float: left;
+    padding: 0 5px !important;
+  }
+
+  .comment_number {
+    margin-left: 20px;
+  }
+}
+
+.node__content {
+    word-wrap: break-word;
+  }
+
+
+article.node--blog--teaser {
+  padding-bottom: 40px;
+  .node__title {
+    font-family: "Source Sans Pro";
+  }
+  a {
+    color: $light_grey;
+  }
+  li , .comment_number , .node__submitted {
+    margin: 0;
+    padding: 0;
+  }
+  .node__submitted {
+    width: 75%;
+  }
+  .read--more {
+    float: right;
+    a {
+      span {
+        display: none;
+      }
+    }
+  }
+}
+
+@include at-breakpoint($mobile) {
+  article.node--blog--teaser {
+    .node__submitted {
+      width: 65%;
+    }
+  }
+}
+
+
+.search-result {
+  color: $black;
+  h3 a{
+    color: $light_grey;
+  }
+  .search-result__snippet {
+    padding-left: 0px;
+  }
+}

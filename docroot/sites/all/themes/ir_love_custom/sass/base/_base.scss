@@ -1,0 +1,96 @@
+@import "susy";
+@import "variables/**/*";
+
+body {
+  background: $site_body_color;
+  font-family: arial;
+  > iframe {
+    display: none;
+  }
+}
+
+a {
+  color: $blue;
+  text-decoration:none;
+  &:hover {
+    text-decoration:underline;
+  }
+}
+
+h1 {
+//  letter-spacing: 0.1em;
+  font-size: 1.7em;
+}
+
+/*site name defaults*/
+.site-name {
+  a {
+    color: $white;
+    text-decoration:none;
+  }
+}
+
+/* Read More Link Site-wide*/
+.read-more-link {
+	float:right;
+	font-size:80%;
+}
+
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cabin Regular'), local('Cabin-Regular'), url(http://themes.googleusercontent.com/static/fonts/cabin/v4/JEgmtEDzc-IH8jBshQXrYA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v6/ODelI1aHBYDBqgeIAH2zlBM0YzuT7MdOe03otPbuUS0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(http://themes.googleusercontent.com/static/fonts/oswald/v7/-g5pDUSRgvxvOl5u-a_WHw.woff) format('woff');
+}
+
+@include at-breakpoint($tablet_only) {
+    .l-page {
+      font-size: 90% !important;
+  }
+}
+
+@include at-breakpoint($mobile) {
+    .l-page {
+      font-size: 80% !important;
+  }
+}
+
+@mixin color_palatte_ir_work($color) {
+	.listing-list-right {
+    	border-top: 0.5em solid $color;
+    	.content-as-flag {
+    		background: $color;
+    	}
+    }
+	.content-title {
+		a {
+			color: $color;
+		}
+	}
+}
+
+@mixin color_palatte_ir_services($color) {
+	.views-field-title {
+	//	background: $color;
+	}
+}
+
+@mixin set_background_image_pink {
+  background: url("../../../images/pink_bg.gif") repeat scroll 0 0 transparent;
+}
+
+@mixin set_background_image_blue {
+  background: url("../../../images/blue_bg.gif") repeat scroll 0 0 transparent;
+}

@@ -35,6 +35,9 @@
       settings.responsive_menus = settings.responsive_menus || {};
       // Window width with legacy browsers.
       var windowWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+      if ( $.browser.webkit ) {
+        windowWidth = $(window).width();
+      }
       $('body').once('responsive-menus-load', function(){
         $.each(settings.responsive_menus, function(ind, iteration) {
           if (iteration.responsive_menus_style != 'responsive_menus_simple') {
@@ -130,8 +133,12 @@
         $(window).resize(function() {
           // Window width with legacy browsers.
           windowWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+          if ( $.browser.webkit ) {
+            windowWidth = $(window).width();
+          }
           $('.responsive-menus').each(function(menuIndex, menuValue){
             mediasize = $(this).data('mediasize') || 768;
+            windowWidth = windowWidth == mediasize ? windowWidth + 1 : windowWidth;
             var menuElement = $(this).find('.responsive-menus-simple');
             if (windowWidth > mediasize) {
               if ($(menuElement).data('removeattr')) {

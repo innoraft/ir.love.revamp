@@ -1,0 +1,54 @@
+@import "susy";
+@import "variables/**/*";
+@import "base/**/*";
+@import "compass/css3/box-shadow";
+
+.l-footer {
+	background: $white;
+	text-align: center;
+	#footer-item-copyright {
+		font-size: 0.9em;
+		font-family: serif;
+		color: $site_grey_light;
+		padding: 0 0 1em 0;
+	}
+	#footer-item-contact {
+		font-size:1.1em;
+		text-transform: lowercase;
+		padding: 2em 0 1.5em;
+		div {
+			margin:0.5em 0;
+			a {
+				color: $grey;
+			}
+		}
+
+	}
+	#footer-item-header {
+		font-size:1.8em;
+		p {
+			margin:0;
+		}
+	}
+}
+
+#footer-item-contact {
+	> div  {
+		display: inline-block;
+		padding: 8px;
+		span {
+			padding: 1px;
+		}
+	}
+}
+
+.l-footer {
+	.block__content {
+		background-color:$footer_background_color;
+	//  background: url("../images/inflicted.png") repeat scroll 0 0 transparent;
+	  padding-top: 2.5em;
+  }
+  #footer-item-header , #footer-item-contact a{
+    color: white !important;
+  }
+}

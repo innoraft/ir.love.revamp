@@ -1,0 +1,128 @@
+@import "susy";
+@import "variables/**/*";
+@import "base/**/*";
+@import "compass/css3/box-shadow";
+
+/* services listing - homepage/ landing page*/
+.content-listings-home {
+	> .view-content .views-row {
+		$total-columns: 12;
+		$gutter-width: 1em;
+
+		@include container;
+	//	clear:both;
+		position: relative;
+		padding: 0 !important;
+
+//		background-color: $white;
+		min-height:9em;
+   		font-weight: normal;
+   		//letter-spacing: -1px;
+   		padding: 20px;
+   //		margin-top: 2em;
+   //		margin-bottom:2em;
+   //		margin-left:0 !important;
+   		.views-field-title {
+   			display:block;
+   			width:100%;
+   			.service-title {
+   				color: $white;
+   				display:block;
+   				width:100%;
+ //  				padding: 0.3em 0.8em;
+				  font-size: 2em;
+				  letter-spacing:0em;
+				  font-family:"Source Sans Pro";
+   			}
+        // @include at-breakpoint($desk) {
+        //   .service-title {
+        //     padding: 0.3em 0.8em;
+        //   }
+   //     }
+   			.service-icon {
+   				float:right;
+   			}
+
+    .service-title {
+      font-size: 1.6em;
+      border-bottom: 1px solid $node_heading_color;
+      padding: 0.3em 0em;
+  }
+  @include at-breakpoint($desk) {
+    .service-title {
+      padding: 0.3em 0.8em;
+    }
+  }
+}
+
+   		.views-field-body {
+//   	  padding: 2em;
+			font-size: 1em;
+			//letter-spacing: normal;
+			line-height:1.4em;
+			//word-spacing:1px;
+			font-weight:normal;
+			text-align:justify;
+    }
+    @include at-breakpoint($desk) {
+      .views-field-body {
+        padding: 0.1em 1.3em;
+      }
+    }
+		&:nth-child(4n + 1){
+			@include color_palatte_ir_services($blue);
+		}
+		&:nth-child(4n + 2){
+			@include color_palatte_ir_services($pink);
+		}
+		&:nth-child(4n + 3) {
+			@include color_palatte_ir_services($green);
+		}
+		&:nth-child(4n) {
+			@include color_palatte_ir_services($yellow);
+		}
+		&:hover {
+			bakground: $white;
+		}
+		.views-field-field-client-testimonials {
+			font-size: 14px;
+			letter-spacing: 0.1em;
+			margin-top:10px;
+		}
+    @include at-breakpoint($desk) {
+      letter-spacing:0;
+    }
+	}
+	.views-row-first {
+		margin-top:0 !important;
+	}
+}
+
+
+.not-front {
+  .view-our-services , .view-our-portfolio {
+    border-top: 1px solid black;
+    padding-top: 50px;
+  }
+  .view-our-services {
+    .service-title {
+      color: $grey !important;
+    }
+    .views-row {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@include at-breakpoint($mobile) {
+	.content-listings-home {
+		> .view-content .views-row {
+			.views-field-body {
+				font-family: arial;
+				letter-spacing: normal;
+				text-overflow: clip;
+				overflow: hidden;
+   			}
+		}
+	}
+}

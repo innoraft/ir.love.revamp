@@ -1,0 +1,262 @@
+/*******************************************************************************
+ * simple.layout.scss
+ *
+ * Styling of the "simple" layout demonstrating the Compass grid extension Susy
+ * and building mobile first layouts.
+ ******************************************************************************/
+/* IR color palatte*/
+/* Site Wide varaibles*/
+/* No files to import found in variables/**\/* */
+body {
+  background: #f2f2f2;
+  font-family: arial;
+}
+body > iframe {
+  display: none;
+}
+
+a {
+  color: #2ca8c2;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 1.7em;
+}
+
+/*site name defaults*/
+.site-name a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Read More Link Site-wide*/
+.read-more-link {
+  float: right;
+  font-size: 80%;
+}
+
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Cabin Regular"), local("Cabin-Regular"), url(http://themes.googleusercontent.com/static/fonts/cabin/v4/JEgmtEDzc-IH8jBshQXrYA.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Source Sans Pro"), local("SourceSansPro-Regular"), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v6/ODelI1aHBYDBqgeIAH2zlBM0YzuT7MdOe03otPbuUS0.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Oswald Regular"), local("Oswald-Regular"), url(http://themes.googleusercontent.com/static/fonts/oswald/v7/-g5pDUSRgvxvOl5u-a_WHw.woff) format("woff");
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .l-page {
+    font-size: 90% !important;
+  }
+}
+@media (max-width: 480px) {
+  .l-page {
+    font-size: 80% !important;
+  }
+}
+.l-branding {
+  clear: both;
+  width: 100%;
+  text-align: center;
+}
+
+.l-footer,
+.l-main {
+  clear: both;
+}
+
+.pane-views-our-services-services-content, .block--views-our-portfolio-block {
+  padding: 3.5% 4%;
+  position: relative;
+}
+.pane-views-our-services-services-content h2, .pane-views-our-services-services-content > div, .block--views-our-portfolio-block h2, .block--views-our-portfolio-block > div {
+  *zoom: 1;
+  max-width: 1050px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pane-views-our-services-services-content h2:after, .pane-views-our-services-services-content > div:after, .block--views-our-portfolio-block h2:after, .block--views-our-portfolio-block > div:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.pane-views-our-services-services-content h2, .block--views-our-portfolio-block h2 {
+  color: #4e4a4a;
+  margin: 0 auto;
+  position: relative;
+  top: 18px;
+  font-family: 'Poiret One', cursive;
+  font-size: 2em;
+  text-align: center;
+}
+
+.block--views-our-portfolio-block {
+  background-color: #eaecfe;
+}
+.block--views-our-portfolio-block h2 {
+  width: 170px;
+  background-color: #eaecfe;
+  background-position: 6px 2px;
+}
+.block--views-our-portfolio-block > div {
+  padding: 35px;
+  padding-top: 62px;
+  background-color: #eaecfe;
+  border-top: 1px solid #4e4a4a;
+}
+
+.pane-views-our-services-services-content {
+  background-color: #fdeadb;
+}
+.pane-views-our-services-services-content h2 {
+  width: 150px;
+  background-color: #fdeadb;
+  background-position: 6px 2px;
+}
+.pane-views-our-services-services-content a {
+  color: #4e4a4a;
+  text-decoration: none;
+}
+.pane-views-our-services-services-content > div.view-our-services {
+  padding: 7% 3% 1%;
+  background-color: #fdeadb;
+  border-top: 1px solid #4e4a4a;
+}
+
+.front-page-blogs-content {
+  background-color: #f0fcdd;
+}
+.front-page-blogs-content .view-our-blogs {
+  *zoom: 1;
+  max-width: 1050px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.front-page-blogs-content .view-our-blogs:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*site body defaults*/
+.l-page {
+  font-size: 100%;
+  color: #5f5b5b;
+}
+
+.l-main .l-content .ir-main-idea-love {
+  width: 100%;
+}
+
+.l-region--highlighted,
+.l-region--help,
+.l-region--sidebar-first,
+.l-region--sidebar-second {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .l-region--header {
+    width: 66.10169%;
+    float: right;
+    margin-right: 0;
+  }
+
+  .l-region--navigation {
+    clear: both;
+  }
+
+  .has-sidebar-first .l-content,
+  .has-sidebar-second .l-content,
+  .has-two-sidebars .l-content {
+    width: 66.10169%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+  .has-sidebar-first .l-region--sidebar-first,
+  .has-sidebar-first .l-region--sidebar-second,
+  .has-sidebar-second .l-region--sidebar-first,
+  .has-sidebar-second .l-region--sidebar-second,
+  .has-two-sidebars .l-region--sidebar-first,
+  .has-two-sidebars .l-region--sidebar-second {
+    width: 32.20339%;
+    float: right;
+    margin-right: 0;
+  }
+  .has-sidebar-first .l-region--sidebar-second,
+  .has-sidebar-second .l-region--sidebar-second,
+  .has-two-sidebars .l-region--sidebar-second {
+    clear: right;
+  }
+}
+@media (min-width: 769px) {
+  .l-region--header {
+    width: 62.02532%;
+    float: right;
+    margin-right: 0;
+  }
+
+  .has-sidebar-first .l-content {
+    width: 74.68354%;
+    float: right;
+    margin-right: 0;
+  }
+  .has-sidebar-first .l-region--sidebar-first {
+    width: 24.05063%;
+    float: left;
+    margin-right: 1.26582%;
+  }
+
+  .has-sidebar-second .l-content {
+    width: 74.68354%;
+    float: left;
+    margin-right: 1.26582%;
+  }
+  .has-sidebar-second .l-region--sidebar-second {
+    width: 24.05063%;
+    float: right;
+    margin-right: 0;
+    clear: none;
+  }
+
+  .has-two-sidebars .l-content {
+    width: 49.36709%;
+    float: left;
+    margin-right: 1.26582%;
+    margin-left: 25.31646%;
+  }
+  .has-two-sidebars .l-region--sidebar-first,
+  .has-two-sidebars .l-region--sidebar-second {
+    width: 24.05063%;
+    float: left;
+    margin-right: 1.26582%;
+  }
+  .has-two-sidebars .l-region--sidebar-first {
+    margin-left: -75.94937%;
+  }
+  .has-two-sidebars .l-region--sidebar-second {
+    float: right;
+    margin-right: 0;
+    clear: none;
+  }
+}

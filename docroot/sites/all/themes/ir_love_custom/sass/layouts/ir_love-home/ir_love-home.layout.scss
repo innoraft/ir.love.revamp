@@ -1,0 +1,187 @@
+/*******************************************************************************
+ * simple.layout.scss
+ *
+ * Styling of the "simple" layout demonstrating the Compass grid extension Susy
+ * and building mobile first layouts.
+ ******************************************************************************/
+@import "susy";
+@import "../../variables/**/*";
+@import "../../base/base";
+
+.l-branding {
+  clear:both;
+  width:100%;
+  text-align:center;
+}
+
+.l-header {
+//  background: url(../../../images/noisy_grid.png);
+}
+
+.l-footer,
+.l-main {
+  clear:both;
+}
+
+.l-content {
+ // @include container;
+}
+
+.pane-views-our-services-services-content, .block--views-our-portfolio-block {
+  padding: 3.5% 4%;
+  position: relative;
+  h2 , > div {
+    @include container;
+  }
+  h2 {
+    color: $node_heading_color;
+    margin: 0 auto;
+    position: relative;
+    top: 18px;
+    font-family: 'Poiret One', cursive;
+    font-size: 2em;
+    text-align: center;
+  }
+}
+
+.block--views-our-portfolio-block {
+//  padding: 60px;
+}
+
+.block--views-our-portfolio-block {
+  background-color: $portfolio_color;
+  //@include set_background_image_blue;
+  h2 {
+    width: 170px;
+    background-color: $portfolio_color;
+//    @include set_background_image_blue;
+    background-position: 6px 2px;
+  }
+  > div {
+    padding: 35px;
+    padding-top: 62px;
+    background-color: $portfolio_color;
+//    @include set_background_image_blue;
+    border-top: 1px solid $node_heading_color;
+  }
+}
+
+.pane-views-our-services-services-content {
+  background-color: $services_color;
+//  @include set_background_image_pink;
+  h2 {
+    width: 150px;
+    background-color: $services_color;
+//      @include set_background_image_pink;
+      background-position: 6px 2px;
+  }
+  a {
+    color: $node_heading_color;
+    text-decoration: none;
+  }
+    > div.view-our-services {
+//    padding: 62px 35px 10px;
+      padding: 7% 3% 1%;
+    background-color: $services_color;
+//    @include set_background_image_pink;
+    border-top: 1px solid $node_heading_color;
+  }
+}
+
+.front-page-blogs-content {
+  background-color: $blogs-color;
+//  background: url("../../../images/green_bg.gif")  repeat scroll 0 0 transparent;
+  .view-our-blogs {
+    @include container;
+  }
+}
+
+
+/*site body defaults*/
+.l-page {
+//  font-family: "Cabin";
+  font-size:100%;
+  color: $grey;
+}
+
+.l-main {
+//  margin-bottom: $vert-spacing-unit;
+.l-content {
+  .ir-main-idea-love {
+    width: 100%;
+  }
+}
+}
+
+.l-region--highlighted,
+.l-region--help,
+.l-region--sidebar-first,
+.l-region--sidebar-second {
+  margin-bottom: $vert-spacing-unit;
+}
+
+@include at-breakpoint($tab) { // At a given Susy Media Layout, use a given amount of columns.
+  .l-region--header{
+    @include span-columns(8 omega, 12); // Span the last (omega) 8 columns of 12.
+  }
+  .l-region--navigation {
+    clear: both;
+  }
+
+  .has-sidebar-first,
+  .has-sidebar-second,
+  .has-two-sidebars {
+    .l-content {
+      @include span-columns(8, 12); // Span 8 out of 12 columns.
+    }
+    .l-region--sidebar-first,
+    .l-region--sidebar-second {
+      @include span-columns(4 omega, 12); // Span the last (omega) 4 columns of 12.
+    }
+    .l-region--sidebar-second {
+      clear: right;
+    }
+  }
+}
+
+@include at-breakpoint($desk) {
+  .l-region--header{
+    @include span-columns(10 omega, 16); // Span the last (omega) 10 columns of 16.
+  }
+
+  .has-sidebar-first {
+    .l-content {
+      @include span-columns(12 omega, 16); // Span the last (omega) 12 columns of 16.
+    }
+    .l-region--sidebar-first {
+      @include span-columns(4, 16); // Span 4 out of 16 columns.
+    }
+  }
+  .has-sidebar-second {
+    .l-content {
+      @include span-columns(12, 16); // Span 12 out of 16 columns.
+    }
+    .l-region--sidebar-second {
+      @include span-columns(4 omega, 16); // Span the last (omega) 4 columns of 16.
+      clear: none;
+    }
+  }
+
+  .has-two-sidebars {
+    .l-content {
+      @include span-columns(8, 16); // Span 8 out of 16 columns.
+      @include push(4, 16);  // Push element by adding 4 out of 16 columns of left margin.
+    }
+    .l-region--sidebar-first,
+    .l-region--sidebar-second {
+      @include span-columns(4, 16); // Span 4 out of 16 columns.
+    }
+    .l-region--sidebar-first {
+      @include pull(12, 16); // Pull element by adding 12 out of 16 columns of negative left margin.
+    }
+    .l-region--sidebar-second {
+      @include omega; // This element spans the last (omega) column.
+      clear: none;
+    }
+  }
+}
