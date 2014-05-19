@@ -27,7 +27,11 @@ function f_ir_portfolio_views_default_views() {
   $handler->display->display_options['use_ajax'] = TRUE;
   $handler->display->display_options['use_more_always'] = FALSE;
   $handler->display->display_options['access']['type'] = 'perm';
-  $handler->display->display_options['cache']['type'] = 'none';
+  $handler->display->display_options['cache']['type'] = 'time';
+  $handler->display->display_options['cache']['results_lifespan'] = '3600';
+  $handler->display->display_options['cache']['results_lifespan_custom'] = '0';
+  $handler->display->display_options['cache']['output_lifespan'] = '518400';
+  $handler->display->display_options['cache']['output_lifespan_custom'] = '0';
   $handler->display->display_options['query']['type'] = 'views_query';
   $handler->display->display_options['exposed_form']['type'] = 'basic';
   $handler->display->display_options['pager']['type'] = 'some';
@@ -53,7 +57,7 @@ function f_ir_portfolio_views_default_views() {
   $handler->display->display_options['fields']['field_work_image']['element_wrapper_class'] = 'content-image';
   $handler->display->display_options['fields']['field_work_image']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_work_image']['settings'] = array(
-    'image_style' => 'adaptive_460_x_330',
+    'image_style' => 'image_style_testimonials',
     'image_link' => '',
   );
   $handler->display->display_options['fields']['field_work_image']['delta_limit'] = '1';
@@ -192,6 +196,7 @@ print l(\'View more projects in our portfolio\', \'portfolio\', array(\'class\' 
 print l(\'View more projects in our portfolio\', \'portfolio\', array(\'class\' => array(\'view-portfolio-link\')));
 ?>
 ';
+<<<<<<< HEAD
   $translatables['our_portfolio'] = array(
     t('Master'),
     t('Testimonial'),
@@ -217,6 +222,8 @@ print l(\'View more projects in our portfolio\', \'portfolio\', array(\'class\' 
     t('last »'),
     t('Home Page Portfolio for tablet'),
   );
+=======
+>>>>>>> 42232cd662a9f17030bc0b6a439af57fb4fc4381
   $export['our_portfolio'] = $view;
 
   return $export;
