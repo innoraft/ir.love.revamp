@@ -25,6 +25,7 @@ features[image][] = adaptive_275_x_175
 features[image][] = adaptive_460_x_215
 features[image][] = adaptive_460_x_225
 features[image][] = adaptive_460_x_330
+features[image][] = image_style_testimonials
 features[node][] = our_work
 features[taxonomy][] = work_category
 features[variable][] = comment_anonymous_our_work
