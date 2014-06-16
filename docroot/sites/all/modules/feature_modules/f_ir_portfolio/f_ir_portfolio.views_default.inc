@@ -196,7 +196,6 @@ print l(\'View more projects in our portfolio\', \'portfolio\', array(\'class\' 
 print l(\'View more projects in our portfolio\', \'portfolio\', array(\'class\' => array(\'view-portfolio-link\')));
 ?>
 ';
-<<<<<<< HEAD
   $translatables['our_portfolio'] = array(
     t('Master'),
     t('Testimonial'),
@@ -222,8 +221,6 @@ print l(\'View more projects in our portfolio\', \'portfolio\', array(\'class\' 
     t('last »'),
     t('Home Page Portfolio for tablet'),
   );
-=======
->>>>>>> 42232cd662a9f17030bc0b6a439af57fb4fc4381
   $export['our_portfolio'] = $view;
 
   return $export;
