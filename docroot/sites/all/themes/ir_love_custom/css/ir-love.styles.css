@@ -216,6 +216,10 @@ img, media {
     color: #8d8d8d;
     font-weight: bold;
   }
+  .l-top-nav #block-system-main-menu ul li a.active-trail {
+    color: #8d8d8d;
+    font-weight: bold;
+  }
 }
 /* Menu theming for small screens*/
 .l-top-nav .responsive-menus.responsified {
@@ -310,7 +314,7 @@ img, media {
     left: 62px !important;
   }
 }
-.not-front #block-system-main-menu {
+#block-system-main-menu {
   max-width: none;
   padding-left: 5%;
 }

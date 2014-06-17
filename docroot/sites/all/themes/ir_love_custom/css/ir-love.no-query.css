@@ -310,7 +310,7 @@ img, media {
     left: 62px !important;
   }
 }
-.not-front #block-system-main-menu {
+#block-system-main-menu {
   max-width: none;
   padding-left: 5%;
 }
