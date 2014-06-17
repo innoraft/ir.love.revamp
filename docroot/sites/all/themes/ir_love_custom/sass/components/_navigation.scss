@@ -27,6 +27,10 @@
 		        	color: $menu_link_hover_color;
 		        	font-weight:bold;
 		        }
+		        &.active-trail {
+		        	color: $menu_link_hover_color;
+		        	font-weight:bold;
+		        }
 		      }
 		    }
 		  }
@@ -142,9 +146,8 @@
 	}
 }
 
-.not-front {
 	#block-system-main-menu {
 		max-width: none;
 		padding-left: 5%;
 	}
-}
+
