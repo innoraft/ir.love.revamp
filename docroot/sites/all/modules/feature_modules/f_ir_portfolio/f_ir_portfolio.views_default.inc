@@ -196,6 +196,31 @@ print l(\'View more projects in our portfolio\', \'portfolio\', array(\'class\' 
 print l(\'View more projects in our portfolio\', \'portfolio\', array(\'class\' => array(\'view-portfolio-link\')));
 ?>
 ';
+  $translatables['our_portfolio'] = array(
+    t('Master'),
+    t('Testimonial'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('flag'),
+    t('<a href=[field_work_link_1-url] target="_blank">[field_work_image]</a>'),
+    t('<div class="content-title">[field_work_link]</div>
+<div class="content-testimonials">[field_client_testimonials]</div>'),
+    t('Home Page Portfolio'),
+    t('Page'),
+    t('Portfolio'),
+    t('Items per page'),
+    t('- All -'),
+    t('Offset'),
+    t('« first'),
+    t('‹ previous'),
+    t('next ›'),
+    t('last »'),
+    t('Home Page Portfolio for tablet'),
+  );
   $export['our_portfolio'] = $view;
 
   return $export;
