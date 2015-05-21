@@ -1,4 +1,6 @@
 @import "variable";
+@import "compass/css3/border-radius";
+@import "compass/css3/box-shadow";
 
  // main front content block 
 
@@ -213,9 +215,17 @@
 .front {
   #mini-panel-site_footer,
   #page-header .lead,
+  .pane-views-our-services-services-content,
+  .pane-views-our-blogs-block,
   #block-system-main,
   .navbar { 
     display:none;
+  }
+
+  .container {
+    width:100%;
+    margin:0;
+    padding:0;
   }
 }
 
@@ -230,7 +240,7 @@
   transform: translateX(-114%);
   transition: transform 1000ms cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s, visibility 1000ms ease 0s;
   width: 385px;
-  z-index: 1000;
+  z-index: 2000;
   visibility: hidden;
   margin-top:30px;
 }
@@ -238,4 +248,83 @@
 .main-navigations.front-navbar-collapse-new {
     transform: translateX(0px);
     visibility: visible;
+}
+
+.second-sections {
+  z-index:1000;
+  background-color:$white;
+  padding:5%;
+
+  .header-wrap {
+  
+    .wrap-sticy {
+      background-color:$blue;
+      @include box-shadow($blue 2px 2px 10px);
+      padding-left:5%;
+      padding-right:5%;
+      height:100px;
+      vertical-align:center;
+
+      .navbar-toggle {
+        display:block;
+        float:left;
+        margin-top:33.3px;
+
+        .icon-bar {
+          background-color:$white;
+        }
+      }
+      .logo-name {
+        display:inline-block;
+        width:30%;
+        a {
+          line-height:94px;
+        }
+        img {
+          width:80px;
+          height:80px;
+        }
+
+        span {
+          color:$white;
+          font-size:18px;
+          text-transform: capitalize;
+          margin-left:20px;
+        }
+      }
+
+      .right-toolbar {
+        float:right;
+        width:400px;
+        vertical-align:middle;
+        
+        ul {
+          display:inline-block;
+          padding-top:8%;
+          li {
+            display:inline;
+            padding-right:8px;
+          }
+        } 
+        a {
+          color:$white;
+        }
+      }
+
+    }
+  }
+
+  .testimonial-content {
+    #block-views-our-portfolio-block--2 {
+      .block-title {
+        text-align:center;
+      }
+      .view-our-portfolio {
+        .views-row {
+          width:50%;
+          float:left;
+        }
+      }
+    }
+  }
 }

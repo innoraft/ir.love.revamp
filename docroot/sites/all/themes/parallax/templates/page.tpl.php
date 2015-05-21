@@ -153,6 +153,7 @@
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
       <?php print render($page['content']); ?>
+      
     </section>
 
     <?php if (!empty($page['sidebar_second'])): ?>
