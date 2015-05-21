@@ -15,12 +15,10 @@ body {
   left: 0;
   z-index: 1;
   color: #373737;
-  background: url("../images/onepixel.jpg") repeat;
   -webkit-backface-visibility: hidden;
   /* LOGO */
-  /* Into Columns */
 }
-/* line 19, ../sass/front.scss */
+/* line 18, ../sass/front.scss */
 .intro .logo {
   text-align: center;
   padding-top: 20px;
@@ -30,7 +28,7 @@ body {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-/* line 29, ../sass/front.scss */
+/* line 28, ../sass/front.scss */
 .intro .logo img {
   display: block;
   width: 100%;
@@ -39,7 +37,7 @@ body {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-/* line 38, ../sass/front.scss */
+/* line 37, ../sass/front.scss */
 .intro .logo span {
   display: block;
   font-size: 20px;
@@ -47,7 +45,7 @@ body {
   color: #fff;
   line-height: 38px;
 }
-/* line 47, ../sass/front.scss */
+/* line 46, ../sass/front.scss */
 .intro .other-logo {
   position: relative;
   width: 370px;
@@ -61,19 +59,19 @@ body {
   transition: all 0.5s;
   -webkit-backface-visibility: hidden;
 }
-/* line 60, ../sass/front.scss */
+/* line 59, ../sass/front.scss */
 .intro .other-logo img {
   display: block;
   width: 100%;
   max-width: 100%;
 }
-/* line 67, ../sass/front.scss */
+/* line 66, ../sass/front.scss */
 .intro .intro-features {
   -webkit-transform: translateX(112px);
   transform: translateX(112px);
   -webkit-backface-visibility: hidden;
 }
-/* line 72, ../sass/front.scss */
+/* line 71, ../sass/front.scss */
 .intro .intro-features .icon-block {
   opacity: 0;
   -webkit-transform: translateX(50px);
@@ -81,104 +79,127 @@ body {
   -webkit-transition: opacity .5s, -webkit-transform .5s;
   transition: opacity .5s, transform .5s;
 }
-/* line 81, ../sass/front.scss */
+/* line 80, ../sass/front.scss */
 .intro .container {
   position: relative;
   z-index: 10;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  /* Into Columns */
 }
-/* line 87, ../sass/front.scss */
-.intro .column-wrap {
+/* line 88, ../sass/front.scss */
+.intro .container .column-wrap {
   display: table;
   width: 100%;
-}
-/* line 92, ../sass/front.scss */
-.intro .column {
   position: relative;
+}
+/* line 93, ../sass/front.scss */
+.intro .container .column-wrap .c-left {
+  background-color: #2CA8C2;
+}
+/* line 96, ../sass/front.scss */
+.intro .container .column-wrap .c-middle {
+  background-color: #EB5054;
+}
+/* line 99, ../sass/front.scss */
+.intro .container .column-wrap .c-right {
+  background-color: #89B844;
+}
+/* line 103, ../sass/front.scss */
+.intro .container .column-wrap .column {
   display: table-cell;
   vertical-align: top;
   z-index: 10;
   text-align: center;
   padding-top: 5%;
 }
-/* line 101, ../sass/front.scss */
-.intro .column .front-navbar-header .navbar-toggle {
+/* line 111, ../sass/front.scss */
+.intro .container .column-wrap .column .front-navbar-header .navbar-toggle {
   display: block;
   background-color: #676767;
   padding: 26px 23px;
   border-radius: 160px;
-  float: left;
+  position: absolute;
+  top: 40px;
+  left: 15px;
 }
-/* line 108, ../sass/front.scss */
-.intro .column .front-navbar-header .navbar-toggle .icon-bar {
+/* line 120, ../sass/front.scss */
+.intro .container .column-wrap .column .front-navbar-header .navbar-toggle .icon-bar {
   background-color: #fff;
   margin: 0px 0 5px 0;
 }
-/* line 114, ../sass/front.scss */
-.intro .column .front-navbar-header .contact {
+/* line 126, ../sass/front.scss */
+.intro .container .column-wrap .column .front-navbar-header .contact {
   display: inline-block;
+  left: 100px;
   margin-top: 30px;
+  position: absolute;
   text-transform: uppercase;
+  top: 45px;
 }
-/* line 119, ../sass/front.scss */
-.intro .column .front-navbar-header .contact a {
+/* line 134, ../sass/front.scss */
+.intro .container .column-wrap .column .front-navbar-header .contact a {
   color: #fff;
 }
-/* line 124, ../sass/front.scss */
-.intro .column .front-navbar-header .front-navbar-collapse-new {
+/* line 139, ../sass/front.scss */
+.intro .container .column-wrap .column .front-navbar-header .front-navbar-collapse-new {
   display: block;
   clear: both;
 }
-/* line 129, ../sass/front.scss */
-.intro .column .front-navbar-header .front-navbar-collapse-new ul li a {
+/* line 144, ../sass/front.scss */
+.intro .container .column-wrap .column .front-navbar-header .front-navbar-collapse-new ul li a {
   color: #fff;
 }
-/* line 132, ../sass/front.scss */
-.intro .column .front-navbar-header .front-navbar-collapse-new ul li a:hover {
+/* line 147, ../sass/front.scss */
+.intro .container .column-wrap .column .front-navbar-header .front-navbar-collapse-new ul li a:hover {
   color: #2CA8C2;
 }
-/* line 139, ../sass/front.scss */
-.intro .column .box-float {
+/* line 154, ../sass/front.scss */
+.intro .container .column-wrap .column .box-float {
   background-color: #373737;
   -webkit-box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.17);
   -moz-box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.17);
   box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.17);
 }
-/* line 148, ../sass/front.scss */
+/* line 167, ../sass/front.scss */
 .intro .social-buttons ul {
   float: right;
 }
-/* line 149, ../sass/front.scss */
+/* line 168, ../sass/front.scss */
 .intro .social-buttons ul li {
   display: inline-block;
   padding: 5px;
 }
-/* line 156, ../sass/front.scss */
+/* line 175, ../sass/front.scss */
 .intro .column.c-right,
 .intro .column.c-left {
-  width: 30%;
+  width: 33.3%;
   vertical-align: top;
+  padding: 10px;
 }
-/* line 162, ../sass/front.scss */
+/* line 182, ../sass/front.scss */
 .intro .columu.c-middle {
-  width: 40%;
+  width: 33.3%;
+  padding: 10px;
 }
 
-/* line 169, ../sass/front.scss */
+/* line 190, ../sass/front.scss */
 .intro.transformed .logo {
-  -webkit-transform: translate(-110%, 29%);
-  transform: translate(-110%, 29%);
+  -webkit-transform: translate(-100%, 29%);
+  transform: translate(-100%, 29%);
 }
-/* line 173, ../sass/front.scss */
+/* line 194, ../sass/front.scss */
 .intro.transformed .other-logo {
   -webkit-transform: translateY(-45%) scale(0.85);
   transform: translateY(-45%) scale(0.85);
 }
-/* line 177, ../sass/front.scss */
+/* line 198, ../sass/front.scss */
 .intro.transformed .intro-features {
-  -webkit-transform: translateY(17%);
-  transform: translateY(17%);
+  -webkit-transform: translate(17%, 60%);
+  transform: translate(17%, 60%);
 }
-/* line 181, ../sass/front.scss */
+/* line 202, ../sass/front.scss */
 .intro.transformed .intro-features .icon-block {
   opacity: 1;
   -webkit-transform: translateX(0);
@@ -188,7 +209,7 @@ body {
   color: #fff;
 }
 
-/* line 193, ../sass/front.scss */
+/* line 214, ../sass/front.scss */
 .front #mini-panel-site_footer,
 .front #page-header .lead,
 .front #block-system-main,
@@ -196,16 +217,25 @@ body {
   display: none;
 }
 
-/* line 201, ../sass/front.scss */
-.front-navbar-collapse-new {
+/* line 222, ../sass/front.scss */
+.main-navigations {
   bottom: 0;
+  background-color: #fff;
   box-shadow: 3px 0 7px 0 rgba(0, 0, 0, 0.25);
   left: 0;
   min-height: 100%;
   position: fixed;
   top: 0;
-  transform: translateX(-100%);
-  transition: transform 400ms cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s, visibility 400ms ease 0s;
+  transform: translateX(-114%);
+  transition: transform 1000ms cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s, visibility 1000ms ease 0s;
   width: 385px;
   z-index: 1000;
+  visibility: hidden;
+  margin-top: 30px;
+}
+
+/* line 238, ../sass/front.scss */
+.main-navigations.front-navbar-collapse-new {
+  transform: translateX(0px);
+  visibility: visible;
 }

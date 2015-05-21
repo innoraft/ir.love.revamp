@@ -12,7 +12,6 @@
   left: 0;
   z-index: 1;
   color: $black;
-  background:url('../images/onepixel.jpg') repeat;
   -webkit-backface-visibility: hidden;
 
   /* LOGO */
@@ -81,68 +80,88 @@
   .container {
     position: relative;
     z-index: 10;
-  }
+    width:100%;
+    margin:0;
+    padding:0;
 
-  /* Into Columns */
-  .column-wrap {
-    display: table;
-    width: 100%;
-  }
+    /* Into Columns */
+    .column-wrap {
+      display: table;
+      width: 100%;
+      position:relative;
 
-  .column {
-    position: relative;
-    display: table-cell;
-    vertical-align: top;
-    z-index: 10;
-    text-align: center;
-    padding-top: 5%;
-
-    .front-navbar-header {
-      .navbar-toggle {
-        display:block;
-        background-color:$nav_bar;
-        padding: 26px 23px;
-        border-radius: 160px;
-        float:left;
-      
-        .icon-bar {
-          background-color:$white;
-          margin : 0px 0 5px 0;
-        }
+      .c-left {
+        background-color:$blue;
+      }
+      .c-middle{
+        background-color:$dark_red;
+      }
+      .c-right{
+        background-color:$green;
       }
 
-      .contact {
-        display: inline-block;
-        margin-top: 30px;
-        text-transform: uppercase;
-        
-        a {
-          color:$white;
-        }
-      }
+      .column {
+        display: table-cell;
+        vertical-align: top;
+        z-index: 10;
+        text-align: center;
+        padding-top: 5%;
 
-      .front-navbar-collapse-new {
-        display:block;
-        clear:both;
-        
-        ul li {
-          a {
-            color:$white;
+        .front-navbar-header {
+          .navbar-toggle {
+            display:block;
+            background-color:$nav_bar;
+            padding: 26px 23px;
+            border-radius: 160px;
+            position:absolute;
+            top:40px;
+            left:15px;
+          
+            .icon-bar {
+              background-color:$white;
+              margin : 0px 0 5px 0;
+            }
           }
-          a:hover {
-            color: $blue;
+
+          .contact {
+            display: inline-block;
+            left: 100px;
+            margin-top: 30px;
+            position: absolute;
+            text-transform: uppercase;
+            top: 45px;
+            
+            a {
+              color:$white;
+            }
           }
+
+          .front-navbar-collapse-new {
+            display:block;
+            clear:both;
+            
+            ul li {
+              a {
+                color:$white;
+              }
+              a:hover {
+                color: $blue;
+              }
+            }
+          }
+        }
+
+        .box-float {
+          background-color: $black;
+          -webkit-box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.17);
+          -moz-box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.17);
+          box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.17);
         }
       }
     }
-
-    .box-float {
-      background-color: $black;
-      -webkit-box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.17);
-      -moz-box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.17);
-      box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.17);
-    }
   }
+
+
 
   .social-buttons {
     ul {
@@ -155,28 +174,30 @@
   }
   .column.c-right,
   .column.c-left {
-    width: 30%;
+    width: 33.3%;
     vertical-align:top;
+    padding:10px;
   }
 
   .columu.c-middle {
-    width: 40%;
+    width: 33.3%;
+    padding:10px;
   }
 } 
 
 //trancation css
 .intro.transformed {
   .logo {
-    -webkit-transform: translate(-110%, 29%);
-    transform: translate(-110%, 29%);
+    -webkit-transform: translate(-100%, 29%);
+    transform: translate(-100%, 29%);
   }
   .other-logo {
     -webkit-transform: translateY(-45%) scale(0.85);
     transform: translateY(-45%) scale(0.85);
   }
   .intro-features {
-    -webkit-transform: translateY(17%);
-    transform: translateY(17%);
+    -webkit-transform: translate(17%, 60%);
+    transform: translate(17%, 60%);
 
     .icon-block {
       opacity: 1;
@@ -198,15 +219,23 @@
   }
 }
 
-.front-navbar-collapse-new {
+.main-navigations {
   bottom: 0;
+  background-color:$white;
   box-shadow: 3px 0 7px 0 rgba(0, 0, 0, 0.25);
   left: 0;
   min-height: 100%;
   position: fixed;
   top: 0;
-  transform: translateX(-100%);
-  transition: transform 400ms cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s, visibility 400ms ease 0s;
+  transform: translateX(-114%);
+  transition: transform 1000ms cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s, visibility 1000ms ease 0s;
   width: 385px;
   z-index: 1000;
+  visibility: hidden;
+  margin-top:30px;
+}
+
+.main-navigations.front-navbar-collapse-new {
+    transform: translateX(0px);
+    visibility: visible;
 }
