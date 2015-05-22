@@ -269,79 +269,83 @@ body {
   top: 0;
   width: 100%;
   margin: 3% 0%;
+  left: 0;
 }
-/* line 270, ../sass/front.scss */
-.second-sections .sticky-wrapper {
-  position: absolute;
-  width: 100%;
+/* line 271, ../sass/front.scss */
+.second-sections .header-wrap.stuck .wrap-sticy {
+  margin: 0 5%;
 }
 /* line 275, ../sass/front.scss */
 .second-sections .header-wrap {
-  background-color: #2CA8C2;
-  -moz-box-shadow: #2CA8C2 2px 2px 10px;
-  -webkit-box-shadow: #2CA8C2 2px 2px 10px;
-  box-shadow: #2CA8C2 2px 2px 10px;
   height: 100px;
   vertical-align: center;
   padding: 5px;
   z-index: 21;
+  margin-top: 3%;
 }
-/* line 285, ../sass/front.scss */
+/* line 282, ../sass/front.scss */
+.second-sections .header-wrap .wrap-sticy {
+  background-color: #2CA8C2;
+  -moz-box-shadow: #2CA8C2 2px 2px 10px;
+  -webkit-box-shadow: #2CA8C2 2px 2px 10px;
+  box-shadow: #2CA8C2 2px 2px 10px;
+}
+/* line 287, ../sass/front.scss */
 .second-sections .header-wrap .wrap-sticy .navbar-toggle {
   display: block;
   float: left;
   margin-top: 33.3px;
 }
-/* line 290, ../sass/front.scss */
+/* line 292, ../sass/front.scss */
 .second-sections .header-wrap .wrap-sticy .navbar-toggle .icon-bar {
   background-color: #fff;
 }
-/* line 294, ../sass/front.scss */
+/* line 296, ../sass/front.scss */
 .second-sections .header-wrap .wrap-sticy .logo-name {
   display: inline-block;
   width: 30%;
 }
-/* line 297, ../sass/front.scss */
+/* line 299, ../sass/front.scss */
 .second-sections .header-wrap .wrap-sticy .logo-name a {
   line-height: 94px;
 }
-/* line 300, ../sass/front.scss */
+/* line 302, ../sass/front.scss */
 .second-sections .header-wrap .wrap-sticy .logo-name img {
   width: 80px;
   height: 80px;
 }
-/* line 305, ../sass/front.scss */
+/* line 307, ../sass/front.scss */
 .second-sections .header-wrap .wrap-sticy .logo-name span {
   color: #fff;
   font-size: 18px;
   text-transform: capitalize;
   margin-left: 20px;
 }
-/* line 313, ../sass/front.scss */
+/* line 315, ../sass/front.scss */
 .second-sections .header-wrap .wrap-sticy .right-toolbar {
   float: right;
   width: 400px;
   vertical-align: middle;
 }
-/* line 318, ../sass/front.scss */
+/* line 320, ../sass/front.scss */
 .second-sections .header-wrap .wrap-sticy .right-toolbar ul {
   display: inline-block;
   padding-top: 8%;
 }
-/* line 321, ../sass/front.scss */
+/* line 323, ../sass/front.scss */
 .second-sections .header-wrap .wrap-sticy .right-toolbar ul li {
   display: inline;
   padding-right: 8px;
 }
-/* line 326, ../sass/front.scss */
+/* line 328, ../sass/front.scss */
 .second-sections .header-wrap .wrap-sticy .right-toolbar a {
   color: #fff;
 }
-/* line 336, ../sass/front.scss */
+/* line 338, ../sass/front.scss */
 .second-sections .testimonial-content #block-views-our-portfolio-block--2 .block-title {
   text-align: center;
 }
-/* line 340, ../sass/front.scss */
+/* line 342, ../sass/front.scss */
 .second-sections .testimonial-content #block-views-our-portfolio-block--2 .view-our-portfolio .views-row {
   width: 50%;
   float: left;

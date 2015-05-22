@@ -265,22 +265,24 @@
     top: 0;
     width: 100%;
     margin: 3% 0%;
+    left:0;
   }
 
-.sticky-wrapper {
-    position: absolute;
-    width: 100%;
-}
+  .header-wrap.stuck .wrap-sticy {
+         margin: 0 5%;
+  }
 
   .header-wrap {
-    background-color: $blue;
-    @include box-shadow($blue 2px 2px 10px);
     height: 100px;
     vertical-align: center;
     padding: 5px;
     z-index: 21;
+   margin-top: 3%;
         
     .wrap-sticy {
+
+      background-color: $blue;
+      @include box-shadow($blue 2px 2px 10px);
 
       .navbar-toggle {
         display: block;
