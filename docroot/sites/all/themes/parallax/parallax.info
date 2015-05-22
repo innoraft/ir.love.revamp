@@ -39,7 +39,10 @@ stylesheets[all][] = css/style.css
 ; ;; Scripts
 ; ;;;;;;;;;;;;;;;;;;;;;
 
+
 scripts[] = js/script.js
+scripts[] = js/jquery.waypoints.min.js
+scripts[] = js/sticky.js
 
 ; scripts[] = 'bootstrap/js/affix.js'
 ; scripts[] = 'bootstrap/js/alert.js'

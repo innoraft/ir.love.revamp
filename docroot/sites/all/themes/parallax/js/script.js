@@ -20,14 +20,38 @@ Drupal.behaviors.my_custom_behavior = {
     // Cashing variables
     var intro = $( '.intro' );
     var content = $( '.content-wrap' );
+    var second_section = $('.second-sections');
     
     // Window load event
     $( window ).load( function () {
       // Animation delay for intro features
+      $( '.intro .content-wrap' ).css( 'height', $( window ).height() );
+
       $( '.intro-features .icon-block' ).each( function () {
         var transDelay = $( this ).data( 'transition-delay' );
         $( this ).css( { 'transition-delay': transDelay + 'ms' } );
       });
+
+        var $stickyElement = $( '.header-wrap' );
+      //wrap-sticy header
+      if ( $stickyElement.length > 0 ) {
+        var waypoint = new Waypoint.Sticky({
+
+          element: $stickyElement[ 0 ],
+
+          handler: function ( direction ) {
+            
+            if ( direction == 'down' ) {
+              
+              intro.addClass( 'transparent' );
+            } else {
+              
+              intro.removeClass( 'transparent' );
+            }
+          }
+        });
+      }
+
     });
 
     //Animating Intro Section
@@ -51,8 +75,12 @@ Drupal.behaviors.my_custom_behavior = {
       if ( $element.hasClass('front-navbar-collapse-new') ){
         $element.removeClass('front-navbar-collapse-new');
       }
-    } );
+    });
 
+    /** Pushing Content down to the height equal to Intro height + height necessary to finish animation **/
+    if ( intro.length > 0 ) {
+        second_section.css( 'margin-top', intro.height() * 1.5 );
+    }
 });
 
     // Place your code here.
