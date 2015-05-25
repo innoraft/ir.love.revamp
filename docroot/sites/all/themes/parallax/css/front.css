@@ -1,0 +1,387 @@
+/**
+ * color Variables in all sites.
+ */
+/* line 9, ../sass/front.scss */
+body {
+  min-height: 800px;
+}
+
+/* line 11, ../sass/front.scss */
+.intro {
+  position: fixed;
+  width: 100%;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  color: #373737;
+  /* LOGO */
+}
+/* line 22, ../sass/front.scss */
+.intro .logo {
+  text-align: center;
+  margin-bottom: 5%;
+  -moz-transition: all, 0.5s, ease-in-out;
+  -o-transition: all, 0.5s, ease-in-out;
+  -webkit-transition: all, 0.5s, ease-in-out;
+  transition: all, 0.5s, ease-in-out;
+}
+/* line 28, ../sass/front.scss */
+.intro .logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 40%;
+  margin: 0 auto 8% auto;
+  -moz-transition: all, 0.5s, ease-in-out;
+  -o-transition: all, 0.5s, ease-in-out;
+  -webkit-transition: all, 0.5s, ease-in-out;
+  transition: all, 0.5s, ease-in-out;
+}
+/* line 37, ../sass/front.scss */
+.intro .logo span {
+  display: block;
+  font-size: 20px;
+  margin-top: 10%;
+  color: #fff;
+  line-height: 38px;
+}
+/* line 46, ../sass/front.scss */
+.intro .other-logo {
+  position: relative;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto -380px auto;
+  overflow: hidden;
+  -moz-transition: all, 0.5s, ease-in-out;
+  -o-transition: all, 0.5s, ease-in-out;
+  -webkit-transition: all, 0.5s, ease-in-out;
+  transition: all, 0.5s, ease-in-out;
+}
+/* line 54, ../sass/front.scss */
+.intro .other-logo img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  padding-bottom: 20%;
+}
+/* line 62, ../sass/front.scss */
+.intro .intro-features {
+  -moz-transform: translateX(17%);
+  -ms-transform: translateX(17%);
+  -webkit-transform: translateX(17%);
+  transform: translateX(17%);
+}
+/* line 65, ../sass/front.scss */
+.intro .intro-features .icon-block {
+  opacity: 0;
+  -moz-transform: translateX(17%);
+  -ms-transform: translateX(17%);
+  -webkit-transform: translateX(17%);
+  transform: translateX(17%);
+  -moz-transition: opacity 0.5s, -moz-transform 0.5s linear;
+  -o-transition: opacity 0.5s, -o-transform 0.5s linear;
+  -webkit-transition: opacity 0.5s, -webkit-transform 0.5s linear;
+  transition: opacity 0.5s, transform 0.5s linear;
+}
+/* line 72, ../sass/front.scss */
+.intro .container {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  /* Into Columns */
+}
+/* line 80, ../sass/front.scss */
+.intro .container .column-wrap {
+  display: table;
+  width: 100%;
+  position: relative;
+}
+/* line 85, ../sass/front.scss */
+.intro .container .column-wrap .c-left {
+  background-color: #2CA8C2;
+}
+/* line 88, ../sass/front.scss */
+.intro .container .column-wrap .c-middle {
+  background-color: #EB5054;
+}
+/* line 91, ../sass/front.scss */
+.intro .container .column-wrap .c-right {
+  background-color: #89B844;
+}
+/* line 95, ../sass/front.scss */
+.intro .container .column-wrap .column {
+  display: table-cell;
+  vertical-align: top;
+  z-index: 10;
+  text-align: center;
+  padding-top: 3%;
+}
+/* line 103, ../sass/front.scss */
+.intro .container .column-wrap .column .front-navbar-header .navbar-toggle {
+  display: block;
+  background-color: #676767;
+  padding: 2% 2%;
+  border-radius: 50%;
+  position: absolute;
+  top: 6%;
+  left: 1%;
+}
+/* line 112, ../sass/front.scss */
+.intro .container .column-wrap .column .front-navbar-header .navbar-toggle .icon-bar {
+  background-color: #fff;
+  margin: 0px 0 5px 0;
+}
+/* line 118, ../sass/front.scss */
+.intro .container .column-wrap .column .front-navbar-header .contact {
+  display: inline-block;
+  left: 8%;
+  margin-top: 2%;
+  position: absolute;
+  text-transform: uppercase;
+  top: 7%;
+}
+/* line 126, ../sass/front.scss */
+.intro .container .column-wrap .column .front-navbar-header .contact a {
+  color: #fff;
+}
+/* line 131, ../sass/front.scss */
+.intro .container .column-wrap .column .front-navbar-header .front-navbar-collapse-new {
+  display: block;
+  clear: both;
+}
+/* line 136, ../sass/front.scss */
+.intro .container .column-wrap .column .front-navbar-header .front-navbar-collapse-new ul li a {
+  color: #fff;
+}
+/* line 138, ../sass/front.scss */
+.intro .container .column-wrap .column .front-navbar-header .front-navbar-collapse-new ul li a:hover {
+  color: #2CA8C2;
+}
+/* line 146, ../sass/front.scss */
+.intro .container .column-wrap .column .box-float {
+  background-color: #373737;
+  -moz-box-shadow: rgba(0, 0, 0, 0.17) 0px 3px 5px 1px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.17) 0px 3px 5px 1px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px 3px 5px 1px;
+}
+/* line 155, ../sass/front.scss */
+.intro .social-buttons ul {
+  width: 35%;
+  height: auto;
+  float: right;
+}
+/* line 158, ../sass/front.scss */
+.intro .social-buttons ul li {
+  display: inline-block;
+  padding: 2%;
+}
+/* line 165, ../sass/front.scss */
+.intro .column.c-right,
+.intro .column.c-left {
+  width: 33.3%;
+  vertical-align: top;
+  padding: 4%;
+}
+/* line 172, ../sass/front.scss */
+.intro .column.c-middle {
+  width: 33.3%;
+  padding: 4%;
+}
+
+/* line 180, ../sass/front.scss */
+.intro.transformed .logo {
+  -moz-transform: translate(-135%, 30%) rotate(0deg);
+  -ms-transform: translate(-135%, 30%) rotate(0deg);
+  -webkit-transform: translate(-135%, 30%) rotate(0deg);
+  transform: translate(-135%, 30%) rotate(0deg);
+}
+/* line 184, ../sass/front.scss */
+.intro.transformed .other-logo {
+  -moz-transform: translateY(-54%) scale(0.85);
+  -ms-transform: translateY(-54%) scale(0.85);
+  -webkit-transform: translateY(-54%) scale(0.85);
+  transform: translateY(-54%) scale(0.85);
+}
+/* line 188, ../sass/front.scss */
+.intro.transformed .intro-features {
+  -moz-transform: translate(17%, 60%) rotate(0deg);
+  -ms-transform: translate(17%, 60%) rotate(0deg);
+  -webkit-transform: translate(17%, 60%) rotate(0deg);
+  transform: translate(17%, 60%) rotate(0deg);
+}
+/* line 191, ../sass/front.scss */
+.intro.transformed .intro-features .icon-block {
+  opacity: 1;
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  padding: 17px;
+  margin-top: 8px;
+  color: #fff;
+}
+
+/* line 202, ../sass/front.scss */
+.front #mini-panel-site_footer,
+.front #page-header .lead,
+.front .pane-views-our-services-services-content,
+.front .pane-views-our-blogs-block,
+.front #block-system-main,
+.front .navbar {
+  display: none;
+}
+/* line 211, ../sass/front.scss */
+.front .container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 218, ../sass/front.scss */
+.transparent {
+  opacity: 0;
+}
+
+/* line 222, ../sass/front.scss */
+.main-navigations {
+  bottom: 0;
+  background-color: #fff;
+  -moz-box-shadow: rgba(0, 0, 0, 0.25) 3px 0 7px 0px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 3px 0 7px 0px;
+  box-shadow: rgba(0, 0, 0, 0.25) 3px 0 7px 0px;
+  left: 0;
+  min-height: 100%;
+  position: fixed;
+  top: 0;
+  -moz-transform: translateX(-114%);
+  -ms-transform: translateX(-114%);
+  -webkit-transform: translateX(-114%);
+  transform: translateX(-114%);
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: transform;
+  -moz-transition-duration: 1000ms;
+  -o-transition-duration: 1000ms;
+  -webkit-transition-duration: 1000ms;
+  transition-duration: 1000ms;
+  -moz-transition-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  -o-transition-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  -webkit-transition-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  -moz-transition: all, 1000ms, ease;
+  -o-transition: all, 1000ms, ease;
+  -webkit-transition: all, 1000ms, ease;
+  transition: all, 1000ms, ease;
+  width: 20%;
+  z-index: 2000;
+  visibility: hidden;
+  margin-top: 2%;
+}
+
+/* line 242, ../sass/front.scss */
+.main-navigations.front-navbar-collapse-new {
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  visibility: visible;
+}
+
+/* line 247, ../sass/front.scss */
+.second-sections {
+  /*z-index:1000;*/
+  background-color: #fff;
+  padding: 0 5% 5% 5%;
+  z-index: 20;
+  position: relative;
+}
+/* line 254, ../sass/front.scss */
+.second-sections .stuck {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 3% 0%;
+  left: 0;
+}
+/* line 262, ../sass/front.scss */
+.second-sections .header-wrap.stuck .wrap-sticy {
+  margin: 0 5%;
+}
+/* line 266, ../sass/front.scss */
+.second-sections .header-wrap {
+  vertical-align: center;
+  z-index: 21;
+  margin-top: 3%;
+}
+/* line 272, ../sass/front.scss */
+.second-sections .header-wrap .wrap-sticy {
+  background-color: #2CA8C2;
+  -moz-box-shadow: #2CA8C2 2px 2px 10px;
+  -webkit-box-shadow: #2CA8C2 2px 2px 10px;
+  box-shadow: #2CA8C2 2px 2px 10px;
+  padding: 0.85%;
+}
+/* line 278, ../sass/front.scss */
+.second-sections .header-wrap .wrap-sticy .navbar-toggle {
+  display: block;
+  float: left;
+  padding: 2%;
+  margin: 0.5%, 0, 1%, 1%;
+}
+/* line 283, ../sass/front.scss */
+.second-sections .header-wrap .wrap-sticy .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+/* line 287, ../sass/front.scss */
+.second-sections .header-wrap .wrap-sticy .logo-name {
+  display: inline-block;
+  width: 30%;
+}
+/* line 291, ../sass/front.scss */
+.second-sections .header-wrap .wrap-sticy .logo-name img {
+  width: 20%;
+  height: auto;
+}
+/* line 296, ../sass/front.scss */
+.second-sections .header-wrap .wrap-sticy .logo-name span {
+  color: #fff;
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-left: 5%;
+  display: inline-block;
+}
+/* line 305, ../sass/front.scss */
+.second-sections .header-wrap .wrap-sticy .right-toolbar {
+  float: right;
+  padding: 1%;
+  vertical-align: middle;
+  text-align: right;
+  width: 50%;
+}
+/* line 312, ../sass/front.scss */
+.second-sections .header-wrap .wrap-sticy .right-toolbar ul {
+  display: inline-block;
+  padding-left: 2%;
+}
+/* line 315, ../sass/front.scss */
+.second-sections .header-wrap .wrap-sticy .right-toolbar ul li {
+  display: inline;
+  padding-right: 8px;
+}
+/* line 320, ../sass/front.scss */
+.second-sections .header-wrap .wrap-sticy .right-toolbar a {
+  color: #fff;
+}
+/* line 330, ../sass/front.scss */
+.second-sections .testimonial-content #block-views-our-portfolio-block--2 .block-title {
+  text-align: center;
+}
+/* line 334, ../sass/front.scss */
+.second-sections .testimonial-content #block-views-our-portfolio-block--2 .view-our-portfolio .views-row {
+  width: 50%;
+  float: left;
+}

@@ -1,0 +1,9 @@
+name = Front section block
+core = 7.x
+package = Features
+dependencies[] = fe_block
+features[fe_block_boxes][] = front_section
+features[fe_block_boxes][] = second_sections
+features[fe_block_settings][] = block-front_section
+features[fe_block_settings][] = block-second_sections
+features[features_api][] = api:2

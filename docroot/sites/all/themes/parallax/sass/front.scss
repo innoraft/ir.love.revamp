@@ -1,0 +1,341 @@
+@import "variable";
+@import "compass/css3/border-radius";
+@import "compass/css3/box-shadow";
+@import "compass/css3/transition";
+@import "compass/css3/transform";
+
+ //Main front content block 
+
+ body { min-height:800px; }
+
+.intro {
+  position: fixed;
+  width: 100%;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  color: $black;
+  
+
+  /* LOGO */
+  .logo {
+    text-align: center;
+    margin-bottom: 5%;
+    @include transition(all, 0.5s, ease-in-out);
+
+    //Logo imgage
+    img {
+      display: block;
+      width: 100%;
+      height:auto;
+      max-width: 40%;
+      margin: 0 auto 8% auto;
+      @include transition(all, 0.5s, ease-in-out);
+    }
+
+    span {
+      display: block;
+      font-size: 20px;
+      margin-top: 10%;
+      color: $white;
+      line-height: 38px;
+    }
+  }
+
+  .other-logo {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto -380px auto;
+    overflow: hidden;
+    @include transition(all, 0.5s, ease-in-out);
+
+    img {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+      padding-bottom:20%;
+    }
+  }
+
+  .intro-features {
+    @include transform(translateX(17%));
+
+    .icon-block {
+      opacity: 0;
+      @include transform(translateX(17%));
+      @include transition(opacity 0.5s, transform .5s linear);
+    }
+  }
+
+  .container {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    /* Into Columns */
+    .column-wrap {
+      display: table;
+      width: 100%;
+      position: relative;
+
+      .c-left {
+        background-color: $blue;
+      }
+      .c-middle{
+        background-color: $dark_red;
+      }
+      .c-right{
+        background-color: $green;
+      }
+
+      .column {
+        display: table-cell;
+        vertical-align: top;
+        z-index: 10;
+        text-align: center;
+        padding-top: 3%;
+
+        .front-navbar-header {
+          .navbar-toggle {
+            display: block;
+            background-color: $nav_bar;
+            padding: 2% 2%;
+            border-radius: 50%;
+            position: absolute;
+            top: 6%;
+            left: 1%;
+          
+            .icon-bar {
+              background-color: $white;
+              margin: 0px 0 5px 0;
+            }
+          }
+
+          .contact {
+            display: inline-block;
+            left: 8%;
+            margin-top: 2%;
+            position: absolute;
+            text-transform: uppercase;
+            top: 7%;
+            
+            a {
+              color: $white;
+            }
+          }
+
+          .front-navbar-collapse-new {
+            display: block;
+            clear: both;
+            
+            ul li {
+              a {
+                color: $white;
+                &:hover {
+                  color:$blue;
+                }
+              }
+            }
+          }
+        }
+
+        .box-float {
+          background-color: $black;
+          @include box-shadow(rgba(0,0,0,0.17) 0px 3px 5px 1px);
+        }
+      }
+    }
+  }
+
+  .social-buttons {
+    ul {
+      width:35%;
+      height:auto;
+      li {
+        display: inline-block;
+        padding: 2%;
+      }
+      float: right;
+    } 
+  }
+  .column.c-right,
+  .column.c-left {
+    width: 33.3%;
+    vertical-align: top;
+    padding: 4%;
+  }
+
+  .column.c-middle {
+    width: 33.3%;
+    padding: 4%;
+  }
+} 
+
+//Transitions css.
+.intro.transformed {
+  .logo {
+    @include transform(translate(-135%, 30%) rotate(0deg));
+  }
+
+  .other-logo {
+    @include transform(translateY(-54%) scale(0.85));
+  }
+
+  .intro-features {
+    @include transform(translate(17%, 60%) rotate(0deg));
+
+    .icon-block {
+      opacity: 1;
+      @include transform(translateX(0));
+      padding: 17px;
+      margin-top: 8px;
+      color: $white;
+    }
+  }
+}
+
+.front {
+  #mini-panel-site_footer,
+  #page-header .lead,
+  .pane-views-our-services-services-content,
+  .pane-views-our-blogs-block,
+  #block-system-main,
+  .navbar { 
+    display: none;
+  }
+
+  .container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.transparent {
+  opacity: 0;
+}
+
+.main-navigations {
+  bottom: 0;
+  background-color: $white;
+  @include box-shadow(rgba(0,0,0,0.25) 3px 0 7px 0px);
+  left: 0;
+  min-height: 100%;
+  position: fixed;
+  top: 0;
+  @include transform(translateX(-114%));
+  @include transition-property(transform);
+  @include transition-duration(1000ms);
+  @include transition-timing-function(cubic-bezier(0.785, 0.135, 0.15, 0.86));
+  @include transition(all, 1000ms, ease);
+
+  width: 20%;
+  z-index: 2000;
+  visibility: hidden;
+  margin-top: 2%;
+}
+
+.main-navigations.front-navbar-collapse-new {
+  @include transform(translateX(0));
+  visibility: visible;
+}
+
+.second-sections {
+  /*z-index:1000;*/
+  background-color: $white;
+  padding: 0 5% 5% 5%;
+  z-index:20;
+  position: relative;
+
+  .stuck {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 3% 0%;
+    left:0;
+  }
+
+  .header-wrap.stuck .wrap-sticy {
+         margin: 0 5%;
+  }
+
+  .header-wrap {
+    
+    vertical-align: center;
+    z-index: 21;
+    margin-top: 3%;
+        
+    .wrap-sticy {
+
+      background-color: $blue;
+      @include box-shadow($blue 2px 2px 10px);
+      padding: 0.85%;
+
+      .navbar-toggle {
+        display: block;
+        float: left;
+        padding:2%;
+        margin : 0.5%, 0, 1%, 1%;
+        .icon-bar {
+          background-color: $white;
+        }
+      }
+      .logo-name {
+        display: inline-block;
+        width: 30%;
+        
+        img {
+          width: 20%;
+          height: auto;
+        }
+
+        span {
+          color: $white;
+          font-size: 18px;
+          text-transform: capitalize;
+          margin-left: 5%;
+          display:inline-block;
+        }
+      }
+
+      .right-toolbar {
+        float: right;
+        padding:1%;
+        vertical-align: middle;
+        text-align:right;
+        width:50%;
+        
+        ul {
+          display: inline-block;
+          padding-left:2%;
+          li {
+            display: inline;
+            padding-right: 8px;
+          }
+        } 
+        a {
+          color: $white;
+        }
+      }
+
+    }
+  }
+
+  .testimonial-content {
+    #block-views-our-portfolio-block--2 {
+      .block-title {
+        text-align: center;
+      }
+      .view-our-portfolio {
+        .views-row {
+          width: 50%;
+          float: left;
+        }
+      }
+    }
+  }
+}
