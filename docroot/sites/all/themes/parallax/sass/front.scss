@@ -2,8 +2,9 @@
 @import "compass/css3/border-radius";
 @import "compass/css3/box-shadow";
 @import "compass/css3/transition";
+@import "compass/css3/transform";
 
- // main front content block 
+ //Main front content block 
 
  body { min-height:800px; }
 
@@ -15,32 +16,28 @@
   left: 0;
   z-index: 1;
   color: $black;
-  -webkit-backface-visibility: hidden;
+  
 
   /* LOGO */
   .logo {
     text-align: center;
-    padding-top: 20px;
-    margin-bottom: 40px;
-    -webkit-transform: translate(0, 0);
-    transform: translate(0, 0);
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
+    margin-bottom: 5%;
+    @include transition(all, 0.5s, ease-in-out);
 
-    //logo imgage
+    //Logo imgage
     img {
       display: block;
       width: 100%;
-      max-width: 178px;
-      margin: 0 auto 30px auto;
-      -webkit-transition: all 0.5s;
-      transition: all 0.5s;
+      height:auto;
+      max-width: 40%;
+      margin: 0 auto 8% auto;
+      @include transition(all, 0.5s, ease-in-out);
     }
 
     span {
       display: block;
       font-size: 20px;
-      margin-top: 25px;
+      margin-top: 10%;
       color: $white;
       line-height: 38px;
     }
@@ -48,35 +45,27 @@
 
   .other-logo {
     position: relative;
-    width: 370px;
-    height: 683px;
-    padding: 52px 20px 0 21px; 
+    width: 80%;
+    height: 100%;
     margin: 0 auto -380px auto;
     overflow: hidden;
-    -webkit-transform: translateY(0) scale(1);
-    transform: translateY(0) scale(1);
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
-    -webkit-backface-visibility: hidden;
+    @include transition(all, 0.5s, ease-in-out);
 
     img {
       display: block;
       width: 100%;
       max-width: 100%;
+      padding-bottom:20%;
     }
   }
 
   .intro-features {
-    -webkit-transform: translateX(112px);
-    transform: translateX(112px);
-    -webkit-backface-visibility: hidden;
+    @include transform(translateX(17%));
 
     .icon-block {
       opacity: 0;
-      -webkit-transform: translateX(50px);
-      transform: translateX(50px);
-      -webkit-transition: opacity .5s, -webkit-transform .5s;
-      transition: opacity .5s, transform .5s;
+      @include transform(translateX(17%));
+      @include transition(opacity 0.5s, transform .5s linear);
     }
   }
 
@@ -108,17 +97,17 @@
         vertical-align: top;
         z-index: 10;
         text-align: center;
-        padding-top: 5%;
+        padding-top: 3%;
 
         .front-navbar-header {
           .navbar-toggle {
             display: block;
             background-color: $nav_bar;
-            padding: 26px 23px;
-            border-radius: 160px;
+            padding: 2% 2%;
+            border-radius: 50%;
             position: absolute;
-            top: 40px;
-            left: 15px;
+            top: 6%;
+            left: 1%;
           
             .icon-bar {
               background-color: $white;
@@ -128,11 +117,11 @@
 
           .contact {
             display: inline-block;
-            left: 100px;
-            margin-top: 30px;
+            left: 8%;
+            margin-top: 2%;
             position: absolute;
             text-transform: uppercase;
-            top: 45px;
+            top: 7%;
             
             a {
               color: $white;
@@ -146,9 +135,9 @@
             ul li {
               a {
                 color: $white;
-              }
-              a:hover {
-                color: $blue;
+                &:hover {
+                  color:$blue;
+                }
               }
             }
           }
@@ -162,13 +151,13 @@
     }
   }
 
-
-
   .social-buttons {
     ul {
+      width:35%;
+      height:auto;
       li {
         display: inline-block;
-        padding: 5px;
+        padding: 2%;
       }
       float: right;
     } 
@@ -177,33 +166,31 @@
   .column.c-left {
     width: 33.3%;
     vertical-align: top;
-    padding: 10px;
+    padding: 4%;
   }
 
-  .columu.c-middle {
+  .column.c-middle {
     width: 33.3%;
-    padding: 10px;
+    padding: 4%;
   }
 } 
 
-//trancation css
+//Transitions css.
 .intro.transformed {
   .logo {
-    -webkit-transform: translate(-100%, 29%);
-    transform: translate(-100%, 29%);
+    @include transform(translate(-135%, 30%) rotate(0deg));
   }
+
   .other-logo {
-    -webkit-transform: translateY(-45%) scale(0.85);
-    transform: translateY(-45%) scale(0.85);
+    @include transform(translateY(-54%) scale(0.85));
   }
+
   .intro-features {
-    -webkit-transform: translate(17%, 60%);
-    transform: translate(17%, 60%);
+    @include transform(translate(17%, 60%) rotate(0deg));
 
     .icon-block {
       opacity: 1;
-      -webkit-transform: translateX(0);
-      transform: translateX(0);
+      @include transform(translateX(0));
       padding: 17px;
       margin-top: 8px;
       color: $white;
@@ -240,23 +227,27 @@
   min-height: 100%;
   position: fixed;
   top: 0;
-  transform: translateX(-114%);
-  transition: transform 1000ms cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s, visibility 1000ms ease 0s;
-  width: 385px;
+  @include transform(translateX(-114%));
+  @include transition-property(transform);
+  @include transition-duration(1000ms);
+  @include transition-timing-function(cubic-bezier(0.785, 0.135, 0.15, 0.86));
+  @include transition(all, 1000ms, ease);
+
+  width: 20%;
   z-index: 2000;
   visibility: hidden;
-  margin-top: 30px;
+  margin-top: 2%;
 }
 
 .main-navigations.front-navbar-collapse-new {
-    transform: translateX(0px);
-    visibility: visible;
+  @include transform(translateX(0));
+  visibility: visible;
 }
 
 .second-sections {
   /*z-index:1000;*/
   background-color: $white;
-  padding: 5%;
+  padding: 0 5% 5% 5%;
   z-index:20;
   position: relative;
 
@@ -273,22 +264,22 @@
   }
 
   .header-wrap {
-    height: 100px;
+    
     vertical-align: center;
-    padding: 5px;
     z-index: 21;
-   margin-top: 3%;
+    margin-top: 3%;
         
     .wrap-sticy {
 
       background-color: $blue;
       @include box-shadow($blue 2px 2px 10px);
+      padding: 0.85%;
 
       .navbar-toggle {
         display: block;
         float: left;
-        margin-top: 33.3px;
-
+        padding:2%;
+        margin : 0.5%, 0, 1%, 1%;
         .icon-bar {
           background-color: $white;
         }
@@ -296,30 +287,31 @@
       .logo-name {
         display: inline-block;
         width: 30%;
-        a {
-          line-height: 94px;
-        }
+        
         img {
-          width: 80px;
-          height: 80px;
+          width: 20%;
+          height: auto;
         }
 
         span {
           color: $white;
           font-size: 18px;
           text-transform: capitalize;
-          margin-left: 20px;
+          margin-left: 5%;
+          display:inline-block;
         }
       }
 
       .right-toolbar {
         float: right;
-        width: 400px;
+        padding:1%;
         vertical-align: middle;
+        text-align:right;
+        width:50%;
         
         ul {
           display: inline-block;
-          padding-top: 8%;
+          padding-left:2%;
           li {
             display: inline;
             padding-right: 8px;

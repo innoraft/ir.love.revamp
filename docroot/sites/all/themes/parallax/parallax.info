@@ -43,6 +43,7 @@ stylesheets[all][] = css/style.css
 scripts[] = js/script.js
 scripts[] = js/jquery.waypoints.min.js
 scripts[] = js/sticky.js
+scripts[] = js/modernizr.custom.js
 
 ; scripts[] = 'bootstrap/js/affix.js'
 ; scripts[] = 'bootstrap/js/alert.js'
