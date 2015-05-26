@@ -180,42 +180,42 @@ body {
   height: auto;
   float: right;
 }
-/* line 161, ../sass/front.scss */
+/* line 163, ../sass/front.scss */
 .intro .social-buttons ul li {
   display: inline-block;
   padding: 2%;
 }
-/* line 164, ../sass/front.scss */
+/* line 166, ../sass/front.scss */
 .intro .social-buttons ul li a {
   color: #fff;
 }
-/* line 171, ../sass/front.scss */
+/* line 172, ../sass/front.scss */
 .intro .column.c-right,
 .intro .column.c-left {
   width: 33.3%;
   vertical-align: top;
-  height: 800px;
+  height: auto;
 }
-/* line 178, ../sass/front.scss */
+/* line 179, ../sass/front.scss */
 .intro .column.c-middle {
   width: 33.3%;
 }
 
-/* line 185, ../sass/front.scss */
+/* line 186, ../sass/front.scss */
 .intro.transformed .logo {
   -moz-transform: translate(-100%, 30%) rotate(0deg);
   -ms-transform: translate(-100%, 30%) rotate(0deg);
   -webkit-transform: translate(-100%, 30%) rotate(0deg);
   transform: translate(-100%, 30%) rotate(0deg);
 }
-/* line 189, ../sass/front.scss */
+/* line 190, ../sass/front.scss */
 .intro.transformed .other-logo {
   -moz-transform: translateY(-58%) scale(0.85);
   -ms-transform: translateY(-58%) scale(0.85);
   -webkit-transform: translateY(-58%) scale(0.85);
   transform: translateY(-58%) scale(0.85);
 }
-/* line 194, ../sass/front.scss */
+/* line 195, ../sass/front.scss */
 .intro.transformed .intro-features .icon-block {
   opacity: 1;
   -moz-transform: translateX(0);
@@ -225,7 +225,7 @@ body {
   color: #fff;
 }
 
-/* line 203, ../sass/front.scss */
+/* line 204, ../sass/front.scss */
 .front #mini-panel-site_footer,
 .front #page-header .lead,
 .front .pane-views-our-services-services-content,
@@ -234,22 +234,22 @@ body {
 .front .navbar {
   display: none;
 }
-/* line 212, ../sass/front.scss */
+/* line 213, ../sass/front.scss */
 .front .container {
   width: 100%;
   margin: 0;
 }
-/* line 215, ../sass/front.scss */
+/* line 216, ../sass/front.scss */
 .front .container .col-sm-12 {
   padding: 0;
 }
 
-/* line 221, ../sass/front.scss */
+/* line 222, ../sass/front.scss */
 .transparent {
   opacity: 0;
 }
 
-/* line 225, ../sass/front.scss */
+/* line 226, ../sass/front.scss */
 .main-navigations {
   bottom: 0;
   background-color: #fff;
@@ -286,7 +286,7 @@ body {
   margin-top: 2%;
 }
 
-/* line 245, ../sass/front.scss */
+/* line 246, ../sass/front.scss */
 .main-navigations.front-navbar-collapse-new {
   -moz-transform: translateX(0);
   -ms-transform: translateX(0);
@@ -295,9 +295,8 @@ body {
   visibility: visible;
 }
 
-/* line 250, ../sass/front.scss */
+/* line 251, ../sass/front.scss */
 .second-sections {
-  /*z-index:1000;*/
   background-color: #fff;
   padding: 0 5% 5% 5%;
   z-index: 20;
@@ -380,11 +379,11 @@ body {
 .second-sections .header-wrap .wrap-sticy .right-toolbar a {
   color: #fff;
 }
-/* line 333, ../sass/front.scss */
+/* line 332, ../sass/front.scss */
 .second-sections .testimonial-content #block-views-our-portfolio-block--2 .block-title {
   text-align: center;
 }
-/* line 337, ../sass/front.scss */
+/* line 336, ../sass/front.scss */
 .second-sections .testimonial-content #block-views-our-portfolio-block--2 .view-our-portfolio .views-row {
   width: 50%;
   float: left;
