@@ -24,7 +24,7 @@ if (!$logo = theme_get_setting(\'logo_path\')) {
 
 $menu_block = module_invoke(\'menu\', \'block_view\', \'main-menu\');
 $content_right_first_block = module_invoke(\'block\', \'block_view\', \'2\');
-$social_block = module_invoke(\'social_media_links\',\'block_view\',\'social-media-links\');
+$social_block = module_invoke(\'block\',\'block_view\',\'5\');
 
 $variables = array(
   \'path\' =>  $logo, 
@@ -71,9 +71,8 @@ $site_slogan = variable_get(\'site_slogan\');
 		</div>
 			
 		<div class="column c-right">
-			<div class="social-buttons">
+			
 					<?php print render($social_block[\'content\']); ?>
-			</div>
 			<div class="intro-features">
 
 				<div class="icon-block icon-block-horizontal box-float" data-transition-delay="100" style="transition-delay: 100ms; -webkit-transition-delay: 100ms;">
@@ -147,6 +146,20 @@ $social_block = module_invoke(\'social_media_links\',\'block_view\',\'social-med
 ';
 
   $export['second_sections'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'social icon block';
+  $fe_block_boxes->format = 'filtered_html';
+  $fe_block_boxes->machine_name = 'social_block';
+  $fe_block_boxes->body = '<div class="social-buttons">
+<ul>
+	<li><a href="www.facebook.com">Facbook</a></li>
+	<li><a href="www.facebook.com">Google</a></li>
+</ul>
+</div>
+';
+
+  $export['social_block'] = $fe_block_boxes;
 
   return $export;
 }
