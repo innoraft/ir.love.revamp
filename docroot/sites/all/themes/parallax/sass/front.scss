@@ -156,7 +156,7 @@
   .social-buttons {
     margin-bottom: 12%;
     ul {
-      width: 35%;
+      width: 45%;
       height: auto;
       float: right;
 
@@ -165,6 +165,9 @@
         padding: 2%;
         a {
           color: $white;
+          img {
+            width: 2em;
+          }
         }
       }
     } 
@@ -235,11 +238,9 @@
   @include transition-duration(1000ms);
   @include transition-timing-function(cubic-bezier(0.785, 0.135, 0.15, 0.86));
   @include transition(all, 1000ms, ease);
-
   width: 20%;
   z-index: 2000;
   visibility: hidden;
-  margin-top: 2%;
 }
 
 .main-navigations.front-navbar-collapse-new {

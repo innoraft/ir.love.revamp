@@ -153,8 +153,9 @@ $social_block = module_invoke(\'social_media_links\',\'block_view\',\'social-med
   $fe_block_boxes->machine_name = 'social_block';
   $fe_block_boxes->body = '<div class="social-buttons">
 <ul>
-	<li><a href="www.facebook.com">Facbook</a></li>
-	<li><a href="www.facebook.com">Google</a></li>
+<li><a href="www.facebook.com"><img src="/sites/all/themes/parallax/images/twitter.png" /></a></li>
+	<li><a href="www.facebook.com"><img src="/sites/all/themes/parallax/images/facebook.png" /></a></li>
+	<li><a href="www.facebook.com"><img src="/sites/all/themes/parallax/images/google_plus.png" /></a></li>
 </ul>
 </div>
 ';
