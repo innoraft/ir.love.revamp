@@ -26,7 +26,10 @@ Drupal.behaviors.my_custom_behavior = {
     $( window ).load( function () {
       // Animation delay for intro features
       $( '.intro .content-wrap' ).css( 'height', $( window ).height() );
-
+      $('.column.c-left').css( 'height', $( window ).height() );
+      $('.column.c-middle').css( 'height', $( window ).height() );
+      $('.column.c-right').css( 'height', $( window ).height() );
+      
       $( '.intro-features .icon-block' ).each( function () {
         var transDelay = $( this ).data( 'transition-delay' );
         $( this ).css( { 'transition-delay': transDelay + 'ms' } );
