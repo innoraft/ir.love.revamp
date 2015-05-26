@@ -7,4 +7,5 @@ features[fe_block_boxes][] = second_sections
 features[fe_block_boxes][] = social_block
 features[fe_block_settings][] = block-front_section
 features[fe_block_settings][] = block-second_sections
+features[fe_block_settings][] = block-social_block
 features[features_api][] = api:2
