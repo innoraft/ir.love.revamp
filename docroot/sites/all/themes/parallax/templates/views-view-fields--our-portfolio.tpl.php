@@ -24,22 +24,25 @@
  * @ingroup views_templates
  */
 ?>
-<div class="listing-list-left">
+<?php
+//dpm($fields);
+if ($view->row_index % 2 == 0): ?>
+
+  <div class="listing-list-left">
   <div class="listing-list-left-inner">
-  	<?php if(isset($fields['field_work_link_1'])):?>
-  	  <?php if (!empty($fields['field_work_link_1']->separator)): ?>
+    <?php if(isset($fields['field_work_link_1'])):?>
+      <?php //dpm($fields);?>
+      <?php if (!empty($fields['field_work_link_1']->separator)): ?>
         <?php print $fields['field_work_link_1']->separator; ?>
       <?php endif; ?>
-
       <?php print $fields['field_work_link_1']->wrapper_prefix; ?>
         <?php print $fields['field_work_link_1']->label_html; ?>
         <?php print $fields['field_work_link_1']->content; ?>
       <?php print $fields['field_work_link_1']->wrapper_suffix; ?>
       <?php unset($fields['field_work_link_1']);?>
     <?php endif;?>
-
   </div>
-</div>
+ </div>
 
 <div class="listing-list-right">
   <?php foreach ($fields as $id => $field): ?>
@@ -49,7 +52,60 @@
   
     <?php print $field->wrapper_prefix; ?>
       <?php print $field->label_html; ?>
+      <?php //dpm($field); ?>
       <?php print $field->content; ?>
     <?php print $field->wrapper_suffix; ?>
   <?php endforeach; ?>
 </div>
+
+<?php else: ?>
+
+  <div class="listing-list-left">
+    <div class="listing-list-left-inner">
+
+<?php if(isset($fields['field_work_category'])):?>
+      <?php //dpm($fields);?>
+      <?php if (!empty($fields['field_work_category']->separator)): ?>
+        <?php print $fields['field_work_category']->separator; ?>
+      <?php endif; ?>
+      <?php print $fields['field_work_category']->wrapper_prefix; ?>
+        <?php print $fields['field_work_category']->label_html; ?>
+        <?php print $fields['field_work_category']->content; ?>
+      <?php print $fields['field_work_category']->wrapper_suffix; ?>
+      
+    <?php endif;?>
+
+    <?php if(isset($fields['field_client_testimonials'])):?>
+      <?php //dpm($fields);?>
+      <?php if (!empty($fields['field_client_testimonials']->separator)): ?>
+        <?php print $fields['field_client_testimonials']->separator; ?>
+      <?php endif; ?>
+      <?php print $fields['field_client_testimonials']->wrapper_prefix; ?>
+        <?php print $fields['field_client_testimonials']->label_html; ?>
+        <?php print $fields['field_client_testimonials']->content; ?>
+      <?php print $fields['field_client_testimonials']->wrapper_suffix; ?>
+      
+    <?php endif;?>
+
+
+  </div>
+</div>
+
+  <div class="listing-list-right">
+  
+    <?php if(isset($fields['field_work_link_1'])):?>
+      <?php //dpm($fields);?>
+      <?php if (!empty($fields['field_work_link_1']->separator)): ?>
+        <?php print $fields['field_work_link_1']->separator; ?>
+      <?php endif; ?>
+      <?php print $fields['field_work_link_1']->wrapper_prefix; ?>
+        <?php print $fields['field_work_link_1']->label_html; ?>
+        <?php print $fields['field_work_link_1']->content; ?>
+      <?php print $fields['field_work_link_1']->wrapper_suffix; ?>
+      
+    <?php endif;?>
+  
+ </div>
+
+<?php endif; ?>
+
